@@ -177,7 +177,7 @@ missing = []
 # print(composeSOCUrl(data))
 
 
-uploadAllClassesToDB()
+# uploadAllClassesToDB()
 
 # for key, value in data.items():
 #     # if data[key][0] == "Anesthesiology":
