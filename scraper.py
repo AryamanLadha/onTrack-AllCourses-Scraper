@@ -13,6 +13,8 @@ from selenium.webdriver.chrome.options import Options
 from pymongo import MongoClient
 from interruptingcow import timeout
 import json
+import time
+import selenium
 
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
@@ -68,12 +70,10 @@ def getSubjectAreas():
 
 def getClasses(url, subject):
     x = len(url.split("/")[-1])
-    s = Service(ChromeDriverManager().install())
     options = Options()
     options.headless = True
-    driver = webdriver.Chrome(options=options, service=s)
     s = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=s)
+    driver = webdriver.Chrome(options=options, service=s)
     # Using this one as an example
     driver.get(url)
     driver.implicitly_wait(20)
@@ -129,7 +129,7 @@ def composeSOCUrl(data):
         longName = key.replace(' ', '+')
         shortName = data[key][1].replace(' ', '+')
         print(longName, shortName)
-        links.append("https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName={longName}+{shortName}&t=21W&sBy=subject&subj={shortName}&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex".format(longName=longName, shortName=shortName))
+        links.append("https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName={longName}+{shortName}&t=22W&sBy=subject&subj={shortName}&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex".format(longName=longName, shortName=shortName))
     return links
 
 
@@ -155,9 +155,157 @@ def uploadAllClassesToDB():
         for list in data:
             for prop in list:
                 allCourses.append({'Short name': prop, 'Full name:': list[prop]})
+    uniqueNames = {}
+    thing = []
+    for course in allCourses:
+        print(course['Short name'])
+        if course['Short name'] not in uniqueNames:
+            uniqueNames[course['Short name']] = 0
+            thing.append(course)
+    print(uniqueNames)
+    print(len(thing))
     # uniqueCourseList = {frozenset(item.items()) : item for item in allCourses}.values()
     # print(uniqueCourseList)
-    collection.insert_one({"courses": allCourses});
+    collection.insert_one({"courses": thing})
+
+def SOCMoreDetails(url):
+    options = Options()
+    options.headless = False
+    s = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(options=options, service=s)
+    driver.get(url)
+    pages = ["bruh"]
+    try:
+        pages = (driver.execute_script(""" 
+            let elems = document.querySelector("ucla-sa-soc-app").shadowRoot.querySelectorAll("#divPagination > div:nth-child(2) > ul > li");
+            return elems;
+        """))
+    except:
+        print("No pages")
+    time.sleep(1)
+    res = {}
+    i = 0
+    for k in range(2):
+        j = 0
+        if len(pages) == 0:
+            pages = ["bruh"]
+        for page in pages:
+            try:
+                # print(j)
+                time.sleep(1)
+                try:
+                    driver.execute_script("""
+                        document.querySelector('ucla-sa-soc-app').shadowRoot.querySelectorAll('#divPagination > div:nth-child(2) > ul > li')[arguments[0]].click();
+                    """, j)
+                except:
+                    print("Single Page")
+                time.sleep(2)
+
+                j += 1
+                driver.execute_script("""
+                    let elems = document.querySelector("ucla-sa-soc-app").shadowRoot.querySelectorAll(".linkLikeButton");
+                    elems.forEach((e) => e.click());
+                """)
+                time.sleep(3)
+
+                # don't question it, it works. do not touch. bad. go away. danger
+                links = (driver.execute_script("""
+                    let links = [];
+                    document.querySelector("ucla-sa-soc-app").shadowRoot.querySelectorAll("button.linkLikeButton").forEach((e) => {
+                        links.push(e.getAttribute('data-poload'));
+                    });
+                    return links;
+
+                """))
+                time.sleep(3)
+                for link in links:
+                    if link == None:
+                        continue
+                    else:
+                        classId = link[link.find('class_id') + 9:link.find('&class_no=')]
+                        if classId in res:
+                            continue
+                        else:
+                            res[classId] = "https://sa.ucla.edu/ro/Public/SOC/Results/ClassDetail?" + link.replace(' ', '%20')
+                            i += 1
+                # print(res)
+                time.sleep(1)
+            except:
+                print("FAIL")
+            
+    # print(res)
+    # print(i)
+    driver.close()
+    return res
+
+def getDescription(link):
+    s = Service(ChromeDriverManager().install())
+    options = Options()
+    options.headless = True
+    driver = webdriver.Chrome(service=s, options=options)
+    driver.get(link)
+    driver.implicitly_wait(3000)
+    html = driver.execute_script('''return document.querySelector("ucla-sa-soc-app").shadowRoot;''')
+    html = html.get("shadow-6066-11e4-a52e-4f735466cecf")
+    subject = html.find_element(By.ID, "subject_class").get_attribute('innerHTML')
+    description = html.find_element(By.ID, "section").text
+    description = description[:description.find("Department")]
+    start = subject.find('<br>')+5
+    end = subject.find('-')-1
+    name = ' '.join(subject[start:end].split())
+    abbreviation = ""
+    for i, val in enumerate(name):
+        if(val.isdigit()):
+            abbreviation = name[:i-1]
+    fullName = subject[4:subject.find("(")-1]
+    restrictions = html.find_elements(By.CLASS_NAME, "enrollment_info")[1].find_elements(By.TAG_NAME, "td")[1].text
+    units = html.find_elements(By.CLASS_NAME, "enrl_mtng_info")[1].find_elements(By.TAG_NAME, "td")[5].text
+    professor = html.find_elements(By.CLASS_NAME, "enrl_mtng_info")[1].find_elements(By.TAG_NAME, "td")[6].text
+    requisites = html.find_elements(By.CLASS_NAME, "course_requisites")
+    isOr = []
+    currentQuarter = link[link.find("term_cd")+8:link.find("term_cd")+11]
+    enforcedPrereqs = []
+    optionalPrereqs = []
+    enforcedCoreqs = []
+    
+    for i, val in enumerate(requisites[1:]):
+        requisite = val.find_element(By.CLASS_NAME, "popover-right").text.strip(" and")
+     
+        if "or" in requisite:
+            isOr.append(True)
+        if(len(isOr) != 0 and isOr[i-i]==True and i==len(isOr)-1):
+            isOr.append(True)
+        else:
+            isOr.append(False)
+        requisite = requisite.strip(" or")
+       # print(val.find_elements(By.TAG_NAME, "td")[1].text) minimum grade required
+        isEnforcedCoreq = True if val.find_elements(By.TAG_NAME, "td")[3].text == "Yes" else False
+        if(isEnforcedCoreq):
+            enforcedCoreqs.append(requisite)
+            break
+        isEnforcedPrereq = True if val.find_elements(By.TAG_NAME, "td")[2].text == "Yes" and not isOr[i] else False
+        if(isEnforcedPrereq) :
+            enforcedPrereqs.append(requisite)
+            break
+        isOptionalPrereq = True if val.find_elements(By.TAG_NAME, "td")[2].text == "Yes" and isOr[i] else False
+        if(isOptionalPrereq):
+            optionalPrereqs.append(requisite)
+            break
+
+        #print(val.find_element(By.CLASS_NAME, "popover-link").get_attribute("data-content")) GETS EXTRA WARNING TEXT
+
+    for preq in enforcedPrereqs:
+        print(preq)
+
+    Class = {"Name": name, "Subject Area": fullName, "Subject Area Abbreviation": abbreviation, "Quarters Offered": currentQuarter, "Units": units, "Enforced Prerequisites": enforcedPrereqs, "Optional Prerequisites": optionalPrereqs, "Enforced Corequisites": enforcedCoreqs, "Description": description, "Professor": professor, "Restrictions": restrictions}
+    
+    print(Class)
+    driver.close()
+    client = MongoClient(os.environ.get("DB_URI"))
+    db = client["onTrackDB"]
+    collection = db["CoursesOffered"]
+
+    # collection.insert_one(Class)
 
 # Main
 
@@ -174,10 +322,23 @@ catalogSubjects = {'Aerospace Studies': 'https://catalog.registrar.ucla.edu/brow
 curr = []
 missing = []
 
-# print(composeSOCUrl(data))
 
+# print(composeSOCUrl(data))
+# uploadAllClassesToDB()
+
+# SOCUrl = composeSOCUrl(data)
+SOCUrl = ['https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Aerospace+Studies+AERO+ST&t=22W&sBy=subject&subj=AERO+ST&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=African+American+Studies+AF+AMER&t=22W&sBy=subject&subj=AF+AMER&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=African+Studies+AFRC+ST&t=22W&sBy=subject&subj=AFRC+ST&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=American+Indian+Studies+AM+IND&t=22W&sBy=subject&subj=AM+IND&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=American+Sign+Language+ASL&t=22W&sBy=subject&subj=ASL&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Ancient+Near+East+AN+N+EA&t=22W&sBy=subject&subj=AN+N+EA&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Anesthesiology+ANES&t=22W&sBy=subject&subj=ANES&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Anthropology+ANTHRO&t=22W&sBy=subject&subj=ANTHRO&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Applied+Linguistics+APPLING&t=22W&sBy=subject&subj=APPLING&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Arabic+ARABIC&t=22W&sBy=subject&subj=ARABIC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Archaeology+ARCHEOL&t=22W&sBy=subject&subj=ARCHEOL&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Architecture+and+Urban+Design+ARCH&UD&t=22W&sBy=subject&subj=ARCH&UD&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Armenian+ARMENIA&t=22W&sBy=subject&subj=ARMENIA&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Art+ART&t=22W&sBy=subject&subj=ART&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Art+History+ART+HIS&t=22W&sBy=subject&subj=ART+HIS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Arts+and+Architecture+ART&ARC&t=22W&sBy=subject&subj=ART&ARC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Arts+Education+ARTS+ED&t=22W&sBy=subject&subj=ARTS+ED&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Asian+ASIAN&t=22W&sBy=subject&subj=ASIAN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Asian+American+Studies+ASIA+AM&t=22W&sBy=subject&subj=ASIA+AM&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Astronomy+ASTR&t=22W&sBy=subject&subj=ASTR&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Atmospheric+and+Oceanic+Sciences+A&O+SCI&t=22W&sBy=subject&subj=A&O+SCI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Bioengineering+BIOENGR&t=22W&sBy=subject&subj=BIOENGR&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Bioinformatics+(Graduate)+Graduate&t=22W&sBy=subject&subj=Graduate&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Bioinformatics+(Undergraduate)+Undergraduate&t=22W&sBy=subject&subj=Undergraduate&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Biological+Chemistry+BIOL+CH&t=22W&sBy=subject&subj=BIOL+CH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Biomathematics+BIOMATH&t=22W&sBy=subject&subj=BIOMATH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Biomedical+Research+BMD+RES&t=22W&sBy=subject&subj=BMD+RES&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Biostatistics+BIOSTAT&t=22W&sBy=subject&subj=BIOSTAT&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Bulgarian+BULGR&t=22W&sBy=subject&subj=BULGR&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Central+and+East+European+Studies+C&EE+ST&t=22W&sBy=subject&subj=C&EE+ST&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Chemical+Engineering+CH+ENGR&t=22W&sBy=subject&subj=CH+ENGR&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Chemistry+and+Biochemistry+CHEM&t=22W&sBy=subject&subj=CHEM&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Chicana/o+and+Central+American+Studies+CCAS&t=22W&sBy=subject&subj=CCAS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Chinese+CHIN&t=22W&sBy=subject&subj=CHIN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Civil+and+Environmental+Engineering+C&EE&t=22W&sBy=subject&subj=C&EE&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Classics+CLASSIC&t=22W&sBy=subject&subj=CLASSIC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Clusters+CLUSTER&t=22W&sBy=subject&subj=CLUSTER&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Communication+COMM&t=22W&sBy=subject&subj=COMM&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Community+Engagement+and+Social+Change+CESC&t=22W&sBy=subject&subj=CESC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Community+Health+Sciences+COM+HLT&t=22W&sBy=subject&subj=COM+HLT&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Comparative+Literature+COM+LIT&t=22W&sBy=subject&subj=COM+LIT&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Computational+and+Systems+Biology+C&S+BIO&t=22W&sBy=subject&subj=C&S+BIO&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Computer+Science+COM+SCI&t=22W&sBy=subject&subj=COM+SCI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Conservation+of+Cultural+Heritage+CLT+HTG&t=22W&sBy=subject&subj=CLT+HTG&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Czech+CZCH&t=22W&sBy=subject&subj=CZCH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Dance+DANCE&t=22W&sBy=subject&subj=DANCE&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Dentistry+DENT&t=22W&sBy=subject&subj=DENT&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Design+/+Media+Arts+DESMA&t=22W&sBy=subject&subj=DESMA&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Digital+Humanities+DGT+HUM&t=22W&sBy=subject&subj=DGT+HUM&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Disability+Studies+DIS+STD&t=22W&sBy=subject&subj=DIS+STD&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Dutch+DUTCH&t=22W&sBy=subject&subj=DUTCH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Earth,+Planetary,+and+Space+Sciences+EPS+SCI&t=22W&sBy=subject&subj=EPS+SCI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=East+Asian+Studies+EA+STDS&t=22W&sBy=subject&subj=EA+STDS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Ecology+and+Evolutionary+Biology+EE+BIOL&t=22W&sBy=subject&subj=EE+BIOL&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Economics+ECON&t=22W&sBy=subject&subj=ECON&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Education+EDUC&t=22W&sBy=subject&subj=EDUC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Electrical+and+Computer+Engineering+EC+ENGR&t=22W&sBy=subject&subj=EC+ENGR&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Engineering+ENGR&t=22W&sBy=subject&subj=ENGR&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=English+ENGL&t=22W&sBy=subject&subj=ENGL&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=English+as+A+Second+Language+ESL&t=22W&sBy=subject&subj=ESL&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=English+Composition+ENGCOMP&t=22W&sBy=subject&subj=ENGCOMP&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Environment+ENVIRON&t=22W&sBy=subject&subj=ENVIRON&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Environmental+Health+Sciences+ENV+HLT&t=22W&sBy=subject&subj=ENV+HLT&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Epidemiology+EPIDEM&t=22W&sBy=subject&subj=EPIDEM&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Ethnomusicology+ETHNMUS&t=22W&sBy=subject&subj=ETHNMUS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=European+Languages+and+Transcultural+Studies+ELTS&t=22W&sBy=subject&subj=ELTS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Family+Medicine+FAM+MED&t=22W&sBy=subject&subj=FAM+MED&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Filipino+FILIPNO&t=22W&sBy=subject&subj=FILIPNO&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Film+and+Television+FILM+TV&t=22W&sBy=subject&subj=FILM+TV&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Food+Studies+FOOD+ST&t=22W&sBy=subject&subj=FOOD+ST&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=French+FRNCH&t=22W&sBy=subject&subj=FRNCH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Gender+Studies+GENDER&t=22W&sBy=subject&subj=GENDER&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Geography+GEOG&t=22W&sBy=subject&subj=GEOG&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=German+GERMAN&t=22W&sBy=subject&subj=GERMAN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Gerontology+GRNTLGY&t=22W&sBy=subject&subj=GRNTLGY&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Global+Health+GLB+HLT&t=22W&sBy=subject&subj=GLB+HLT&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Global+Jazz+Studies+GJ+STDS&t=22W&sBy=subject&subj=GJ+STDS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Global+Studies+GLBL+ST&t=22W&sBy=subject&subj=GLBL+ST&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Graduate+Student+Professional+Development+GRAD+PD&t=22W&sBy=subject&subj=GRAD+PD&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Greek+GREEK&t=22W&sBy=subject&subj=GREEK&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Health+Policy+and+Management+HLT+POL&t=22W&sBy=subject&subj=HLT+POL&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Healthcare+Administration+HLT+ADM&t=22W&sBy=subject&subj=HLT+ADM&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Hebrew+HEBREW&t=22W&sBy=subject&subj=HEBREW&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Hindi-Urdu+HIN-URD&t=22W&sBy=subject&subj=HIN-URD&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=History+HIST&t=22W&sBy=subject&subj=HIST&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Honors+Collegium+HNRS&t=22W&sBy=subject&subj=HNRS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Human+Genetics+HUM+GEN&t=22W&sBy=subject&subj=HUM+GEN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Hungarian+HNGAR&t=22W&sBy=subject&subj=HNGAR&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Indigenous+Languages+of+the+Americas+IL+AMER&t=22W&sBy=subject&subj=IL+AMER&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Indo-European+Studies+I+E+STD&t=22W&sBy=subject&subj=I+E+STD&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Indonesian+INDO&t=22W&sBy=subject&subj=INDO&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Information+Studies+INF+STD&t=22W&sBy=subject&subj=INF+STD&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=International+and+Area+Studies+I+A+STD&t=22W&sBy=subject&subj=I+A+STD&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=International+Development+Studies+INTL+DV&t=22W&sBy=subject&subj=INTL+DV&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=International+Migration+Studies+I+M+STD&t=22W&sBy=subject&subj=I+M+STD&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Iranian+IRANIAN&t=22W&sBy=subject&subj=IRANIAN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Islamic+Studies+ISLM+ST&t=22W&sBy=subject&subj=ISLM+ST&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Italian+ITALIAN&t=22W&sBy=subject&subj=ITALIAN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Japanese+JAPAN&t=22W&sBy=subject&subj=JAPAN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Jewish+Studies+JEWISH&t=22W&sBy=subject&subj=JEWISH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Korean+KOREA&t=22W&sBy=subject&subj=KOREA&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Labor+Studies+LBR+STD&t=22W&sBy=subject&subj=LBR+STD&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Latin+LATIN&t=22W&sBy=subject&subj=LATIN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Latin+American+Studies+LATN+AM&t=22W&sBy=subject&subj=LATN+AM&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Law+LAW&t=22W&sBy=subject&subj=LAW&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Law+(Undergraduate)+Undergraduate&t=22W&sBy=subject&subj=Undergraduate&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Lesbian,+Gay,+Bisexual,+Transgender,+and+Queer+Studies+LGBTQS&t=22W&sBy=subject&subj=LGBTQS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Life+Sciences+LIFESCI&t=22W&sBy=subject&subj=LIFESCI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Linguistics+LING&t=22W&sBy=subject&subj=LING&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Lithuanian+LTHUAN&t=22W&sBy=subject&subj=LTHUAN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Management+MGMT&t=22W&sBy=subject&subj=MGMT&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Management-Executive+MBA+MGMTEX&t=22W&sBy=subject&subj=MGMTEX&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Management-Full-Time+MBA+MGMTFT&t=22W&sBy=subject&subj=MGMTFT&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Management-Fully+Employed+MBA+MGMTFE&t=22W&sBy=subject&subj=MGMTFE&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Management-Global+Executive+MBA+Asia+Pacific+MGMTGEX&t=22W&sBy=subject&subj=MGMTGEX&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Management-Master+of+Financial+Engineering+MGMTMFE&t=22W&sBy=subject&subj=MGMTMFE&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Management-Master+of+Science+in+Business+Analytics+MGMTMSA&t=22W&sBy=subject&subj=MGMTMSA&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Management-PhD+MGMTPHD&t=22W&sBy=subject&subj=MGMTPHD&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Materials+Science+and+Engineering+MAT+SCI&t=22W&sBy=subject&subj=MAT+SCI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Mathematics+MATH&t=22W&sBy=subject&subj=MATH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Mechanical+and+Aerospace+Engineering+MECH&AE&t=22W&sBy=subject&subj=MECH&AE&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Medical+History+MED+HIS&t=22W&sBy=subject&subj=MED+HIS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Medicine+MED&t=22W&sBy=subject&subj=MED&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Microbiology,+Immunology,+and+Molecular+Genetics+MIMG&t=22W&sBy=subject&subj=MIMG&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Middle+Eastern+Studies+M+E+STD&t=22W&sBy=subject&subj=M+E+STD&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Military+Science+MIL+SCI&t=22W&sBy=subject&subj=MIL+SCI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Molecular+and+Medical+Pharmacology+M+PHARM&t=22W&sBy=subject&subj=M+PHARM&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Molecular+Biology+MOL+BIO&t=22W&sBy=subject&subj=MOL+BIO&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Molecular+Toxicology+MOL+TOX&t=22W&sBy=subject&subj=MOL+TOX&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Molecular,+Cell,+and+Developmental+Biology+MCD+BIO&t=22W&sBy=subject&subj=MCD+BIO&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Molecular,+Cellular,+and+Integrative+Physiology+MC&IP&t=22W&sBy=subject&subj=MC&IP&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Music+MUSC&t=22W&sBy=subject&subj=MUSC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Music+Industry+MSC+IND&t=22W&sBy=subject&subj=MSC+IND&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Musicology+MUSCLG&t=22W&sBy=subject&subj=MUSCLG&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Naval+Science+NAV+SCI&t=22W&sBy=subject&subj=NAV+SCI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Near+Eastern+Languages+NR+EAST&t=22W&sBy=subject&subj=NR+EAST&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Neurobiology+NEURBIO&t=22W&sBy=subject&subj=NEURBIO&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Neurology+NEURLGY&t=22W&sBy=subject&subj=NEURLGY&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Neuroscience+NEUROSC&t=22W&sBy=subject&subj=NEUROSC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Neuroscience+(Graduate)+Graduate&t=22W&sBy=subject&subj=Graduate&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Neurosurgery+NEURSGY&t=22W&sBy=subject&subj=NEURSGY&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Nursing+NURSING&t=22W&sBy=subject&subj=NURSING&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Obstetrics+and+Gynecology+OBGYN&t=22W&sBy=subject&subj=OBGYN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Ophthalmology+OPTH&t=22W&sBy=subject&subj=OPTH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Oral+Biology+ORL+BIO&t=22W&sBy=subject&subj=ORL+BIO&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Orthopaedic+Surgery+ORTHPDC&t=22W&sBy=subject&subj=ORTHPDC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Pathology+and+Laboratory+Medicine+PATH&t=22W&sBy=subject&subj=PATH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Pediatrics+PEDS&t=22W&sBy=subject&subj=PEDS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Philosophy+PHILOS&t=22W&sBy=subject&subj=PHILOS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Physics+PHYSICS&t=22W&sBy=subject&subj=PHYSICS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Physics+and+Biology+in+Medicine+PBMED&t=22W&sBy=subject&subj=PBMED&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Physiological+Science+PHYSCI&t=22W&sBy=subject&subj=PHYSCI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Physiology+PHYSIOL&t=22W&sBy=subject&subj=PHYSIOL&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Polish+POLSH&t=22W&sBy=subject&subj=POLSH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Political+Science+POL+SCI&t=22W&sBy=subject&subj=POL+SCI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Portuguese+PORTGSE&t=22W&sBy=subject&subj=PORTGSE&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Program+in+Computing+COMPTNG&t=22W&sBy=subject&subj=COMPTNG&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Psychiatry+and+Biobehavioral+Sciences+PSYCTRY&t=22W&sBy=subject&subj=PSYCTRY&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Psychology+PSYCH&t=22W&sBy=subject&subj=PSYCH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Public+Affairs+PUB+AFF&t=22W&sBy=subject&subj=PUB+AFF&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Public+Health+PUB+HLT&t=22W&sBy=subject&subj=PUB+HLT&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Public+Policy+PUB+PLC&t=22W&sBy=subject&subj=PUB+PLC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Radiation+Oncology+RAD+ONC&t=22W&sBy=subject&subj=RAD+ONC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Religion,+Study+of+RELIGN&t=22W&sBy=subject&subj=RELIGN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Romanian+ROMANIA&t=22W&sBy=subject&subj=ROMANIA&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Russian+RUSSN&t=22W&sBy=subject&subj=RUSSN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Scandinavian+SCAND&t=22W&sBy=subject&subj=SCAND&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Science+Education+SCI+EDU&t=22W&sBy=subject&subj=SCI+EDU&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Semitic+SEMITIC&t=22W&sBy=subject&subj=SEMITIC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Serbian/Croatian+SRB+CRO&t=22W&sBy=subject&subj=SRB+CRO&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Slavic+SLAVC&t=22W&sBy=subject&subj=SLAVC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Social+Science+SOC+SC&t=22W&sBy=subject&subj=SOC+SC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Social+Thought+SOC+THT&t=22W&sBy=subject&subj=SOC+THT&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Social+Welfare+SOC+WLF&t=22W&sBy=subject&subj=SOC+WLF&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Society+and+Genetics+SOC+GEN&t=22W&sBy=subject&subj=SOC+GEN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Sociology+SOCIOL&t=22W&sBy=subject&subj=SOCIOL&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=South+Asian+S+ASIAN&t=22W&sBy=subject&subj=S+ASIAN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Southeast+Asian+SEASIAN&t=22W&sBy=subject&subj=SEASIAN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Spanish+SPAN&t=22W&sBy=subject&subj=SPAN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Statistics+STATS&t=22W&sBy=subject&subj=STATS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Surgery+SURGERY&t=22W&sBy=subject&subj=SURGERY&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Swahili+SWAHILI&t=22W&sBy=subject&subj=SWAHILI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Thai+THAI&t=22W&sBy=subject&subj=THAI&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Theater+THEATER&t=22W&sBy=subject&subj=THEATER&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Turkic+Languages+TURKIC&t=22W&sBy=subject&subj=TURKIC&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Ukrainian+UKRN&t=22W&sBy=subject&subj=UKRN&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=University+Studies+UNIV+ST&t=22W&sBy=subject&subj=UNIV+ST&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Urban+Planning+URBN+PL&t=22W&sBy=subject&subj=URBN+PL&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Urology+UROLOGY&t=22W&sBy=subject&subj=UROLOGY&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Vietnamese+VIETMSE&t=22W&sBy=subject&subj=VIETMSE&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=World+Arts+and+Cultures+WL+ARTS&t=22W&sBy=subject&subj=WL+ARTS&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex', 'https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Yiddish+YIDDSH&t=22W&sBy=subject&subj=YIDDSH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex']
+
+
+# getDescription("https://sa.ucla.edu/ro/Public/SOC/Results/ClassDetail?term_cd=22W&subj_area_cd=BIOENGR&crs_catlg_no=0596%20%20%20%20&class_id=650960272&class_no=%20072%20%20")
 
 # uploadAllClassesToDB()
+
+# urls = []
+# for url in SOCUrl:
+#     urls.append(SOCMoreDetails(url))
+#     with open('classdump4.json', 'w') as f:
+#        json.dump(urls, f, indent = 4)
 
 # for key, value in data.items():
 #     # if data[key][0] == "Anesthesiology":
@@ -199,8 +360,10 @@ missing = []
 #     except:
 #         print("Save fail: " + data[key][1])
 # print(getClasses("https://catalog.registrar.ucla.edu/browse/Subject%20Areas/BIOLCH" , "BIOL CH"))
+
 # Anesthesiology, BIOL CH, community health sciences, MATH (last 2 pages)
 # ['Graduate', 'Undergraduate', 'DESMA', 'ESL', 'LAW', 'Undergraduate', 'NEUROSC', 'Graduate']
+
 # print(catalogSubjects)
 # print(missing)
 # getToSOCpage()
