@@ -1,0 +1,6766 @@
+[
+    {
+        "Short name": "HIN-URD 1",
+        "Full name": "Introductory Hindi-Urdu"
+    },
+    {
+        "Short name": "HIN-URD 2",
+        "Full name": "Introductory Hindi-Urdu"
+    },
+    {
+        "Short name": "HIN-URD 3",
+        "Full name": "Introductory Hindi-Urdu"
+    },
+    {
+        "Short name": "HIN-URD 3R",
+        "Full name": "Elementary Hindi-Urdu Reading and Writing"
+    },
+    {
+        "Short name": "HIN-URD 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "HIN-URD 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "HIN-URD 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "HIN-URD 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "HIN-URD 100A",
+        "Full name": "Intermediate Hindi-Urdu"
+    },
+    {
+        "Short name": "HIN-URD 100B",
+        "Full name": "Intermediate Hindi-Urdu"
+    },
+    {
+        "Short name": "HIN-URD 100C",
+        "Full name": "Intermediate Hindi-Urdu"
+    },
+    {
+        "Short name": "HIN-URD 109",
+        "Full name": "Advanced Tutorial Instruction in Hindi-Urdu"
+    },
+    {
+        "Short name": "HIN-URD 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "HIN-URD 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "HIST 1A",
+        "Full name": "Introduction to Western Civilization: Ancient Civilizations, Prehistory to circa AD 843"
+    },
+    {
+        "Short name": "HIST 1AH",
+        "Full name": "Introduction to Western Civilization: Ancient Civilizations, Prehistory to circa AD 843 (Honors)"
+    },
+    {
+        "Short name": "HIST 1B",
+        "Full name": "Introduction to Western Civilization: Circa 843 to circa 1715"
+    },
+    {
+        "Short name": "HIST 1BH",
+        "Full name": "Introduction to Western Civilization: Circa AD 843 to circa 1715 (Honors)"
+    },
+    {
+        "Short name": "HIST 1C",
+        "Full name": "Introduction to Western Civilization: Circa 1715 to Present"
+    },
+    {
+        "Short name": "HIST 1CH",
+        "Full name": "Introduction to Western Civilization: Circa 1715 to Present (Honors)"
+    },
+    {
+        "Short name": "HIST 2B",
+        "Full name": "Social Knowledge and Social Power"
+    },
+    {
+        "Short name": "HIST 2C",
+        "Full name": "Religion, Occult, and Science: Mystics, Heretics, and Witches in Western Tradition, 1000 to 1600"
+    },
+    {
+        "Short name": "HIST 3A",
+        "Full name": "History of Science: Renaissance to 1800"
+    },
+    {
+        "Short name": "HIST 3B",
+        "Full name": "History of Science: Enlightment to 1900"
+    },
+    {
+        "Short name": "HIST 3C",
+        "Full name": "History of Science: 20th Century"
+    },
+    {
+        "Short name": "HIST 3D",
+        "Full name": "History of Modern Medicine"
+    },
+    {
+        "Short name": "HIST M4",
+        "Full name": "Introduction to History of Religions"
+    },
+    {
+        "Short name": "HIST 5",
+        "Full name": "Holocaust: History and Memory"
+    },
+    {
+        "Short name": "HIST 8A",
+        "Full name": "Colonial Latin America"
+    },
+    {
+        "Short name": "HIST 8AH",
+        "Full name": "Colonial Latin America (Honors)"
+    },
+    {
+        "Short name": "HIST 8B",
+        "Full name": "Modern Latin America"
+    },
+    {
+        "Short name": "HIST 8BH",
+        "Full name": "Modern Latin America (Honors)"
+    },
+    {
+        "Short name": "HIST 8C",
+        "Full name": "Latin American Social History"
+    },
+    {
+        "Short name": "HIST 8CH",
+        "Full name": "Latin American Social History (Honors)"
+    },
+    {
+        "Short name": "HIST 9A",
+        "Full name": "Introduction to Asian Civilizations: History of India"
+    },
+    {
+        "Short name": "HIST 9C",
+        "Full name": "Introduction to Asian Civilizations: History of Japan"
+    },
+    {
+        "Short name": "HIST 9CH",
+        "Full name": "Introduction to Asian Civilizations: History of Japan (Honors)"
+    },
+    {
+        "Short name": "HIST 9D",
+        "Full name": "Introduction to Asian Civilizations: History of Middle East"
+    },
+    {
+        "Short name": "HIST 9E",
+        "Full name": "Introduction to Asian Civilizations: Southeast Asian Crossroads"
+    },
+    {
+        "Short name": "HIST M10A",
+        "Full name": "History of Africa to 1800"
+    },
+    {
+        "Short name": "HIST 10B",
+        "Full name": "History of Africa, 1800 to Present"
+    },
+    {
+        "Short name": "HIST 10BH",
+        "Full name": "Introduction to Civilizations of Africa (Honors)"
+    },
+    {
+        "Short name": "HIST 10BW",
+        "Full name": "Introduction to Civilizations of Africa since 1800"
+    },
+    {
+        "Short name": "HIST 11A",
+        "Full name": "History of China: To 1000"
+    },
+    {
+        "Short name": "HIST 11AH",
+        "Full name": "History of China: To 1000 (Honors)"
+    },
+    {
+        "Short name": "HIST 11B",
+        "Full name": "History of China, circa 1000 to 2000"
+    },
+    {
+        "Short name": "HIST 11BH",
+        "Full name": "History of China: 1000 to 1950 (Honors)"
+    },
+    {
+        "Short name": "HIST 12A",
+        "Full name": "Inequality: History of Mass Imprisonment"
+    },
+    {
+        "Short name": "HIST 12B",
+        "Full name": "Inequality: History of Neoliberalism"
+    },
+    {
+        "Short name": "HIST 12C",
+        "Full name": "Inequality: Global History of Anti-Colonial Thought and Struggle"
+    },
+    {
+        "Short name": "HIST 13A",
+        "Full name": "History of the U.S. and Its Colonial Origins: Colonial Origins and First Nation Building Acts"
+    },
+    {
+        "Short name": "HIST 13B",
+        "Full name": "History of the U.S. and Its Colonial Origins: 19th Century"
+    },
+    {
+        "Short name": "HIST 13C",
+        "Full name": "History of the U.S. and Its Colonial Origins: 20th Century"
+    },
+    {
+        "Short name": "HIST 14",
+        "Full name": "Atlantic World, 1492 to 1830"
+    },
+    {
+        "Short name": "HIST 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "HIST 20",
+        "Full name": "World History to AD 600"
+    },
+    {
+        "Short name": "HIST 21",
+        "Full name": "World History, circa 600 to 1760"
+    },
+    {
+        "Short name": "HIST 22",
+        "Full name": "Contemporary World History, 1760 to Present"
+    },
+    {
+        "Short name": "HIST M60",
+        "Full name": "Achaemenid Civilization and Empire of Alexander"
+    },
+    {
+        "Short name": "HIST 88",
+        "Full name": "Sophomore Seminars: History"
+    },
+    {
+        "Short name": "HIST 88GE",
+        "Full name": "Sophomore Seminar: Special Topics in History"
+    },
+    {
+        "Short name": "HIST 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "HIST 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "HIST 94",
+        "Full name": "What Is History? An Introduction to Historical Thinking and Practice"
+    },
+    {
+        "Short name": "HIST 96W",
+        "Full name": "Introduction to Historical Practice"
+    },
+    {
+        "Short name": "HIST 97",
+        "Full name": "Historical Practices Adjunct Seminar"
+    },
+    {
+        "Short name": "HIST 97A",
+        "Full name": "Introduction to Historical Practice: Variable Topics in Ancient History"
+    },
+    {
+        "Short name": "HIST 97B",
+        "Full name": "Introduction to Historical Practice: Variable Topics in Medieval History"
+    },
+    {
+        "Short name": "HIST 97C",
+        "Full name": "Introduction to Historical Practice: Variable Topics in European History"
+    },
+    {
+        "Short name": "HIST 97D",
+        "Full name": "Introduction to Historical Practice: Variable Topics in U.S. History"
+    },
+    {
+        "Short name": "HIST 97E",
+        "Full name": "Introduction to Historical Practice: Variable Topics in Latin American History"
+    },
+    {
+        "Short name": "HIST 97F",
+        "Full name": "Introduction to Historical Practice: Variable Topics in Near Eastern History"
+    },
+    {
+        "Short name": "HIST 97G",
+        "Full name": "Introduction to Historical Practice: Variable Topics in East Asian History"
+    },
+    {
+        "Short name": "HIST 97I",
+        "Full name": "Introduction to Historical Practice: Variable Topics in History of Science/Technology"
+    },
+    {
+        "Short name": "HIST 97J",
+        "Full name": "Introduction to Historical Practice: Variable Topics in African History"
+    },
+    {
+        "Short name": "HIST 97K",
+        "Full name": "Introduction to Historical Practice: Variable Topics in History of Religion"
+    },
+    {
+        "Short name": "HIST 97L",
+        "Full name": "Introduction to Historical Practice: Variable Topics in Jewish History"
+    },
+    {
+        "Short name": "HIST 97M",
+        "Full name": "Introduction to Historical Practice: Variable Topics in Southeast Asian History"
+    },
+    {
+        "Short name": "HIST 97N",
+        "Full name": "Introduction to Historical Practice: Variable Topics in Indian History"
+    },
+    {
+        "Short name": "HIST 97O",
+        "Full name": "Introduction to Historical Practice: Variable Topics in World History"
+    },
+    {
+        "Short name": "HIST 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "HIST 100",
+        "Full name": "History and Historians"
+    },
+    {
+        "Short name": "HIST 101",
+        "Full name": "Topics in World History"
+    },
+    {
+        "Short name": "HIST C101A",
+        "Full name": "Variable Topics: Interdisciplinary Studies"
+    },
+    {
+        "Short name": "HIST C101B",
+        "Full name": "Variable Topics: Interdisciplinary Studies"
+    },
+    {
+        "Short name": "HIST 102A",
+        "Full name": "Iran and Persianate World"
+    },
+    {
+        "Short name": "HIST M103A",
+        "Full name": "History of Ancient Egypt"
+    },
+    {
+        "Short name": "HIST M103B",
+        "Full name": "History of Ancient Egypt"
+    },
+    {
+        "Short name": "HIST M104A",
+        "Full name": "History of Ancient Mesopotamia and Syria"
+    },
+    {
+        "Short name": "HIST M104B",
+        "Full name": "Sumerians"
+    },
+    {
+        "Short name": "HIST M104C",
+        "Full name": "Babylonians"
+    },
+    {
+        "Short name": "HIST M104D",
+        "Full name": "Assyrians"
+    },
+    {
+        "Short name": "HIST 105A",
+        "Full name": "Survey of Middle East, 500 to Present: 500 to 1300"
+    },
+    {
+        "Short name": "HIST 105B",
+        "Full name": "Survey of Middle East, 500 to Present: 1300 to 1700"
+    },
+    {
+        "Short name": "HIST 105C",
+        "Full name": "Survey of Middle East, 500 to Present: 1700 to Present"
+    },
+    {
+        "Short name": "HIST M106",
+        "Full name": "Premodern Islam"
+    },
+    {
+        "Short name": "HIST 107A",
+        "Full name": "Armenian History: Armenia in Ancient and Medieval Times, 2nd Millennium BC to AD 11th Century"
+    },
+    {
+        "Short name": "HIST 107B",
+        "Full name": "Armenian History: Armenia from Cilician Kingdom through Periods of Foreign Domination and National Stirrings, 11th to 19th Centuries"
+    },
+    {
+        "Short name": "HIST 107C",
+        "Full name": "Armenian History: Armenia in Modern and Contemporary Times, 19th and 20th Centuries"
+    },
+    {
+        "Short name": "HIST 107D",
+        "Full name": "Introduction to Armenian Oral History"
+    },
+    {
+        "Short name": "HIST 107E",
+        "Full name": "Caucasus under Russian and Soviet Rule"
+    },
+    {
+        "Short name": "HIST 108A",
+        "Full name": "History of North Africa from Islamic Conquest"
+    },
+    {
+        "Short name": "HIST 108B",
+        "Full name": "History of Islamic Iberia"
+    },
+    {
+        "Short name": "HIST M108C",
+        "Full name": "Culture Area of Maghrib (North Africa)"
+    },
+    {
+        "Short name": "HIST 109B",
+        "Full name": "History of Israeli-Palestinian Conflict, 1881 to Present"
+    },
+    {
+        "Short name": "HIST M110A",
+        "Full name": "Iranian Civilization: History of Achaemenid Empire"
+    },
+    {
+        "Short name": "HIST M110B",
+        "Full name": "Iranian Civilization: History of Arsacid (Parthian) Empire"
+    },
+    {
+        "Short name": "HIST M110C",
+        "Full name": "Iranian Civilization: History of Early Sasanian Empire\u2014From Ardashir I to Rise of Peroz (circa 224-459 CE)"
+    },
+    {
+        "Short name": "HIST 111A",
+        "Full name": "Topics in Middle Eastern History: Premodern"
+    },
+    {
+        "Short name": "HIST 111B",
+        "Full name": "Topics in Middle Eastern History: Early Modern"
+    },
+    {
+        "Short name": "HIST 111C",
+        "Full name": "Topics in Middle Eastern History: Modern"
+    },
+    {
+        "Short name": "HIST 112A",
+        "Full name": "History of Ancient Mediterranean World"
+    },
+    {
+        "Short name": "HIST 112B",
+        "Full name": "History of Ancient Mediterranean World"
+    },
+    {
+        "Short name": "HIST M112C",
+        "Full name": "History of Ancient Mediterranean World"
+    },
+    {
+        "Short name": "HIST 112D",
+        "Full name": "History and Monuments of Ancient Greece: Field Studies"
+    },
+    {
+        "Short name": "HIST M112E",
+        "Full name": "History and Monuments of Rome: Field Studies"
+    },
+    {
+        "Short name": "HIST 113A",
+        "Full name": "History of Ancient Greece: Rise of Greek City-State"
+    },
+    {
+        "Short name": "HIST 113B",
+        "Full name": "History of Ancient Greece: Classical Period"
+    },
+    {
+        "Short name": "HIST M113C",
+        "Full name": "Ancient Historiography: Theory and Practice"
+    },
+    {
+        "Short name": "HIST 114A",
+        "Full name": "History of Rome to Death of Caesar"
+    },
+    {
+        "Short name": "HIST 114B",
+        "Full name": "History of Rome from Death of Caesar to Time of Constantine"
+    },
+    {
+        "Short name": "HIST 114C",
+        "Full name": "History of Rome: Transformation of Classical World"
+    },
+    {
+        "Short name": "HIST 115",
+        "Full name": "Topics in Ancient History"
+    },
+    {
+        "Short name": "HIST 116A",
+        "Full name": "Byzantine History"
+    },
+    {
+        "Short name": "HIST 116B",
+        "Full name": "Byzantine History"
+    },
+    {
+        "Short name": "HIST M116C",
+        "Full name": "Power and Imagination in Byzantium"
+    },
+    {
+        "Short name": "HIST 119A",
+        "Full name": "Medieval Europe, 400 to 1000"
+    },
+    {
+        "Short name": "HIST 119B",
+        "Full name": "Medieval Europe, 1000 to 1500"
+    },
+    {
+        "Short name": "HIST 119C",
+        "Full name": "Medieval Civilization: Mediterranean Heartlands"
+    },
+    {
+        "Short name": "HIST 119D",
+        "Full name": "Topics in Medieval History"
+    },
+    {
+        "Short name": "HIST 120A",
+        "Full name": "East-Central Europe: Long 19th Century, 1780 to 1914"
+    },
+    {
+        "Short name": "HIST 120B",
+        "Full name": "East-Central Europe: Short 20th Century, 1918 to 1990"
+    },
+    {
+        "Short name": "HIST 120C",
+        "Full name": "East-Central Europe in Transition, 1988 to 1993"
+    },
+    {
+        "Short name": "HIST 120D",
+        "Full name": "Film and History: Central and Eastern Europe, 1945 to 1989"
+    },
+    {
+        "Short name": "HIST 121A",
+        "Full name": "History of Modern Europe: Renaissance and Reformation, 1450 to 1660"
+    },
+    {
+        "Short name": "HIST 121B",
+        "Full name": "History of Modern Europe: Baroque Culture and Absolutist Politics, 1600 to 1715"
+    },
+    {
+        "Short name": "HIST 121C",
+        "Full name": "History of Modern Europe: Old Regime and Revolutionary Era, 1715 to 1815"
+    },
+    {
+        "Short name": "HIST 121D",
+        "Full name": "History of Modern Europe: Bourgeois Century, 1815 to 1914"
+    },
+    {
+        "Short name": "HIST 121E",
+        "Full name": "History of Modern Europe: Era of Total War, 1914 to 1945"
+    },
+    {
+        "Short name": "HIST 121F",
+        "Full name": "History of Modern Europe: World War II and Its Aftermath, 1939 to Present"
+    },
+    {
+        "Short name": "HIST 122A",
+        "Full name": "Cultural and Intellectual History of Modern Europe, 15th Century"
+    },
+    {
+        "Short name": "HIST 122B",
+        "Full name": "Cultural and Intellectual History of Modern Europe, 16th Century"
+    },
+    {
+        "Short name": "HIST 122C",
+        "Full name": "Cultural and Intellectual History of Modern Europe, 17th Century"
+    },
+    {
+        "Short name": "HIST 122D",
+        "Full name": "Cultural and Intellectual History of Modern Europe, 18th Century"
+    },
+    {
+        "Short name": "HIST M122E",
+        "Full name": "Cultural and Intellectual History of Modern Europe, 19th Century"
+    },
+    {
+        "Short name": "HIST 122F",
+        "Full name": "Cultural and Intellectual History of Modern Europe, 20th Century"
+    },
+    {
+        "Short name": "HIST 123A",
+        "Full name": "War and Diplomacy in Europe, 1650 to 1815"
+    },
+    {
+        "Short name": "HIST 123B",
+        "Full name": "War and Diplomacy in Europe, 1815 to 1945"
+    },
+    {
+        "Short name": "HIST 123C",
+        "Full name": "War and Diplomacy in Europe, Cold War"
+    },
+    {
+        "Short name": "HIST 124A",
+        "Full name": "History of France: France, 1500 to 1715"
+    },
+    {
+        "Short name": "HIST 124B",
+        "Full name": "History of France: France, 1715 to 1871"
+    },
+    {
+        "Short name": "HIST 124C",
+        "Full name": "History of France: Making of Modern France, 1871 to Present"
+    },
+    {
+        "Short name": "HIST 125A",
+        "Full name": "Baroque and Enlightenment Germany"
+    },
+    {
+        "Short name": "HIST 125B",
+        "Full name": "Nationalism and Modernization in 19th-Century Germany"
+    },
+    {
+        "Short name": "HIST 125C",
+        "Full name": "20th-Century Germany"
+    },
+    {
+        "Short name": "HIST 125D",
+        "Full name": "History of Low Countries"
+    },
+    {
+        "Short name": "HIST 126",
+        "Full name": "Europe in Age of Revolution, circa 1775 to 1815"
+    },
+    {
+        "Short name": "HIST M127A",
+        "Full name": "History of Russia, Origins to Rise of Muscovy"
+    },
+    {
+        "Short name": "HIST 127B",
+        "Full name": "History of Russia: Imperial Russia from Peter the Great to Nicholas II"
+    },
+    {
+        "Short name": "HIST 127C",
+        "Full name": "History of Russia: Revolutionary Russia and Soviet Union"
+    },
+    {
+        "Short name": "HIST 127D",
+        "Full name": "History of Russia: Culture and Society in Imperial Russia"
+    },
+    {
+        "Short name": "HIST 128A",
+        "Full name": "History of Italy, 1350 to 1559"
+    },
+    {
+        "Short name": "HIST 128B",
+        "Full name": "History of Italy, 1559 to 1848"
+    },
+    {
+        "Short name": "HIST 128C",
+        "Full name": "History of Italy, 1848 to Present"
+    },
+    {
+        "Short name": "HIST 129A",
+        "Full name": "Social History of Spain and Portugal: Age of Silver in Spain and Portugal, 1479 to 1789"
+    },
+    {
+        "Short name": "HIST 129B",
+        "Full name": "Social History of Spain and Portugal: Rebellion and Revolution in Modern Spain and Portugal, 1789 to Present"
+    },
+    {
+        "Short name": "HIST 130",
+        "Full name": "History of European Political Thought"
+    },
+    {
+        "Short name": "HIST 131A",
+        "Full name": "Marxist Theory and History"
+    },
+    {
+        "Short name": "HIST 131B",
+        "Full name": "Marxist Theory and History"
+    },
+    {
+        "Short name": "HIST 132",
+        "Full name": "Topics in European History"
+    },
+    {
+        "Short name": "HIST M133A",
+        "Full name": "History of Women in Europe, 800 to 1715"
+    },
+    {
+        "Short name": "HIST M133B",
+        "Full name": "History of Women in Europe, 1715 to Present"
+    },
+    {
+        "Short name": "HIST M133C",
+        "Full name": "History of Prostitution"
+    },
+    {
+        "Short name": "HIST 134B",
+        "Full name": "Economic History of Europe, 1780 to 1914"
+    },
+    {
+        "Short name": "HIST 134C",
+        "Full name": "Economic History of Europe, 20th Century"
+    },
+    {
+        "Short name": "HIST 135A",
+        "Full name": "Europe and World: Exploration and Conquest, 1400 to 1700"
+    },
+    {
+        "Short name": "HIST 135B",
+        "Full name": "Europe and World: Colonialism, Slavery, and Revolution, 1700 to 1870"
+    },
+    {
+        "Short name": "HIST 135C",
+        "Full name": "Europe and World: Imperialism and Postcolonialism, 1870 to Present"
+    },
+    {
+        "Short name": "HIST 136A",
+        "Full name": "History of Britain: Tudor-Stuart Times, 1485 to 1715"
+    },
+    {
+        "Short name": "HIST 136B",
+        "Full name": "History of Britain: Making of Modern Britain, 1715 to 1867"
+    },
+    {
+        "Short name": "HIST 136C",
+        "Full name": "History of Britain: Modern Britain since 1832"
+    },
+    {
+        "Short name": "HIST 137A",
+        "Full name": "British Empire since 1783"
+    },
+    {
+        "Short name": "HIST 137B",
+        "Full name": "British Empire since 1783"
+    },
+    {
+        "Short name": "HIST 138A",
+        "Full name": "Colonial America, 1600 to 1763"
+    },
+    {
+        "Short name": "HIST 138B",
+        "Full name": "Revolutionary America, 1760 to 1800"
+    },
+    {
+        "Short name": "HIST 138C",
+        "Full name": "U.S. History, 1800 to 1850"
+    },
+    {
+        "Short name": "HIST 139A",
+        "Full name": "U.S., Civil War and Reconstruction"
+    },
+    {
+        "Short name": "HIST 139B",
+        "Full name": "U.S., 1875 to 1900"
+    },
+    {
+        "Short name": "HIST 140A",
+        "Full name": "20th-Century U.S. History, 1900 to 1928"
+    },
+    {
+        "Short name": "HIST 140B",
+        "Full name": "20th-Century U.S. History, 1929 to 1960"
+    },
+    {
+        "Short name": "HIST 140C",
+        "Full name": "20th-Century U.S. History since 1960"
+    },
+    {
+        "Short name": "HIST 141A",
+        "Full name": "American Economic History, 1790 to 1910"
+    },
+    {
+        "Short name": "HIST 141B",
+        "Full name": "American Economic History, 1910 to Present"
+    },
+    {
+        "Short name": "HIST 142A",
+        "Full name": "Intellectual History of U.S."
+    },
+    {
+        "Short name": "HIST 142B",
+        "Full name": "Intellectual History of U.S."
+    },
+    {
+        "Short name": "HIST M142C",
+        "Full name": "History of Religion in U.S."
+    },
+    {
+        "Short name": "HIST 142D",
+        "Full name": "American Popular Culture"
+    },
+    {
+        "Short name": "HIST 143A",
+        "Full name": "Constitutional History of U.S.: Origins and Development of Constitutionalism in U.S."
+    },
+    {
+        "Short name": "HIST 143B",
+        "Full name": "Constitutional History of U.S.: Constitutionalism since Civil War"
+    },
+    {
+        "Short name": "HIST 144",
+        "Full name": "America in World"
+    },
+    {
+        "Short name": "HIST M144C",
+        "Full name": "Critical Issues in U.S.-Philippine Relations"
+    },
+    {
+        "Short name": "HIST 145A",
+        "Full name": "U.S. Urban History: U.S. Cities\u2014Overview"
+    },
+    {
+        "Short name": "HIST 145B",
+        "Full name": "U.S. Urban History: Topics in U.S. Urban History"
+    },
+    {
+        "Short name": "HIST 146A",
+        "Full name": "American Working Class Movements"
+    },
+    {
+        "Short name": "HIST 146B",
+        "Full name": "American Working Class Movements"
+    },
+    {
+        "Short name": "HIST 146C",
+        "Full name": "Migrant Nation: How Mobility Shapes American Society, Politics, and Culture"
+    },
+    {
+        "Short name": "HIST 146D",
+        "Full name": "U.S. and Comparative Immigration History"
+    },
+    {
+        "Short name": "HIST M147C",
+        "Full name": "History of Women in Colonial British America and Early U.S., 1600 to 1860"
+    },
+    {
+        "Short name": "HIST M147D",
+        "Full name": "History of Women in U.S., 1860 to 1980"
+    },
+    {
+        "Short name": "HIST M147E",
+        "Full name": "History of Deaf Communities in America"
+    },
+    {
+        "Short name": "HIST 148",
+        "Full name": "Introduction to Public/Applied History"
+    },
+    {
+        "Short name": "HIST 149A",
+        "Full name": "North American Indian History, Precontact to 1830"
+    },
+    {
+        "Short name": "HIST 149B",
+        "Full name": "North American Indian History, 1830 to Present"
+    },
+    {
+        "Short name": "HIST M150A",
+        "Full name": "Comparative Slavery Systems"
+    },
+    {
+        "Short name": "HIST M150B",
+        "Full name": "Introduction to Afro-American History"
+    },
+    {
+        "Short name": "HIST M150C",
+        "Full name": "Introduction to Afro-American History"
+    },
+    {
+        "Short name": "HIST M150D",
+        "Full name": "Recent African American Urban History: Funk Music and Politics of Black Popular Culture"
+    },
+    {
+        "Short name": "HIST M150E",
+        "Full name": "African American Nationalism in First Half of 20th Century"
+    },
+    {
+        "Short name": "HIST M151A",
+        "Full name": "History of Chicano Peoples"
+    },
+    {
+        "Short name": "HIST M151B",
+        "Full name": "History of Chicano Peoples"
+    },
+    {
+        "Short name": "HIST M151C",
+        "Full name": "Understanding Whiteness in American History and Culture"
+    },
+    {
+        "Short name": "HIST M151D",
+        "Full name": "Chicana Historiography"
+    },
+    {
+        "Short name": "HIST M151E",
+        "Full name": "Latino Metropolis: Architecture and Urbanism in Americas"
+    },
+    {
+        "Short name": "HIST 152",
+        "Full name": "Asians in American History"
+    },
+    {
+        "Short name": "HIST 153",
+        "Full name": "American West"
+    },
+    {
+        "Short name": "HIST 154",
+        "Full name": "History of California"
+    },
+    {
+        "Short name": "HIST M155",
+        "Full name": "History of Los Angeles"
+    },
+    {
+        "Short name": "HIST 156",
+        "Full name": "Topics in U.S. History"
+    },
+    {
+        "Short name": "HIST 157A",
+        "Full name": "Early Latin America"
+    },
+    {
+        "Short name": "HIST 157B",
+        "Full name": "Indians of Colonial Mexico"
+    },
+    {
+        "Short name": "HIST 159",
+        "Full name": "Latin America in 19th Century"
+    },
+    {
+        "Short name": "HIST 160A",
+        "Full name": "Latin American Elitelore"
+    },
+    {
+        "Short name": "HIST 160B",
+        "Full name": "Mexican Revolution since 1910"
+    },
+    {
+        "Short name": "HIST 161",
+        "Full name": "Topics in Latin American History"
+    },
+    {
+        "Short name": "HIST 162A",
+        "Full name": "Modern Brazil"
+    },
+    {
+        "Short name": "HIST 162B",
+        "Full name": "Brazil and Atlantic World, 1500 to 1822"
+    },
+    {
+        "Short name": "HIST 162C",
+        "Full name": "History of Argentina"
+    },
+    {
+        "Short name": "HIST 164B",
+        "Full name": "Topics in African History: Africa and Slave Trade"
+    },
+    {
+        "Short name": "HIST 164D",
+        "Full name": "Topics in African History: Africa and Diaspora in Global and Comparative Perspective"
+    },
+    {
+        "Short name": "HIST 164E",
+        "Full name": "Topics in African History: Africa, 1945 to Present"
+    },
+    {
+        "Short name": "HIST 165",
+        "Full name": "Topics in African History"
+    },
+    {
+        "Short name": "HIST 165SL",
+        "Full name": "Service Learning and Historical Understanding in South Africa"
+    },
+    {
+        "Short name": "HIST 166A",
+        "Full name": "History of West Africa: West Africa, Earliest Times to 1800"
+    },
+    {
+        "Short name": "HIST 166B",
+        "Full name": "History of West Africa: West Africa since 1800"
+    },
+    {
+        "Short name": "HIST 167A",
+        "Full name": "History of Northeast Africa"
+    },
+    {
+        "Short name": "HIST 167B",
+        "Full name": "History of East Africa"
+    },
+    {
+        "Short name": "HIST 167C",
+        "Full name": "History of Central Africa"
+    },
+    {
+        "Short name": "HIST 168A",
+        "Full name": "History of Southern Africa, Origins to 1870"
+    },
+    {
+        "Short name": "HIST 168B",
+        "Full name": "History of Southern Africa since 1870"
+    },
+    {
+        "Short name": "HIST 169A",
+        "Full name": "Thought and Society in China to 1000"
+    },
+    {
+        "Short name": "HIST 169B",
+        "Full name": "Thought and Society in China since 1000"
+    },
+    {
+        "Short name": "HIST 170A",
+        "Full name": "Culture and Power in Late Imperial China"
+    },
+    {
+        "Short name": "HIST 170B",
+        "Full name": "Selected Topics in Chinese History from 1500"
+    },
+    {
+        "Short name": "HIST M170C",
+        "Full name": "History of Women in China, AD 1000 to Present"
+    },
+    {
+        "Short name": "HIST 170D",
+        "Full name": "20th-Century China"
+    },
+    {
+        "Short name": "HIST 170E",
+        "Full name": "Economic History of China"
+    },
+    {
+        "Short name": "HIST 171",
+        "Full name": "Variable Topics in Japanese History"
+    },
+    {
+        "Short name": "HIST 172A",
+        "Full name": "Japan\u2014Ancient and Medieval History"
+    },
+    {
+        "Short name": "HIST 172B",
+        "Full name": "Japanese History: Early Modern, 1600 to 1868"
+    },
+    {
+        "Short name": "HIST 172C",
+        "Full name": "Modern Japanese History, 1850 to 1945"
+    },
+    {
+        "Short name": "HIST 173A",
+        "Full name": "Japanese Popular Culture"
+    },
+    {
+        "Short name": "HIST M173B",
+        "Full name": "Women in 20th-Century Japan"
+    },
+    {
+        "Short name": "HIST M173C",
+        "Full name": "Shinto, Buddhism, and Japanese Folk Religion"
+    },
+    {
+        "Short name": "HIST 173D",
+        "Full name": "Postwar Japanese History through Film"
+    },
+    {
+        "Short name": "HIST 174A",
+        "Full name": "Early History of India"
+    },
+    {
+        "Short name": "HIST 174B",
+        "Full name": "History of British India I"
+    },
+    {
+        "Short name": "HIST 174C",
+        "Full name": "Contemporary South Asia"
+    },
+    {
+        "Short name": "HIST M174D",
+        "Full name": "Indo-Islamic Interactions, 700 to 1750"
+    },
+    {
+        "Short name": "HIST M174E",
+        "Full name": "Indo-Islamic Interactions, 1750 to 1950"
+    },
+    {
+        "Short name": "HIST 174F",
+        "Full name": "Gandhi and Making of Modern India"
+    },
+    {
+        "Short name": "HIST M174G",
+        "Full name": "Indian Identity in U.S. and Diaspora"
+    },
+    {
+        "Short name": "HIST 175A",
+        "Full name": "Cultural and Political History of Contemporary South Asia"
+    },
+    {
+        "Short name": "HIST 175C",
+        "Full name": "Special Topics in Contemporary Indian History"
+    },
+    {
+        "Short name": "HIST 176A",
+        "Full name": "History of Southeast Asia to 1815"
+    },
+    {
+        "Short name": "HIST 176B",
+        "Full name": "History of Southeast Asia: Southeast Asia since 1815"
+    },
+    {
+        "Short name": "HIST 176C",
+        "Full name": "Philippine History"
+    },
+    {
+        "Short name": "HIST 176E",
+        "Full name": "Vietnam: Past and Present"
+    },
+    {
+        "Short name": "HIST 177A",
+        "Full name": "National Histories of Southeast Asia"
+    },
+    {
+        "Short name": "HIST 177B",
+        "Full name": "Comparative Histories of Southeast Asia"
+    },
+    {
+        "Short name": "HIST M178",
+        "Full name": "Introduction to History and Culture of Iranian Jews"
+    },
+    {
+        "Short name": "HIST 179A",
+        "Full name": "Variable Topics in History of Medicine"
+    },
+    {
+        "Short name": "HIST 179B",
+        "Full name": "History of Medicine: Foundations of Modern Medicine"
+    },
+    {
+        "Short name": "HIST 179C",
+        "Full name": "Medicine and Society in 20th-Century America"
+    },
+    {
+        "Short name": "HIST 180A",
+        "Full name": "Topics in History of Science"
+    },
+    {
+        "Short name": "HIST M180B",
+        "Full name": "Historical Perspectives on Gender and Science"
+    },
+    {
+        "Short name": "HIST 180C",
+        "Full name": "Science and Technology in 20th Century"
+    },
+    {
+        "Short name": "HIST M181",
+        "Full name": "Topics in Jewish History"
+    },
+    {
+        "Short name": "HIST M181SL",
+        "Full name": "Jewish Thought, Politics, and Ethics: From Theory to Practice"
+    },
+    {
+        "Short name": "HIST M182A",
+        "Full name": "Ancient Jewish History"
+    },
+    {
+        "Short name": "HIST M182B",
+        "Full name": "Medieval Jewish History"
+    },
+    {
+        "Short name": "HIST M182C",
+        "Full name": "Modern Jewish History"
+    },
+    {
+        "Short name": "HIST 183A",
+        "Full name": "Third Reich and Jews"
+    },
+    {
+        "Short name": "HIST 183B",
+        "Full name": "Third Reich and Jews"
+    },
+    {
+        "Short name": "HIST M184A",
+        "Full name": "Jewish Civilization: Encounter with Great World Cultures"
+    },
+    {
+        "Short name": "HIST M184B",
+        "Full name": "History of Anti-Semitism"
+    },
+    {
+        "Short name": "HIST M184C",
+        "Full name": "American Jewish Experience"
+    },
+    {
+        "Short name": "HIST M184D",
+        "Full name": "History of Zionism and State of Israel"
+    },
+    {
+        "Short name": "HIST 185A",
+        "Full name": "History of Religions: Myth"
+    },
+    {
+        "Short name": "HIST 185B",
+        "Full name": "Religions of South and Southeast Asia"
+    },
+    {
+        "Short name": "HIST 185C",
+        "Full name": "Religions of South and Southeast Asia"
+    },
+    {
+        "Short name": "HIST M185D",
+        "Full name": "Religions of Ancient Near East"
+    },
+    {
+        "Short name": "HIST 185E",
+        "Full name": "Special Topics in History of Religions"
+    },
+    {
+        "Short name": "HIST M185F",
+        "Full name": "History of Early Christians"
+    },
+    {
+        "Short name": "HIST M185G",
+        "Full name": "Religious Environment of Early Christians"
+    },
+    {
+        "Short name": "HIST M185I",
+        "Full name": "Jesus of Nazareth in Historical Research"
+    },
+    {
+        "Short name": "HIST M186A",
+        "Full name": "Women and Gender, Prehistory to 1792"
+    },
+    {
+        "Short name": "HIST M186B",
+        "Full name": "Global Feminism, 1850 to Present"
+    },
+    {
+        "Short name": "HIST 187A",
+        "Full name": "Variable Topics Historiography Proseminar: Ancient History"
+    },
+    {
+        "Short name": "HIST 187B",
+        "Full name": "Variable Topics Historiography Proseminar: Medieval"
+    },
+    {
+        "Short name": "HIST 187C",
+        "Full name": "Variable Topics Historiography Proseminar: Europe"
+    },
+    {
+        "Short name": "HIST 187D",
+        "Full name": "Variable Topics Historiography Proseminar: U.S."
+    },
+    {
+        "Short name": "HIST 187E",
+        "Full name": "Variable Topics Historiography Proseminar: Latin America"
+    },
+    {
+        "Short name": "HIST 187F",
+        "Full name": "Variable Topics Historiography Proseminar: Near East"
+    },
+    {
+        "Short name": "HIST 187G",
+        "Full name": "Variable Topics Historiography Proseminar: East Asia"
+    },
+    {
+        "Short name": "HIST 187I",
+        "Full name": "Variable Topics Historiography Proseminar: Science/Technology"
+    },
+    {
+        "Short name": "HIST 187J",
+        "Full name": "Variable Topics Historiography Proseminar: Africa"
+    },
+    {
+        "Short name": "HIST 187M",
+        "Full name": "Variable Topics Historiography Proseminar: Southeast Asia"
+    },
+    {
+        "Short name": "HIST C187N",
+        "Full name": "Topics in Historiography: India"
+    },
+    {
+        "Short name": "HIST C187O",
+        "Full name": "Topics in Historiography: World History"
+    },
+    {
+        "Short name": "HIST C187P",
+        "Full name": "Topics in Historiography: Theory of History"
+    },
+    {
+        "Short name": "HIST C187R",
+        "Full name": "Topics in Historiography: Japan"
+    },
+    {
+        "Short name": "HIST 188",
+        "Full name": "Special Courses in History"
+    },
+    {
+        "Short name": "HIST 188SA",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "HIST 188SB",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "HIST 188SC",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "HIST 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "HIST 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "HIST 191A",
+        "Full name": "Capstone Seminar: History\u2014Ancient History"
+    },
+    {
+        "Short name": "HIST 191B",
+        "Full name": "Capstone Seminar: History\u2014Medieval"
+    },
+    {
+        "Short name": "HIST 191C",
+        "Full name": "Capstone Seminar: History\u2014Europe"
+    },
+    {
+        "Short name": "HIST C191D",
+        "Full name": "Topics in History: U.S."
+    },
+    {
+        "Short name": "HIST M191DC",
+        "Full name": "CAPPP Washington, DC, Research Seminars"
+    },
+    {
+        "Short name": "HIST 191E",
+        "Full name": "Capstone Seminar: History\u2014Latin America"
+    },
+    {
+        "Short name": "HIST 191F",
+        "Full name": "Capstone Seminar: History\u2014Near East"
+    },
+    {
+        "Short name": "HIST 191G",
+        "Full name": "Capstone Seminar: History\u2014East Asia"
+    },
+    {
+        "Short name": "HIST 191I",
+        "Full name": "Capstone Seminar: History\u2014Science/Technology"
+    },
+    {
+        "Short name": "HIST C191J",
+        "Full name": "Topics in History: Africa"
+    },
+    {
+        "Short name": "HIST C191K",
+        "Full name": "Topics in History: History of Religions"
+    },
+    {
+        "Short name": "HIST 191L",
+        "Full name": "Capstone Seminar: History\u2014Jewish History"
+    },
+    {
+        "Short name": "HIST 191M",
+        "Full name": "Capstone Seminar: History\u2014Southeast Asia"
+    },
+    {
+        "Short name": "HIST C191N",
+        "Full name": "Topics in History: India"
+    },
+    {
+        "Short name": "HIST C191O",
+        "Full name": "Topics in History: World"
+    },
+    {
+        "Short name": "HIST C191P",
+        "Full name": "Topics in History: Theory of History"
+    },
+    {
+        "Short name": "HIST 191Q",
+        "Full name": "Capstone Seminar: History\u2014Digital History"
+    },
+    {
+        "Short name": "HIST C191R",
+        "Full name": "Topics in History: Japan"
+    },
+    {
+        "Short name": "HIST M194DC",
+        "Full name": "CAPPP Washington, DC, Research Seminars"
+    },
+    {
+        "Short name": "HIST 195",
+        "Full name": "Community or Corporate Internships in History"
+    },
+    {
+        "Short name": "HIST 195CE",
+        "Full name": "Community and Corporate Internships in History"
+    },
+    {
+        "Short name": "HIST M195DC",
+        "Full name": "CAPPP Washington, DC, Internships"
+    },
+    {
+        "Short name": "HIST 197",
+        "Full name": "Individual Studies in History"
+    },
+    {
+        "Short name": "HIST 198A",
+        "Full name": "Honors Research in History"
+    },
+    {
+        "Short name": "HIST 198B",
+        "Full name": "Honors Research in History"
+    },
+    {
+        "Short name": "HIST 198C",
+        "Full name": "Honors Research in History"
+    },
+    {
+        "Short name": "HIST 199",
+        "Full name": "Directed Research in History"
+    },
+    {
+        "Short name": "HIST 200A",
+        "Full name": "Advanced Historiography: Ancient Greece"
+    },
+    {
+        "Short name": "HIST 200B",
+        "Full name": "Advanced Historiography: Ancient Rome"
+    },
+    {
+        "Short name": "HIST 200C",
+        "Full name": "Advanced Historiography: Medieval"
+    },
+    {
+        "Short name": "HIST 200D",
+        "Full name": "Advanced Historiography: Europe"
+    },
+    {
+        "Short name": "HIST C200F",
+        "Full name": "Topics in Historiography: World History"
+    },
+    {
+        "Short name": "HIST 200H",
+        "Full name": "Advanced Historiography: U.S."
+    },
+    {
+        "Short name": "HIST 200I",
+        "Full name": "Advanced Historiography: Latin America"
+    },
+    {
+        "Short name": "HIST 200J",
+        "Full name": "Advanced Historiography: Near East"
+    },
+    {
+        "Short name": "HIST C200K",
+        "Full name": "Topics in Historiography: India"
+    },
+    {
+        "Short name": "HIST 200L",
+        "Full name": "Advanced Historiography: China"
+    },
+    {
+        "Short name": "HIST C200M",
+        "Full name": "Topics in Historiography: Japan"
+    },
+    {
+        "Short name": "HIST 200N",
+        "Full name": "Advanced Historiography: Africa"
+    },
+    {
+        "Short name": "HIST 200O",
+        "Full name": "Advanced Historiography: Science/Technology"
+    },
+    {
+        "Short name": "HIST 200P",
+        "Full name": "Advanced Historiography: History of Religions"
+    },
+    {
+        "Short name": "HIST C200Q",
+        "Full name": "Topics in Historiography: Theory of History"
+    },
+    {
+        "Short name": "HIST 200R",
+        "Full name": "Advanced Historiography: Jewish History"
+    },
+    {
+        "Short name": "HIST 200S",
+        "Full name": "Advanced Historiography: Armenia and Caucasus"
+    },
+    {
+        "Short name": "HIST 200T",
+        "Full name": "Advanced Historiography: Southeast Asia"
+    },
+    {
+        "Short name": "HIST 200U",
+        "Full name": "Advanced Historiography: Psychohistory"
+    },
+    {
+        "Short name": "HIST M200V",
+        "Full name": "Advanced Historiography: African American"
+    },
+    {
+        "Short name": "HIST M200W",
+        "Full name": "Advanced Historiography: American Indian Peoples"
+    },
+    {
+        "Short name": "HIST 200X",
+        "Full name": "Advanced Historiography: Oral History"
+    },
+    {
+        "Short name": "HIST 200Y",
+        "Full name": "Advanced Historiography: Application of Economics to History"
+    },
+    {
+        "Short name": "HIST 200Z",
+        "Full name": "Advanced Historiography: Chicano"
+    },
+    {
+        "Short name": "HIST 201A",
+        "Full name": "Topics in History: Ancient Greece"
+    },
+    {
+        "Short name": "HIST 201B",
+        "Full name": "Topics in History: Ancient Rome"
+    },
+    {
+        "Short name": "HIST 201C",
+        "Full name": "Topics in History: Medieval"
+    },
+    {
+        "Short name": "HIST 201D",
+        "Full name": "Topics in History: Early Modern Europe"
+    },
+    {
+        "Short name": "HIST 201E",
+        "Full name": "Topics in History: Modern Europe"
+    },
+    {
+        "Short name": "HIST 201F",
+        "Full name": "Topics in History: Russia/Eastern Europe"
+    },
+    {
+        "Short name": "HIST 201G",
+        "Full name": "Topics in History: Britain"
+    },
+    {
+        "Short name": "HIST C201H",
+        "Full name": "Topics in History: U.S."
+    },
+    {
+        "Short name": "HIST 201I",
+        "Full name": "Topics in History: Latin America"
+    },
+    {
+        "Short name": "HIST 201J",
+        "Full name": "Topics in History: Near East"
+    },
+    {
+        "Short name": "HIST C201K",
+        "Full name": "Topics in History: India"
+    },
+    {
+        "Short name": "HIST 201L",
+        "Full name": "Topics in History: China"
+    },
+    {
+        "Short name": "HIST C201M",
+        "Full name": "Topics in History: Japan"
+    },
+    {
+        "Short name": "HIST C201N",
+        "Full name": "Topics in History: Africa"
+    },
+    {
+        "Short name": "HIST 201O",
+        "Full name": "Topics in History: Science/Technology"
+    },
+    {
+        "Short name": "HIST C201P",
+        "Full name": "Topics in History: History of Religions"
+    },
+    {
+        "Short name": "HIST C201Q",
+        "Full name": "Topics in History: Theory of History"
+    },
+    {
+        "Short name": "HIST 201R",
+        "Full name": "Topics in History: Jewish History"
+    },
+    {
+        "Short name": "HIST 201S",
+        "Full name": "Topics in History: Armenia and Caucasus"
+    },
+    {
+        "Short name": "HIST 201T",
+        "Full name": "Topics in History: Southeast Asia"
+    },
+    {
+        "Short name": "HIST 201U",
+        "Full name": "Topics in History: Psychohistory"
+    },
+    {
+        "Short name": "HIST 201V",
+        "Full name": "Topics in History: Digital History"
+    },
+    {
+        "Short name": "HIST C201W",
+        "Full name": "Topics in History: World"
+    },
+    {
+        "Short name": "HIST 202A",
+        "Full name": "Seminar: Comparative Modern Economic History"
+    },
+    {
+        "Short name": "HIST 202B",
+        "Full name": "Seminar: Comparative Modern Economic History"
+    },
+    {
+        "Short name": "HIST 203A",
+        "Full name": "Social Theory and Comparative History"
+    },
+    {
+        "Short name": "HIST 203B",
+        "Full name": "Social Theory and Comparative History"
+    },
+    {
+        "Short name": "HIST 203C",
+        "Full name": "Theories in Cultural History"
+    },
+    {
+        "Short name": "HIST 204A",
+        "Full name": "Departmental Seminar: Approaches, Methods, Debates, Practices"
+    },
+    {
+        "Short name": "HIST 204B",
+        "Full name": "Departmental Seminar: Many Professions of History"
+    },
+    {
+        "Short name": "HIST 205A",
+        "Full name": "History Department Professional Development Seminar"
+    },
+    {
+        "Short name": "HIST 205B",
+        "Full name": "History Department Professional Development Seminar"
+    },
+    {
+        "Short name": "HIST 206A",
+        "Full name": "Seminar: Near East History"
+    },
+    {
+        "Short name": "HIST 206B",
+        "Full name": "Seminar: Near East History"
+    },
+    {
+        "Short name": "HIST C208A",
+        "Full name": "Variable Topics: Interdisciplinary Studies"
+    },
+    {
+        "Short name": "HIST C208B",
+        "Full name": "Variable Topics: Interdisciplinary Studies"
+    },
+    {
+        "Short name": "HIST M210",
+        "Full name": "Topics in Ancient Iranian History"
+    },
+    {
+        "Short name": "HIST 211A",
+        "Full name": "Seminar: Armenian History"
+    },
+    {
+        "Short name": "HIST 211B",
+        "Full name": "Seminar: Armenian History"
+    },
+    {
+        "Short name": "HIST 212",
+        "Full name": "Methods in Armenian Oral History"
+    },
+    {
+        "Short name": "HIST 213A",
+        "Full name": "History of Women, Men, Sexuality"
+    },
+    {
+        "Short name": "HIST 213B",
+        "Full name": "History of Women, Men, Sexuality"
+    },
+    {
+        "Short name": "HIST 213C",
+        "Full name": "History of Women, Men, and Sexuality Historiography"
+    },
+    {
+        "Short name": "HIST 213D",
+        "Full name": "Women\u2019s and Gender History"
+    },
+    {
+        "Short name": "HIST 214",
+        "Full name": "Topics in World History"
+    },
+    {
+        "Short name": "HIST 215A",
+        "Full name": "Seminar: Ancient History"
+    },
+    {
+        "Short name": "HIST 215B",
+        "Full name": "Seminar: Ancient History"
+    },
+    {
+        "Short name": "HIST 216A",
+        "Full name": "Seminar: Byzantine History"
+    },
+    {
+        "Short name": "HIST 216B",
+        "Full name": "Seminar: Byzantine History"
+    },
+    {
+        "Short name": "HIST 217",
+        "Full name": "Sources and Handbooks of Medieval History"
+    },
+    {
+        "Short name": "HIST M218",
+        "Full name": "Paleography of Latin and Vernacular Manuscripts, 900 to 1500"
+    },
+    {
+        "Short name": "HIST 221A",
+        "Full name": "Seminar: Medieval History"
+    },
+    {
+        "Short name": "HIST 221B",
+        "Full name": "Seminar: Medieval History"
+    },
+    {
+        "Short name": "HIST 225",
+        "Full name": "Colloquium for Entering Graduate Students in Modern European History"
+    },
+    {
+        "Short name": "HIST 226A",
+        "Full name": "Seminar: Italian Renaissance"
+    },
+    {
+        "Short name": "HIST 226B",
+        "Full name": "Seminar: Italian Renaissance"
+    },
+    {
+        "Short name": "HIST 227A",
+        "Full name": "Seminar: Reformation"
+    },
+    {
+        "Short name": "HIST 227B",
+        "Full name": "Seminar: Reformation"
+    },
+    {
+        "Short name": "HIST 229A",
+        "Full name": "Seminar: Early Modern European History"
+    },
+    {
+        "Short name": "HIST 229B",
+        "Full name": "Seminar: Early Modern European History"
+    },
+    {
+        "Short name": "HIST M230A",
+        "Full name": "Seminar: Modern European History"
+    },
+    {
+        "Short name": "HIST M230B",
+        "Full name": "Seminar: Modern European History"
+    },
+    {
+        "Short name": "HIST 231A",
+        "Full name": "Seminar: Modern European Intellectual and Cultural History"
+    },
+    {
+        "Short name": "HIST 231B",
+        "Full name": "Seminar: Modern European Intellectual and Cultural History"
+    },
+    {
+        "Short name": "HIST 232A",
+        "Full name": "Seminar: French History of 19th and 20th Centuries"
+    },
+    {
+        "Short name": "HIST 232B",
+        "Full name": "Seminar: French History of 19th and 20th Centuries"
+    },
+    {
+        "Short name": "HIST 233A",
+        "Full name": "Seminar: Russian/Soviet History"
+    },
+    {
+        "Short name": "HIST 233B",
+        "Full name": "Seminar: Russian/Soviet History"
+    },
+    {
+        "Short name": "HIST 234A",
+        "Full name": "Seminar: Modern History of Spain, Portugal, and Italy"
+    },
+    {
+        "Short name": "HIST 234B",
+        "Full name": "Seminar: Modern History of Spain, Portugal, and Italy"
+    },
+    {
+        "Short name": "HIST 235A",
+        "Full name": "Economic History of Europe, 1780 to 1939"
+    },
+    {
+        "Short name": "HIST 235B",
+        "Full name": "Economic History of Europe, 1780 to 1939"
+    },
+    {
+        "Short name": "HIST 235C",
+        "Full name": "Economic History of 20th-Century Europe"
+    },
+    {
+        "Short name": "HIST 235D",
+        "Full name": "Economic History of 20th-Century Europe"
+    },
+    {
+        "Short name": "HIST M236A",
+        "Full name": "Proseminar: Political Psychology"
+    },
+    {
+        "Short name": "HIST 236B",
+        "Full name": "Seminar: Psychohistory"
+    },
+    {
+        "Short name": "HIST 236C",
+        "Full name": "Seminar: Psychohistory"
+    },
+    {
+        "Short name": "HIST 239A",
+        "Full name": "Seminar: English History\u2014Middle Ages"
+    },
+    {
+        "Short name": "HIST 239B",
+        "Full name": "Seminar: English History\u2014Middle Ages"
+    },
+    {
+        "Short name": "HIST 240A",
+        "Full name": "Seminar: English History\u2014Modern History"
+    },
+    {
+        "Short name": "HIST 240B",
+        "Full name": "Seminar: English History\u2014Modern History"
+    },
+    {
+        "Short name": "HIST 241A",
+        "Full name": "Seminar: German History"
+    },
+    {
+        "Short name": "HIST 241B",
+        "Full name": "Seminar: German History"
+    },
+    {
+        "Short name": "HIST 242",
+        "Full name": "Colloquium: European History"
+    },
+    {
+        "Short name": "HIST 244A",
+        "Full name": "Seminar: British Empire History"
+    },
+    {
+        "Short name": "HIST 244B",
+        "Full name": "Seminar: British Empire History"
+    },
+    {
+        "Short name": "HIST 245",
+        "Full name": "Colloquium: U.S. History"
+    },
+    {
+        "Short name": "HIST 246A",
+        "Full name": "Introduction to U.S. History: Colonial Period"
+    },
+    {
+        "Short name": "HIST 246B",
+        "Full name": "Introduction to U.S. History: 1790 to 1900"
+    },
+    {
+        "Short name": "HIST 246C",
+        "Full name": "Introduction to U.S. History: 20th Century"
+    },
+    {
+        "Short name": "HIST 247A",
+        "Full name": "Seminar: Early American History"
+    },
+    {
+        "Short name": "HIST 247B",
+        "Full name": "Seminar: Early American History"
+    },
+    {
+        "Short name": "HIST M248",
+        "Full name": "Anthropology and History of Mediterranean"
+    },
+    {
+        "Short name": "HIST 249A",
+        "Full name": "Seminar: Jacksonian America"
+    },
+    {
+        "Short name": "HIST 249B",
+        "Full name": "Seminar: Jacksonian America"
+    },
+    {
+        "Short name": "HIST 250A",
+        "Full name": "Seminar: U.S. History of Middle 19th Century"
+    },
+    {
+        "Short name": "HIST 250B",
+        "Full name": "Seminar: U.S. History of Middle 19th Century"
+    },
+    {
+        "Short name": "HIST 251A",
+        "Full name": "Collaborative Research Seminar: American History"
+    },
+    {
+        "Short name": "HIST 251B",
+        "Full name": "Collaborative Research Seminar: American History"
+    },
+    {
+        "Short name": "HIST 252A",
+        "Full name": "Seminar: Recent U.S. History to 1930"
+    },
+    {
+        "Short name": "HIST 252B",
+        "Full name": "Seminar: Recent U.S. History to 1930"
+    },
+    {
+        "Short name": "HIST 253A",
+        "Full name": "Seminar: Recent U.S. History since 1930"
+    },
+    {
+        "Short name": "HIST 253B",
+        "Full name": "Seminar: Recent U.S. History since 1930"
+    },
+    {
+        "Short name": "HIST 254A",
+        "Full name": "Seminar: U.S. Social and/or Intellectual History"
+    },
+    {
+        "Short name": "HIST 254B",
+        "Full name": "Seminar: U.S. Social and/or Intellectual History"
+    },
+    {
+        "Short name": "HIST 255A",
+        "Full name": "Business Enterprise and American Culture"
+    },
+    {
+        "Short name": "HIST 255B",
+        "Full name": "Business Enterprise and American Culture"
+    },
+    {
+        "Short name": "HIST 256A",
+        "Full name": "Seminar: America in World"
+    },
+    {
+        "Short name": "HIST 256B",
+        "Full name": "Seminar: America in World"
+    },
+    {
+        "Short name": "HIST M256C",
+        "Full name": "Political Economy of Race"
+    },
+    {
+        "Short name": "HIST 257A",
+        "Full name": "Seminar: U.S. Urban History"
+    },
+    {
+        "Short name": "HIST 257B",
+        "Full name": "Seminar: U.S. Urban History"
+    },
+    {
+        "Short name": "HIST 258A",
+        "Full name": "Seminar: Working Class History"
+    },
+    {
+        "Short name": "HIST 258B",
+        "Full name": "Seminar: Working Class History"
+    },
+    {
+        "Short name": "HIST M259A",
+        "Full name": "History of Women"
+    },
+    {
+        "Short name": "HIST M259B",
+        "Full name": "History of Women"
+    },
+    {
+        "Short name": "HIST 260A",
+        "Full name": "Seminar: Native American History"
+    },
+    {
+        "Short name": "HIST 260B",
+        "Full name": "Seminar: Native American History"
+    },
+    {
+        "Short name": "HIST M260C",
+        "Full name": "Native American Revitalization Movements"
+    },
+    {
+        "Short name": "HIST 261A",
+        "Full name": "Seminar: Afro-American History"
+    },
+    {
+        "Short name": "HIST 261B",
+        "Full name": "Seminar: Afro-American History"
+    },
+    {
+        "Short name": "HIST 262A",
+        "Full name": "Seminar: Chicano History"
+    },
+    {
+        "Short name": "HIST 262B",
+        "Full name": "Seminar: Chicano History"
+    },
+    {
+        "Short name": "HIST 263A",
+        "Full name": "Seminar: History of American West"
+    },
+    {
+        "Short name": "HIST 263B",
+        "Full name": "Seminar: History of American West"
+    },
+    {
+        "Short name": "HIST M264",
+        "Full name": "History of American Education"
+    },
+    {
+        "Short name": "HIST 266A",
+        "Full name": "Seminar: Colonial Latin American History"
+    },
+    {
+        "Short name": "HIST 266B",
+        "Full name": "Seminar: Colonial Latin American History"
+    },
+    {
+        "Short name": "HIST M266C",
+        "Full name": "Analyzing Historical Texts"
+    },
+    {
+        "Short name": "HIST 267A",
+        "Full name": "Seminar: Latin American History, 19th and 20th Centuries"
+    },
+    {
+        "Short name": "HIST 267B",
+        "Full name": "Seminar: Latin American History, 19th and 20th Centuries"
+    },
+    {
+        "Short name": "HIST M268A",
+        "Full name": "Seminar: Recent Latin American History"
+    },
+    {
+        "Short name": "HIST M268B",
+        "Full name": "Seminar: Recent Latin American History"
+    },
+    {
+        "Short name": "HIST 275A",
+        "Full name": "Colloquium: African History"
+    },
+    {
+        "Short name": "HIST 275B",
+        "Full name": "Colloquium: African History"
+    },
+    {
+        "Short name": "HIST M280",
+        "Full name": "China Studies: Discipline, Methods, Debates"
+    },
+    {
+        "Short name": "HIST M281",
+        "Full name": "China\u2014Seminar: Classical Historiography and Readings in Classical Studies"
+    },
+    {
+        "Short name": "HIST 282A",
+        "Full name": "Seminar: Chinese History"
+    },
+    {
+        "Short name": "HIST 282B",
+        "Full name": "Seminar: Chinese History"
+    },
+    {
+        "Short name": "HIST 285A",
+        "Full name": "Seminar: Japanese History"
+    },
+    {
+        "Short name": "HIST 285B",
+        "Full name": "Seminar: Japanese History"
+    },
+    {
+        "Short name": "HIST M286",
+        "Full name": "Japan in Age of Empire"
+    },
+    {
+        "Short name": "HIST M287",
+        "Full name": "Central Asian Studies: Discipline, Methods, Debates"
+    },
+    {
+        "Short name": "HIST 288A",
+        "Full name": "Seminar: South Asia"
+    },
+    {
+        "Short name": "HIST 288B",
+        "Full name": "Seminar: South Asia"
+    },
+    {
+        "Short name": "HIST 289A",
+        "Full name": "Seminar: Southeast Asia"
+    },
+    {
+        "Short name": "HIST 289B",
+        "Full name": "Seminar: Southeast Asia"
+    },
+    {
+        "Short name": "HIST 291A",
+        "Full name": "Seminar: Jewish History"
+    },
+    {
+        "Short name": "HIST 291B",
+        "Full name": "Seminar: Jewish History"
+    },
+    {
+        "Short name": "HIST 293A",
+        "Full name": "Seminar: History of Religions"
+    },
+    {
+        "Short name": "HIST 293B",
+        "Full name": "Seminar: History of Religions"
+    },
+    {
+        "Short name": "HIST 294A",
+        "Full name": "Western Science, Religion, and Political Economy, 1600 to 1830"
+    },
+    {
+        "Short name": "HIST 294B",
+        "Full name": "Western Science, Religion, and Political Economy, 1600 to 1830"
+    },
+    {
+        "Short name": "HIST 295",
+        "Full name": "Theories of Scientific Change"
+    },
+    {
+        "Short name": "HIST 297A",
+        "Full name": "Seminar: History of Science"
+    },
+    {
+        "Short name": "HIST 297B",
+        "Full name": "Seminar: History of Science"
+    },
+    {
+        "Short name": "HIST M299",
+        "Full name": "Interdisciplinary American Studies"
+    },
+    {
+        "Short name": "HIST 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "HIST 490",
+        "Full name": "Writing Workshop for Graduate Students"
+    },
+    {
+        "Short name": "HIST 495",
+        "Full name": "Teaching History"
+    },
+    {
+        "Short name": "HIST 501",
+        "Full name": "Cooperative Program"
+    },
+    {
+        "Short name": "HIST 596",
+        "Full name": "Directed Studies"
+    },
+    {
+        "Short name": "HIST 597",
+        "Full name": "Directed Studies for Graduate Examinations"
+    },
+    {
+        "Short name": "HIST 599",
+        "Full name": "PhD Research and Writing"
+    },
+    {
+        "Short name": "HNRS 1",
+        "Full name": "Plague Culture"
+    },
+    {
+        "Short name": "HNRS 2",
+        "Full name": "Comparative Genocide"
+    },
+    {
+        "Short name": "HNRS 3",
+        "Full name": "Personal Brain Management"
+    },
+    {
+        "Short name": "HNRS 4",
+        "Full name": "Welcome to Dark Side: Human Pathology in World Literature"
+    },
+    {
+        "Short name": "HNRS 5",
+        "Full name": "Representing Cleopatra: History, Drama, and Film"
+    },
+    {
+        "Short name": "HNRS 6",
+        "Full name": "Energy Issues: Before and Now"
+    },
+    {
+        "Short name": "HNRS 7",
+        "Full name": "Saint and Heretic: Joan of Arc and Gilles de Rais, History and Myth"
+    },
+    {
+        "Short name": "HNRS 8",
+        "Full name": "Life, Death, and Everything in Between"
+    },
+    {
+        "Short name": "HNRS 9",
+        "Full name": "Visual Communication and Scientific Principles"
+    },
+    {
+        "Short name": "HNRS 10",
+        "Full name": "Language and Gender: Introduction to Gender Differences and Stereotypes"
+    },
+    {
+        "Short name": "HNRS 11W",
+        "Full name": "Postmodern Literature and Culture"
+    },
+    {
+        "Short name": "HNRS 12",
+        "Full name": "Sacred Form: Literature and Poetry in India from Bronze Age to Premodern Times"
+    },
+    {
+        "Short name": "HNRS 13",
+        "Full name": "Inquiry in Numbers"
+    },
+    {
+        "Short name": "HNRS 14",
+        "Full name": "Interaction of Science and Society"
+    },
+    {
+        "Short name": "HNRS 15",
+        "Full name": "Symmetry"
+    },
+    {
+        "Short name": "HNRS 16",
+        "Full name": "Science of Singing Voice"
+    },
+    {
+        "Short name": "HNRS 17",
+        "Full name": "Art, Entertainment, and Social Change"
+    },
+    {
+        "Short name": "HNRS 18",
+        "Full name": "Trial of Socrates"
+    },
+    {
+        "Short name": "HNRS 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "HNRS 20",
+        "Full name": "Introduction to History and Philosophy of Science"
+    },
+    {
+        "Short name": "HNRS 21W",
+        "Full name": "Rise and Fall of Modernism"
+    },
+    {
+        "Short name": "HNRS 22",
+        "Full name": "Comparative Odysseys"
+    },
+    {
+        "Short name": "HNRS 23",
+        "Full name": "Political Dissidence Today and in Ancient Greece: Trial and Death of Socrates in Its Classical and Legal Context"
+    },
+    {
+        "Short name": "HNRS 24",
+        "Full name": "We Could Be Heroes: Race, Gender, and the Contemporary Hero Narrative"
+    },
+    {
+        "Short name": "HNRS 25",
+        "Full name": "Politics and Passion: Judgment, Justice, and Emotions"
+    },
+    {
+        "Short name": "HNRS 26",
+        "Full name": "Representing Medicine: Art, Literature, and Film"
+    },
+    {
+        "Short name": "HNRS 27",
+        "Full name": "Varied Mathematics"
+    },
+    {
+        "Short name": "HNRS 28",
+        "Full name": "Material Culture and the Museum: Introduction to Collections-Based Research"
+    },
+    {
+        "Short name": "HNRS 29",
+        "Full name": "Imagining Human Rights"
+    },
+    {
+        "Short name": "HNRS 30",
+        "Full name": "Vietnam War and American Culture"
+    },
+    {
+        "Short name": "HNRS 31",
+        "Full name": "Poets and Prophets: Back to Future with Ray Bradbury and Rod Serling"
+    },
+    {
+        "Short name": "HNRS 35",
+        "Full name": "Scientific Method: Critical Inquiry into Question of Extraterrestrial Life"
+    },
+    {
+        "Short name": "HNRS 36",
+        "Full name": "Global Geographies and Idea of Home"
+    },
+    {
+        "Short name": "HNRS 37W",
+        "Full name": "Sampling and Remix: Aesthetics and Politics of Cultural Appropriation"
+    },
+    {
+        "Short name": "HNRS 38",
+        "Full name": "Film and History/Film as History"
+    },
+    {
+        "Short name": "HNRS 39",
+        "Full name": "Philosophy Ramble"
+    },
+    {
+        "Short name": "HNRS 40W",
+        "Full name": "Transformations of Cultural Stories across Disciplines and Texts"
+    },
+    {
+        "Short name": "HNRS 41",
+        "Full name": "Understanding Ecology: Finding Interdisciplinary Solutions to Environmental Problems"
+    },
+    {
+        "Short name": "HNRS 42",
+        "Full name": "Poetry in Age of Mass Incarceration"
+    },
+    {
+        "Short name": "HNRS 43W",
+        "Full name": "Science, Rhetoric, and Social Influence"
+    },
+    {
+        "Short name": "HNRS 44",
+        "Full name": "Society of Excess: On Waste, Consumer Culture, and Environment"
+    },
+    {
+        "Short name": "HNRS 46",
+        "Full name": "Drugs in Society: Interdisciplinary Perspective on Drug Use, Abuse, Treatment, and Intervention"
+    },
+    {
+        "Short name": "HNRS 48",
+        "Full name": "Politics of Reproduction"
+    },
+    {
+        "Short name": "HNRS 49",
+        "Full name": "Evidence in Law, Science, History, and Journalism"
+    },
+    {
+        "Short name": "HNRS 50",
+        "Full name": "Creating Your Roadmap"
+    },
+    {
+        "Short name": "HNRS 51",
+        "Full name": "Music and Society"
+    },
+    {
+        "Short name": "HNRS 55",
+        "Full name": "Culture and History of Utopias"
+    },
+    {
+        "Short name": "HNRS 57",
+        "Full name": "Language, Performance, and Culture"
+    },
+    {
+        "Short name": "HNRS 59W",
+        "Full name": "Literature and Culture of the American South"
+    },
+    {
+        "Short name": "HNRS 63W",
+        "Full name": "Nabokov and Reading Minds"
+    },
+    {
+        "Short name": "HNRS 64",
+        "Full name": "Neuroscience and Psychology of Art and Biology of Aesthetics"
+    },
+    {
+        "Short name": "HNRS 65W",
+        "Full name": "Body-Mind Literacy"
+    },
+    {
+        "Short name": "HNRS 70A",
+        "Full name": "Genetic Engineering in Medicine, Agriculture, and Law"
+    },
+    {
+        "Short name": "HNRS 70AL",
+        "Full name": "Gene Discovery Laboratory"
+    },
+    {
+        "Short name": "HNRS 71",
+        "Full name": "Cross-Cultural Approaches to Media History and Culture"
+    },
+    {
+        "Short name": "HNRS 73",
+        "Full name": "Elementary Particles in the Universe"
+    },
+    {
+        "Short name": "HNRS 77",
+        "Full name": "Greeks and Persians: Ancient Encounters from Herodotus to Alexander"
+    },
+    {
+        "Short name": "HNRS 78",
+        "Full name": "Science and Religion from Copernicus to Darwinism"
+    },
+    {
+        "Short name": "HNRS 79",
+        "Full name": "Personal Financial Health: Theory and Practice"
+    },
+    {
+        "Short name": "HNRS 80",
+        "Full name": "Cossacks and Narratives about Them"
+    },
+    {
+        "Short name": "HNRS 81",
+        "Full name": "Poetry and Protest Movements"
+    },
+    {
+        "Short name": "HNRS 82",
+        "Full name": "Community and Labor Development from Ground Up"
+    },
+    {
+        "Short name": "HNRS 83W",
+        "Full name": "Politics and Rhetoric of Literature"
+    },
+    {
+        "Short name": "HNRS 84",
+        "Full name": "Conflicts between Languages"
+    },
+    {
+        "Short name": "HNRS 85",
+        "Full name": "Biological Clock"
+    },
+    {
+        "Short name": "HNRS 86",
+        "Full name": "Psychology of Fear"
+    },
+    {
+        "Short name": "HNRS 87W",
+        "Full name": "Worlds of Neil Gaiman: Graphic Novels, Social Media, and Fantasy Fiction"
+    },
+    {
+        "Short name": "HNRS 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "HNRS 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "HNRS 90",
+        "Full name": "Hollywood and Global Responsibility"
+    },
+    {
+        "Short name": "HNRS 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "HNRS 101A",
+        "Full name": "Student Research Forum"
+    },
+    {
+        "Short name": "HNRS 101B",
+        "Full name": "UCLA Undergraduate Science Journal"
+    },
+    {
+        "Short name": "HNRS 101C",
+        "Full name": "UCLA Undergraduate Journal for Humanities and Social Sciences"
+    },
+    {
+        "Short name": "HNRS 101D",
+        "Full name": "Counseling Multicultural Communities"
+    },
+    {
+        "Short name": "HNRS 101E",
+        "Full name": "Leading Undergraduate Seminars"
+    },
+    {
+        "Short name": "HNRS 101F",
+        "Full name": "Integrity in Research"
+    },
+    {
+        "Short name": "HNRS 101G",
+        "Full name": "Graduate School Preparation"
+    },
+    {
+        "Short name": "HNRS 101I",
+        "Full name": "Research Today: Sources, Tools, and Strategies"
+    },
+    {
+        "Short name": "HNRS 101J",
+        "Full name": "Mellon Mays Research Seminar"
+    },
+    {
+        "Short name": "HNRS 101K",
+        "Full name": "Preparing for Post-UCLA Success: Fellowships, Graduate School, and More"
+    },
+    {
+        "Short name": "HNRS 101L",
+        "Full name": "Research Revealed: Humanities, Arts, and Social Sciences"
+    },
+    {
+        "Short name": "HNRS 101M",
+        "Full name": "Careers in Libraries and Archives"
+    },
+    {
+        "Short name": "HNRS M102",
+        "Full name": "Culture, Media, and Los Angeles"
+    },
+    {
+        "Short name": "HNRS 103",
+        "Full name": "Scientific Knowledge, Industrial Growth, and Social Policy"
+    },
+    {
+        "Short name": "HNRS 104",
+        "Full name": "Fundamental Forms of Social Relationships from Theory to Research Design"
+    },
+    {
+        "Short name": "HNRS 105",
+        "Full name": "Racial and Ethnic Disparities in Healthcare"
+    },
+    {
+        "Short name": "HNRS M106",
+        "Full name": "Imaginary Women"
+    },
+    {
+        "Short name": "HNRS 107",
+        "Full name": "Literature and Political Order: Homer, Shakespeare, Dostoevsky"
+    },
+    {
+        "Short name": "HNRS 108",
+        "Full name": "Ancient Rome and the Monuments of Washington, D.C."
+    },
+    {
+        "Short name": "HNRS 109",
+        "Full name": "Living Consciously: Philosophy in Everyday Life"
+    },
+    {
+        "Short name": "HNRS 110",
+        "Full name": "Marxist and Post-Marxist Approaches to Cultural Studies"
+    },
+    {
+        "Short name": "HNRS 111",
+        "Full name": "Stress and Coping"
+    },
+    {
+        "Short name": "HNRS 112",
+        "Full name": "Poetry as Resistance: Remixing Archive"
+    },
+    {
+        "Short name": "HNRS 113",
+        "Full name": "Hyperconnected World: Society and Internet"
+    },
+    {
+        "Short name": "HNRS 114",
+        "Full name": "Architecture from Los Angeles: Work of Frank Gehry, Thom Mayne, and Greg Lynn"
+    },
+    {
+        "Short name": "HNRS 115",
+        "Full name": "Poetry and Society in England, 1588 to 1688: Verse, Politics, Religion, and Sexuality from Spanish Armada to Glorious Revolution"
+    },
+    {
+        "Short name": "HNRS M116",
+        "Full name": "Art Alive: Art and Improvisation in Museums"
+    },
+    {
+        "Short name": "HNRS 117",
+        "Full name": "London and Culture of Male Homosexuality, 1870 to 1900"
+    },
+    {
+        "Short name": "HNRS M118",
+        "Full name": "Roots of Patriarchy: Ancient Goddesses and Heroines"
+    },
+    {
+        "Short name": "HNRS 119",
+        "Full name": "Hollywood and Cultural Diversity in America"
+    },
+    {
+        "Short name": "HNRS M120",
+        "Full name": "Art and Performance: Interdisciplinary Approach to Collections of Getty Center"
+    },
+    {
+        "Short name": "HNRS 121",
+        "Full name": "Psychoanalysis before Freud, and a Little After"
+    },
+    {
+        "Short name": "HNRS 122",
+        "Full name": "Chemical Communication across Tree of Life"
+    },
+    {
+        "Short name": "HNRS M123",
+        "Full name": "Philanthropy as Civic Engagement"
+    },
+    {
+        "Short name": "HNRS 124",
+        "Full name": "Midwives, Mothers, and Medicine: Perspectives on History of Childbirth"
+    },
+    {
+        "Short name": "HNRS 125",
+        "Full name": "Communities and Nations in Conflict: Theory and Practice of International Conflict Resolution"
+    },
+    {
+        "Short name": "HNRS 126",
+        "Full name": "Waves of Resistance: Race, Empire, and Social Justice in Asia and Pacific Islands"
+    },
+    {
+        "Short name": "HNRS 127",
+        "Full name": "Citizenship, Leadership, and Service"
+    },
+    {
+        "Short name": "HNRS 128",
+        "Full name": "Humor as Means of Social Control"
+    },
+    {
+        "Short name": "HNRS 129",
+        "Full name": "Research in Psychology and Legacy of John Wooden"
+    },
+    {
+        "Short name": "HNRS 130",
+        "Full name": "Speeding the Cure: Activists, Experts, and Health Care"
+    },
+    {
+        "Short name": "HNRS 131",
+        "Full name": "Global Dimensions of Education and Inequality"
+    },
+    {
+        "Short name": "HNRS 132",
+        "Full name": "New Women and Activism from America to Asia"
+    },
+    {
+        "Short name": "HNRS 133",
+        "Full name": "Practice and Ethics of Ethnographic Fieldwork"
+    },
+    {
+        "Short name": "HNRS 134",
+        "Full name": "Democracy and Utopias"
+    },
+    {
+        "Short name": "HNRS 135",
+        "Full name": "Poetry and Society in England, 1588 to 1688"
+    },
+    {
+        "Short name": "HNRS 136",
+        "Full name": "Art, Entertainment, and Social Change"
+    },
+    {
+        "Short name": "HNRS 137",
+        "Full name": "Living the Dharma in America: Perspectives on Race and Buddhism"
+    },
+    {
+        "Short name": "HNRS 138",
+        "Full name": "Empire, Border Crossing, and Multiethnic Storytelling"
+    },
+    {
+        "Short name": "HNRS 139",
+        "Full name": "Confucius and His Legacies"
+    },
+    {
+        "Short name": "HNRS 140",
+        "Full name": "Dominants and Subordinates: Social Psychology of Privilege and Oppression in Public Education"
+    },
+    {
+        "Short name": "HNRS 141",
+        "Full name": "Biology and Medicine in Postgenomic Era"
+    },
+    {
+        "Short name": "HNRS 142",
+        "Full name": "Free Will and Moral Responsibility: From Neuroscience to Philosophy and Back"
+    },
+    {
+        "Short name": "HNRS M143",
+        "Full name": "Latinx Immigration Policy and Politics"
+    },
+    {
+        "Short name": "HNRS 144",
+        "Full name": "International Development: Using Your Major for Doing Well and Doing Good"
+    },
+    {
+        "Short name": "HNRS M145",
+        "Full name": "Politics of Crisis: Migration, Identity, and Religion"
+    },
+    {
+        "Short name": "HNRS 146",
+        "Full name": "Imagining Global Climate Change"
+    },
+    {
+        "Short name": "HNRS 147",
+        "Full name": "The Anthropocene: An Archaeological Perspective"
+    },
+    {
+        "Short name": "HNRS M148",
+        "Full name": "Simulating Society: Exploring Artificial Communities"
+    },
+    {
+        "Short name": "HNRS 149",
+        "Full name": "Art and Trauma"
+    },
+    {
+        "Short name": "HNRS 150",
+        "Full name": "Solo Performer\u2019s Toolbox: Storytelling for Artists and TED Talkers"
+    },
+    {
+        "Short name": "HNRS 151",
+        "Full name": "Victorian Sexual Scandals"
+    },
+    {
+        "Short name": "HNRS M152",
+        "Full name": "Past People and Their Lessons for Our Own Future"
+    },
+    {
+        "Short name": "HNRS 153",
+        "Full name": "Comedy in Literature"
+    },
+    {
+        "Short name": "HNRS 154",
+        "Full name": "Hollywood and Divided America"
+    },
+    {
+        "Short name": "HNRS 156",
+        "Full name": "Political Opposition in Early Modern Europe"
+    },
+    {
+        "Short name": "HNRS M157",
+        "Full name": "International Relations of Middle East"
+    },
+    {
+        "Short name": "HNRS 158",
+        "Full name": "Justice and Moral Responsibility in Literature"
+    },
+    {
+        "Short name": "HNRS 159",
+        "Full name": "Feminism, Art, and Metaphors of Trauma"
+    },
+    {
+        "Short name": "HNRS 160",
+        "Full name": "Asceticism"
+    },
+    {
+        "Short name": "HNRS 163",
+        "Full name": "China\u2019s Rise: Critical Issues and Global Implications"
+    },
+    {
+        "Short name": "HNRS 164",
+        "Full name": "Between Species: Human/Non-Human Animal Relationship"
+    },
+    {
+        "Short name": "HNRS 165",
+        "Full name": "Privacy versus National Security"
+    },
+    {
+        "Short name": "HNRS 166",
+        "Full name": "Stories of Cultural Distance and Imposed Assimilation"
+    },
+    {
+        "Short name": "HNRS 168",
+        "Full name": "Paris: Biography of City from 1715 to World War II"
+    },
+    {
+        "Short name": "HNRS 169",
+        "Full name": "Imposture and National Identity"
+    },
+    {
+        "Short name": "HNRS M170",
+        "Full name": "Philanthropy: Confronting Challenges of Serving Disabled"
+    },
+    {
+        "Short name": "HNRS 171",
+        "Full name": "Emotion, Reason, and Political Power"
+    },
+    {
+        "Short name": "HNRS 172",
+        "Full name": "French Thinkers of Society"
+    },
+    {
+        "Short name": "HNRS 173",
+        "Full name": "American Political Thought from Revolution to Civil War"
+    },
+    {
+        "Short name": "HNRS 173A",
+        "Full name": "Liberty, Government, and Society in European Thought"
+    },
+    {
+        "Short name": "HNRS 173B",
+        "Full name": "Nature, Culture, and Capitalism in European Thought"
+    },
+    {
+        "Short name": "HNRS 174",
+        "Full name": "Future Impact of Nano in New Technologies"
+    },
+    {
+        "Short name": "HNRS M175",
+        "Full name": "Terrorism, Counterterrorism, and Weapons of Mass Destruction: Practical Approach"
+    },
+    {
+        "Short name": "HNRS 176A",
+        "Full name": "Context of Arab World: Cairo and Alexandria"
+    },
+    {
+        "Short name": "HNRS 176B",
+        "Full name": "Reading Arab World: Cairo and Alexandria"
+    },
+    {
+        "Short name": "HNRS 177",
+        "Full name": "Biotechnology and Art"
+    },
+    {
+        "Short name": "HNRS 178",
+        "Full name": "Secret Coups, Imperial Wars, and American Democracy since World War II"
+    },
+    {
+        "Short name": "HNRS M179",
+        "Full name": "Critical Vision: History of Art as Social and Political Commentary"
+    },
+    {
+        "Short name": "HNRS M180",
+        "Full name": "Structure, Patterns, and Polyhedra"
+    },
+    {
+        "Short name": "HNRS 182",
+        "Full name": "From Scientific Revolution to Industrial Revolution"
+    },
+    {
+        "Short name": "HNRS M183",
+        "Full name": "Being Human: Identity in Age of Genomics and Neuroscience"
+    },
+    {
+        "Short name": "HNRS 184",
+        "Full name": "India and Pakistan: Historic Roots of Conflict and Prospects for Cooperation"
+    },
+    {
+        "Short name": "HNRS 188SA",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "HNRS 188SB",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "HNRS 188SC",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "HNRS 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "HNRS 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "HNRS 193A",
+        "Full name": "Journal Club Seminars"
+    },
+    {
+        "Short name": "HUM GEN 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "HUM GEN 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "HUM GEN CM124",
+        "Full name": "Machine Learning Applications in Genetics"
+    },
+    {
+        "Short name": "HUM GEN C144",
+        "Full name": "Genomic Technology"
+    },
+    {
+        "Short name": "HUM GEN 188SA",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "HUM GEN 188SB",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "HUM GEN 188SC",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "HUM GEN 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "HUM GEN 199",
+        "Full name": "Special Studies in Human Genetics"
+    },
+    {
+        "Short name": "HUM GEN M203",
+        "Full name": "Stochastic Models in Biology"
+    },
+    {
+        "Short name": "HUM GEN M207A",
+        "Full name": "Theoretical Genetic Modeling"
+    },
+    {
+        "Short name": "HUM GEN M207B",
+        "Full name": "Applied Genetic Modeling"
+    },
+    {
+        "Short name": "HUM GEN 210",
+        "Full name": "Topics in Genomics"
+    },
+    {
+        "Short name": "HUM GEN M211",
+        "Full name": "Mathematical and Statistical Phylogenetics"
+    },
+    {
+        "Short name": "HUM GEN CM224",
+        "Full name": "Machine Learning Applications in Genetics"
+    },
+    {
+        "Short name": "HUM GEN M226",
+        "Full name": "Machine Learning in Bioinformatics"
+    },
+    {
+        "Short name": "HUM GEN M229S",
+        "Full name": "Seminar: Current Topics in Bioinformatics"
+    },
+    {
+        "Short name": "HUM GEN 236A",
+        "Full name": "Advanced Human Genetics A: Molecular Aspects"
+    },
+    {
+        "Short name": "HUM GEN 236B",
+        "Full name": "Advanced Human Genetics B: Genetics and Genomics Aspects"
+    },
+    {
+        "Short name": "HUM GEN C244",
+        "Full name": "Genomic Technology"
+    },
+    {
+        "Short name": "HUM GEN M255",
+        "Full name": "Mapping and Mining Human Genome"
+    },
+    {
+        "Short name": "HUM GEN M260A",
+        "Full name": "Introduction to Bioinformatics"
+    },
+    {
+        "Short name": "HUM GEN M265",
+        "Full name": "Computational Methods in Genomics"
+    },
+    {
+        "Short name": "HUM GEN 282",
+        "Full name": "Topics on Scientific Careers"
+    },
+    {
+        "Short name": "HUM GEN 400A",
+        "Full name": "Principles and Practices in Medical Genetics 1"
+    },
+    {
+        "Short name": "HUM GEN 400B",
+        "Full name": "Principles and Practices in Medical Genetics 2"
+    },
+    {
+        "Short name": "HUM GEN 400C",
+        "Full name": "Principles and Practices in Medical Genetics 3"
+    },
+    {
+        "Short name": "HUM GEN 401",
+        "Full name": "Fundamental Genetic Counseling Skills"
+    },
+    {
+        "Short name": "HUM GEN 402",
+        "Full name": "Reproductive Genetics in Practice"
+    },
+    {
+        "Short name": "HUM GEN 403",
+        "Full name": "Specialty Genetics in Practice"
+    },
+    {
+        "Short name": "HUM GEN 404",
+        "Full name": "Advanced Genetic Counseling Skills"
+    },
+    {
+        "Short name": "HUM GEN 405",
+        "Full name": "Professional Development in Genetic Counseling"
+    },
+    {
+        "Short name": "HUM GEN 406",
+        "Full name": "Foundations of Genomic Medicine"
+    },
+    {
+        "Short name": "HUM GEN 410",
+        "Full name": "Translational Genomics"
+    },
+    {
+        "Short name": "HUM GEN 411",
+        "Full name": "Foundations in Genetic Counseling Research"
+    },
+    {
+        "Short name": "HUM GEN 412",
+        "Full name": "Research Applications in Genetic Counseling"
+    },
+    {
+        "Short name": "HUM GEN 413",
+        "Full name": "Ethical, Legal, and Societal Topics in Genetic Counseling"
+    },
+    {
+        "Short name": "HUM GEN 414",
+        "Full name": "Genetic Counseling Communication Seminar"
+    },
+    {
+        "Short name": "HUM GEN 430",
+        "Full name": "Clinical Applications of Cytogenetics and Molecular Techniques"
+    },
+    {
+        "Short name": "HUM GEN 431A",
+        "Full name": "Fieldwork"
+    },
+    {
+        "Short name": "HUM GEN 431B",
+        "Full name": "Fieldwork"
+    },
+    {
+        "Short name": "HUM GEN 431C",
+        "Full name": "Fieldwork"
+    },
+    {
+        "Short name": "HUM GEN 431D",
+        "Full name": "Fieldwork"
+    },
+    {
+        "Short name": "HUM GEN 431E",
+        "Full name": "Fieldwork"
+    },
+    {
+        "Short name": "HUM GEN 596",
+        "Full name": "Directed Individual Study and Research"
+    },
+    {
+        "Short name": "HUM GEN 597",
+        "Full name": "Preparation for MS Comprehensive Examination or PhD Qualifying Examinations"
+    },
+    {
+        "Short name": "HUM GEN 598",
+        "Full name": "MS Thesis Research and Writing"
+    },
+    {
+        "Short name": "HUM GEN 599",
+        "Full name": "PhD Dissertation Research and Writing"
+    },
+    {
+        "Short name": "HNGAR 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "HNGAR 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "HNGAR 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "HNGAR 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "HNGAR 101A",
+        "Full name": "Elementary Hungarian"
+    },
+    {
+        "Short name": "HNGAR 101B",
+        "Full name": "Elementary Hungarian"
+    },
+    {
+        "Short name": "HNGAR 101C",
+        "Full name": "Elementary Hungarian"
+    },
+    {
+        "Short name": "HNGAR 102A",
+        "Full name": "Advanced Hungarian"
+    },
+    {
+        "Short name": "HNGAR 102B",
+        "Full name": "Advanced Hungarian"
+    },
+    {
+        "Short name": "HNGAR 102C",
+        "Full name": "Advanced Hungarian"
+    },
+    {
+        "Short name": "HNGAR 121",
+        "Full name": "Survey of Hungarian Literature in Translation"
+    },
+    {
+        "Short name": "HNGAR 187A",
+        "Full name": "Advanced Tutorial Instruction In Hungarian"
+    },
+    {
+        "Short name": "HNGAR 187B",
+        "Full name": "Advanced Tutorial Instruction in Hungarian"
+    },
+    {
+        "Short name": "HNGAR 187C",
+        "Full name": "Advanced Tutorial Instruction in Hungarian"
+    },
+    {
+        "Short name": "HNGAR 187D",
+        "Full name": "Advanced Tutorial Instruction in Hungarian"
+    },
+    {
+        "Short name": "HNGAR 187E",
+        "Full name": "Advanced Tutorial Instruction in Hungarian"
+    },
+    {
+        "Short name": "HNGAR 187F",
+        "Full name": "Advanced Tutorial Instruction in Hungarian"
+    },
+    {
+        "Short name": "HNGAR 187G",
+        "Full name": "Advanced Tutorial Instruction in Hungarian"
+    },
+    {
+        "Short name": "HNGAR 187I",
+        "Full name": "Advanced Tutorial Instruction in Hungarian"
+    },
+    {
+        "Short name": "HNGAR 187J",
+        "Full name": "Advanced Tutorial Instruction in Hungarian"
+    },
+    {
+        "Short name": "HNGAR 187K",
+        "Full name": "Advanced Tutorial Instruction in Hungarian"
+    },
+    {
+        "Short name": "HNGAR 187L",
+        "Full name": "Advanced Tutorial Instruction in Hungarian"
+    },
+    {
+        "Short name": "HNGAR 187M",
+        "Full name": "Advanced Tutorial Instruction in Hungarian"
+    },
+    {
+        "Short name": "HNGAR 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "HNGAR 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "HNGAR 197",
+        "Full name": "Individual Studies in Hungarian"
+    },
+    {
+        "Short name": "IL AMER 1",
+        "Full name": "Elementary Zapotec"
+    },
+    {
+        "Short name": "IL AMER 2",
+        "Full name": "Elementary Zapotec"
+    },
+    {
+        "Short name": "IL AMER 3",
+        "Full name": "Elementary Zapotec"
+    },
+    {
+        "Short name": "IL AMER M5A",
+        "Full name": "Elementary Nahuatl"
+    },
+    {
+        "Short name": "IL AMER M5B",
+        "Full name": "Elementary Nahuatl"
+    },
+    {
+        "Short name": "IL AMER M5C",
+        "Full name": "Elementary Nahuatl"
+    },
+    {
+        "Short name": "IL AMER M15A",
+        "Full name": "Intermediate Nahuatl"
+    },
+    {
+        "Short name": "IL AMER M15B",
+        "Full name": "Intermediate Nahuatl"
+    },
+    {
+        "Short name": "IL AMER M15C",
+        "Full name": "Intermediate Nahuatl"
+    },
+    {
+        "Short name": "IL AMER 17",
+        "Full name": "Intensive Elementary Quechua"
+    },
+    {
+        "Short name": "IL AMER 18A",
+        "Full name": "Elementary Quechua"
+    },
+    {
+        "Short name": "IL AMER 18B",
+        "Full name": "Elementary Quechua"
+    },
+    {
+        "Short name": "IL AMER 18C",
+        "Full name": "Elementary Quechua"
+    },
+    {
+        "Short name": "IL AMER 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "IL AMER 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "IL AMER 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "IL AMER 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "IL AMER M115A",
+        "Full name": "Advanced Nahuatl"
+    },
+    {
+        "Short name": "IL AMER M115B",
+        "Full name": "Advanced Nahuatl"
+    },
+    {
+        "Short name": "IL AMER M115C",
+        "Full name": "Advanced Nahuatl"
+    },
+    {
+        "Short name": "IL AMER 119A",
+        "Full name": "Advanced Quechua"
+    },
+    {
+        "Short name": "IL AMER 119B",
+        "Full name": "Advanced Quechua"
+    },
+    {
+        "Short name": "IL AMER 119C",
+        "Full name": "Advanced Quechua"
+    },
+    {
+        "Short name": "IL AMER 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "IL AMER 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "IL AMER 191",
+        "Full name": "Variable Topics Research Seminars: Indigenous Languages"
+    },
+    {
+        "Short name": "IL AMER 596",
+        "Full name": "Directed Studies in Quechua"
+    },
+    {
+        "Short name": "I E STD 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "I E STD M20",
+        "Full name": "Visible Language: Study of Writing"
+    },
+    {
+        "Short name": "I E STD M70",
+        "Full name": "Language and Evolution"
+    },
+    {
+        "Short name": "I E STD 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "I E STD 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "I E STD 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "I E STD 131",
+        "Full name": "European Archaeology, Neolithic to Bronze Age"
+    },
+    {
+        "Short name": "I E STD 132",
+        "Full name": "European Archaeology: The Bronze Age"
+    },
+    {
+        "Short name": "I E STD 140",
+        "Full name": "Food in Language and Myth"
+    },
+    {
+        "Short name": "I E STD M150",
+        "Full name": "Introduction to Indo-European Linguistics"
+    },
+    {
+        "Short name": "I E STD C160",
+        "Full name": "Indo-European Comparative Mythology and Poetics"
+    },
+    {
+        "Short name": "I E STD M168",
+        "Full name": "Introductory Hittite"
+    },
+    {
+        "Short name": "I E STD 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "I E STD 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "I E STD 200",
+        "Full name": "Proseminar: Indo-European Studies"
+    },
+    {
+        "Short name": "I E STD 205",
+        "Full name": "Indo-European Phonology"
+    },
+    {
+        "Short name": "I E STD 210",
+        "Full name": "Indo-European Morphology"
+    },
+    {
+        "Short name": "I E STD 215",
+        "Full name": "Indo-European Syntax"
+    },
+    {
+        "Short name": "I E STD M222A",
+        "Full name": "Vedic"
+    },
+    {
+        "Short name": "I E STD M222B",
+        "Full name": "Vedic"
+    },
+    {
+        "Short name": "I E STD M230A",
+        "Full name": "Old Iranian"
+    },
+    {
+        "Short name": "I E STD M230B",
+        "Full name": "Old Iranian"
+    },
+    {
+        "Short name": "I E STD 250A",
+        "Full name": "European Archaeology"
+    },
+    {
+        "Short name": "I E STD 250B",
+        "Full name": "European Archaeology"
+    },
+    {
+        "Short name": "I E STD C260",
+        "Full name": "Indo-European Comparative Mythology and Poetics"
+    },
+    {
+        "Short name": "I E STD 280A",
+        "Full name": "Seminar: Indo-European Linguistics"
+    },
+    {
+        "Short name": "I E STD 280B",
+        "Full name": "Seminar: Indo-European Linguistics"
+    },
+    {
+        "Short name": "I E STD 281A",
+        "Full name": "Seminar: Indo-European Linguistics"
+    },
+    {
+        "Short name": "I E STD 281B",
+        "Full name": "Seminar: Indo-European Linguistics"
+    },
+    {
+        "Short name": "I E STD 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "INDO 1",
+        "Full name": "Introductory Indonesian"
+    },
+    {
+        "Short name": "INDO 2",
+        "Full name": "Introductory Indonesian"
+    },
+    {
+        "Short name": "INDO 3",
+        "Full name": "Introductory Indonesian"
+    },
+    {
+        "Short name": "INDO 4",
+        "Full name": "Intermediate Indonesian"
+    },
+    {
+        "Short name": "INDO 5",
+        "Full name": "Intermediate Indonesian"
+    },
+    {
+        "Short name": "INDO 6",
+        "Full name": "Intermediate Indonesian"
+    },
+    {
+        "Short name": "INDO 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "INDO 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "INDO 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "INDO 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "INDO 100A",
+        "Full name": "Advanced Indonesian"
+    },
+    {
+        "Short name": "INDO 100B",
+        "Full name": "Advanced Indonesian"
+    },
+    {
+        "Short name": "INDO 100C",
+        "Full name": "Advanced Indonesian"
+    },
+    {
+        "Short name": "INDO 109",
+        "Full name": "Advanced Tutorial Instruction in Indonesian"
+    },
+    {
+        "Short name": "INDO 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "INDO 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "INF STD 10",
+        "Full name": "Information and Power"
+    },
+    {
+        "Short name": "INF STD 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "INF STD 20",
+        "Full name": "Digital Cultures and Societies"
+    },
+    {
+        "Short name": "INF STD 30",
+        "Full name": "Internet and Society"
+    },
+    {
+        "Short name": "INF STD 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "INF STD 97",
+        "Full name": "Variable Topics in Information Studies"
+    },
+    {
+        "Short name": "INF STD 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "INF STD C115",
+        "Full name": "Introduction to Information Literacies"
+    },
+    {
+        "Short name": "INF STD 118",
+        "Full name": "Data and Ethics in Society"
+    },
+    {
+        "Short name": "INF STD M121",
+        "Full name": "Introduction to Media Literacies"
+    },
+    {
+        "Short name": "INF STD M135",
+        "Full name": "Environmental Justice through Lens of Media and Education"
+    },
+    {
+        "Short name": "INF STD 139",
+        "Full name": "Letterpress Laboratory"
+    },
+    {
+        "Short name": "INF STD 180",
+        "Full name": "Special Topics in Information Studies"
+    },
+    {
+        "Short name": "INF STD 188SA",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "INF STD 188SB",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "INF STD 188SC",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "INF STD 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "INF STD 199",
+        "Full name": "Directed Research in Information Studies"
+    },
+    {
+        "Short name": "INF STD 200",
+        "Full name": "Information in Society"
+    },
+    {
+        "Short name": "INF STD 201",
+        "Full name": "Ethics, Diversity, and Change in Information Professions"
+    },
+    {
+        "Short name": "INF STD 202",
+        "Full name": "History of Books and Literacy Technologies"
+    },
+    {
+        "Short name": "INF STD 203",
+        "Full name": "Seminar: Intellectual Freedom and Information Policy Issues"
+    },
+    {
+        "Short name": "INF STD 204",
+        "Full name": "Scholarly Communication and Publishing"
+    },
+    {
+        "Short name": "INF STD 205",
+        "Full name": "Cyberspace Law and Policy"
+    },
+    {
+        "Short name": "INF STD 206",
+        "Full name": "Introduction to Economics of Information"
+    },
+    {
+        "Short name": "INF STD 207",
+        "Full name": "International Issues and Comparative Research in Information Studies"
+    },
+    {
+        "Short name": "INF STD 208",
+        "Full name": "Scholarly Communication and Bibliometrics"
+    },
+    {
+        "Short name": "INF STD 209",
+        "Full name": "Perspectives on Information Societies"
+    },
+    {
+        "Short name": "INF STD 210",
+        "Full name": "Global Media and Information"
+    },
+    {
+        "Short name": "INF STD 211",
+        "Full name": "Artifacts and Cultures"
+    },
+    {
+        "Short name": "INF STD 212",
+        "Full name": "Values and Communities in Information Professions"
+    },
+    {
+        "Short name": "INF STD 213",
+        "Full name": "Current Issues in Librarianship"
+    },
+    {
+        "Short name": "INF STD 214",
+        "Full name": "Informatics: Principles and Practices"
+    },
+    {
+        "Short name": "INF STD C215",
+        "Full name": "Introduction to Information Literacies"
+    },
+    {
+        "Short name": "INF STD 227",
+        "Full name": "Information Services in Culturally Diverse Communities"
+    },
+    {
+        "Short name": "INF STD 228",
+        "Full name": "Assessment, Measurement, and Evaluation of Information Organizations and Services"
+    },
+    {
+        "Short name": "INF STD M229C",
+        "Full name": "Introduction to Slavic Bibliography"
+    },
+    {
+        "Short name": "INF STD 233",
+        "Full name": "Records and Information Resources Management"
+    },
+    {
+        "Short name": "INF STD 234",
+        "Full name": "Contemporary Children\u2019s Literature"
+    },
+    {
+        "Short name": "INF STD 236",
+        "Full name": "Approaches to Materialities of Texts and Media"
+    },
+    {
+        "Short name": "INF STD 237",
+        "Full name": "Analytical Bibliography"
+    },
+    {
+        "Short name": "INF STD M238",
+        "Full name": "Environmental Protection of Collections for Museums, Libraries, and Archives"
+    },
+    {
+        "Short name": "INF STD 239",
+        "Full name": "Letterpress Laboratory"
+    },
+    {
+        "Short name": "INF STD 240",
+        "Full name": "Management of Digital Records"
+    },
+    {
+        "Short name": "INF STD 241",
+        "Full name": "Digital Preservation"
+    },
+    {
+        "Short name": "INF STD M244",
+        "Full name": "Collection Management for Archives, Libraries, and Museums"
+    },
+    {
+        "Short name": "INF STD 245",
+        "Full name": "Information Access"
+    },
+    {
+        "Short name": "INF STD 246",
+        "Full name": "Information-Seeking Behavior"
+    },
+    {
+        "Short name": "INF STD 250",
+        "Full name": "Techniques and Issues in Information Access"
+    },
+    {
+        "Short name": "INF STD 251",
+        "Full name": "Seminar: Specialized Literatures"
+    },
+    {
+        "Short name": "INF STD M253",
+        "Full name": "Medical Knowledge Representation"
+    },
+    {
+        "Short name": "INF STD M254",
+        "Full name": "Medical Information Infrastructures and Internet Technologies"
+    },
+    {
+        "Short name": "INF STD M255",
+        "Full name": "Medical Decision Making"
+    },
+    {
+        "Short name": "INF STD 256",
+        "Full name": "Information Resources for Business"
+    },
+    {
+        "Short name": "INF STD 258",
+        "Full name": "Legal Information Resources and Libraries"
+    },
+    {
+        "Short name": "INF STD 259",
+        "Full name": "Seminar: Information Access"
+    },
+    {
+        "Short name": "INF STD 260",
+        "Full name": "Description and Access"
+    },
+    {
+        "Short name": "INF STD 262A",
+        "Full name": "Data Management and Practice"
+    },
+    {
+        "Short name": "INF STD 262B",
+        "Full name": "Data Curation and Policy"
+    },
+    {
+        "Short name": "INF STD 269",
+        "Full name": "Seminar: Information Structures"
+    },
+    {
+        "Short name": "INF STD 270",
+        "Full name": "Systems and Infrastructures"
+    },
+    {
+        "Short name": "INF STD 271",
+        "Full name": "Introduction to Computer Systems and Programming"
+    },
+    {
+        "Short name": "INF STD 272",
+        "Full name": "Human/Computer Interaction"
+    },
+    {
+        "Short name": "INF STD 273",
+        "Full name": "Communities, Information, and Civic Life"
+    },
+    {
+        "Short name": "INF STD 274",
+        "Full name": "Database Management Systems"
+    },
+    {
+        "Short name": "INF STD 275",
+        "Full name": "Community Media and Design"
+    },
+    {
+        "Short name": "INF STD 276",
+        "Full name": "Information Retrieval Systems: Structures and Algorithms"
+    },
+    {
+        "Short name": "INF STD 277",
+        "Full name": "Information Retrieval Systems: User-Centered Designs"
+    },
+    {
+        "Short name": "INF STD 278",
+        "Full name": "Information and Visualization"
+    },
+    {
+        "Short name": "INF STD 279",
+        "Full name": "User Experience Design"
+    },
+    {
+        "Short name": "INF STD 280",
+        "Full name": "Social Science Research Methodology for Information Studies"
+    },
+    {
+        "Short name": "INF STD 281",
+        "Full name": "Historical Methodology of Information Studies"
+    },
+    {
+        "Short name": "INF STD 282",
+        "Full name": "Design as Research Method"
+    },
+    {
+        "Short name": "INF STD 288",
+        "Full name": "Research Apprenticeship Course"
+    },
+    {
+        "Short name": "INF STD 289",
+        "Full name": "Seminar: Special Issues in Information Studies"
+    },
+    {
+        "Short name": "INF STD 290",
+        "Full name": "Research Seminar: Information Studies"
+    },
+    {
+        "Short name": "INF STD 291A",
+        "Full name": "Doctoral Seminar: Theoretical Traditions in Information Studies"
+    },
+    {
+        "Short name": "INF STD 291B",
+        "Full name": "Special Topics in Theory of Information Studies"
+    },
+    {
+        "Short name": "INF STD 291C",
+        "Full name": "Special Topics in Theory of Information Studies"
+    },
+    {
+        "Short name": "INF STD 298A",
+        "Full name": "Doctoral Seminar: Research Methods and Design"
+    },
+    {
+        "Short name": "INF STD 298B",
+        "Full name": "Special Topics in Methodology of Information Studies"
+    },
+    {
+        "Short name": "INF STD 298C",
+        "Full name": "Special Topics in Methodology of Information Studies"
+    },
+    {
+        "Short name": "INF STD 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "INF STD 400",
+        "Full name": "Professional Development and Portfolio Design"
+    },
+    {
+        "Short name": "INF STD 410",
+        "Full name": "Management Theory and Practice for Information Professionals"
+    },
+    {
+        "Short name": "INF STD 421",
+        "Full name": "Special Libraries and Information Centers"
+    },
+    {
+        "Short name": "INF STD 422",
+        "Full name": "College, University, and Research Libraries"
+    },
+    {
+        "Short name": "INF STD 423",
+        "Full name": "Public Libraries"
+    },
+    {
+        "Short name": "INF STD 424",
+        "Full name": "Storytelling"
+    },
+    {
+        "Short name": "INF STD 425",
+        "Full name": "Library Services and Programs for Children"
+    },
+    {
+        "Short name": "INF STD 426",
+        "Full name": "Young Adult Literature"
+    },
+    {
+        "Short name": "INF STD 427",
+        "Full name": "Young Adult Services"
+    },
+    {
+        "Short name": "INF STD 430",
+        "Full name": "Library Collection Development"
+    },
+    {
+        "Short name": "INF STD 431",
+        "Full name": "Archives, Records, and Memory"
+    },
+    {
+        "Short name": "INF STD 432",
+        "Full name": "Issues and Problems in Preservation of Heritage Materials"
+    },
+    {
+        "Short name": "INF STD 433",
+        "Full name": "Community-Based Archiving"
+    },
+    {
+        "Short name": "INF STD 434",
+        "Full name": "Archival Use and Users"
+    },
+    {
+        "Short name": "INF STD 438A",
+        "Full name": "Seminar: Advanced Issues in Archival Science\u2014Archival Appraisal"
+    },
+    {
+        "Short name": "INF STD 438B",
+        "Full name": "Seminar: Advanced Issues in Archival Science\u2014Archival Description and Access Systems"
+    },
+    {
+        "Short name": "INF STD 439",
+        "Full name": "Seminar: Special Collections"
+    },
+    {
+        "Short name": "INF STD 447",
+        "Full name": "Computer-Based Information Resources (Online Searching)"
+    },
+    {
+        "Short name": "INF STD 455",
+        "Full name": "Government Information"
+    },
+    {
+        "Short name": "INF STD 457",
+        "Full name": "Health Sciences Librarianship"
+    },
+    {
+        "Short name": "INF STD 461",
+        "Full name": "Descriptive Cataloging"
+    },
+    {
+        "Short name": "INF STD 462",
+        "Full name": "Subject Cataloging and Classification"
+    },
+    {
+        "Short name": "INF STD 463",
+        "Full name": "Indexing and Thesaurus Construction"
+    },
+    {
+        "Short name": "INF STD 464",
+        "Full name": "Metadata"
+    },
+    {
+        "Short name": "INF STD 473",
+        "Full name": "Information Technology and Libraries"
+    },
+    {
+        "Short name": "INF STD 480",
+        "Full name": "Introduction to Media Archiving and Preservation"
+    },
+    {
+        "Short name": "INF STD 495",
+        "Full name": "Teaching Assistant Training Seminar"
+    },
+    {
+        "Short name": "INF STD 497",
+        "Full name": "Fieldwork in Libraries or Information Organizations"
+    },
+    {
+        "Short name": "INF STD 498",
+        "Full name": "Internship"
+    },
+    {
+        "Short name": "INF STD 501",
+        "Full name": "Cooperative Program"
+    },
+    {
+        "Short name": "INF STD 596",
+        "Full name": "Directed Individual Study or Research"
+    },
+    {
+        "Short name": "INF STD 597",
+        "Full name": "Directed Studies for PhD Qualifying Examinations"
+    },
+    {
+        "Short name": "INF STD 598",
+        "Full name": "MLIS Thesis Research and Writing"
+    },
+    {
+        "Short name": "INF STD 599",
+        "Full name": "PhD Research and Writing"
+    },
+    {
+        "Short name": "INTL DV 1",
+        "Full name": "Introduction to International Development Studies"
+    },
+    {
+        "Short name": "INTL DV 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "INTL DV 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "INTL DV 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "INTL DV 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "INTL DV 110",
+        "Full name": "Culture, Power, and Development"
+    },
+    {
+        "Short name": "INTL DV M120",
+        "Full name": "Political Economy of Development"
+    },
+    {
+        "Short name": "INTL DV 130",
+        "Full name": "Theory and History in International Development"
+    },
+    {
+        "Short name": "INTL DV 140",
+        "Full name": "Decolonizing Political Economy: Colonialism and Development"
+    },
+    {
+        "Short name": "INTL DV M150",
+        "Full name": "Political Economy of Climate Change"
+    },
+    {
+        "Short name": "INTL DV 160",
+        "Full name": "Selected Topics in International Development Studies"
+    },
+    {
+        "Short name": "INTL DV 188",
+        "Full name": "Special Courses in International Development Studies"
+    },
+    {
+        "Short name": "INTL DV 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "INTL DV 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "INTL DV 191",
+        "Full name": "Variable Topics Research Seminars: International Development Studies\u2014Senior Seminar"
+    },
+    {
+        "Short name": "INTL DV 192",
+        "Full name": "Undergraduate Practicum in International Development Studies"
+    },
+    {
+        "Short name": "INTL DV 193",
+        "Full name": "Colloquia and Speaker Series"
+    },
+    {
+        "Short name": "INTL DV 194",
+        "Full name": "Research Group Seminar"
+    },
+    {
+        "Short name": "INTL DV 195",
+        "Full name": "Community or Corporate Internships in International Development Studies"
+    },
+    {
+        "Short name": "INTL DV 198A",
+        "Full name": "Honors Research in International Development Studies"
+    },
+    {
+        "Short name": "INTL DV 198B",
+        "Full name": "Honors Research in International Development Studies"
+    },
+    {
+        "Short name": "INTL DV 198C",
+        "Full name": "Honors Research in International Development Studies"
+    },
+    {
+        "Short name": "INTL DV 199",
+        "Full name": "Directed Research in International Development Studies"
+    },
+    {
+        "Short name": "INTL DV 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "I M STD 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "I M STD 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "I M STD 155",
+        "Full name": "Theory, Research, and Methods in Study of International Migration"
+    },
+    {
+        "Short name": "I M STD 193",
+        "Full name": "Colloquia and Speaker Series"
+    },
+    {
+        "Short name": "I M STD 199",
+        "Full name": "Directed Individual Research in International Migration Studies"
+    },
+    {
+        "Short name": "I A STD 1",
+        "Full name": "Introduction to International and Area Studies"
+    },
+    {
+        "Short name": "I A STD M5A",
+        "Full name": "Elementary Nahuatl"
+    },
+    {
+        "Short name": "I A STD M5B",
+        "Full name": "Elementary Nahuatl"
+    },
+    {
+        "Short name": "I A STD M5C",
+        "Full name": "Elementary Nahuatl"
+    },
+    {
+        "Short name": "I A STD M6A",
+        "Full name": "Elementary Amharic"
+    },
+    {
+        "Short name": "I A STD M6B",
+        "Full name": "Elementary Amharic"
+    },
+    {
+        "Short name": "I A STD M6C",
+        "Full name": "Elementary Amharic"
+    },
+    {
+        "Short name": "I A STD M7A",
+        "Full name": "Elementary Yoruba"
+    },
+    {
+        "Short name": "I A STD M7B",
+        "Full name": "Elementary Yoruba"
+    },
+    {
+        "Short name": "I A STD M7C",
+        "Full name": "Elementary Yoruba"
+    },
+    {
+        "Short name": "I A STD 10",
+        "Full name": "Explorations in International Studies"
+    },
+    {
+        "Short name": "I A STD M15A",
+        "Full name": "Intermediate Nahuatl"
+    },
+    {
+        "Short name": "I A STD M15B",
+        "Full name": "Intermediate Nahuatl"
+    },
+    {
+        "Short name": "I A STD M15C",
+        "Full name": "Intermediate Nahuatl"
+    },
+    {
+        "Short name": "I A STD 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "I A STD 31",
+        "Full name": "Introduction to Southeast Asia"
+    },
+    {
+        "Short name": "I A STD 33",
+        "Full name": "Introduction to East Asia"
+    },
+    {
+        "Short name": "I A STD 40",
+        "Full name": "Introduction to Europe"
+    },
+    {
+        "Short name": "I A STD 50",
+        "Full name": "Introduction to Latin America"
+    },
+    {
+        "Short name": "I A STD 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "I A STD 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "I A STD 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "I A STD 110A",
+        "Full name": "Field Studies in International and Area Studies"
+    },
+    {
+        "Short name": "I A STD 110B",
+        "Full name": "Field Studies in International and Area Studies"
+    },
+    {
+        "Short name": "I A STD 111A",
+        "Full name": "Art of Citizen Diplomacy"
+    },
+    {
+        "Short name": "I A STD 111B",
+        "Full name": "Introduction to Experiential Learning Abroad"
+    },
+    {
+        "Short name": "I A STD 111C",
+        "Full name": "Engaging Global Cultures: Reflecting on Fieldwork"
+    },
+    {
+        "Short name": "I A STD M115A",
+        "Full name": "Advanced Nahuatl"
+    },
+    {
+        "Short name": "I A STD M115B",
+        "Full name": "Advanced Nahuatl"
+    },
+    {
+        "Short name": "I A STD M115C",
+        "Full name": "Advanced Nahuatl"
+    },
+    {
+        "Short name": "I A STD 160",
+        "Full name": "Selected Topics in International and Area Studies"
+    },
+    {
+        "Short name": "I A STD 188",
+        "Full name": "Special Courses in International and Area Studies"
+    },
+    {
+        "Short name": "I A STD 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "I A STD 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "I A STD 191",
+        "Full name": "Variable Topics Senior Research Seminars: International and Area Studies"
+    },
+    {
+        "Short name": "I A STD 193",
+        "Full name": "Colloquia and Speaker Series"
+    },
+    {
+        "Short name": "I A STD 195CE",
+        "Full name": "Community and Corporate Internships in International and Area Studies"
+    },
+    {
+        "Short name": "I A STD 198A",
+        "Full name": "Honors Research in International and Area Studies"
+    },
+    {
+        "Short name": "I A STD 198B",
+        "Full name": "Honors Research in International and Area Studies"
+    },
+    {
+        "Short name": "I A STD 198C",
+        "Full name": "Honors Research in International and Area Studies"
+    },
+    {
+        "Short name": "IRANIAN 1A",
+        "Full name": "Elementary Persian"
+    },
+    {
+        "Short name": "IRANIAN 1B",
+        "Full name": "Elementary Persian"
+    },
+    {
+        "Short name": "IRANIAN 1C",
+        "Full name": "Elementary Persian"
+    },
+    {
+        "Short name": "IRANIAN 8",
+        "Full name": "Elementary Persian: Intensive"
+    },
+    {
+        "Short name": "IRANIAN 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "IRANIAN 20A",
+        "Full name": "Accelerated Elementary Persian"
+    },
+    {
+        "Short name": "IRANIAN 20B",
+        "Full name": "Accelerated Elementary Persian"
+    },
+    {
+        "Short name": "IRANIAN 20C",
+        "Full name": "Accelerated Elementary Persian"
+    },
+    {
+        "Short name": "IRANIAN 55",
+        "Full name": "Gender and Sexuality in Arts and Literatures of Iran and Middle East"
+    },
+    {
+        "Short name": "IRANIAN M60",
+        "Full name": "Achaemenid Civilization and Empire of Alexander"
+    },
+    {
+        "Short name": "IRANIAN 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "IRANIAN 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "IRANIAN 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "IRANIAN 102A",
+        "Full name": "Intermediate Persian"
+    },
+    {
+        "Short name": "IRANIAN 102B",
+        "Full name": "Intermediate Persian"
+    },
+    {
+        "Short name": "IRANIAN 102C",
+        "Full name": "Intermediate Persian"
+    },
+    {
+        "Short name": "IRANIAN 103A",
+        "Full name": "Advanced Persian: Introduction to Classical Persian Poetry"
+    },
+    {
+        "Short name": "IRANIAN 103B",
+        "Full name": "Advanced Persian: Introduction to Classical Persian Prose"
+    },
+    {
+        "Short name": "IRANIAN 103C",
+        "Full name": "Advanced Persian: Introduction to Contemporary Persian Poetry and Prose"
+    },
+    {
+        "Short name": "IRANIAN 104",
+        "Full name": "Philosophical Texts"
+    },
+    {
+        "Short name": "IRANIAN M105A",
+        "Full name": "Bah\u00e1\u2019\u00ed Faith in Iran: Historical and Sociological Survey"
+    },
+    {
+        "Short name": "IRANIAN M105B",
+        "Full name": "Bah\u00e1\u2019\u00ed Faith in Iran: Survey of Bah\u00e1\u2019\u00ed Scriptures and Thought"
+    },
+    {
+        "Short name": "IRANIAN M105C",
+        "Full name": "Bah\u00e1\u2019\u00ed Faith in Iran: 20th Century Iran and the Bah\u00e1\u2019\u00eds"
+    },
+    {
+        "Short name": "IRANIAN M110A",
+        "Full name": "Iranian Civilization: History of Achaemenid Empire"
+    },
+    {
+        "Short name": "IRANIAN M110B",
+        "Full name": "Iranian Civilization: History of Arsacid (Parthian) Empire"
+    },
+    {
+        "Short name": "IRANIAN M110C",
+        "Full name": "Iranian Civilization: History of Early Sasanian Empire\u2014From Ardashir I to Rise of Peroz (circa 224-459 CE)"
+    },
+    {
+        "Short name": "IRANIAN M115A",
+        "Full name": "Elementary Azeri"
+    },
+    {
+        "Short name": "IRANIAN M115B",
+        "Full name": "Elementary Azeri"
+    },
+    {
+        "Short name": "IRANIAN M115C",
+        "Full name": "Elementary Azeri"
+    },
+    {
+        "Short name": "IRANIAN 120",
+        "Full name": "Comparative Study of Six Major Persian Poets"
+    },
+    {
+        "Short name": "IRANIAN 130",
+        "Full name": "Intellectual History of Jews of Persia"
+    },
+    {
+        "Short name": "IRANIAN 131",
+        "Full name": "Introduction to Judeo-Persian: Literature and Culture"
+    },
+    {
+        "Short name": "IRANIAN 132",
+        "Full name": "Intermediate Judeo-Persian Literature and Culture"
+    },
+    {
+        "Short name": "IRANIAN 140",
+        "Full name": "Persian Belles Lettres (Adabiyyat)"
+    },
+    {
+        "Short name": "IRANIAN 141",
+        "Full name": "Persian Analytical Prose"
+    },
+    {
+        "Short name": "IRANIAN 142",
+        "Full name": "Persian Popular Ethics"
+    },
+    {
+        "Short name": "IRANIAN 150A",
+        "Full name": "Survey of Persian Literature in English"
+    },
+    {
+        "Short name": "IRANIAN 150B",
+        "Full name": "Survey of Persian Literature in English"
+    },
+    {
+        "Short name": "IRANIAN 161A",
+        "Full name": "Elementary Middle Iranian"
+    },
+    {
+        "Short name": "IRANIAN 161B",
+        "Full name": "Elementary Middle Iranian"
+    },
+    {
+        "Short name": "IRANIAN 161C",
+        "Full name": "Elementary Middle Iranian"
+    },
+    {
+        "Short name": "IRANIAN CM163",
+        "Full name": "Archaeology of Iran"
+    },
+    {
+        "Short name": "IRANIAN 164",
+        "Full name": "Ancient Cities of Iran: Archaeological Survey of Historic Cities and Sites of Iran from 4000 BC to 1900 AD"
+    },
+    {
+        "Short name": "IRANIAN 169",
+        "Full name": "Civilization of Pre-Islamic Iran"
+    },
+    {
+        "Short name": "IRANIAN 170",
+        "Full name": "Religion in Ancient Iran"
+    },
+    {
+        "Short name": "IRANIAN M178",
+        "Full name": "Introduction to History and Culture of Iranian Jews"
+    },
+    {
+        "Short name": "IRANIAN 187",
+        "Full name": "Variable Topics in Iranian Studies"
+    },
+    {
+        "Short name": "IRANIAN 188FL",
+        "Full name": "Special Studies: Readings in Iranian"
+    },
+    {
+        "Short name": "IRANIAN 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "IRANIAN 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "IRANIAN 197",
+        "Full name": "Individual Studies in Iranian"
+    },
+    {
+        "Short name": "IRANIAN 199",
+        "Full name": "Directed Research or Senior Project in Iranian"
+    },
+    {
+        "Short name": "IRANIAN M210",
+        "Full name": "Topics in Ancient Iranian History"
+    },
+    {
+        "Short name": "IRANIAN 220A",
+        "Full name": "Classical Persian Texts"
+    },
+    {
+        "Short name": "IRANIAN 220B",
+        "Full name": "Classical Persian Texts"
+    },
+    {
+        "Short name": "IRANIAN 221",
+        "Full name": "Rumi, Mystic Poet of Islam"
+    },
+    {
+        "Short name": "IRANIAN M222A",
+        "Full name": "Vedic"
+    },
+    {
+        "Short name": "IRANIAN M222B",
+        "Full name": "Vedic"
+    },
+    {
+        "Short name": "IRANIAN M230A",
+        "Full name": "Old Iranian"
+    },
+    {
+        "Short name": "IRANIAN M230B",
+        "Full name": "Old Iranian"
+    },
+    {
+        "Short name": "IRANIAN 231A",
+        "Full name": "Advanced Middle Iranian"
+    },
+    {
+        "Short name": "IRANIAN 231B",
+        "Full name": "Advanced Middle Iranian"
+    },
+    {
+        "Short name": "IRANIAN 231C",
+        "Full name": "Advanced Middle Iranian"
+    },
+    {
+        "Short name": "IRANIAN 250",
+        "Full name": "Seminar: Classcial Persian Literature"
+    },
+    {
+        "Short name": "IRANIAN 251",
+        "Full name": "Seminar: Contemporary Persian Literature"
+    },
+    {
+        "Short name": "IRANIAN CM259",
+        "Full name": "Archaeology of Iran"
+    },
+    {
+        "Short name": "IRANIAN 596",
+        "Full name": "Directed Individual Study"
+    },
+    {
+        "Short name": "IRANIAN 597",
+        "Full name": "Examination Preparation"
+    },
+    {
+        "Short name": "IRANIAN 599",
+        "Full name": "PhD Dissertation Research and Preparation"
+    },
+    {
+        "Short name": "ISLM ST 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ISLM ST M20",
+        "Full name": "Introduction to Islam"
+    },
+    {
+        "Short name": "ISLM ST 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ISLM ST 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ISLM ST 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ISLM ST M107",
+        "Full name": "Islam in West"
+    },
+    {
+        "Short name": "ISLM ST M111",
+        "Full name": "Introduction to Islamic Archaeology"
+    },
+    {
+        "Short name": "ISLM ST M112",
+        "Full name": "Archaeology and Art of Christian and Islamic Egypt"
+    },
+    {
+        "Short name": "ISLM ST M115",
+        "Full name": "Islam and Other Religions"
+    },
+    {
+        "Short name": "ISLM ST 130",
+        "Full name": "Shi\u2019a in Islamic History"
+    },
+    {
+        "Short name": "ISLM ST 151",
+        "Full name": "Islamic Thought"
+    },
+    {
+        "Short name": "ISLM ST 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ISLM ST 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ISLM ST 197",
+        "Full name": "Individual Studies in Islamic Studies"
+    },
+    {
+        "Short name": "ISLM ST 199",
+        "Full name": "Directed Research or Senior Project in Islamic Studies"
+    },
+    {
+        "Short name": "ISLM ST 200",
+        "Full name": "Introduction to Islamic Studies"
+    },
+    {
+        "Short name": "ISLM ST 201",
+        "Full name": "Arabo-Islamic Sciences"
+    },
+    {
+        "Short name": "ISLM ST 291A",
+        "Full name": "Variable Topics in Islamic Studies"
+    },
+    {
+        "Short name": "ISLM ST 596",
+        "Full name": "Directed Individual Study"
+    },
+    {
+        "Short name": "ISLM ST 597",
+        "Full name": "Examination Preparation"
+    },
+    {
+        "Short name": "ITALIAN 1",
+        "Full name": "Elementary Italian\u2014Beginning"
+    },
+    {
+        "Short name": "ITALIAN 2",
+        "Full name": "Elementary Italian\u2014Continued"
+    },
+    {
+        "Short name": "ITALIAN 3",
+        "Full name": "Elementary Italian\u2014Continued"
+    },
+    {
+        "Short name": "ITALIAN 4",
+        "Full name": "Intermediate Italian"
+    },
+    {
+        "Short name": "ITALIAN 5",
+        "Full name": "Intermediate Italian"
+    },
+    {
+        "Short name": "ITALIAN 6",
+        "Full name": "Intermediate Italian"
+    },
+    {
+        "Short name": "ITALIAN 9",
+        "Full name": "Intensive Italian"
+    },
+    {
+        "Short name": "ITALIAN 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ITALIAN 42A",
+        "Full name": "Italy through Ages in English: Saints and Sinners in Early Modern Italy"
+    },
+    {
+        "Short name": "ITALIAN 42B",
+        "Full name": "Italy through Ages in English: Modern and Contemporary Italy"
+    },
+    {
+        "Short name": "ITALIAN 42C",
+        "Full name": "Italy Through the Ages in English: Food and Literature in Italy"
+    },
+    {
+        "Short name": "ITALIAN 46",
+        "Full name": "Italian Cinema and Culture in English"
+    },
+    {
+        "Short name": "ITALIAN 50A",
+        "Full name": "Masterpieces of Italian Literature in English: Middle Ages to Baroque"
+    },
+    {
+        "Short name": "ITALIAN 50B",
+        "Full name": "Masterpieces of Italian Literature in English: Enlightenment to Postmodernity"
+    },
+    {
+        "Short name": "ITALIAN 77",
+        "Full name": "Encounters between Christianity, Islam, and New Worlds in Age of Discovery"
+    },
+    {
+        "Short name": "ITALIAN 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ITALIAN 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ITALIAN 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ITALIAN 100",
+        "Full name": "Composition and Style"
+    },
+    {
+        "Short name": "ITALIAN 102A",
+        "Full name": "Italian Cultural Experience in English"
+    },
+    {
+        "Short name": "ITALIAN 102B",
+        "Full name": "Italian Cultural Experience in English"
+    },
+    {
+        "Short name": "ITALIAN 102C",
+        "Full name": "Italian Cultural Experience in English"
+    },
+    {
+        "Short name": "ITALIAN 103A",
+        "Full name": "Introduction to Classic Italian Literary and Cultural Studies"
+    },
+    {
+        "Short name": "ITALIAN 103B",
+        "Full name": "Introduction to Modern Italian Literary and Cultural Studies"
+    },
+    {
+        "Short name": "ITALIAN 110",
+        "Full name": "Dante in English"
+    },
+    {
+        "Short name": "ITALIAN 113",
+        "Full name": "Dante\u2019s La Divina Commedia"
+    },
+    {
+        "Short name": "ITALIAN 114B",
+        "Full name": "Middle Ages: Medieval Humor, Moralism, and Society"
+    },
+    {
+        "Short name": "ITALIAN 116A",
+        "Full name": "Italian Renaissance: Renewal of Art and Thought"
+    },
+    {
+        "Short name": "ITALIAN 116B",
+        "Full name": "Italian Renaissance: Power and Imagination in Renaissance"
+    },
+    {
+        "Short name": "ITALIAN 120",
+        "Full name": "Modern and Contemporary Literature"
+    },
+    {
+        "Short name": "ITALIAN 121",
+        "Full name": "Literature and Film"
+    },
+    {
+        "Short name": "ITALIAN 122",
+        "Full name": "Italian Theater"
+    },
+    {
+        "Short name": "ITALIAN 123",
+        "Full name": "Modern Italian Cultural Studies"
+    },
+    {
+        "Short name": "ITALIAN 124",
+        "Full name": "Food and Literature in Italy"
+    },
+    {
+        "Short name": "ITALIAN 125",
+        "Full name": "Italian through Opera"
+    },
+    {
+        "Short name": "ITALIAN 131",
+        "Full name": "Reading and Reciting"
+    },
+    {
+        "Short name": "ITALIAN 140",
+        "Full name": "Italian Novella from Boccaccio to Basile in Translation"
+    },
+    {
+        "Short name": "ITALIAN 150",
+        "Full name": "Modern Fiction in Translation"
+    },
+    {
+        "Short name": "ITALIAN 152",
+        "Full name": "Italy between Europe and Africa"
+    },
+    {
+        "Short name": "ITALIAN M158",
+        "Full name": "Women, Gender, and Sexuality in Italian Culture"
+    },
+    {
+        "Short name": "ITALIAN 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ITALIAN 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ITALIAN 191",
+        "Full name": "Variable Topics Research Seminars: Italian Studies"
+    },
+    {
+        "Short name": "ITALIAN 195",
+        "Full name": "Community or Corporate Internships in Italian"
+    },
+    {
+        "Short name": "ITALIAN 198",
+        "Full name": "Honors Research in Italian"
+    },
+    {
+        "Short name": "ITALIAN 199A",
+        "Full name": "Directed Research in Italian"
+    },
+    {
+        "Short name": "ITALIAN 199B",
+        "Full name": "Directed Capstone Research in Italian and Italian and Special Fields"
+    },
+    {
+        "Short name": "ITALIAN 201",
+        "Full name": "Bibliography and Methods of Research"
+    },
+    {
+        "Short name": "ITALIAN 205",
+        "Full name": "Studies in Criticism and Theory"
+    },
+    {
+        "Short name": "ITALIAN 210",
+        "Full name": "Studies in Early Italian Literature"
+    },
+    {
+        "Short name": "ITALIAN 214A",
+        "Full name": "Studies in Medieval Literature: La Divina Commedia"
+    },
+    {
+        "Short name": "ITALIAN 214B",
+        "Full name": "Studies in Medieval Literature: Dante\u2019s Other Works"
+    },
+    {
+        "Short name": "ITALIAN 214C",
+        "Full name": "Studies in Medieval Literature: Petrarca\u2019s Canzoniere"
+    },
+    {
+        "Short name": "ITALIAN 214D",
+        "Full name": "Studies in Medieval Literature: Boccaccio\u2019s Decameron"
+    },
+    {
+        "Short name": "ITALIAN 214E",
+        "Full name": "Studies in Medieval Literature: Boccaccio\u2019s Other Works"
+    },
+    {
+        "Short name": "ITALIAN 214F",
+        "Full name": "Studies in Medieval Literature: Variable Topics"
+    },
+    {
+        "Short name": "ITALIAN 215A",
+        "Full name": "Studies in 15th-Century Literature: Variable Topics"
+    },
+    {
+        "Short name": "ITALIAN 215B",
+        "Full name": "Studies in 15th-Century Literature: Age of Lorezno de\u2019 Medici and Poliziano"
+    },
+    {
+        "Short name": "ITALIAN 216A",
+        "Full name": "Studies in the Renaissance: Machiavelli and Renaissance Political Thought"
+    },
+    {
+        "Short name": "ITALIAN 216B",
+        "Full name": "Studies in the Renaissance: Ariosto and Renaissance Epic"
+    },
+    {
+        "Short name": "ITALIAN 216C",
+        "Full name": "Studies in the Renaissance: Tasso"
+    },
+    {
+        "Short name": "ITALIAN 216D",
+        "Full name": "Studies in the Renaissance: Renaissance Theater"
+    },
+    {
+        "Short name": "ITALIAN 216E",
+        "Full name": "Studies in the Renaissance: Variable Topics"
+    },
+    {
+        "Short name": "ITALIAN 217",
+        "Full name": "Studies in 17th-Century Literature"
+    },
+    {
+        "Short name": "ITALIAN 218A",
+        "Full name": "Studies in 18th-Century Literature: Vico"
+    },
+    {
+        "Short name": "ITALIAN 218B",
+        "Full name": "Studies in 18th-Century Literature: Alfieri"
+    },
+    {
+        "Short name": "ITALIAN 218C",
+        "Full name": "Studies in 18th-Century Literature: Goldoni"
+    },
+    {
+        "Short name": "ITALIAN 218D",
+        "Full name": "Studies in 18th-Century Literature: Variable Topics"
+    },
+    {
+        "Short name": "ITALIAN 219A",
+        "Full name": "Studies in 19th-Century Literature: Foscolo"
+    },
+    {
+        "Short name": "ITALIAN 219B",
+        "Full name": "Studies in 19th-Century Literature: Leopardi"
+    },
+    {
+        "Short name": "ITALIAN 219C",
+        "Full name": "Studies in 19th-Century Literature: Manzoni"
+    },
+    {
+        "Short name": "ITALIAN 219D",
+        "Full name": "Studies in 19th-Century Literature: Variable Topics"
+    },
+    {
+        "Short name": "ITALIAN 220",
+        "Full name": "Studies in Turn-of-the-Century Literature"
+    },
+    {
+        "Short name": "ITALIAN 221A",
+        "Full name": "Studies in 20th-Century Literature: Variable Topics"
+    },
+    {
+        "Short name": "ITALIAN 221B",
+        "Full name": "Studies in 20th-Century Literature: Contemporary Poetry"
+    },
+    {
+        "Short name": "ITALIAN 221C",
+        "Full name": "Studies in 20th-Century Literature: 20th-Century Narrative to World War II"
+    },
+    {
+        "Short name": "ITALIAN 221D",
+        "Full name": "Studies in 20th-Century Literature: 20th-Century Narrative since World War II"
+    },
+    {
+        "Short name": "ITALIAN 221E",
+        "Full name": "Studies in 20th-Century Literature: Pirandello and Contemporary Theater"
+    },
+    {
+        "Short name": "ITALIAN 222A",
+        "Full name": "Comparative Romance Historical Grammar: Phonology"
+    },
+    {
+        "Short name": "ITALIAN 222B",
+        "Full name": "Comparative Romance Historical Grammar: Morphology and Syntax"
+    },
+    {
+        "Short name": "ITALIAN 223",
+        "Full name": "Structures of Modern Italian"
+    },
+    {
+        "Short name": "ITALIAN 224",
+        "Full name": "Italo-Romance Dialectology"
+    },
+    {
+        "Short name": "ITALIAN 225",
+        "Full name": "Cultural History of Italian Language"
+    },
+    {
+        "Short name": "ITALIAN 230A",
+        "Full name": "Folk Tradition in Italian Literature"
+    },
+    {
+        "Short name": "ITALIAN 230B",
+        "Full name": "Folk Tradition in Italian Literature"
+    },
+    {
+        "Short name": "ITALIAN M241",
+        "Full name": "Seminar: Political Geography of Italy"
+    },
+    {
+        "Short name": "ITALIAN 250A",
+        "Full name": "Seminar: Dante"
+    },
+    {
+        "Short name": "ITALIAN 250B",
+        "Full name": "Seminar: Dante"
+    },
+    {
+        "Short name": "ITALIAN 250C",
+        "Full name": "Seminar: Dante"
+    },
+    {
+        "Short name": "ITALIAN 250D",
+        "Full name": "Seminar: Dante"
+    },
+    {
+        "Short name": "ITALIAN 251",
+        "Full name": "Seminar: Petrarch"
+    },
+    {
+        "Short name": "ITALIAN 252",
+        "Full name": "Seminar: Boccaccio"
+    },
+    {
+        "Short name": "ITALIAN 253A",
+        "Full name": "Seminar: Chivalric Poetry in Italy"
+    },
+    {
+        "Short name": "ITALIAN 253B",
+        "Full name": "Seminar: Chivalric Poetry in Italy"
+    },
+    {
+        "Short name": "ITALIAN 253C",
+        "Full name": "Seminar: Chivalric Poetry in Italy"
+    },
+    {
+        "Short name": "ITALIAN 254",
+        "Full name": "Seminar: Machiavelli"
+    },
+    {
+        "Short name": "ITALIAN 255A",
+        "Full name": "Seminar: Baroque"
+    },
+    {
+        "Short name": "ITALIAN 255B",
+        "Full name": "Seminar: Baroque"
+    },
+    {
+        "Short name": "ITALIAN 256A",
+        "Full name": "Seminar: 18th Century"
+    },
+    {
+        "Short name": "ITALIAN 256B",
+        "Full name": "Seminar: 18th Century"
+    },
+    {
+        "Short name": "ITALIAN 257A",
+        "Full name": "Seminar: Romanticism"
+    },
+    {
+        "Short name": "ITALIAN 257B",
+        "Full name": "Seminar: Romanticism"
+    },
+    {
+        "Short name": "ITALIAN 258A",
+        "Full name": "Seminar: Contemporary Italian Literature"
+    },
+    {
+        "Short name": "ITALIAN 258B",
+        "Full name": "Seminar: Contemporary Italian Literature"
+    },
+    {
+        "Short name": "ITALIAN 260A",
+        "Full name": "Alternative Perspectives in Italian Culture: Studies of Folk Tradition in Italian Literature"
+    },
+    {
+        "Short name": "ITALIAN 260B",
+        "Full name": "Women in Italian Culture"
+    },
+    {
+        "Short name": "ITALIAN 260C",
+        "Full name": "Studies in Italian Cinema"
+    },
+    {
+        "Short name": "ITALIAN 298",
+        "Full name": "Variable Topics in Italian Studies"
+    },
+    {
+        "Short name": "ITALIAN 370",
+        "Full name": "Problems and Methods in Teaching Italian"
+    },
+    {
+        "Short name": "ITALIAN 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "ITALIAN 495A",
+        "Full name": "Teaching Italian at College Level"
+    },
+    {
+        "Short name": "ITALIAN 495B",
+        "Full name": "Teaching Italian at College Level"
+    },
+    {
+        "Short name": "ITALIAN 495C",
+        "Full name": "Teaching Italian at College Level"
+    },
+    {
+        "Short name": "ITALIAN 501",
+        "Full name": "Cooperative Program"
+    },
+    {
+        "Short name": "ITALIAN 596",
+        "Full name": "Directed Individual Studies"
+    },
+    {
+        "Short name": "ITALIAN 597",
+        "Full name": "Preparation for MA Comprehensive Examination or PhD Qualifying Examinations"
+    },
+    {
+        "Short name": "ITALIAN 599",
+        "Full name": "PhD Research and Writing"
+    },
+    {
+        "Short name": "JAPAN 1",
+        "Full name": "Elementary Modern Japanese"
+    },
+    {
+        "Short name": "JAPAN 1A",
+        "Full name": "Elementary Japanese for Kanji Native Students"
+    },
+    {
+        "Short name": "JAPAN 2",
+        "Full name": "Elementary Modern Japanese"
+    },
+    {
+        "Short name": "JAPAN 2A",
+        "Full name": "Elementary Japanese for Kanji Native Students"
+    },
+    {
+        "Short name": "JAPAN 3",
+        "Full name": "Elementary Modern Japanese"
+    },
+    {
+        "Short name": "JAPAN 3A",
+        "Full name": "Elementary Japanese for Kanji Native Students"
+    },
+    {
+        "Short name": "JAPAN 4",
+        "Full name": "Intermediate Modern Japanese"
+    },
+    {
+        "Short name": "JAPAN 5",
+        "Full name": "Intermediate Modern Japanese"
+    },
+    {
+        "Short name": "JAPAN 6",
+        "Full name": "Intermediate Modern Japanese"
+    },
+    {
+        "Short name": "JAPAN 8",
+        "Full name": "Elementary Japanese: Intensive"
+    },
+    {
+        "Short name": "JAPAN 10",
+        "Full name": "Intermediate Modern Japanese: Intensive"
+    },
+    {
+        "Short name": "JAPAN 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "JAPAN 50",
+        "Full name": "Japanese Civilization"
+    },
+    {
+        "Short name": "JAPAN 70",
+        "Full name": "Images of Japan: Literature and Film"
+    },
+    {
+        "Short name": "JAPAN 75",
+        "Full name": "Anime"
+    },
+    {
+        "Short name": "JAPAN 80",
+        "Full name": "How Does It Move? Action and Moving Image in Modern Japan"
+    },
+    {
+        "Short name": "JAPAN 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "JAPAN 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "JAPAN 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "JAPAN 100A",
+        "Full name": "Advanced Modern Japanese"
+    },
+    {
+        "Short name": "JAPAN 100B",
+        "Full name": "Advanced Modern Japanese"
+    },
+    {
+        "Short name": "JAPAN 100C",
+        "Full name": "Advanced Modern Japanese"
+    },
+    {
+        "Short name": "JAPAN 100R",
+        "Full name": "Third-Year Advanced Reading in Modern Japanese"
+    },
+    {
+        "Short name": "JAPAN 100S",
+        "Full name": "Advanced Modern Japanese: Intensive"
+    },
+    {
+        "Short name": "JAPAN 101A",
+        "Full name": "Kanji for Advanced Reading"
+    },
+    {
+        "Short name": "JAPAN 101B",
+        "Full name": "Fourth-Year Japanese: Advanced Reading I"
+    },
+    {
+        "Short name": "JAPAN 101C",
+        "Full name": "Fourth-Year Japanese: Advanced Reading II"
+    },
+    {
+        "Short name": "JAPAN 101S",
+        "Full name": "Fourth-Year Japanese: Advanced Reading\u2014Intensive"
+    },
+    {
+        "Short name": "JAPAN 103A",
+        "Full name": "Fourth-Year Japanese: Advanced Speaking I"
+    },
+    {
+        "Short name": "JAPAN 103B",
+        "Full name": "Fourth-Year Japanese: Advanced Speaking II"
+    },
+    {
+        "Short name": "JAPAN 103C",
+        "Full name": "Fourth-Year Japanese: Advanced Speaking III"
+    },
+    {
+        "Short name": "JAPAN 104",
+        "Full name": "Business Japanese"
+    },
+    {
+        "Short name": "JAPAN 105A",
+        "Full name": "Advanced Reading and Writing for Japanese-Heritage Speakers"
+    },
+    {
+        "Short name": "JAPAN 105B",
+        "Full name": "Advanced Reading and Writing for Japanese-Heritage Speakers"
+    },
+    {
+        "Short name": "JAPAN 108FL",
+        "Full name": "Special Studies: Readings in Japanese"
+    },
+    {
+        "Short name": "JAPAN 109",
+        "Full name": "Advanced Tutorial Instruction in Japanese"
+    },
+    {
+        "Short name": "JAPAN 110A",
+        "Full name": "Introduction to Classical Japanese: Basic Grammar"
+    },
+    {
+        "Short name": "JAPAN 110B",
+        "Full name": "Introduction to Classical Japanese: Reading Proficiency"
+    },
+    {
+        "Short name": "JAPAN C112",
+        "Full name": "Japanese Urban History and Culture"
+    },
+    {
+        "Short name": "JAPAN M120",
+        "Full name": "Introduction to Japanese Linguistics"
+    },
+    {
+        "Short name": "JAPAN CM122",
+        "Full name": "Japanese Phonology and Morphology"
+    },
+    {
+        "Short name": "JAPAN CM123",
+        "Full name": "Structure of Japanese"
+    },
+    {
+        "Short name": "JAPAN 124",
+        "Full name": "Language and Culture of Ryukyu/Okinawa"
+    },
+    {
+        "Short name": "JAPAN CM127",
+        "Full name": "Contrastive Analysis of Japanese and Korean"
+    },
+    {
+        "Short name": "JAPAN 130A",
+        "Full name": "Readings in Modern Japanese Literature"
+    },
+    {
+        "Short name": "JAPAN 130B",
+        "Full name": "Readings in Modern Japanese Literature"
+    },
+    {
+        "Short name": "JAPAN 130C",
+        "Full name": "Readings in Modern Japanese Literature"
+    },
+    {
+        "Short name": "JAPAN 140A",
+        "Full name": "Readings in Classical Japanese Literature: Heian"
+    },
+    {
+        "Short name": "JAPAN 140B",
+        "Full name": "Readings in Classical Japanese Literature: Medieval"
+    },
+    {
+        "Short name": "JAPAN 140C",
+        "Full name": "Readings in Classical Japanese Literature: Edo"
+    },
+    {
+        "Short name": "JAPAN C149",
+        "Full name": "Introduction to Kambun and Other Literary Styles"
+    },
+    {
+        "Short name": "JAPAN C150",
+        "Full name": "Topics in Japanese Literature and Philosophy"
+    },
+    {
+        "Short name": "JAPAN 151",
+        "Full name": "Japanese Literature in Translation: Modern"
+    },
+    {
+        "Short name": "JAPAN 154",
+        "Full name": "Postwar Japanese Culture through Literature"
+    },
+    {
+        "Short name": "JAPAN 155",
+        "Full name": "Topics in Japanese Cinema"
+    },
+    {
+        "Short name": "JAPAN M156",
+        "Full name": "Literature and Technology"
+    },
+    {
+        "Short name": "JAPAN 157",
+        "Full name": "Classical Japanese Drama: Great Tradition"
+    },
+    {
+        "Short name": "JAPAN C159",
+        "Full name": "Variable Topics in Culture and Society in Japan"
+    },
+    {
+        "Short name": "JAPAN CM160",
+        "Full name": "Japanese Buddhism"
+    },
+    {
+        "Short name": "JAPAN 161",
+        "Full name": "Religious Life in Modern Japan"
+    },
+    {
+        "Short name": "JAPAN 165",
+        "Full name": "Introduction to Japanese Buddhist Texts"
+    },
+    {
+        "Short name": "JAPAN 170",
+        "Full name": "Japanese Tales of Supernatural"
+    },
+    {
+        "Short name": "JAPAN C171",
+        "Full name": "Topics in Japanese Studies"
+    },
+    {
+        "Short name": "JAPAN 172",
+        "Full name": "Fiction and Plays of Floating World"
+    },
+    {
+        "Short name": "JAPAN 174",
+        "Full name": "Classical Japanese Poetry"
+    },
+    {
+        "Short name": "JAPAN C182",
+        "Full name": "Japanese Folklore"
+    },
+    {
+        "Short name": "JAPAN 187SL",
+        "Full name": "Service Learning in Japanese Community"
+    },
+    {
+        "Short name": "JAPAN 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "JAPAN 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "JAPAN 191A",
+        "Full name": "Variable Topics Research Seminars: Classical Japan"
+    },
+    {
+        "Short name": "JAPAN 191B",
+        "Full name": "Variable Topics Research Seminars: Modern Japan"
+    },
+    {
+        "Short name": "JAPAN 191C",
+        "Full name": "Variable Topics Research Seminars: Personalities in Japanese Civilization"
+    },
+    {
+        "Short name": "JAPAN 197",
+        "Full name": "Individual Studies in Japanese"
+    },
+    {
+        "Short name": "JAPAN 200",
+        "Full name": "Japanese Studies Seminar"
+    },
+    {
+        "Short name": "JAPAN 201A",
+        "Full name": "Introduction to Reading Japanese Academic Texts"
+    },
+    {
+        "Short name": "JAPAN 201B",
+        "Full name": "Introduction to Reading Japanese Academic Texts"
+    },
+    {
+        "Short name": "JAPAN 210",
+        "Full name": "Issues in Modern Japanese Literature"
+    },
+    {
+        "Short name": "JAPAN C212",
+        "Full name": "Japanese Urban History and Culture"
+    },
+    {
+        "Short name": "JAPAN C222",
+        "Full name": "Japanese Phonology and Morphology"
+    },
+    {
+        "Short name": "JAPAN C223",
+        "Full name": "Structure of Japanese"
+    },
+    {
+        "Short name": "JAPAN 224A",
+        "Full name": "Seminar: Selected Topics in Japanese Discourse Linguistics"
+    },
+    {
+        "Short name": "JAPAN 224B",
+        "Full name": "Seminar: Selected Topics in Japanese Discourse Linguistics"
+    },
+    {
+        "Short name": "JAPAN 226",
+        "Full name": "Survey of Functional Linguistics"
+    },
+    {
+        "Short name": "JAPAN CM227",
+        "Full name": "Contrastive Analysis of Japanese and Korean"
+    },
+    {
+        "Short name": "JAPAN 228",
+        "Full name": "Fundamentals in Discourse Data Analysis"
+    },
+    {
+        "Short name": "JAPAN 235A",
+        "Full name": "Seminar: Selected Topics in Modern Japanese Fiction"
+    },
+    {
+        "Short name": "JAPAN 235B",
+        "Full name": "Seminar: Selected Topics in Modern Japanse Fiction"
+    },
+    {
+        "Short name": "JAPAN 240A",
+        "Full name": "Seminar: Selected Topics in Japanese Literature"
+    },
+    {
+        "Short name": "JAPAN 240B",
+        "Full name": "Seminar: Selected Topics in Japanese Literature"
+    },
+    {
+        "Short name": "JAPAN 241A",
+        "Full name": "Seminar: Japanese Classics"
+    },
+    {
+        "Short name": "JAPAN 241B",
+        "Full name": "Seminar: Japanese Classics"
+    },
+    {
+        "Short name": "JAPAN 243",
+        "Full name": "Translation Workshop: Premodern Japanese Texts"
+    },
+    {
+        "Short name": "JAPAN 245A",
+        "Full name": "Seminar: Medieval Japanese Literature"
+    },
+    {
+        "Short name": "JAPAN 245B",
+        "Full name": "Seminar: Medieval Japanese Literature"
+    },
+    {
+        "Short name": "JAPAN C249",
+        "Full name": "Introduction to Kambun and Other Literary Styles"
+    },
+    {
+        "Short name": "JAPAN C250",
+        "Full name": "Topics in Japanese Literature and Philosophy"
+    },
+    {
+        "Short name": "JAPAN C259",
+        "Full name": "Variable Topics in Culture and Society in Japan"
+    },
+    {
+        "Short name": "JAPAN C260",
+        "Full name": "Japanese Buddhism"
+    },
+    {
+        "Short name": "JAPAN 265A",
+        "Full name": "Seminar: Japanese Buddhist Texts"
+    },
+    {
+        "Short name": "JAPAN 265B",
+        "Full name": "Seminar: Japanese Buddhist Texts"
+    },
+    {
+        "Short name": "JAPAN 270A",
+        "Full name": "Seminar: Japanese Ritual Arts"
+    },
+    {
+        "Short name": "JAPAN 270B",
+        "Full name": "Seminar: Japanese Ritual Arts"
+    },
+    {
+        "Short name": "JAPAN C271",
+        "Full name": "Topics in Japanese Studies"
+    },
+    {
+        "Short name": "JAPAN M276",
+        "Full name": "Reading Modern Bodies"
+    },
+    {
+        "Short name": "JAPAN C282",
+        "Full name": "Japanese Folklore"
+    },
+    {
+        "Short name": "JAPAN 297A",
+        "Full name": "Seminar: Premodern Japan"
+    },
+    {
+        "Short name": "JAPAN 297B",
+        "Full name": "Seminar: Modern Japan"
+    },
+    {
+        "Short name": "JEWISH M10",
+        "Full name": "Introduction to Judaism"
+    },
+    {
+        "Short name": "JEWISH 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "JEWISH M67",
+        "Full name": "Popular Jewish and Israeli Music"
+    },
+    {
+        "Short name": "JEWISH M80",
+        "Full name": "Jewish American Experience through Music"
+    },
+    {
+        "Short name": "JEWISH M82",
+        "Full name": "Music and Holocaust: Individual Experience"
+    },
+    {
+        "Short name": "JEWISH 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "JEWISH 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "JEWISH 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "JEWISH M113",
+        "Full name": "Contemporary Israeli Short Stories/Novellas and Films in English"
+    },
+    {
+        "Short name": "JEWISH 135",
+        "Full name": "Jewish Law"
+    },
+    {
+        "Short name": "JEWISH 140A",
+        "Full name": "American Jewish History, 1654 to 1914"
+    },
+    {
+        "Short name": "JEWISH 140B",
+        "Full name": "American Jewish History, 1914 to the Present"
+    },
+    {
+        "Short name": "JEWISH M142",
+        "Full name": "Modern Israel: Politics, Society, Culture"
+    },
+    {
+        "Short name": "JEWISH 143",
+        "Full name": "Introduction to Jewish Folklore"
+    },
+    {
+        "Short name": "JEWISH M144",
+        "Full name": "Zionism: Ideology and Practice in Making of Jewish State"
+    },
+    {
+        "Short name": "JEWISH M150A",
+        "Full name": "Hebrew Literature in English: Literary Traditions of Ancient Israel\u2014Bible and Apocrypha"
+    },
+    {
+        "Short name": "JEWISH 150B",
+        "Full name": "Hebrew Literature in English: Rabbinic Judaism"
+    },
+    {
+        "Short name": "JEWISH M151A",
+        "Full name": "Modern Jewish Literature in English: Diaspora Literature"
+    },
+    {
+        "Short name": "JEWISH 151B",
+        "Full name": "Modern Jewish Literature in English: Israeli Literature"
+    },
+    {
+        "Short name": "JEWISH M155",
+        "Full name": "Angels, Demons, and End of World: Magic, Mysticism, and Apocalypse in Jewish Traditions"
+    },
+    {
+        "Short name": "JEWISH M162",
+        "Full name": "Israel Seen through Its Literature"
+    },
+    {
+        "Short name": "JEWISH 170",
+        "Full name": "Dead Sea Scrolls and Early Judaism"
+    },
+    {
+        "Short name": "JEWISH 175",
+        "Full name": "Modern Israeli Literature Made into Films"
+    },
+    {
+        "Short name": "JEWISH 177",
+        "Full name": "Variable Topics in Jewish Studies"
+    },
+    {
+        "Short name": "JEWISH M178",
+        "Full name": "Introduction to History and Culture of Iranian Jews"
+    },
+    {
+        "Short name": "JEWISH M181",
+        "Full name": "Topics in Jewish History"
+    },
+    {
+        "Short name": "JEWISH M181SL",
+        "Full name": "Jewish Thought, Politics, and Ethics: From Theory to Practice"
+    },
+    {
+        "Short name": "JEWISH M182A",
+        "Full name": "Ancient Jewish History"
+    },
+    {
+        "Short name": "JEWISH M182B",
+        "Full name": "Medieval Jewish History"
+    },
+    {
+        "Short name": "JEWISH M182C",
+        "Full name": "Modern Jewish History"
+    },
+    {
+        "Short name": "JEWISH M184A",
+        "Full name": "Jewish Civilization: Encounter with Great World Cultures"
+    },
+    {
+        "Short name": "JEWISH M184B",
+        "Full name": "History of Anti-Semitism"
+    },
+    {
+        "Short name": "JEWISH M184C",
+        "Full name": "American Jewish Experience"
+    },
+    {
+        "Short name": "JEWISH M184D",
+        "Full name": "History of Zionism and State of Israel"
+    },
+    {
+        "Short name": "JEWISH M187",
+        "Full name": "Holocaust in Literature"
+    },
+    {
+        "Short name": "JEWISH 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "JEWISH 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "JEWISH 191",
+        "Full name": "Variable Topics Research Seminars: Jewish Studies"
+    },
+    {
+        "Short name": "JEWISH 197",
+        "Full name": "Individual Studies in Jewish Studies"
+    },
+    {
+        "Short name": "JEWISH 199",
+        "Full name": "Directed Research or Senior Project in Jewish Studies"
+    },
+    {
+        "Short name": "KOREA 1",
+        "Full name": "Elementary Modern Korean"
+    },
+    {
+        "Short name": "KOREA 1A",
+        "Full name": "Elementary Korean for Korean-Heritage Speakers"
+    },
+    {
+        "Short name": "KOREA 2",
+        "Full name": "Elementary Modern Korean"
+    },
+    {
+        "Short name": "KOREA 2A",
+        "Full name": "Elementary Korean for Korean-Heritage Speakers"
+    },
+    {
+        "Short name": "KOREA 3",
+        "Full name": "Elementary Modern Korean"
+    },
+    {
+        "Short name": "KOREA 3A",
+        "Full name": "Elementary Korean for Korean-Heritage Speakers"
+    },
+    {
+        "Short name": "KOREA 3R",
+        "Full name": "Accelerated Modern Korean for Advanced Beginners"
+    },
+    {
+        "Short name": "KOREA 4",
+        "Full name": "Intermediate Modern Korean"
+    },
+    {
+        "Short name": "KOREA 4A",
+        "Full name": "Intermediate Korean for Korean Speakers"
+    },
+    {
+        "Short name": "KOREA 5",
+        "Full name": "Intermediate Modern Korean"
+    },
+    {
+        "Short name": "KOREA 5A",
+        "Full name": "Intermediate Korean for Korean Speakers"
+    },
+    {
+        "Short name": "KOREA 6",
+        "Full name": "Intermediate Modern Korean"
+    },
+    {
+        "Short name": "KOREA 6A",
+        "Full name": "Intermediate Korean for Korean Speakers"
+    },
+    {
+        "Short name": "KOREA 8",
+        "Full name": "Elementary Korean: Intensive"
+    },
+    {
+        "Short name": "KOREA 10",
+        "Full name": "Intermediate Modern Korean: Intensive"
+    },
+    {
+        "Short name": "KOREA 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "KOREA 40",
+        "Full name": "Korean Wave: Globalization of South Korean Popular Culture"
+    },
+    {
+        "Short name": "KOREA 40W",
+        "Full name": "Korean Wave: Globalization of South Korean Popular Culture"
+    },
+    {
+        "Short name": "KOREA 50",
+        "Full name": "History of Korean Civilization"
+    },
+    {
+        "Short name": "KOREA M60",
+        "Full name": "Introduction to Korean Religions"
+    },
+    {
+        "Short name": "KOREA 70",
+        "Full name": "Images of Korea"
+    },
+    {
+        "Short name": "KOREA 75",
+        "Full name": "Introduction to Korean Literature and Culture"
+    },
+    {
+        "Short name": "KOREA 80",
+        "Full name": "Introduction to Korean Cinema"
+    },
+    {
+        "Short name": "KOREA 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "KOREA 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "KOREA 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "KOREA 100A",
+        "Full name": "Advanced Modern Korean"
+    },
+    {
+        "Short name": "KOREA 100B",
+        "Full name": "Advanced Modern Korean"
+    },
+    {
+        "Short name": "KOREA 100C",
+        "Full name": "Advanced Modern Korean"
+    },
+    {
+        "Short name": "KOREA 101A",
+        "Full name": "Advanced Readings in Modern Korean"
+    },
+    {
+        "Short name": "KOREA 101B",
+        "Full name": "Advanced Readings in Modern Korean"
+    },
+    {
+        "Short name": "KOREA 101C",
+        "Full name": "Advanced Readings in Modern Korean"
+    },
+    {
+        "Short name": "KOREA 101I",
+        "Full name": "Advanced Readings in Modern Korean: Intensive"
+    },
+    {
+        "Short name": "KOREA 102A",
+        "Full name": "Advanced Korean Conversation"
+    },
+    {
+        "Short name": "KOREA 102B",
+        "Full name": "Advanced Korean Conversation"
+    },
+    {
+        "Short name": "KOREA 102C",
+        "Full name": "Advanced Korean Conversation"
+    },
+    {
+        "Short name": "KOREA 103A",
+        "Full name": "Readings in Sino-Korean Characters"
+    },
+    {
+        "Short name": "KOREA 103B",
+        "Full name": "Readings in Sino-Korean Characters"
+    },
+    {
+        "Short name": "KOREA 103C",
+        "Full name": "Readings in Sino-Korean Characters"
+    },
+    {
+        "Short name": "KOREA 104A",
+        "Full name": "Korean Writing for Advanced Learners"
+    },
+    {
+        "Short name": "KOREA 104B",
+        "Full name": "Korean Writing for Advanced Learners"
+    },
+    {
+        "Short name": "KOREA 104C",
+        "Full name": "Korean Writing for Advanced Learners"
+    },
+    {
+        "Short name": "KOREA C105A",
+        "Full name": "Reading Korean Academic Texts"
+    },
+    {
+        "Short name": "KOREA C105B",
+        "Full name": "Reading Korean Academic Texts"
+    },
+    {
+        "Short name": "KOREA C105C",
+        "Full name": "Reading Korean Academic Texts"
+    },
+    {
+        "Short name": "KOREA 106A",
+        "Full name": "Superior Korean"
+    },
+    {
+        "Short name": "KOREA 106B",
+        "Full name": "Superior Korean"
+    },
+    {
+        "Short name": "KOREA 106C",
+        "Full name": "Superior Korean"
+    },
+    {
+        "Short name": "KOREA 106SL",
+        "Full name": "Superior Korean with Service Learning"
+    },
+    {
+        "Short name": "KOREA 107A",
+        "Full name": "Professional/Academic Korean"
+    },
+    {
+        "Short name": "KOREA 107B",
+        "Full name": "Professional/Academic Korean"
+    },
+    {
+        "Short name": "KOREA 107C",
+        "Full name": "Professional/Academic Korean"
+    },
+    {
+        "Short name": "KOREA 107SL",
+        "Full name": "Professional/Academic Korean and Community-Based Learning"
+    },
+    {
+        "Short name": "KOREA 108FL",
+        "Full name": "Special Studies: Readings in Korean"
+    },
+    {
+        "Short name": "KOREA 109",
+        "Full name": "Advanced Tutorial Instruction in Korean"
+    },
+    {
+        "Short name": "KOREA CM120",
+        "Full name": "Structure of Korean"
+    },
+    {
+        "Short name": "KOREA 124",
+        "Full name": "Topics in Korean Language and Culture"
+    },
+    {
+        "Short name": "KOREA CM127",
+        "Full name": "Contrastive Analysis of Japanese and Korean"
+    },
+    {
+        "Short name": "KOREA 130A",
+        "Full name": "Readings in Modern Korean Literature"
+    },
+    {
+        "Short name": "KOREA 130B",
+        "Full name": "Readings in Modern Korean Literature"
+    },
+    {
+        "Short name": "KOREA 148A",
+        "Full name": "Reading Modern Korean Academic Texts"
+    },
+    {
+        "Short name": "KOREA C149",
+        "Full name": "Readings of Sino-Korean and Korean Sources of Modern Korea"
+    },
+    {
+        "Short name": "KOREA C150",
+        "Full name": "Korean Literature in Translation: Classical"
+    },
+    {
+        "Short name": "KOREA C151",
+        "Full name": "Korean Literature in Translation: Modern"
+    },
+    {
+        "Short name": "KOREA 153",
+        "Full name": "Korea West Encounters"
+    },
+    {
+        "Short name": "KOREA 154",
+        "Full name": "Contemporary Korean Culture through Literature and Film"
+    },
+    {
+        "Short name": "KOREA 155",
+        "Full name": "Topics in Korean Cinema"
+    },
+    {
+        "Short name": "KOREA 159",
+        "Full name": "Variable Topics in Culture and Society in Korea"
+    },
+    {
+        "Short name": "KOREA CM160",
+        "Full name": "Korean Buddhism"
+    },
+    {
+        "Short name": "KOREA 165",
+        "Full name": "Introduction to Korean Buddhist Texts"
+    },
+    {
+        "Short name": "KOREA 172",
+        "Full name": "Topics in Korean Christianity"
+    },
+    {
+        "Short name": "KOREA 175",
+        "Full name": "Intellectual History of Premodern Korea"
+    },
+    {
+        "Short name": "KOREA 176",
+        "Full name": "Introduction to Korean Confucian Texts"
+    },
+    {
+        "Short name": "KOREA C177",
+        "Full name": "Intellectual History of Modern Korea"
+    },
+    {
+        "Short name": "KOREA 178",
+        "Full name": "Introduction to Modern Korean Historiography"
+    },
+    {
+        "Short name": "KOREA 179",
+        "Full name": "Gender and Sexuality in Korean Literature"
+    },
+    {
+        "Short name": "KOREA 180A",
+        "Full name": "History of Korea through 1259"
+    },
+    {
+        "Short name": "KOREA 180B",
+        "Full name": "History of Korea, 1260 through 1876"
+    },
+    {
+        "Short name": "KOREA 180C",
+        "Full name": "History of Korea since 1876"
+    },
+    {
+        "Short name": "KOREA 181",
+        "Full name": "Reading Korean Cultural Landscape"
+    },
+    {
+        "Short name": "KOREA 182",
+        "Full name": "1894 Kabo Reforms: History at Crossroads of Civilizations"
+    },
+    {
+        "Short name": "KOREA 183",
+        "Full name": "Korean Folklore"
+    },
+    {
+        "Short name": "KOREA 184",
+        "Full name": "Women in History: Korea"
+    },
+    {
+        "Short name": "KOREA 184A",
+        "Full name": "Women in History: Premodern Korea"
+    },
+    {
+        "Short name": "KOREA 184B",
+        "Full name": "Women in History: Modern Korea"
+    },
+    {
+        "Short name": "KOREA 185",
+        "Full name": "Education and Society in Korea"
+    },
+    {
+        "Short name": "KOREA M186",
+        "Full name": "Korea and Vietnam: Comparative Modern Histories"
+    },
+    {
+        "Short name": "KOREA 187",
+        "Full name": "Popular and Folk Religion in Korea"
+    },
+    {
+        "Short name": "KOREA 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "KOREA 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "KOREA 191A",
+        "Full name": "Variable Topics Research Seminars: Premodern or Early Modern Korea"
+    },
+    {
+        "Short name": "KOREA 191B",
+        "Full name": "Variable Topics Research Seminars: Contemporary Korean History"
+    },
+    {
+        "Short name": "KOREA 197",
+        "Full name": "Individual Studies in Korean"
+    },
+    {
+        "Short name": "KOREA 200",
+        "Full name": "Bibliography and Methods of Research in Korean"
+    },
+    {
+        "Short name": "KOREA 203",
+        "Full name": "Variable Topics in Korean Culture"
+    },
+    {
+        "Short name": "KOREA C205A",
+        "Full name": "Reading Korean Academic Texts"
+    },
+    {
+        "Short name": "KOREA C205B",
+        "Full name": "Reading Korean Academic Texts"
+    },
+    {
+        "Short name": "KOREA C205C",
+        "Full name": "Reading Korean Academic Texts"
+    },
+    {
+        "Short name": "KOREA 210",
+        "Full name": "Thought and Society in Korea"
+    },
+    {
+        "Short name": "KOREA 211",
+        "Full name": "Thought and Society in Modern Korea"
+    },
+    {
+        "Short name": "KOREA 212",
+        "Full name": "19th-Century Korea"
+    },
+    {
+        "Short name": "KOREA 215",
+        "Full name": "Korean Literary History"
+    },
+    {
+        "Short name": "KOREA C220",
+        "Full name": "Structure of Korean"
+    },
+    {
+        "Short name": "KOREA 224A",
+        "Full name": "Seminar: Selected Topics in Korean Linguistics"
+    },
+    {
+        "Short name": "KOREA 224B",
+        "Full name": "Seminar: Selected Topics in Korean Linguistics"
+    },
+    {
+        "Short name": "KOREA 225",
+        "Full name": "Korean Corpus Linguistics and Language Pedagogy"
+    },
+    {
+        "Short name": "KOREA CM227",
+        "Full name": "Contrastive Analysis of Japanese and Korean"
+    },
+    {
+        "Short name": "KOREA 230A",
+        "Full name": "Seminar: Literary Translation from Korean"
+    },
+    {
+        "Short name": "KOREA 230B",
+        "Full name": "Seminar: Literary Translation from Korean"
+    },
+    {
+        "Short name": "KOREA 235A",
+        "Full name": "Seminar: Topics in Modern Korean Literature"
+    },
+    {
+        "Short name": "KOREA 235B",
+        "Full name": "Seminar: Topics in Modern Korean Literature"
+    },
+    {
+        "Short name": "KOREA 240A",
+        "Full name": "Seminar: Classical Korean Fiction"
+    },
+    {
+        "Short name": "KOREA 240B",
+        "Full name": "Seminar: Classical Korean Fiction"
+    },
+    {
+        "Short name": "KOREA 243",
+        "Full name": "Translation Workshop: Premodern Korean Texts"
+    },
+    {
+        "Short name": "KOREA 245A",
+        "Full name": "Seminar: Classical Korean Poetry"
+    },
+    {
+        "Short name": "KOREA 245B",
+        "Full name": "Seminar: Classical Korean Poetry"
+    },
+    {
+        "Short name": "KOREA 248",
+        "Full name": "Reading Korean Scholarly Journals: Social and Cultural Change as Reflected in Academic Discourse"
+    },
+    {
+        "Short name": "KOREA C249",
+        "Full name": "Readings of Sino-Korean and Korean Sources of Modern Korea"
+    },
+    {
+        "Short name": "KOREA C250",
+        "Full name": "Korean Literature in Translation: Classical"
+    },
+    {
+        "Short name": "KOREA C251",
+        "Full name": "Korean Literature in Translation: Modern"
+    },
+    {
+        "Short name": "KOREA C260",
+        "Full name": "Korean Buddhism"
+    },
+    {
+        "Short name": "KOREA 265A",
+        "Full name": "Seminar: Korean Buddhist Texts"
+    },
+    {
+        "Short name": "KOREA 265B",
+        "Full name": "Seminar: Korean Buddhist Texts"
+    },
+    {
+        "Short name": "KOREA 272",
+        "Full name": "Seminar: Korean Christianity"
+    },
+    {
+        "Short name": "KOREA 274",
+        "Full name": "Seminar: Readings in Korean Christianity"
+    },
+    {
+        "Short name": "KOREA C277",
+        "Full name": "Intellectual History of Modern Korea"
+    },
+    {
+        "Short name": "KOREA 295A",
+        "Full name": "Seminar: Topics in Traditional Korean Cultural History"
+    },
+    {
+        "Short name": "KOREA 295B",
+        "Full name": "Seminar: Topics in Traditional Korean Cultural History"
+    },
+    {
+        "Short name": "KOREA 296A",
+        "Full name": "Seminar: Topics in Modern Korean Cultural History"
+    },
+    {
+        "Short name": "KOREA 296B",
+        "Full name": "Seminar: Topics in Modern Korean Cultural History"
+    },
+    {
+        "Short name": "LBR STD M1A",
+        "Full name": "Work, Labor, and Social Justice in U.S."
+    },
+    {
+        "Short name": "LBR STD M1B",
+        "Full name": "Work, Labor, and Social Justice in U.S."
+    },
+    {
+        "Short name": "LBR STD M1CW",
+        "Full name": "Work, Labor, and Social Justice in U.S.: Special Topics"
+    },
+    {
+        "Short name": "LBR STD 10",
+        "Full name": "Introduction to Labor and Workplace Studies"
+    },
+    {
+        "Short name": "LBR STD 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "LBR STD 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "LBR STD 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "LBR STD 97",
+        "Full name": "Introduction to Labor Studies Research"
+    },
+    {
+        "Short name": "LBR STD 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "LBR STD 101",
+        "Full name": "Introduction to Labor and Social Movements in Los Angeles"
+    },
+    {
+        "Short name": "LBR STD M114C",
+        "Full name": "African American Political Thought"
+    },
+    {
+        "Short name": "LBR STD M115",
+        "Full name": "We Gone Be Alright: Developing Next Generation of Black Organizers"
+    },
+    {
+        "Short name": "LBR STD M116",
+        "Full name": "Asian American Social Movements"
+    },
+    {
+        "Short name": "LBR STD M117",
+        "Full name": "Negotiation"
+    },
+    {
+        "Short name": "LBR STD M119",
+        "Full name": "Asian American and Pacific Islander Labor Issues"
+    },
+    {
+        "Short name": "LBR STD M121",
+        "Full name": "Issues in Latina/Latino Poverty: Mexican and Central American Voices from Los Angeles"
+    },
+    {
+        "Short name": "LBR STD M122",
+        "Full name": "Planning Issues in Latina/Latino Communities: Preserving and Strengthening Community Assets in Mexican and Salvadoran Los Angeles"
+    },
+    {
+        "Short name": "LBR STD M123",
+        "Full name": "Chicano/Latino Community Formation: Critical Perspectives and Oral Histories"
+    },
+    {
+        "Short name": "LBR STD M125",
+        "Full name": "U.S./Mexico Relations"
+    },
+    {
+        "Short name": "LBR STD 126",
+        "Full name": "Farm Worker Transnational Struggle"
+    },
+    {
+        "Short name": "LBR STD M127",
+        "Full name": "Farmworker Movements, Social Justice, and United Farm Workers Legacy"
+    },
+    {
+        "Short name": "LBR STD M128",
+        "Full name": "Race, Gender, and U.S. Labor"
+    },
+    {
+        "Short name": "LBR STD M134XP",
+        "Full name": "Engaging Immigrants and Their Families"
+    },
+    {
+        "Short name": "LBR STD M136",
+        "Full name": "Working Families and Educational Inequalities in Urban Schools"
+    },
+    {
+        "Short name": "LBR STD 140",
+        "Full name": "Working It: Women, Work, and Family"
+    },
+    {
+        "Short name": "LBR STD M144",
+        "Full name": "Women\u2019s Movement in Latin America"
+    },
+    {
+        "Short name": "LBR STD M149",
+        "Full name": "Media: Gender, Race, Class, and Sexuality"
+    },
+    {
+        "Short name": "LBR STD 152",
+        "Full name": "Work, Social Justice, and Arts"
+    },
+    {
+        "Short name": "LBR STD 153",
+        "Full name": "Stories of Struggle: Work, Class, and Narrative in Contemporary America"
+    },
+    {
+        "Short name": "LBR STD M165",
+        "Full name": "Sociology of Race and Labor"
+    },
+    {
+        "Short name": "LBR STD M166A",
+        "Full name": "Immigrant Rights, Labor, and Higher Education"
+    },
+    {
+        "Short name": "LBR STD M166B",
+        "Full name": "Research on Immigration Rights, Labor, and Higher Education"
+    },
+    {
+        "Short name": "LBR STD M166C",
+        "Full name": "Research on Immigrant Students and Higher Education"
+    },
+    {
+        "Short name": "LBR STD M167",
+        "Full name": "Worker Center Movement: Next Wave Organizing for Justice for Immigrant Workers"
+    },
+    {
+        "Short name": "LBR STD 168",
+        "Full name": "Law and Politics of Immigration: Migrants and Inevitable Evolution of Collective and Individual Rights"
+    },
+    {
+        "Short name": "LBR STD M170",
+        "Full name": "Improving Worker Health: Social Movements, Policy Debates, and Public Health"
+    },
+    {
+        "Short name": "LBR STD M171",
+        "Full name": "Labor and Economic Development"
+    },
+    {
+        "Short name": "LBR STD M173",
+        "Full name": "Nonviolence and Social Movements"
+    },
+    {
+        "Short name": "LBR STD 174",
+        "Full name": "Labor and Employment Law"
+    },
+    {
+        "Short name": "LBR STD M175",
+        "Full name": "Agitational Communication"
+    },
+    {
+        "Short name": "LBR STD M176",
+        "Full name": "Visual Communication and Social Advocacy"
+    },
+    {
+        "Short name": "LBR STD 177",
+        "Full name": "Spirituality, Mindfulness, Self-Care, and Social Justice"
+    },
+    {
+        "Short name": "LBR STD 179A",
+        "Full name": "Neoliberalism, Social Justice, and Community Organizing"
+    },
+    {
+        "Short name": "LBR STD 179B",
+        "Full name": "Doing Democracy: Social Movements, Grassroots Politics, and Community Organizing"
+    },
+    {
+        "Short name": "LBR STD M180",
+        "Full name": "Southern California Regional Economy"
+    },
+    {
+        "Short name": "LBR STD 181",
+        "Full name": "Los Angeles Labor and Social Science Research Principles, Methods, and Practices"
+    },
+    {
+        "Short name": "LBR STD 182A",
+        "Full name": "Oral History and Collective Memory: Research Methods and Applications of 21st-Century Narratives"
+    },
+    {
+        "Short name": "LBR STD 182B",
+        "Full name": "Oral History and Collective Memory: Research Methods and Applications of 21st-Century Immigrant Narratives"
+    },
+    {
+        "Short name": "LBR STD 187",
+        "Full name": "Special Courses in Labor and Workplace Studies"
+    },
+    {
+        "Short name": "LBR STD 188",
+        "Full name": "Special Courses in Labor and Workplace Studies"
+    },
+    {
+        "Short name": "LBR STD 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "LBR STD 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "LBR STD M190A",
+        "Full name": "Introduction to Community-Engaged Research"
+    },
+    {
+        "Short name": "LBR STD M190B",
+        "Full name": "Community Engaged Research in Practice: Community Scholars"
+    },
+    {
+        "Short name": "LBR STD M190C",
+        "Full name": "Community Engaged Research in Practice: Community Scholars"
+    },
+    {
+        "Short name": "LBR STD 191A",
+        "Full name": "Labor Studies: Research Principles, Methods, and Practices"
+    },
+    {
+        "Short name": "LBR STD 191B",
+        "Full name": "Labor Studies: Research in Action"
+    },
+    {
+        "Short name": "LBR STD 194A",
+        "Full name": "Research Group Seminars: Labor Summer Research Program"
+    },
+    {
+        "Short name": "LBR STD 194B",
+        "Full name": "Research Group Seminars: Labor and Workplace Studies"
+    },
+    {
+        "Short name": "LBR STD 194C",
+        "Full name": "Field Research Group Seminar"
+    },
+    {
+        "Short name": "LBR STD 195A",
+        "Full name": "Community or Corporate Internships in Labor and Workplace Studies"
+    },
+    {
+        "Short name": "LBR STD 195B",
+        "Full name": "Community or Corporate Internships in Labor and Workplace Studies"
+    },
+    {
+        "Short name": "LBR STD 199",
+        "Full name": "Directed Research in Labor and Workplace Studies"
+    },
+    {
+        "Short name": "LBR STD 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "LATIN 1",
+        "Full name": "Elementary Latin"
+    },
+    {
+        "Short name": "LATIN 1G",
+        "Full name": "Elementary Latin for Graduate Students"
+    },
+    {
+        "Short name": "LATIN 2",
+        "Full name": "Elementary Latin"
+    },
+    {
+        "Short name": "LATIN 3",
+        "Full name": "Elementary Latin"
+    },
+    {
+        "Short name": "LATIN 14",
+        "Full name": "Elementary Latin: Intensive"
+    },
+    {
+        "Short name": "LATIN 16",
+        "Full name": "Intensive First-Year Latin"
+    },
+    {
+        "Short name": "LATIN 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "LATIN 20",
+        "Full name": "Elementary Latin: Comprehensive Review"
+    },
+    {
+        "Short name": "LATIN 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "LATIN 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "LATIN 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "LATIN 100",
+        "Full name": "Intermediate Latin: Introduction to Reading Latin"
+    },
+    {
+        "Short name": "LATIN 101",
+        "Full name": "Plautus"
+    },
+    {
+        "Short name": "LATIN 102",
+        "Full name": "Terence"
+    },
+    {
+        "Short name": "LATIN 103",
+        "Full name": "Lucretius"
+    },
+    {
+        "Short name": "LATIN 104",
+        "Full name": "Ovid"
+    },
+    {
+        "Short name": "LATIN 105A",
+        "Full name": "Beginning Vergil: Selections from Aeneid I-VI"
+    },
+    {
+        "Short name": "LATIN 105B",
+        "Full name": "Advanced Vergil"
+    },
+    {
+        "Short name": "LATIN 106",
+        "Full name": "Catullus"
+    },
+    {
+        "Short name": "LATIN 107",
+        "Full name": "Horace"
+    },
+    {
+        "Short name": "LATIN 108",
+        "Full name": "Roman Elegy"
+    },
+    {
+        "Short name": "LATIN 109",
+        "Full name": "Roman Satire"
+    },
+    {
+        "Short name": "LATIN 110",
+        "Full name": "Study of Latin Prose"
+    },
+    {
+        "Short name": "LATIN 111",
+        "Full name": "Livy"
+    },
+    {
+        "Short name": "LATIN 112",
+        "Full name": "Tacitus"
+    },
+    {
+        "Short name": "LATIN 113",
+        "Full name": "Cicero: Orations"
+    },
+    {
+        "Short name": "LATIN 114",
+        "Full name": "Roman Epistolography: Cicero and Pliny"
+    },
+    {
+        "Short name": "LATIN 115",
+        "Full name": "Caesar"
+    },
+    {
+        "Short name": "LATIN 116",
+        "Full name": "Roman Novel"
+    },
+    {
+        "Short name": "LATIN 117",
+        "Full name": "Sallust"
+    },
+    {
+        "Short name": "LATIN 118",
+        "Full name": "Seneca"
+    },
+    {
+        "Short name": "LATIN 119A",
+        "Full name": "Readings in Roman Prose"
+    },
+    {
+        "Short name": "LATIN 119B",
+        "Full name": "Readings in Roman Poetry"
+    },
+    {
+        "Short name": "LATIN 120",
+        "Full name": "Vulgate"
+    },
+    {
+        "Short name": "LATIN 121",
+        "Full name": "Patristic Texts"
+    },
+    {
+        "Short name": "LATIN 130",
+        "Full name": "Introduction to Postclassical Latin"
+    },
+    {
+        "Short name": "LATIN 131",
+        "Full name": "Postclassical Latin Prose"
+    },
+    {
+        "Short name": "LATIN 133",
+        "Full name": "Postclassical Latin Poetry"
+    },
+    {
+        "Short name": "LATIN 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "LATIN 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "LATIN 197",
+        "Full name": "Individual Studies in Latin"
+    },
+    {
+        "Short name": "LATIN 199",
+        "Full name": "Directed Research in Latin"
+    },
+    {
+        "Short name": "LATIN 200A",
+        "Full name": "History of Latin Literature"
+    },
+    {
+        "Short name": "LATIN 200B",
+        "Full name": "History of Latin Literature"
+    },
+    {
+        "Short name": "LATIN 200C",
+        "Full name": "History of Latin Literature"
+    },
+    {
+        "Short name": "LATIN 201",
+        "Full name": "Roman Epic Tradition"
+    },
+    {
+        "Short name": "LATIN 202",
+        "Full name": "Seminar: Catullus"
+    },
+    {
+        "Short name": "LATIN 203A",
+        "Full name": "Elegiac Poetry"
+    },
+    {
+        "Short name": "LATIN 203B",
+        "Full name": "Propertius"
+    },
+    {
+        "Short name": "LATIN 204A",
+        "Full name": "Vergil\u2019s Aeneid"
+    },
+    {
+        "Short name": "LATIN 204B",
+        "Full name": "Vergil\u2019s Aeneid"
+    },
+    {
+        "Short name": "LATIN 205A",
+        "Full name": "Seminar: Vergil\u2019s Bucolics"
+    },
+    {
+        "Short name": "LATIN 205B",
+        "Full name": "Seminar: Vergil\u2019s Georgics"
+    },
+    {
+        "Short name": "LATIN 206",
+        "Full name": "Horace"
+    },
+    {
+        "Short name": "LATIN 207",
+        "Full name": "Roman Comedy"
+    },
+    {
+        "Short name": "LATIN 208",
+        "Full name": "Ovid"
+    },
+    {
+        "Short name": "LATIN 209",
+        "Full name": "Seminar: Roman Satire"
+    },
+    {
+        "Short name": "LATIN 210",
+        "Full name": "Advanced Latin Prose Composition"
+    },
+    {
+        "Short name": "LATIN 211A",
+        "Full name": "Seminar: Roman Historians\u2014Sallust"
+    },
+    {
+        "Short name": "LATIN 211B",
+        "Full name": "Seminar: Roman Historians\u2014Livy"
+    },
+    {
+        "Short name": "LATIN 211C",
+        "Full name": "Seminar: Romans Historians\u2014Tacitus"
+    },
+    {
+        "Short name": "LATIN 214",
+        "Full name": "Ancient Biography: Roman Lives"
+    },
+    {
+        "Short name": "LATIN 215",
+        "Full name": "Seminar: Roman Novel"
+    },
+    {
+        "Short name": "LATIN 216",
+        "Full name": "Roman Rhetoric"
+    },
+    {
+        "Short name": "LATIN 220",
+        "Full name": "Cicero\u2019s Orations"
+    },
+    {
+        "Short name": "LATIN 221A",
+        "Full name": "Cicero\u2019s Philosophical Works"
+    },
+    {
+        "Short name": "LATIN 221B",
+        "Full name": "Cicero: De Natura Deorum"
+    },
+    {
+        "Short name": "LATIN 222",
+        "Full name": "Seminar: Roman Stoicism"
+    },
+    {
+        "Short name": "LATIN 223",
+        "Full name": "Lucretius"
+    },
+    {
+        "Short name": "LATIN 224",
+        "Full name": "Seneca"
+    },
+    {
+        "Short name": "LATIN 229",
+        "Full name": "Sight Translation"
+    },
+    {
+        "Short name": "LATIN 231A",
+        "Full name": "Seminar: Medieval Latin"
+    },
+    {
+        "Short name": "LATIN 231B",
+        "Full name": "Seminar: Medieval Latin"
+    },
+    {
+        "Short name": "LATIN 232",
+        "Full name": "Vulgar Latin"
+    },
+    {
+        "Short name": "LATIN 235",
+        "Full name": "Late Latin Poetry"
+    },
+    {
+        "Short name": "LATIN 236",
+        "Full name": "Late Latin Prose"
+    },
+    {
+        "Short name": "LATIN 240",
+        "Full name": "History of Latin Language"
+    },
+    {
+        "Short name": "LATIN 242",
+        "Full name": "Italic Dialects and Latin Historical Grammar"
+    },
+    {
+        "Short name": "LATIN 243",
+        "Full name": "Seminar: Latin Palaeography"
+    },
+    {
+        "Short name": "LATIN 245",
+        "Full name": "Neo-Latin"
+    },
+    {
+        "Short name": "LATIN 250",
+        "Full name": "Topical Studies of Ancient Rome"
+    },
+    {
+        "Short name": "LATIN 495",
+        "Full name": "College Teaching of Latin"
+    },
+    {
+        "Short name": "LATIN 596",
+        "Full name": "Directed Individual Study or Research"
+    },
+    {
+        "Short name": "LATIN 597",
+        "Full name": "Study for MA Comprehensive Examination or PhD Qualifying Examinations"
+    },
+    {
+        "Short name": "LATIN 599",
+        "Full name": "Research for PhD Dissertation"
+    },
+    {
+        "Short name": "LATN AM 205",
+        "Full name": "Latin Americanist Scholarship"
+    },
+    {
+        "Short name": "LATN AM 250B",
+        "Full name": "Interdisciplinary Seminar: Latin American Studies"
+    },
+    {
+        "Short name": "LATN AM 250C",
+        "Full name": "Interdisciplinary Topics in Latin American Studies"
+    },
+    {
+        "Short name": "LATN AM M260",
+        "Full name": "Health and Culture in Americas"
+    },
+    {
+        "Short name": "LATN AM M262",
+        "Full name": "HIV/AIDS and Culture in Latin America"
+    },
+    {
+        "Short name": "LATN AM M264",
+        "Full name": "Latin America: Traditional Medicine, Shamanism, and Folk Illness"
+    },
+    {
+        "Short name": "LATN AM M268A",
+        "Full name": "Seminar: Recent Latin American History"
+    },
+    {
+        "Short name": "LATN AM M268B",
+        "Full name": "Seminar: Recent Latin American History"
+    },
+    {
+        "Short name": "LATN AM 291A",
+        "Full name": "Variable Topics in Latin American Studies"
+    },
+    {
+        "Short name": "LATN AM 291B",
+        "Full name": "Variable Topics in Latin American Studies"
+    },
+    {
+        "Short name": "LATN AM 501",
+        "Full name": "Cooperative Program"
+    },
+    {
+        "Short name": "LATN AM 596",
+        "Full name": "Directed Individual Study or Research"
+    },
+    {
+        "Short name": "LATN AM 597",
+        "Full name": "Preparation for MA Comprehensive Examination"
+    },
+    {
+        "Short name": "LATN AM 598",
+        "Full name": "Research for and Preparation of MA Thesis"
+    }
+]

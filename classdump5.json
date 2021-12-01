@@ -1,0 +1,6562 @@
+[
+    {
+        "Short name": "AERO ST A",
+        "Full name": "Leadership Laboratory"
+    },
+    {
+        "Short name": "AERO ST 1A",
+        "Full name": "Heritage and Values"
+    },
+    {
+        "Short name": "AERO ST 1B",
+        "Full name": "Heritage and Values"
+    },
+    {
+        "Short name": "AERO ST 1C",
+        "Full name": "Heritage and Values"
+    },
+    {
+        "Short name": "AERO ST 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "AERO ST 20A",
+        "Full name": "Team and Leadership Fundamentals"
+    },
+    {
+        "Short name": "AERO ST 20B",
+        "Full name": "Team and Leadership Fundamentals"
+    },
+    {
+        "Short name": "AERO ST 20C",
+        "Full name": "Team and Leadership Fundamentals"
+    },
+    {
+        "Short name": "AERO ST 130A",
+        "Full name": "Air Force Leadership Studies"
+    },
+    {
+        "Short name": "AERO ST 130B",
+        "Full name": "Air Force Leadership Studies"
+    },
+    {
+        "Short name": "AERO ST 130C",
+        "Full name": "Air Force Leadership Studies"
+    },
+    {
+        "Short name": "AERO ST 140A",
+        "Full name": "National Security Affairs/Preparation for Active Duty"
+    },
+    {
+        "Short name": "AERO ST 140B",
+        "Full name": "National Security Affairs/Preparation for Active Duty"
+    },
+    {
+        "Short name": "AERO ST 140C",
+        "Full name": "National Security Affairs/Preparation for Active Duty"
+    },
+    {
+        "Short name": "AERO ST 197",
+        "Full name": "Individual Studies in Aerospace Studies"
+    },
+    {
+        "Short name": "AF AMER 1",
+        "Full name": "Introduction to Black Studies"
+    },
+    {
+        "Short name": "AF AMER 2B",
+        "Full name": "Race and U.S. Military Intervention in Africa"
+    },
+    {
+        "Short name": "AF AMER M5",
+        "Full name": "Social Organization of Black Communities"
+    },
+    {
+        "Short name": "AF AMER 6",
+        "Full name": "Trends in Black Intellectual Thought"
+    },
+    {
+        "Short name": "AF AMER M7A",
+        "Full name": "Elementary Yoruba"
+    },
+    {
+        "Short name": "AF AMER M7B",
+        "Full name": "Elementary Yoruba"
+    },
+    {
+        "Short name": "AF AMER M7C",
+        "Full name": "Elementary Yoruba"
+    },
+    {
+        "Short name": "AF AMER M9A",
+        "Full name": "Elementary Amharic"
+    },
+    {
+        "Short name": "AF AMER M9B",
+        "Full name": "Elementary Amharic"
+    },
+    {
+        "Short name": "AF AMER M9C",
+        "Full name": "Elementary Amharic"
+    },
+    {
+        "Short name": "AF AMER M10A",
+        "Full name": "History of Africa to 1800"
+    },
+    {
+        "Short name": "AF AMER M12A",
+        "Full name": "African American Musical Heritage"
+    },
+    {
+        "Short name": "AF AMER M12B",
+        "Full name": "African American Musical Heritage"
+    },
+    {
+        "Short name": "AF AMER M18",
+        "Full name": "Leadership and Student-Initiated Retention"
+    },
+    {
+        "Short name": "AF AMER 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "AF AMER 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "AF AMER 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "AF AMER 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "AF AMER M102",
+        "Full name": "Culture, Media, and Los Angeles"
+    },
+    {
+        "Short name": "AF AMER M103A",
+        "Full name": "African American Theater History: Slavery to Mid-1800s"
+    },
+    {
+        "Short name": "AF AMER M103B",
+        "Full name": "African American Theater History: Minstrel Stage to Rise of American Musical"
+    },
+    {
+        "Short name": "AF AMER M103E",
+        "Full name": "Modern African American Drama: Harlem Renaissance to Black Arts Movement"
+    },
+    {
+        "Short name": "AF AMER M103J",
+        "Full name": "Contemporary Black Theater: Modern Civil Rights Era to Black Lives Matter and Beyond"
+    },
+    {
+        "Short name": "AF AMER M104A",
+        "Full name": "Early African American Literature"
+    },
+    {
+        "Short name": "AF AMER M104B",
+        "Full name": "African American Literature from Harlem Renaissance to 1960s"
+    },
+    {
+        "Short name": "AF AMER M104C",
+        "Full name": "African American Literature of 1960s and 1970s"
+    },
+    {
+        "Short name": "AF AMER M104D",
+        "Full name": "Contemporary African American Literature"
+    },
+    {
+        "Short name": "AF AMER M104E",
+        "Full name": "Topics in African American Literature and Culture"
+    },
+    {
+        "Short name": "AF AMER 105A",
+        "Full name": "Ideology and Black Consciousness"
+    },
+    {
+        "Short name": "AF AMER 105B",
+        "Full name": "Issues in Pan-African Biography and Autobiography"
+    },
+    {
+        "Short name": "AF AMER 106A",
+        "Full name": "Africa and World"
+    },
+    {
+        "Short name": "AF AMER 106B",
+        "Full name": "Militarism, International Security, and African American Political Thought"
+    },
+    {
+        "Short name": "AF AMER M107",
+        "Full name": "Cultural History of Rap"
+    },
+    {
+        "Short name": "AF AMER 108",
+        "Full name": "Jazz and Political Imagination"
+    },
+    {
+        "Short name": "AF AMER M109",
+        "Full name": "Women in Jazz"
+    },
+    {
+        "Short name": "AF AMER 110A",
+        "Full name": "Race, Science, and Society"
+    },
+    {
+        "Short name": "AF AMER 110B",
+        "Full name": "Reproducing While Black: Politics of Black Reproduction"
+    },
+    {
+        "Short name": "AF AMER 110C",
+        "Full name": "Black Health Matters: Wellness, Health, and Self-Care"
+    },
+    {
+        "Short name": "AF AMER M111",
+        "Full name": "Ellingtonia"
+    },
+    {
+        "Short name": "AF AMER 112A",
+        "Full name": "Sunken Place: Racism, Survival, and Black Horror Aesthetic"
+    },
+    {
+        "Short name": "AF AMER 112B",
+        "Full name": "Aboard Mothership: Introduction to Afrofuturism"
+    },
+    {
+        "Short name": "AF AMER CM113B",
+        "Full name": "Legislative Theater for Race and Gender Justice"
+    },
+    {
+        "Short name": "AF AMER CM113XP",
+        "Full name": "Narratives of Justice: Disrupting School-to-Prison Pipeline\u2014Arts, Activism, and Agency"
+    },
+    {
+        "Short name": "AF AMER M114C",
+        "Full name": "African American Political Thought"
+    },
+    {
+        "Short name": "AF AMER M115",
+        "Full name": "We Gone Be Alright: Developing Next Generation of Black Organizers"
+    },
+    {
+        "Short name": "AF AMER M118",
+        "Full name": "Student-Initiated Retention and Outreach Issues in Higher Education"
+    },
+    {
+        "Short name": "AF AMER M120",
+        "Full name": "Race, Inequality, and Public Policy"
+    },
+    {
+        "Short name": "AF AMER M121",
+        "Full name": "Afro-Indigenous History: from Enslavement and Settlement to Black Lives Matter and Indigenous Sovereignty"
+    },
+    {
+        "Short name": "AF AMER M124",
+        "Full name": "Comparative Racialization and Indigeneity"
+    },
+    {
+        "Short name": "AF AMER CM135A",
+        "Full name": "African American Art before 1900"
+    },
+    {
+        "Short name": "AF AMER CM135B",
+        "Full name": "African American Art, 1900 to 1963"
+    },
+    {
+        "Short name": "AF AMER 140",
+        "Full name": "Radical Black Imaginaries: Politics, Identity, and Struggle"
+    },
+    {
+        "Short name": "AF AMER M141",
+        "Full name": "African American Women\u2019s History"
+    },
+    {
+        "Short name": "AF AMER M142",
+        "Full name": "Race, Gender, and Punishment"
+    },
+    {
+        "Short name": "AF AMER M144",
+        "Full name": "Ethnic Politics: African American Politics"
+    },
+    {
+        "Short name": "AF AMER M148",
+        "Full name": "Politics of Struggle: Race, Solidarity, and Resistance"
+    },
+    {
+        "Short name": "AF AMER M150D",
+        "Full name": "Recent African American Urban History: Funk Music and Politics of Black Popular Culture"
+    },
+    {
+        "Short name": "AF AMER M154C",
+        "Full name": "Black Experience in Latin America and Caribbean I"
+    },
+    {
+        "Short name": "AF AMER M154D",
+        "Full name": "Black Experience in Latin America and Caribbean II"
+    },
+    {
+        "Short name": "AF AMER M158A",
+        "Full name": "Comparative Slavery Systems"
+    },
+    {
+        "Short name": "AF AMER M158B",
+        "Full name": "Introduction to Afro-American History"
+    },
+    {
+        "Short name": "AF AMER M158C",
+        "Full name": "Introduction to Afro-American History"
+    },
+    {
+        "Short name": "AF AMER M158E",
+        "Full name": "African American Nationalism in First Half of 20th Century"
+    },
+    {
+        "Short name": "AF AMER M159P",
+        "Full name": "Constructing Race"
+    },
+    {
+        "Short name": "AF AMER M164",
+        "Full name": "Afro-American Experience in U.S."
+    },
+    {
+        "Short name": "AF AMER M165",
+        "Full name": "Sociology of Race and Labor"
+    },
+    {
+        "Short name": "AF AMER M167",
+        "Full name": "Worker Center Movement: Next Wave Organizing for Justice for Immigrant Workers"
+    },
+    {
+        "Short name": "AF AMER M170A",
+        "Full name": "Diasporic Nonfiction: Media Engagements with Memory and Displacement I"
+    },
+    {
+        "Short name": "AF AMER M170B",
+        "Full name": "Diasporic Nonfiction: Media Engagements with Memory and Displacement II"
+    },
+    {
+        "Short name": "AF AMER M172",
+        "Full name": "Afro-American Woman in U.S."
+    },
+    {
+        "Short name": "AF AMER M173",
+        "Full name": "Nonviolence and Social Movements"
+    },
+    {
+        "Short name": "AF AMER 174",
+        "Full name": "Intraracial Differences in 20th-Century Black America"
+    },
+    {
+        "Short name": "AF AMER 175",
+        "Full name": "Racial and Ethnic Disparities in Healthcare"
+    },
+    {
+        "Short name": "AF AMER 176",
+        "Full name": "Race, Racism, and Law"
+    },
+    {
+        "Short name": "AF AMER 177",
+        "Full name": "African Americans in Higher Education"
+    },
+    {
+        "Short name": "AF AMER M178",
+        "Full name": "Sociology of Caribbean"
+    },
+    {
+        "Short name": "AF AMER M179A",
+        "Full name": "Topics in African American Literature"
+    },
+    {
+        "Short name": "AF AMER 184A",
+        "Full name": "Research in Black Life, Institutions, and Culture"
+    },
+    {
+        "Short name": "AF AMER 184B",
+        "Full name": "Research in Black Life, Institutions, and Culture II"
+    },
+    {
+        "Short name": "AF AMER 184C",
+        "Full name": "Research in Black Life, Institutions and Culture III: Comparative Black Studies Research Perspectives and Methods"
+    },
+    {
+        "Short name": "AF AMER 188A",
+        "Full name": "Special Courses in African American Studies"
+    },
+    {
+        "Short name": "AF AMER 188B",
+        "Full name": "Race and Public Policy"
+    },
+    {
+        "Short name": "AF AMER 188SA",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "AF AMER 188SB",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "AF AMER 188SC",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "AF AMER 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "AF AMER 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "AF AMER C191",
+        "Full name": "Variable Topics Research Seminars: Afro-American Studies"
+    },
+    {
+        "Short name": "AF AMER M194A",
+        "Full name": "Language, Literacy, and Human Development Research Group Seminars"
+    },
+    {
+        "Short name": "AF AMER M194B",
+        "Full name": "Culture, Gender, and Human Development Research Group Seminars"
+    },
+    {
+        "Short name": "AF AMER M194C",
+        "Full name": "Culture, Communications, and Human Development Research Group Seminars"
+    },
+    {
+        "Short name": "AF AMER 195",
+        "Full name": "Community or Corporate Internships in Afro-American Studies"
+    },
+    {
+        "Short name": "AF AMER M195CE",
+        "Full name": "Comparative Approaches to Community and Corporate Internships"
+    },
+    {
+        "Short name": "AF AMER 196",
+        "Full name": "Research Apprenticeship in Afro-American Studies"
+    },
+    {
+        "Short name": "AF AMER 197",
+        "Full name": "Individual Studies in Afro-American Studies"
+    },
+    {
+        "Short name": "AF AMER 198",
+        "Full name": "Honors Research in Afro-American Studies"
+    },
+    {
+        "Short name": "AF AMER 199",
+        "Full name": "Directed Research or Senior Project in Afro-American Studies"
+    },
+    {
+        "Short name": "AF AMER M200A",
+        "Full name": "Advanced Historiography: African American"
+    },
+    {
+        "Short name": "AF AMER M200B",
+        "Full name": "Political Economy of Race"
+    },
+    {
+        "Short name": "AF AMER M200C",
+        "Full name": "Black Families and Relationships"
+    },
+    {
+        "Short name": "AF AMER 200D",
+        "Full name": "African American Women\u2019s History"
+    },
+    {
+        "Short name": "AF AMER M200E",
+        "Full name": "Studies in Afro-American Literature"
+    },
+    {
+        "Short name": "AF AMER M200G",
+        "Full name": "Race, Class, and Gender: Constructing Black Womanhood and Black Manhood in America"
+    },
+    {
+        "Short name": "AF AMER 200H",
+        "Full name": "Social Politics of Recent African American Music and Popular Culture"
+    },
+    {
+        "Short name": "AF AMER M202",
+        "Full name": "Critical Theory of African Diaspora"
+    },
+    {
+        "Short name": "AF AMER M211",
+        "Full name": "Seminar: African American Music"
+    },
+    {
+        "Short name": "AF AMER CM213B",
+        "Full name": "Legislative Theater for Race and Gender Justice"
+    },
+    {
+        "Short name": "AF AMER CM213XP",
+        "Full name": "Narratives of Justice: Disrupting School-to-Prison Pipeline\u2014Arts, Activism, and Agency"
+    },
+    {
+        "Short name": "AF AMER CM235A",
+        "Full name": "African American Art before 1900"
+    },
+    {
+        "Short name": "AF AMER CM235B",
+        "Full name": "African American Art, 1900 to 1963"
+    },
+    {
+        "Short name": "AF AMER M240",
+        "Full name": "Assessment and Treatment of African American Families"
+    },
+    {
+        "Short name": "AF AMER 241",
+        "Full name": "Special Topics in Afro-American Studies"
+    },
+    {
+        "Short name": "AF AMER M256",
+        "Full name": "Topics in African American Art"
+    },
+    {
+        "Short name": "AF AMER 270A",
+        "Full name": "Survey of Afro-American Research"
+    },
+    {
+        "Short name": "AF AMER C291",
+        "Full name": "Special Topics in Afro-American Studies"
+    },
+    {
+        "Short name": "AF AMER 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "AF AMER 596",
+        "Full name": "Directed Readings and Tutorials"
+    },
+    {
+        "Short name": "AF AMER 597",
+        "Full name": "Preparation for MA Comprehensive Examination"
+    },
+    {
+        "Short name": "AF AMER 598",
+        "Full name": "Research for and Preparation of MA Thesis"
+    },
+    {
+        "Short name": "AFRC ST 201A",
+        "Full name": "Africa and Disciplines"
+    },
+    {
+        "Short name": "AFRC ST 201B",
+        "Full name": "Africa and Professions"
+    },
+    {
+        "Short name": "AFRC ST 296",
+        "Full name": "Africanist Working Group"
+    },
+    {
+        "Short name": "AFRC ST 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "AFRC ST 596",
+        "Full name": "Directed Individual Study or Research"
+    },
+    {
+        "Short name": "AFRC ST 597",
+        "Full name": "Preparation for MA Comprehensive Examination"
+    },
+    {
+        "Short name": "AFRC ST 598",
+        "Full name": "Research for and Preparation of MA Thesis"
+    },
+    {
+        "Short name": "AM IND M10",
+        "Full name": "Introduction to American Indian Studies"
+    },
+    {
+        "Short name": "AM IND M18",
+        "Full name": "Leadership and Student-Initiated Retention"
+    },
+    {
+        "Short name": "AM IND 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "AM IND 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "AM IND 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "AM IND 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "AM IND M118",
+        "Full name": "Student-Initiated Retention and Outreach Issues in Higher Education"
+    },
+    {
+        "Short name": "AM IND C120",
+        "Full name": "Working in Tribal Communities: Introduction"
+    },
+    {
+        "Short name": "AM IND C121",
+        "Full name": "Working in Tribal Communities: Preparing for Fieldwork"
+    },
+    {
+        "Short name": "AM IND C122XP",
+        "Full name": "Working in Tribal Communities: Community-Engaged Learning"
+    },
+    {
+        "Short name": "AM IND M123",
+        "Full name": "Afro-Indigenous History: from Enslavement and Settlement to Black Lives Matter and Indigenous Sovereignty"
+    },
+    {
+        "Short name": "AM IND C130",
+        "Full name": "California Indian Strategies for Contemporary Challenges"
+    },
+    {
+        "Short name": "AM IND 140",
+        "Full name": "Federal Indian Law and Policy"
+    },
+    {
+        "Short name": "AM IND C145",
+        "Full name": "Contemporary Indigenous Nations"
+    },
+    {
+        "Short name": "AM IND 158",
+        "Full name": "Nation Building"
+    },
+    {
+        "Short name": "AM IND M161",
+        "Full name": "Comparative American Indian Societies"
+    },
+    {
+        "Short name": "AM IND M162",
+        "Full name": "Language Endangerment and Linguistic Revitalization"
+    },
+    {
+        "Short name": "AM IND CM168",
+        "Full name": "Healthcare for American Indians"
+    },
+    {
+        "Short name": "AM IND C170",
+        "Full name": "California Indian History"
+    },
+    {
+        "Short name": "AM IND C175",
+        "Full name": "Cultures of Native Southern California"
+    },
+    {
+        "Short name": "AM IND C178",
+        "Full name": "California Experiences in Native Cultural Resource Management"
+    },
+    {
+        "Short name": "AM IND 180",
+        "Full name": "Introduction to and Practicum in Native American Languages"
+    },
+    {
+        "Short name": "AM IND M186",
+        "Full name": "Indigenous Film"
+    },
+    {
+        "Short name": "AM IND 187",
+        "Full name": "Special Topics in American Indian Studies"
+    },
+    {
+        "Short name": "AM IND M187A",
+        "Full name": "Special Topics in American Indian and Gender Studies"
+    },
+    {
+        "Short name": "AM IND 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "AM IND 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "AM IND 195",
+        "Full name": "Community Internships in American Indian Studies"
+    },
+    {
+        "Short name": "AM IND M195CE",
+        "Full name": "Comparative Approaches to Community and Corporate Internships"
+    },
+    {
+        "Short name": "AM IND 197",
+        "Full name": "Individual Studies in American Indian Studies"
+    },
+    {
+        "Short name": "AM IND 198A",
+        "Full name": "Honors Research in American Indian Studies"
+    },
+    {
+        "Short name": "AM IND 198B",
+        "Full name": "Honors Research in American Indian Studies"
+    },
+    {
+        "Short name": "AM IND 198C",
+        "Full name": "Honors Research in American Indian Studies"
+    },
+    {
+        "Short name": "AM IND 199",
+        "Full name": "Directed Research or Senior Project in American Indian Studies"
+    },
+    {
+        "Short name": "AM IND 199C",
+        "Full name": "Individual Studies: Capstone Synthesis"
+    },
+    {
+        "Short name": "AM IND M200A",
+        "Full name": "Advanced Historiography: American Indian Peoples"
+    },
+    {
+        "Short name": "AM IND M200B",
+        "Full name": "Cultural World Views of Native America"
+    },
+    {
+        "Short name": "AM IND M200C",
+        "Full name": "Contemporary Issues of American Indians"
+    },
+    {
+        "Short name": "AM IND 201",
+        "Full name": "Introduction to Interdisciplinary Methods in American Indian and Indigenous Studies"
+    },
+    {
+        "Short name": "AM IND 202",
+        "Full name": "Key Theories and Concepts in American Indian Studies"
+    },
+    {
+        "Short name": "AM IND M207",
+        "Full name": "Economic Principles and Economic Development in Indigenous Communities"
+    },
+    {
+        "Short name": "AM IND M208",
+        "Full name": "Native American Languages and Discourses of Indigeneity"
+    },
+    {
+        "Short name": "AM IND C220",
+        "Full name": "Working in Tribal Communities: Introduction"
+    },
+    {
+        "Short name": "AM IND C221",
+        "Full name": "Working in Tribal Communities: Preparing for Fieldwork"
+    },
+    {
+        "Short name": "AM IND C222XP",
+        "Full name": "Working in Tribal Communities: Community-Engaged Learning"
+    },
+    {
+        "Short name": "AM IND 228A",
+        "Full name": "Tribal Legal Systems"
+    },
+    {
+        "Short name": "AM IND 228B",
+        "Full name": "Tribal Legal Systems"
+    },
+    {
+        "Short name": "AM IND C230",
+        "Full name": "California Indian Strategies for Contemporary Challenges"
+    },
+    {
+        "Short name": "AM IND 238A",
+        "Full name": "Tribal Legal Development Clinic"
+    },
+    {
+        "Short name": "AM IND 238B",
+        "Full name": "Tribal Legal Development Clinic"
+    },
+    {
+        "Short name": "AM IND C245",
+        "Full name": "Contemporary Indigenous Nations"
+    },
+    {
+        "Short name": "AM IND 261",
+        "Full name": "Comparative Indigenous Societies"
+    },
+    {
+        "Short name": "AM IND 265",
+        "Full name": "Federal Indian Law I"
+    },
+    {
+        "Short name": "AM IND M265A",
+        "Full name": "Federal Indian Law I"
+    },
+    {
+        "Short name": "AM IND 265B",
+        "Full name": "Federal Indian Law I"
+    },
+    {
+        "Short name": "AM IND M267A",
+        "Full name": "Federal Indian Law II"
+    },
+    {
+        "Short name": "AM IND 267B",
+        "Full name": "Federal Indian Law II"
+    },
+    {
+        "Short name": "AM IND M267",
+        "Full name": "Federal Indian Law II"
+    },
+    {
+        "Short name": "AM IND C268",
+        "Full name": "Healthcare for American Indians"
+    },
+    {
+        "Short name": "AM IND C270",
+        "Full name": "California Indian History"
+    },
+    {
+        "Short name": "AM IND M272",
+        "Full name": "Seminar: Cultural Property Law"
+    },
+    {
+        "Short name": "AM IND 274",
+        "Full name": "Good Native Governance"
+    },
+    {
+        "Short name": "AM IND C275",
+        "Full name": "Cultures of Native Southern California"
+    },
+    {
+        "Short name": "AM IND C278",
+        "Full name": "California Experiences in Native Cultural Resource Management"
+    },
+    {
+        "Short name": "AM IND 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "AM IND 596",
+        "Full name": "Directed Individual Studies"
+    },
+    {
+        "Short name": "AM IND 598",
+        "Full name": "Research for and Preparation of MA Thesis"
+    },
+    {
+        "Short name": "ASL 1",
+        "Full name": "Elementary American Sign Language"
+    },
+    {
+        "Short name": "ASL 2",
+        "Full name": "Elementary American Sign Language"
+    },
+    {
+        "Short name": "ASL 3",
+        "Full name": "Elementary American Sign Language"
+    },
+    {
+        "Short name": "ASL 4",
+        "Full name": "Intermediate American Sign Language"
+    },
+    {
+        "Short name": "ASL 5",
+        "Full name": "Intermediate American Sign Language"
+    },
+    {
+        "Short name": "ASL 6",
+        "Full name": "Intermediate American Sign Language"
+    },
+    {
+        "Short name": "ASL 8",
+        "Full name": "Intensive Elementary American Sign Language"
+    },
+    {
+        "Short name": "ASL 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ASL 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ASL 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ASL 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ASL M115",
+        "Full name": "Enforcing Normalcy: Deaf and Disability Studies"
+    },
+    {
+        "Short name": "ASL M120",
+        "Full name": "History of Deaf Communities in America"
+    },
+    {
+        "Short name": "ASL 121",
+        "Full name": "History of Mass Media and Deaf Community"
+    },
+    {
+        "Short name": "ASL 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ASL 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "AN N EA 10W",
+        "Full name": "Jerusalem: Holy City"
+    },
+    {
+        "Short name": "AN N EA 12W",
+        "Full name": "Jerusalem: Holy City"
+    },
+    {
+        "Short name": "AN N EA 14W",
+        "Full name": "Medicine, Magic, and Science in Ancient Times"
+    },
+    {
+        "Short name": "AN N EA 15",
+        "Full name": "Women and Power in Ancient World"
+    },
+    {
+        "Short name": "AN N EA 15W",
+        "Full name": "Women and Power in Ancient World"
+    },
+    {
+        "Short name": "AN N EA 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "AN N EA 20",
+        "Full name": "Egyptian Hieroglyphs"
+    },
+    {
+        "Short name": "AN N EA M50A",
+        "Full name": "First Civilizations"
+    },
+    {
+        "Short name": "AN N EA M50B",
+        "Full name": "Origins of Judaism, Christianity, and Islam"
+    },
+    {
+        "Short name": "AN N EA M60",
+        "Full name": "Achaemenid Civilization and Empire of Alexander"
+    },
+    {
+        "Short name": "AN N EA 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "AN N EA 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "AN N EA 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "AN N EA CM101A",
+        "Full name": "Art and Architecture of Ancient Egypt, Predynastic Period to New Kingdom"
+    },
+    {
+        "Short name": "AN N EA CM101B",
+        "Full name": "Art and Architecture of Ancient Egypt, New Kingdom to Greco-Roman Period"
+    },
+    {
+        "Short name": "AN N EA M101C",
+        "Full name": "Ancient Egyptian Temple and City of Thebes"
+    },
+    {
+        "Short name": "AN N EA M103A",
+        "Full name": "History of Ancient Egypt"
+    },
+    {
+        "Short name": "AN N EA M103B",
+        "Full name": "History of Ancient Egypt"
+    },
+    {
+        "Short name": "AN N EA M104A",
+        "Full name": "History of Ancient Mesopotamia and Syria"
+    },
+    {
+        "Short name": "AN N EA M104B",
+        "Full name": "Sumerians"
+    },
+    {
+        "Short name": "AN N EA M104C",
+        "Full name": "Babylonians"
+    },
+    {
+        "Short name": "AN N EA M104D",
+        "Full name": "Assyrians"
+    },
+    {
+        "Short name": "AN N EA M105",
+        "Full name": "Archaeology of Egypt and Sudan"
+    },
+    {
+        "Short name": "AN N EA M110A",
+        "Full name": "Iranian Civilization: History of Achaemenid Empire"
+    },
+    {
+        "Short name": "AN N EA M110B",
+        "Full name": "Iranian Civilization: History of Arsacid (Parthian) Empire"
+    },
+    {
+        "Short name": "AN N EA M110C",
+        "Full name": "Iranian Civilization: History of Early Sasanian Empire\u2014From Ardashir I to Rise of Peroz (circa 224-459 CE)"
+    },
+    {
+        "Short name": "AN N EA 120A",
+        "Full name": "Elementary Ancient Egyptian"
+    },
+    {
+        "Short name": "AN N EA 120B",
+        "Full name": "Elementary Ancient Egyptian"
+    },
+    {
+        "Short name": "AN N EA 120C",
+        "Full name": "Elementary Ancient Egyptian"
+    },
+    {
+        "Short name": "AN N EA 121A",
+        "Full name": "Intermediate Ancient Egyptian Readings"
+    },
+    {
+        "Short name": "AN N EA 121B",
+        "Full name": "Intermediate Ancient Egyptian Readings"
+    },
+    {
+        "Short name": "AN N EA 121C",
+        "Full name": "Intermediate Ancient Egyptian Readings"
+    },
+    {
+        "Short name": "AN N EA 122",
+        "Full name": "Elementary Ancient Egyptian: Intensive"
+    },
+    {
+        "Short name": "AN N EA C123A",
+        "Full name": "Coptic"
+    },
+    {
+        "Short name": "AN N EA C123B",
+        "Full name": "Coptic"
+    },
+    {
+        "Short name": "AN N EA 124",
+        "Full name": "Middle Egyptian Technical Literature"
+    },
+    {
+        "Short name": "AN N EA 125A",
+        "Full name": "Digital Cultural Mapping Core Course A: Place, Time, and Digital World"
+    },
+    {
+        "Short name": "AN N EA M125B",
+        "Full name": "Digital Cultural Mapping Core Course B: Google Earth, Geographic Information Systems, Hypercities, and Timelines"
+    },
+    {
+        "Short name": "AN N EA M125C",
+        "Full name": "Digital Cultural Mapping Core Course C: Summer Research"
+    },
+    {
+        "Short name": "AN N EA M130",
+        "Full name": "Ancient Egyptian Religion"
+    },
+    {
+        "Short name": "AN N EA M135",
+        "Full name": "Religion in Ancient Israel"
+    },
+    {
+        "Short name": "AN N EA 140A",
+        "Full name": "Elementary Sumerian"
+    },
+    {
+        "Short name": "AN N EA 140B",
+        "Full name": "Elementary Sumerian"
+    },
+    {
+        "Short name": "AN N EA 140C",
+        "Full name": "Elementary Sumerian"
+    },
+    {
+        "Short name": "AN N EA 150A",
+        "Full name": "Heroes, Gods, and Monsters: Literature and Epic in Mesopotamia"
+    },
+    {
+        "Short name": "AN N EA 150B",
+        "Full name": "Survey of Ancient Near Eastern Literatures in English: Egypt"
+    },
+    {
+        "Short name": "AN N EA 160",
+        "Full name": "Origins of Agriculture"
+    },
+    {
+        "Short name": "AN N EA 161",
+        "Full name": "Archaeology of Prehistoric Mesopotamia"
+    },
+    {
+        "Short name": "AN N EA 162",
+        "Full name": "Archaeology, Identity, and Bible"
+    },
+    {
+        "Short name": "AN N EA CM163",
+        "Full name": "Archaeology of Iran"
+    },
+    {
+        "Short name": "AN N EA C165",
+        "Full name": "Egyptian Archaeology"
+    },
+    {
+        "Short name": "AN N EA M166",
+        "Full name": "Art and Death in Ancient Egypt"
+    },
+    {
+        "Short name": "AN N EA M167",
+        "Full name": "Magic in Ancient World"
+    },
+    {
+        "Short name": "AN N EA M168",
+        "Full name": "Introductory Hittite"
+    },
+    {
+        "Short name": "AN N EA CM169",
+        "Full name": "Introduction to Archaeological Sciences"
+    },
+    {
+        "Short name": "AN N EA M170",
+        "Full name": "Bible and Its Interpreters"
+    },
+    {
+        "Short name": "AN N EA 175",
+        "Full name": "Conceptions of Race in Ancient Egypt"
+    },
+    {
+        "Short name": "AN N EA C177",
+        "Full name": "Variable Topics in Ancient Near East"
+    },
+    {
+        "Short name": "AN N EA M179",
+        "Full name": "Cultural Heritage and Identity Representation: Creating Fowler and Virtual Exhibit"
+    },
+    {
+        "Short name": "AN N EA M185D",
+        "Full name": "Religions of Ancient Near East"
+    },
+    {
+        "Short name": "AN N EA 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "AN N EA 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "AN N EA 197",
+        "Full name": "Individual Studies in Ancient Near East"
+    },
+    {
+        "Short name": "AN N EA 199",
+        "Full name": "Directed Research or Senior Project in Ancient Near East"
+    },
+    {
+        "Short name": "AN N EA M201",
+        "Full name": "Archaeological Research Design"
+    },
+    {
+        "Short name": "AN N EA M208",
+        "Full name": "Topics in Ancient Iranian History"
+    },
+    {
+        "Short name": "AN N EA 210",
+        "Full name": "Late Egyptian"
+    },
+    {
+        "Short name": "AN N EA 211A",
+        "Full name": "Egyptian Texts of Greco-Roman Period"
+    },
+    {
+        "Short name": "AN N EA 211B",
+        "Full name": "Egyptian Texts of Greco-Roman Period"
+    },
+    {
+        "Short name": "AN N EA 215",
+        "Full name": "Readings in Middle Kingdom Literature"
+    },
+    {
+        "Short name": "AN N EA 220",
+        "Full name": "Seminar: Ancient Egypt"
+    },
+    {
+        "Short name": "AN N EA 221A",
+        "Full name": "Demotic"
+    },
+    {
+        "Short name": "AN N EA 221B",
+        "Full name": "Demotic"
+    },
+    {
+        "Short name": "AN N EA C223A",
+        "Full name": "Coptic"
+    },
+    {
+        "Short name": "AN N EA C223B",
+        "Full name": "Coptic"
+    },
+    {
+        "Short name": "AN N EA 230",
+        "Full name": "Seminar: Ancient Syria/Palestine"
+    },
+    {
+        "Short name": "AN N EA 240A",
+        "Full name": "Seminar: Sumerian Language and Literature"
+    },
+    {
+        "Short name": "AN N EA 240B",
+        "Full name": "Seminar: Sumerian Language and Literature"
+    },
+    {
+        "Short name": "AN N EA 240C",
+        "Full name": "Seminar: Sumerian Language and Literature"
+    },
+    {
+        "Short name": "AN N EA CM259",
+        "Full name": "Archaeology of Iran"
+    },
+    {
+        "Short name": "AN N EA 260",
+        "Full name": "Seminar: Ancient Near Eastern Archaeology"
+    },
+    {
+        "Short name": "AN N EA 261",
+        "Full name": "Practical Field Archaeology"
+    },
+    {
+        "Short name": "AN N EA 262",
+        "Full name": "Seminar: Object Archaeology"
+    },
+    {
+        "Short name": "AN N EA 263",
+        "Full name": "Seminar: Egyptian Monuments"
+    },
+    {
+        "Short name": "AN N EA 264",
+        "Full name": "Egyptian Museum Collections"
+    },
+    {
+        "Short name": "AN N EA M265",
+        "Full name": "Depositional History and Stratigraphic Analysis"
+    },
+    {
+        "Short name": "AN N EA C266",
+        "Full name": "Egyptian Archaeology"
+    },
+    {
+        "Short name": "AN N EA C267A",
+        "Full name": "Art and Architecture of Ancient Egypt, Predynastic Period to New Kingdom"
+    },
+    {
+        "Short name": "AN N EA C267B",
+        "Full name": "Art and Architecture of Ancient Egypt, New Kingdom to Greco-Roman Period"
+    },
+    {
+        "Short name": "AN N EA CM269",
+        "Full name": "Introduction to Archaeological Sciences"
+    },
+    {
+        "Short name": "AN N EA 270",
+        "Full name": "Old Egyptian"
+    },
+    {
+        "Short name": "AN N EA C277",
+        "Full name": "Variable Topics in Ancient Near East"
+    },
+    {
+        "Short name": "AN N EA 596",
+        "Full name": "Directed Individual Study"
+    },
+    {
+        "Short name": "AN N EA 597",
+        "Full name": "Examination Preparation"
+    },
+    {
+        "Short name": "AN N EA 599",
+        "Full name": "PhD Dissertation Research and Preparation"
+    },
+    {
+        "Short name": "ANTHRO 1",
+        "Full name": "Human Evolution"
+    },
+    {
+        "Short name": "ANTHRO 2",
+        "Full name": "Archaeology: Introduction"
+    },
+    {
+        "Short name": "ANTHRO 3",
+        "Full name": "Culture and Society"
+    },
+    {
+        "Short name": "ANTHRO 4",
+        "Full name": "Culture and Communication"
+    },
+    {
+        "Short name": "ANTHRO 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ANTHRO M67W",
+        "Full name": "Making and Studying Modern Middle East"
+    },
+    {
+        "Short name": "ANTHRO 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ANTHRO 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ANTHRO 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ANTHRO 100",
+        "Full name": "History of Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 110",
+        "Full name": "Principles of Archaeology"
+    },
+    {
+        "Short name": "ANTHRO CM110Q",
+        "Full name": "Introduction to Archaeological Sciences"
+    },
+    {
+        "Short name": "ANTHRO 111",
+        "Full name": "Theory in Anthropological Archaeology"
+    },
+    {
+        "Short name": "ANTHRO 112P",
+        "Full name": "Selected Topics in Historical Archaeology"
+    },
+    {
+        "Short name": "ANTHRO 112Q",
+        "Full name": "Archaeology of Chiefdoms"
+    },
+    {
+        "Short name": "ANTHRO 112R",
+        "Full name": "Cities Past and Present"
+    },
+    {
+        "Short name": "ANTHRO 112S",
+        "Full name": "Politics of Past"
+    },
+    {
+        "Short name": "ANTHRO 113P",
+        "Full name": "Archaeology of North America"
+    },
+    {
+        "Short name": "ANTHRO 113Q",
+        "Full name": "California Archaeology"
+    },
+    {
+        "Short name": "ANTHRO 113R",
+        "Full name": "Southwestern Archaeology"
+    },
+    {
+        "Short name": "ANTHRO 114P",
+        "Full name": "Ancient Civilizations of Mesoamerica"
+    },
+    {
+        "Short name": "ANTHRO 114Q",
+        "Full name": "Ancient Civilizations of Andean South America"
+    },
+    {
+        "Short name": "ANTHRO M115",
+        "Full name": "Archaeology of Egypt and Sudan"
+    },
+    {
+        "Short name": "ANTHRO 116P",
+        "Full name": "Archaeology of South Asia"
+    },
+    {
+        "Short name": "ANTHRO 116Q",
+        "Full name": "Selected Topics in Archaeology of China"
+    },
+    {
+        "Short name": "ANTHRO M116R",
+        "Full name": "Archaeological Landscapes of China"
+    },
+    {
+        "Short name": "ANTHRO 116S",
+        "Full name": "Selected Topics in Archaeology of Southeast Asia"
+    },
+    {
+        "Short name": "ANTHRO C117",
+        "Full name": "Selected Laboratory Topics in Archaeology"
+    },
+    {
+        "Short name": "ANTHRO 117P",
+        "Full name": "Selected Laboratory Topics in Archaeology"
+    },
+    {
+        "Short name": "ANTHRO 118Q",
+        "Full name": "Conquest and Colonialism"
+    },
+    {
+        "Short name": "ANTHRO 118R",
+        "Full name": "Religion and Urbanism"
+    },
+    {
+        "Short name": "ANTHRO 119",
+        "Full name": "Selected Topics in Archaeology"
+    },
+    {
+        "Short name": "ANTHRO 120",
+        "Full name": "Survey of Biological Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 124P",
+        "Full name": "Human Behavioral Ecology"
+    },
+    {
+        "Short name": "ANTHRO 124Q",
+        "Full name": "Evolutionary Psychology"
+    },
+    {
+        "Short name": "ANTHRO M124R",
+        "Full name": "Evolution of Language"
+    },
+    {
+        "Short name": "ANTHRO 124S",
+        "Full name": "Evolution of Human Sexual Behavior"
+    },
+    {
+        "Short name": "ANTHRO 124T",
+        "Full name": "Evolution of Personality"
+    },
+    {
+        "Short name": "ANTHRO 126P",
+        "Full name": "Paleopathology"
+    },
+    {
+        "Short name": "ANTHRO 126Q",
+        "Full name": "Evolution of Genus Homo"
+    },
+    {
+        "Short name": "ANTHRO 128P",
+        "Full name": "Primate Behavior Nonhuman to Human"
+    },
+    {
+        "Short name": "ANTHRO M128Q",
+        "Full name": "Animal Communication"
+    },
+    {
+        "Short name": "ANTHRO M128S",
+        "Full name": "Primate Genetics, Ecology, and Conservation"
+    },
+    {
+        "Short name": "ANTHRO M128T",
+        "Full name": "Amazon in Anthropocene"
+    },
+    {
+        "Short name": "ANTHRO 129",
+        "Full name": "Selected Topics in Biological Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 130",
+        "Full name": "Study of Culture"
+    },
+    {
+        "Short name": "ANTHRO 131",
+        "Full name": "Critical Social Theory"
+    },
+    {
+        "Short name": "ANTHRO 132",
+        "Full name": "Anthropology of Environment"
+    },
+    {
+        "Short name": "ANTHRO 133",
+        "Full name": "Anthropology of Food"
+    },
+    {
+        "Short name": "ANTHRO 134",
+        "Full name": "Anthropology of Migration"
+    },
+    {
+        "Short name": "ANTHRO 135",
+        "Full name": "Visual Anthropology: Documentary Photography"
+    },
+    {
+        "Short name": "ANTHRO 135R",
+        "Full name": "Multimedia Ethnography"
+    },
+    {
+        "Short name": "ANTHRO 136A",
+        "Full name": "Introduction to Psychological Anthropology: Historical Development"
+    },
+    {
+        "Short name": "ANTHRO 136B",
+        "Full name": "Introduction to Psychological Anthropology: Current Topics and Research"
+    },
+    {
+        "Short name": "ANTHRO 137P",
+        "Full name": "Anthropology of Deviance and Abnormality"
+    },
+    {
+        "Short name": "ANTHRO 137Q",
+        "Full name": "Psychoanalysis and Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 138P",
+        "Full name": "Field Methods in Cultural Anthropology"
+    },
+    {
+        "Short name": "ANTHRO M138Q",
+        "Full name": "Fieldwork in Asian American and Pacific Islander Communities"
+    },
+    {
+        "Short name": "ANTHRO 139",
+        "Full name": "Selected Topics in Cultural Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 140",
+        "Full name": "Study of Social Systems"
+    },
+    {
+        "Short name": "ANTHRO 141",
+        "Full name": "Careers in Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 142P",
+        "Full name": "Anthropology of Religion"
+    },
+    {
+        "Short name": "ANTHRO 142Q",
+        "Full name": "Ethnic and Religious Minorities"
+    },
+    {
+        "Short name": "ANTHRO 143",
+        "Full name": "Economic Anthropology"
+    },
+    {
+        "Short name": "ANTHRO C144M",
+        "Full name": "Multispecies Anthropology"
+    },
+    {
+        "Short name": "ANTHRO M144P",
+        "Full name": "Constructing Race"
+    },
+    {
+        "Short name": "ANTHRO M144Q",
+        "Full name": "Afro-American Experience in U.S."
+    },
+    {
+        "Short name": "ANTHRO 144R",
+        "Full name": "Anthros and Indians: Racism, Colonialism, and Development of Anthropology in America"
+    },
+    {
+        "Short name": "ANTHRO C144S",
+        "Full name": "Repatriation of Native American Human Remains and Cultural Objects"
+    },
+    {
+        "Short name": "ANTHRO M145P",
+        "Full name": "Marriage, Family, and Kinship"
+    },
+    {
+        "Short name": "ANTHRO M145Q",
+        "Full name": "Selected Topics in Gender Systems"
+    },
+    {
+        "Short name": "ANTHRO M145R",
+        "Full name": "Women and Social Movements"
+    },
+    {
+        "Short name": "ANTHRO 145S",
+        "Full name": "Culture, Gender, Sexuality"
+    },
+    {
+        "Short name": "ANTHRO M145T",
+        "Full name": "Women\u2019s Voices: Their Critique of Anthropology of Japan"
+    },
+    {
+        "Short name": "ANTHRO 146",
+        "Full name": "Urban Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 147",
+        "Full name": "Development Anthropology"
+    },
+    {
+        "Short name": "ANTHRO M148",
+        "Full name": "Past People and Their Lessons for Our Own Future"
+    },
+    {
+        "Short name": "ANTHRO 149",
+        "Full name": "Selected Topics in Social Anthropology"
+    },
+    {
+        "Short name": "ANTHRO M150",
+        "Full name": "Language in Culture"
+    },
+    {
+        "Short name": "ANTHRO 151",
+        "Full name": "Ethnography of Everyday Speech"
+    },
+    {
+        "Short name": "ANTHRO M152P",
+        "Full name": "Language Development and Socialization"
+    },
+    {
+        "Short name": "ANTHRO 152Q",
+        "Full name": "Language and Social Organization through Life Cycle"
+    },
+    {
+        "Short name": "ANTHRO 152R",
+        "Full name": "Language, Culture, and Education"
+    },
+    {
+        "Short name": "ANTHRO 153",
+        "Full name": "Language and Identity"
+    },
+    {
+        "Short name": "ANTHRO 154P",
+        "Full name": "Multilingualism: Communities and Histories in Contact"
+    },
+    {
+        "Short name": "ANTHRO 154Q",
+        "Full name": "Gender and Language in Society"
+    },
+    {
+        "Short name": "ANTHRO 154SL",
+        "Full name": "Gender and Language across Communities"
+    },
+    {
+        "Short name": "ANTHRO 155",
+        "Full name": "Native American Languages and Their Speakers"
+    },
+    {
+        "Short name": "ANTHRO M156",
+        "Full name": "Language Endangerment and Linguistic Revitalization"
+    },
+    {
+        "Short name": "ANTHRO C157P",
+        "Full name": "Language and Politics"
+    },
+    {
+        "Short name": "ANTHRO M158",
+        "Full name": "Culture of Jazz Aesthetics"
+    },
+    {
+        "Short name": "ANTHRO 159",
+        "Full name": "Selected Topics in Linguistic Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 160A",
+        "Full name": "Native North Americans"
+    },
+    {
+        "Short name": "ANTHRO 160B",
+        "Full name": "Change and Continuity among Native North Americans"
+    },
+    {
+        "Short name": "ANTHRO 161",
+        "Full name": "Latin American Communities"
+    },
+    {
+        "Short name": "ANTHRO 162",
+        "Full name": "Ethnography of South America"
+    },
+    {
+        "Short name": "ANTHRO 163P",
+        "Full name": "Ideology and Social Change in Contemporary China"
+    },
+    {
+        "Short name": "ANTHRO 163Q",
+        "Full name": "Societies of Central Asia"
+    },
+    {
+        "Short name": "ANTHRO 163R",
+        "Full name": "Japan"
+    },
+    {
+        "Short name": "ANTHRO 166P",
+        "Full name": "Sub-Saharan Africa"
+    },
+    {
+        "Short name": "ANTHRO M166Q",
+        "Full name": "Culture Area of Maghrib (North Africa)"
+    },
+    {
+        "Short name": "ANTHRO 167",
+        "Full name": "Culture Area of Middle East"
+    },
+    {
+        "Short name": "ANTHRO 168P",
+        "Full name": "Cultures of Pacific"
+    },
+    {
+        "Short name": "ANTHRO M168Q",
+        "Full name": "Ethnic Identity and Ethnic Relations in Hawai\u2019i"
+    },
+    {
+        "Short name": "ANTHRO 169",
+        "Full name": "Selected Topics in Regional Cultures"
+    },
+    {
+        "Short name": "ANTHRO 188SA",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ANTHRO 188SB",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ANTHRO 188SC",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ANTHRO 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ANTHRO 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ANTHRO 191",
+        "Full name": "Variable Topics Research Seminars: Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 191HA",
+        "Full name": "Beginning Seminar"
+    },
+    {
+        "Short name": "ANTHRO 191HB",
+        "Full name": "Field Methods"
+    },
+    {
+        "Short name": "ANTHRO 191HC",
+        "Full name": "Data Analysis"
+    },
+    {
+        "Short name": "ANTHRO 191HD",
+        "Full name": "Writing for Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 191HE",
+        "Full name": "Writing for Publication and Conference Presentations"
+    },
+    {
+        "Short name": "ANTHRO 193",
+        "Full name": "Journal Club Seminars: Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 194",
+        "Full name": "Research Group Seminars: Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 195CE",
+        "Full name": "Community and Corporate Internships in Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 197",
+        "Full name": "Individual Studies in Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 199",
+        "Full name": "Directed Research in Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 200",
+        "Full name": "Anthropology Graduate Proseminar"
+    },
+    {
+        "Short name": "ANTHRO M201A",
+        "Full name": "Graduate Core Seminar: Archaeology"
+    },
+    {
+        "Short name": "ANTHRO M201B",
+        "Full name": "Graduate Core Seminar: Archaeology"
+    },
+    {
+        "Short name": "ANTHRO M201C",
+        "Full name": "Archaeological Research Design"
+    },
+    {
+        "Short name": "ANTHRO 202A",
+        "Full name": "Core Seminar: Biological Anthropology Colloquium"
+    },
+    {
+        "Short name": "ANTHRO 202B",
+        "Full name": "Core Seminar: Biological Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 202C",
+        "Full name": "Core Seminar: Biological Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 203A",
+        "Full name": "Core Seminar: Sociocultural Anthropology\u2014Historical and Philosophical Foundations of Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 203B",
+        "Full name": "Core Seminar: Sociocultural Anthropology\u2014Sociocultural Systems and Ethnography, Anthropology at Mid-Century"
+    },
+    {
+        "Short name": "ANTHRO 203C",
+        "Full name": "Core Seminar: Sociocultural Anthropology\u2014Scientific and Interpretive Frameworks in Contemporary Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 204A",
+        "Full name": "Core Seminar: Linguistic Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 204B",
+        "Full name": "Core Seminar: Linguistic Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 210",
+        "Full name": "Analytical Methods in Archaeological Studies"
+    },
+    {
+        "Short name": "ANTHRO CM210Q",
+        "Full name": "Introduction to Archaeological Sciences"
+    },
+    {
+        "Short name": "ANTHRO 211",
+        "Full name": "Classification in Archaeology: Method and Theory"
+    },
+    {
+        "Short name": "ANTHRO 212P",
+        "Full name": "Explanation of Societal Change"
+    },
+    {
+        "Short name": "ANTHRO 212Q",
+        "Full name": "Archaeology of Urbanism"
+    },
+    {
+        "Short name": "ANTHRO 214",
+        "Full name": "Selected Topics in Prehistoric Civilizations of New World"
+    },
+    {
+        "Short name": "ANTHRO M216",
+        "Full name": "Topics in Asian Archaeology"
+    },
+    {
+        "Short name": "ANTHRO CM217",
+        "Full name": "Selected Laboratory Topics in Archaeology"
+    },
+    {
+        "Short name": "ANTHRO 219",
+        "Full name": "Selected Topics in Anthropological/Archaeological Theory"
+    },
+    {
+        "Short name": "ANTHRO 221",
+        "Full name": "Behavior, Evolution, and Culture"
+    },
+    {
+        "Short name": "ANTHRO 222",
+        "Full name": "Graduate Core Seminar: Biological Anthropology in Review"
+    },
+    {
+        "Short name": "ANTHRO 223",
+        "Full name": "Experimental Biological Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 229",
+        "Full name": "Current Problems in Biological Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 230",
+        "Full name": "Practice Theory and Beyond"
+    },
+    {
+        "Short name": "ANTHRO 232P",
+        "Full name": "Anthropology and Media Theory"
+    },
+    {
+        "Short name": "ANTHRO 232Q",
+        "Full name": "Ethnographies of Information Technology"
+    },
+    {
+        "Short name": "ANTHRO 233P",
+        "Full name": "Advanced Seminar: Medical Anthropology"
+    },
+    {
+        "Short name": "ANTHRO M233Q",
+        "Full name": "Latin America: Traditional Medicine, Shamanism, and Folk Illness"
+    },
+    {
+        "Short name": "ANTHRO M233R",
+        "Full name": "Health and Culture in Americas"
+    },
+    {
+        "Short name": "ANTHRO 233T",
+        "Full name": "Narrative and Times of Trouble"
+    },
+    {
+        "Short name": "ANTHRO 234",
+        "Full name": "Mind, Medicine, and Culture"
+    },
+    {
+        "Short name": "ANTHRO 235",
+        "Full name": "Individual in Culture"
+    },
+    {
+        "Short name": "ANTHRO 236",
+        "Full name": "Seminar: Psychocultural Studies and Medical Anthropology"
+    },
+    {
+        "Short name": "ANTHRO M237",
+        "Full name": "Psychological Anthropology"
+    },
+    {
+        "Short name": "ANTHRO M238",
+        "Full name": "Native American Revitalization Movements"
+    },
+    {
+        "Short name": "ANTHRO 239",
+        "Full name": "Selected Topics in Field Ethnography"
+    },
+    {
+        "Short name": "ANTHRO 239Q",
+        "Full name": "Ethnographic Methods in Sociocultural Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 241",
+        "Full name": "Culture, Power, Social Change"
+    },
+    {
+        "Short name": "ANTHRO 242",
+        "Full name": "Urban Anthropology"
+    },
+    {
+        "Short name": "ANTHRO M243",
+        "Full name": "Gender Systems"
+    },
+    {
+        "Short name": "ANTHRO C244M",
+        "Full name": "Multispecies Anthropology"
+    },
+    {
+        "Short name": "ANTHRO M244P",
+        "Full name": "Contemporary Issues of American Indians"
+    },
+    {
+        "Short name": "ANTHRO C244S",
+        "Full name": "Repatriation of Native American Human Remains and Cultural Objects"
+    },
+    {
+        "Short name": "ANTHRO M245",
+        "Full name": "Critical Theory of African Diaspora"
+    },
+    {
+        "Short name": "ANTHRO 246",
+        "Full name": "Contemporary Problems in Africa"
+    },
+    {
+        "Short name": "ANTHRO M247P",
+        "Full name": "Japan in Age of Empire"
+    },
+    {
+        "Short name": "ANTHRO M247Q",
+        "Full name": "Central Asian Studies: Discipline, Methods, Debates"
+    },
+    {
+        "Short name": "ANTHRO 247R",
+        "Full name": "Modernization and Taiwan Indigenous Societies"
+    },
+    {
+        "Short name": "ANTHRO M248",
+        "Full name": "Anthropology and History of Mediterranean"
+    },
+    {
+        "Short name": "ANTHRO 249",
+        "Full name": "Selected Topics in Social Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 252A",
+        "Full name": "Ethnography of Communication"
+    },
+    {
+        "Short name": "ANTHRO 252B",
+        "Full name": "Ethnographic Methods in Language, Interaction, and Culture"
+    },
+    {
+        "Short name": "ANTHRO 253",
+        "Full name": "Language Ideologies: Political Economy of Language Beliefs and Practices"
+    },
+    {
+        "Short name": "ANTHRO 254",
+        "Full name": "Discourse Laboratory"
+    },
+    {
+        "Short name": "ANTHRO M255",
+        "Full name": "Native American Languages and Discourses of Indigeneity"
+    },
+    {
+        "Short name": "ANTHRO M256",
+        "Full name": "Language, Culture, and Education"
+    },
+    {
+        "Short name": "ANTHRO 257",
+        "Full name": "Topics in Semantics and Pragmatics"
+    },
+    {
+        "Short name": "ANTHRO C257P",
+        "Full name": "Language and Politics"
+    },
+    {
+        "Short name": "ANTHRO 258",
+        "Full name": "Language Socialization"
+    },
+    {
+        "Short name": "ANTHRO 259",
+        "Full name": "Selected Topics in Linguistic Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 282",
+        "Full name": "Research Design in Cultural Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 283",
+        "Full name": "Proposal Writing Seminar"
+    },
+    {
+        "Short name": "ANTHRO 284B",
+        "Full name": "Quantitative Research Methodology"
+    },
+    {
+        "Short name": "ANTHRO M285A",
+        "Full name": "Qualitative Research: Design and Data Collection"
+    },
+    {
+        "Short name": "ANTHRO M285B",
+        "Full name": "Qualitative Research: Analysis and Dissemination"
+    },
+    {
+        "Short name": "ANTHRO 288",
+        "Full name": "Relational Models Theory and Research Design"
+    },
+    {
+        "Short name": "ANTHRO 294",
+        "Full name": "Human Complex Systems Forum"
+    },
+    {
+        "Short name": "ANTHRO 295",
+        "Full name": "Phenomenological Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 299",
+        "Full name": "Selected Topics in Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "ANTHRO 495",
+        "Full name": "Teaching Anthropology"
+    },
+    {
+        "Short name": "ANTHRO 501",
+        "Full name": "Cooperative Program"
+    },
+    {
+        "Short name": "ANTHRO 596",
+        "Full name": "Individual Studies for Graduate Students"
+    },
+    {
+        "Short name": "ANTHRO 597",
+        "Full name": "Preparation for PhD Qualifying Examination"
+    },
+    {
+        "Short name": "ANTHRO 598",
+        "Full name": "Research for and Preparation of MA Thesis"
+    },
+    {
+        "Short name": "ANTHRO 599",
+        "Full name": "Research for PhD Dissertation"
+    },
+    {
+        "Short name": "APPLING 30W",
+        "Full name": "Language and Social Interaction"
+    },
+    {
+        "Short name": "APPLING 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "APPLING 596",
+        "Full name": "Directed Individual Study"
+    },
+    {
+        "Short name": "APPLING 597",
+        "Full name": "Preparation for PhD Candidacy Examination"
+    },
+    {
+        "Short name": "APPLING 599",
+        "Full name": "Research for and Preparation of PhD Dissertation"
+    },
+    {
+        "Short name": "ARABIC 1A",
+        "Full name": "Elementary Standard Arabic"
+    },
+    {
+        "Short name": "ARABIC 1B",
+        "Full name": "Elementary Standard Arabic"
+    },
+    {
+        "Short name": "ARABIC 1C",
+        "Full name": "Elementary Standard Arabic"
+    },
+    {
+        "Short name": "ARABIC 8",
+        "Full name": "Elementary Standard Arabic: Intensive"
+    },
+    {
+        "Short name": "ARABIC 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ARABIC 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ARABIC 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ARABIC 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ARABIC 102A",
+        "Full name": "Intermediate Standard Arabic"
+    },
+    {
+        "Short name": "ARABIC 102B",
+        "Full name": "Intermediate Standard Arabic"
+    },
+    {
+        "Short name": "ARABIC 102C",
+        "Full name": "Intermediate Standard Arabic"
+    },
+    {
+        "Short name": "ARABIC 103A",
+        "Full name": "Advanced Arabic"
+    },
+    {
+        "Short name": "ARABIC 103B",
+        "Full name": "Advanced Arabic"
+    },
+    {
+        "Short name": "ARABIC 103C",
+        "Full name": "Advanced Arabic"
+    },
+    {
+        "Short name": "ARABIC 105",
+        "Full name": "Introduction to Qur\u2019anic and Islamic Arabic"
+    },
+    {
+        "Short name": "ARABIC M106",
+        "Full name": "Qur\u2019an"
+    },
+    {
+        "Short name": "ARABIC M107",
+        "Full name": "Islam in West"
+    },
+    {
+        "Short name": "ARABIC 108",
+        "Full name": "Summer Intensive Intermediate Arabic"
+    },
+    {
+        "Short name": "ARABIC M110",
+        "Full name": "One Thousand and One Nights/Alf Layla Wa-Layla"
+    },
+    {
+        "Short name": "ARABIC 111A",
+        "Full name": "Elementary Spoken Egyptian Arabic"
+    },
+    {
+        "Short name": "ARABIC 111B",
+        "Full name": "Elementary Spoken Egyptian Arabic"
+    },
+    {
+        "Short name": "ARABIC 111C",
+        "Full name": "Elementary Spoken Egyptian Arabic"
+    },
+    {
+        "Short name": "ARABIC 111S",
+        "Full name": "Summer Intensive Elementary Egyptian Arabic"
+    },
+    {
+        "Short name": "ARABIC 112A",
+        "Full name": "Advanced Spoken Egyptian Arabic"
+    },
+    {
+        "Short name": "ARABIC 112B",
+        "Full name": "Advanced Spoken Egyptian Arabic"
+    },
+    {
+        "Short name": "ARABIC 112C",
+        "Full name": "Advanced Spoken Egyptian Arabic"
+    },
+    {
+        "Short name": "ARABIC 115",
+        "Full name": "Studies in Arabic Dialectology"
+    },
+    {
+        "Short name": "ARABIC 116A",
+        "Full name": "Elementary Iraqi Arabic"
+    },
+    {
+        "Short name": "ARABIC 116B",
+        "Full name": "Elementary Iraqi Arabic"
+    },
+    {
+        "Short name": "ARABIC 116C",
+        "Full name": "Elementary Iraqi Arabic"
+    },
+    {
+        "Short name": "ARABIC 120",
+        "Full name": "Islamic Texts"
+    },
+    {
+        "Short name": "ARABIC M123",
+        "Full name": "Oral Literature and Performance of Arab World"
+    },
+    {
+        "Short name": "ARABIC 130",
+        "Full name": "Classical Arabic Texts"
+    },
+    {
+        "Short name": "ARABIC 132",
+        "Full name": "Philosophical and Kalam Texts"
+    },
+    {
+        "Short name": "ARABIC 140",
+        "Full name": "Readings in Modern Standard Arabic"
+    },
+    {
+        "Short name": "ARABIC C141",
+        "Full name": "Modern Arabic Literature"
+    },
+    {
+        "Short name": "ARABIC 142",
+        "Full name": "Arabic Media"
+    },
+    {
+        "Short name": "ARABIC M148",
+        "Full name": "Contemporary Arab Film and Song"
+    },
+    {
+        "Short name": "ARABIC 150",
+        "Full name": "Classical Arabic Literature in English"
+    },
+    {
+        "Short name": "ARABIC M151",
+        "Full name": "Modern Arabic Literature in English"
+    },
+    {
+        "Short name": "ARABIC M155",
+        "Full name": "Al-Andalus: Literature of Islamic Spain"
+    },
+    {
+        "Short name": "ARABIC M171",
+        "Full name": "Culture Area of Maghrib (North Africa)"
+    },
+    {
+        "Short name": "ARABIC 177",
+        "Full name": "Variable Topics in Arabic"
+    },
+    {
+        "Short name": "ARABIC 180",
+        "Full name": "Linguistics Analysis of Arabic"
+    },
+    {
+        "Short name": "ARABIC 181",
+        "Full name": "Translating Arabic"
+    },
+    {
+        "Short name": "ARABIC 188FL",
+        "Full name": "Special Studies: Readings in Arabic"
+    },
+    {
+        "Short name": "ARABIC 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ARABIC 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ARABIC 197",
+        "Full name": "Individual Studies in Arabic"
+    },
+    {
+        "Short name": "ARABIC 199",
+        "Full name": "Directed Research or Senior Project in Arabic"
+    },
+    {
+        "Short name": "ARABIC 220",
+        "Full name": "Seminar: Islamic Texts"
+    },
+    {
+        "Short name": "ARABIC M231",
+        "Full name": "Texts in Judeo-Arabic"
+    },
+    {
+        "Short name": "ARABIC 240A",
+        "Full name": "Seminar: Arab Historians"
+    },
+    {
+        "Short name": "ARABIC 240B",
+        "Full name": "Arab Geographers"
+    },
+    {
+        "Short name": "ARABIC C241",
+        "Full name": "Modern Arabic Literature"
+    },
+    {
+        "Short name": "ARABIC 250",
+        "Full name": "Seminar: Premodern Arabic Literature"
+    },
+    {
+        "Short name": "ARABIC 251",
+        "Full name": "Seminar: Modern Arabic Literature"
+    },
+    {
+        "Short name": "ARABIC M255",
+        "Full name": "Literatures and Cultures of Maghreb"
+    },
+    {
+        "Short name": "ARABIC 275",
+        "Full name": "Encountering Arabic Manuscripts: Introduction to Arabic Paleography and Critical Edition of Manuscripts"
+    },
+    {
+        "Short name": "ARABIC M288",
+        "Full name": "Modern Arab Thought"
+    },
+    {
+        "Short name": "ARABIC 496",
+        "Full name": "Arabic Language Pedagogy Course"
+    },
+    {
+        "Short name": "ARABIC 596",
+        "Full name": "Directed Individual Study"
+    },
+    {
+        "Short name": "ARABIC 597",
+        "Full name": "Examination Preparation"
+    },
+    {
+        "Short name": "ARABIC 599",
+        "Full name": "PhD Dissertation Research and Preparation"
+    },
+    {
+        "Short name": "ARCHEOL 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ARCHEOL 30",
+        "Full name": "Science in Archaeology"
+    },
+    {
+        "Short name": "ARCHEOL 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ARCHEOL 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ARCHEOL 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ARCHEOL C110",
+        "Full name": "Archaeological Materials Identification and Characterization"
+    },
+    {
+        "Short name": "ARCHEOL M112",
+        "Full name": "Archaeology and Art of Christian and Islamic Egypt"
+    },
+    {
+        "Short name": "ARCHEOL C120",
+        "Full name": "Special Topics in Archaeology"
+    },
+    {
+        "Short name": "ARCHEOL C159",
+        "Full name": "Fieldwork in Archaeology"
+    },
+    {
+        "Short name": "ARCHEOL C180",
+        "Full name": "Ancient and Historic Metals: Corrosion, Technology, and Microstructure"
+    },
+    {
+        "Short name": "ARCHEOL 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ARCHEOL 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ARCHEOL M201A",
+        "Full name": "Graduate Core Seminar: Archaeology"
+    },
+    {
+        "Short name": "ARCHEOL M201B",
+        "Full name": "Graduate Core Seminar: Archaeology"
+    },
+    {
+        "Short name": "ARCHEOL M201C",
+        "Full name": "Archaeological Research Design"
+    },
+    {
+        "Short name": "ARCHEOL M205A",
+        "Full name": "Selected Laboratory Topics in Archaeology"
+    },
+    {
+        "Short name": "ARCHEOL 205B",
+        "Full name": "Intensive Laboratory Training in Archaeology"
+    },
+    {
+        "Short name": "ARCHEOL C210",
+        "Full name": "Archaeological Materials Identification and Characterization"
+    },
+    {
+        "Short name": "ARCHEOL C220",
+        "Full name": "Special Topics in Archaeology"
+    },
+    {
+        "Short name": "ARCHEOL C259",
+        "Full name": "Fieldwork in Archaeology"
+    },
+    {
+        "Short name": "ARCHEOL M265",
+        "Full name": "Depositional History and Stratigraphic Analysis"
+    },
+    {
+        "Short name": "ARCHEOL C280",
+        "Full name": "Ancient and Historic Metals: Corrosion, Technology and Microstructure"
+    },
+    {
+        "Short name": "ARCHEOL 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "ARCHEOL 501",
+        "Full name": "Cooperative Program"
+    },
+    {
+        "Short name": "ARCHEOL 596",
+        "Full name": "Individual Studies for Graduate Students"
+    },
+    {
+        "Short name": "ARCHEOL 597",
+        "Full name": "Preparation for PhD Qualifying Examination"
+    },
+    {
+        "Short name": "ARCHEOL 598",
+        "Full name": "MA Paper Preparation"
+    },
+    {
+        "Short name": "ARCHEOL 599",
+        "Full name": "PhD Dissertation Research and Preparation"
+    },
+    {
+        "Short name": "ARCH&UD 1",
+        "Full name": "Introduction to Design"
+    },
+    {
+        "Short name": "ARCH&UD 10A",
+        "Full name": "History of Architecture and Urban Design: Prehistory to Mannerism"
+    },
+    {
+        "Short name": "ARCH&UD 10B",
+        "Full name": "History of Architecture and Urban Design: Baroque to Contemporary Moment"
+    },
+    {
+        "Short name": "ARCH&UD 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ARCH&UD 30",
+        "Full name": "Introduction to Architectural Studies"
+    },
+    {
+        "Short name": "ARCH&UD 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ARCH&UD 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ARCH&UD 102",
+        "Full name": "Introduction to Representation"
+    },
+    {
+        "Short name": "ARCH&UD 103",
+        "Full name": "Introduction to Architectural Design"
+    },
+    {
+        "Short name": "ARCH&UD 121",
+        "Full name": "Studio I"
+    },
+    {
+        "Short name": "ARCH&UD 122",
+        "Full name": "Studio II"
+    },
+    {
+        "Short name": "ARCH&UD 123",
+        "Full name": "Studio III"
+    },
+    {
+        "Short name": "ARCH&UD M125B",
+        "Full name": "Digital Cultural Mapping Core Course B: Google Earth, Geographic Information Systems, Hypercities, and Timelines"
+    },
+    {
+        "Short name": "ARCH&UD M125C",
+        "Full name": "Digital Cultural Mapping Core Course C: Summer Research"
+    },
+    {
+        "Short name": "ARCH&UD CM130",
+        "Full name": "Space and Place"
+    },
+    {
+        "Short name": "ARCH&UD 131",
+        "Full name": "Issues in Contemporary Design"
+    },
+    {
+        "Short name": "ARCH&UD 132",
+        "Full name": "Domestic Architecture: Critical History"
+    },
+    {
+        "Short name": "ARCH&UD 133",
+        "Full name": "Modernism and Metropolis"
+    },
+    {
+        "Short name": "ARCH&UD 141",
+        "Full name": "Technology I: Projections"
+    },
+    {
+        "Short name": "ARCH&UD 142",
+        "Full name": "Technology II: Building Materials and Methods"
+    },
+    {
+        "Short name": "ARCH&UD 143",
+        "Full name": "Technology III: Digital Technology"
+    },
+    {
+        "Short name": "ARCH&UD CM153",
+        "Full name": "Introduction to Sustainable Architecture and Community Planning"
+    },
+    {
+        "Short name": "ARCH&UD 188SA",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ARCH&UD 188SB",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ARCH&UD 188SC",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ARCH&UD 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ARCH&UD 191",
+        "Full name": "Interventions: Urban Humanities in Action (Capstone Studio)"
+    },
+    {
+        "Short name": "ARCH&UD 199",
+        "Full name": "Directed Research or Senior Project in Architecture and Urban Design"
+    },
+    {
+        "Short name": "ARCH&UD M201",
+        "Full name": "Theories of Architecture"
+    },
+    {
+        "Short name": "ARCH&UD 220",
+        "Full name": "Introduction to Computers"
+    },
+    {
+        "Short name": "ARCH&UD 226C",
+        "Full name": "Computer Visualization"
+    },
+    {
+        "Short name": "ARCH&UD 227D",
+        "Full name": "Design and Building Models"
+    },
+    {
+        "Short name": "ARCH&UD CM230",
+        "Full name": "Space and Place"
+    },
+    {
+        "Short name": "ARCH&UD CM247A",
+        "Full name": "Introduction to Sustainable Architecture and Community Planning"
+    },
+    {
+        "Short name": "ARCH&UD M271",
+        "Full name": "Elements of Urban Design"
+    },
+    {
+        "Short name": "ARCH&UD M272",
+        "Full name": "Real Estate Development and Finance"
+    },
+    {
+        "Short name": "ARCH&UD 286",
+        "Full name": "Roman Architecture and Urbanism"
+    },
+    {
+        "Short name": "ARCH&UD 288",
+        "Full name": "Renaissance Architecture and Urbanism"
+    },
+    {
+        "Short name": "ARCH&UD 289",
+        "Full name": "Special Topics in Architecture and Urban Design"
+    },
+    {
+        "Short name": "ARCH&UD 290",
+        "Full name": "Special Topics in Critical Studies in Architectural Culture"
+    },
+    {
+        "Short name": "ARCH&UD 291",
+        "Full name": "Theory of Architectural Programming"
+    },
+    {
+        "Short name": "ARCH&UD M293",
+        "Full name": "Politics, Ideology, and Design"
+    },
+    {
+        "Short name": "ARCH&UD 294A",
+        "Full name": "Environmental Psychology"
+    },
+    {
+        "Short name": "ARCH&UD 294B",
+        "Full name": "Environmental Psychology"
+    },
+    {
+        "Short name": "ARCH&UD M295",
+        "Full name": "Introduction to Urban Humanities"
+    },
+    {
+        "Short name": "ARCH&UD 296",
+        "Full name": "Proseminar: Critical Studies in Architectural Culture"
+    },
+    {
+        "Short name": "ARCH&UD 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "ARCH&UD 401",
+        "Full name": "Advanced Topics Studio"
+    },
+    {
+        "Short name": "ARCH&UD 402",
+        "Full name": "Final Advanced Topics Studio"
+    },
+    {
+        "Short name": "ARCH&UD 403A",
+        "Full name": "Research Studio"
+    },
+    {
+        "Short name": "ARCH&UD 403B",
+        "Full name": "Research Studio"
+    },
+    {
+        "Short name": "ARCH&UD 403C",
+        "Full name": "Research Studio"
+    },
+    {
+        "Short name": "ARCH&UD M404",
+        "Full name": "Joint Planning/Architecture Studio"
+    },
+    {
+        "Short name": "ARCH&UD 411",
+        "Full name": "Introductory Design Studio"
+    },
+    {
+        "Short name": "ARCH&UD 412",
+        "Full name": "Building Design Studio"
+    },
+    {
+        "Short name": "ARCH&UD 413",
+        "Full name": "Building Design with Landscape Studio"
+    },
+    {
+        "Short name": "ARCH&UD 414",
+        "Full name": "Major Building Design Studio"
+    },
+    {
+        "Short name": "ARCH&UD 415",
+        "Full name": "Comprehensive Studio"
+    },
+    {
+        "Short name": "ARCH&UD 431",
+        "Full name": "Structures I"
+    },
+    {
+        "Short name": "ARCH&UD 432",
+        "Full name": "Structures II"
+    },
+    {
+        "Short name": "ARCH&UD 433",
+        "Full name": "Structures III"
+    },
+    {
+        "Short name": "ARCH&UD 436",
+        "Full name": "Introduction to Building Construction"
+    },
+    {
+        "Short name": "ARCH&UD 437",
+        "Full name": "Building Construction"
+    },
+    {
+        "Short name": "ARCH&UD 441",
+        "Full name": "Environmental Control Systems"
+    },
+    {
+        "Short name": "ARCH&UD 442",
+        "Full name": "Building Climatology"
+    },
+    {
+        "Short name": "ARCH&UD 461",
+        "Full name": "Architectural Practice"
+    },
+    {
+        "Short name": "ARCH&UD 495",
+        "Full name": "Teaching Architectural History, Theory, and Criticism"
+    },
+    {
+        "Short name": "ARCH&UD 496",
+        "Full name": "Special Projects in Architecture"
+    },
+    {
+        "Short name": "ARCH&UD 497",
+        "Full name": "Special Projects in Urban Design"
+    },
+    {
+        "Short name": "ARCH&UD 498",
+        "Full name": "Comprehensive Examination Seminar"
+    },
+    {
+        "Short name": "ARCH&UD 501",
+        "Full name": "Cooperative Program"
+    },
+    {
+        "Short name": "ARCH&UD 596",
+        "Full name": "Directed Individual Research and Study in Architecture and Urban Design"
+    },
+    {
+        "Short name": "ARCH&UD 597",
+        "Full name": "Preparation for Comprehensive Examination or PhD Qualifying Examinations"
+    },
+    {
+        "Short name": "ARCH&UD 598",
+        "Full name": "Preparation in Architecture/Urban Design for Master\u2019s Thesis"
+    },
+    {
+        "Short name": "ARCH&UD 599",
+        "Full name": "PhD Dissertation Research in Architecture"
+    },
+    {
+        "Short name": "ARMENIA 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ARMENIA 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ARMENIA 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ARMENIA 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ARMENIA 101A",
+        "Full name": "Elementary Modern Western Armenian"
+    },
+    {
+        "Short name": "ARMENIA 101B",
+        "Full name": "Elementary Modern Western Armenian"
+    },
+    {
+        "Short name": "ARMENIA 101C",
+        "Full name": "Elementary Modern Western Armenian"
+    },
+    {
+        "Short name": "ARMENIA 102A",
+        "Full name": "Intermediate Modern Western Armenian"
+    },
+    {
+        "Short name": "ARMENIA 102B",
+        "Full name": "Intermediate Modern Western Armenian"
+    },
+    {
+        "Short name": "ARMENIA 102C",
+        "Full name": "Intermediate Modern Western Armenian"
+    },
+    {
+        "Short name": "ARMENIA 103A",
+        "Full name": "Advanced Modern Western Armenian"
+    },
+    {
+        "Short name": "ARMENIA 103B",
+        "Full name": "Advanced Modern Western Armenian"
+    },
+    {
+        "Short name": "ARMENIA 103C",
+        "Full name": "Advanced Modern Western Armenian"
+    },
+    {
+        "Short name": "ARMENIA 104A",
+        "Full name": "Elementary Modern Eastern Armenian"
+    },
+    {
+        "Short name": "ARMENIA 104B",
+        "Full name": "Elementary Modern Eastern Armenian"
+    },
+    {
+        "Short name": "ARMENIA 104C",
+        "Full name": "Elementary Modern Eastern Armenian"
+    },
+    {
+        "Short name": "ARMENIA 105A",
+        "Full name": "Intermediate Modern Eastern Armenian"
+    },
+    {
+        "Short name": "ARMENIA 105B",
+        "Full name": "Intermediate Modern Eastern Armenian"
+    },
+    {
+        "Short name": "ARMENIA 105C",
+        "Full name": "Intermediate Modern Eastern Armenian"
+    },
+    {
+        "Short name": "ARMENIA 106A",
+        "Full name": "Armenian Society and Culture"
+    },
+    {
+        "Short name": "ARMENIA 106B",
+        "Full name": "Armenian Society and Culture"
+    },
+    {
+        "Short name": "ARMENIA 106C",
+        "Full name": "Armenian Society and Culture"
+    },
+    {
+        "Short name": "ARMENIA 110",
+        "Full name": "History of Armenian Language"
+    },
+    {
+        "Short name": "ARMENIA 120",
+        "Full name": "Language in Diaspora: Armenian as a Heritage Language"
+    },
+    {
+        "Short name": "ARMENIA 130",
+        "Full name": "Armenian Civilization under Bagratid Dynasty, 884 to 1064"
+    },
+    {
+        "Short name": "ARMENIA 131",
+        "Full name": "Armenian Civilization in Cilician Period, 1080 to 1375"
+    },
+    {
+        "Short name": "ARMENIA M134",
+        "Full name": "Introduction to Armenian Music"
+    },
+    {
+        "Short name": "ARMENIA 150A",
+        "Full name": "Survey of Armenian Literature in English"
+    },
+    {
+        "Short name": "ARMENIA C151",
+        "Full name": "Armenian Literature and Canon Formation"
+    },
+    {
+        "Short name": "ARMENIA C152",
+        "Full name": "Modern Armenian Drama as Vehicle for Social Critique"
+    },
+    {
+        "Short name": "ARMENIA C153",
+        "Full name": "Art, Politics, and Nationalism in Modern Armenian Literature"
+    },
+    {
+        "Short name": "ARMENIA C155",
+        "Full name": "Issues in Armenian American Literature and Culture"
+    },
+    {
+        "Short name": "ARMENIA 160A",
+        "Full name": "Armenian Literature of 19th and 20th Centuries"
+    },
+    {
+        "Short name": "ARMENIA 160B",
+        "Full name": "Armenian Literature of 19th and 20th Centuries"
+    },
+    {
+        "Short name": "ARMENIA C166",
+        "Full name": "Armenian Film and Culture"
+    },
+    {
+        "Short name": "ARMENIA 170",
+        "Full name": "Armenian Poetry, 1880 to 1930"
+    },
+    {
+        "Short name": "ARMENIA 171",
+        "Full name": "Variable Topics in Armenian Studies"
+    },
+    {
+        "Short name": "ARMENIA M172",
+        "Full name": "Medieval Armenian Art"
+    },
+    {
+        "Short name": "ARMENIA M173",
+        "Full name": "Armenian Painting, 17th to 20th Century"
+    },
+    {
+        "Short name": "ARMENIA 188",
+        "Full name": "Variable Topics in Armenian"
+    },
+    {
+        "Short name": "ARMENIA 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ARMENIA 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ARMENIA 197",
+        "Full name": "Individual Studies in Armenian"
+    },
+    {
+        "Short name": "ARMENIA 199",
+        "Full name": "Directed Research or Senior Project in Armenian"
+    },
+    {
+        "Short name": "ARMENIA 230A",
+        "Full name": "Elementary Classical Armenian"
+    },
+    {
+        "Short name": "ARMENIA 230B",
+        "Full name": "Elementary Classical Armenian"
+    },
+    {
+        "Short name": "ARMENIA 230C",
+        "Full name": "Elementary Classical Armenian"
+    },
+    {
+        "Short name": "ARMENIA 231A",
+        "Full name": "Intermediate Classical Armenian"
+    },
+    {
+        "Short name": "ARMENIA 231B",
+        "Full name": "Intermediate Classical Armenian"
+    },
+    {
+        "Short name": "ARMENIA 231C",
+        "Full name": "Intermediate Classical Armenian"
+    },
+    {
+        "Short name": "ARMENIA 232A",
+        "Full name": "Advanced Classical Armenian"
+    },
+    {
+        "Short name": "ARMENIA 232B",
+        "Full name": "Advanced Classical Armenian"
+    },
+    {
+        "Short name": "ARMENIA 232C",
+        "Full name": "Advanced Classical Armenian"
+    },
+    {
+        "Short name": "ARMENIA 250A",
+        "Full name": "Seminar: Armenian Literature"
+    },
+    {
+        "Short name": "ARMENIA 250B",
+        "Full name": "Seminar: Armenian Literature"
+    },
+    {
+        "Short name": "ARMENIA C251",
+        "Full name": "Armenian Literature and Canon Formation"
+    },
+    {
+        "Short name": "ARMENIA C252",
+        "Full name": "Modern Armenian Drama as Vehicle for Social Critique"
+    },
+    {
+        "Short name": "ARMENIA C253",
+        "Full name": "Art, Politics, and Nationalism in Modern Armenian Literature"
+    },
+    {
+        "Short name": "ARMENIA C255",
+        "Full name": "Issues in Armenian American Literature and Culture"
+    },
+    {
+        "Short name": "ARMENIA C266",
+        "Full name": "Armenian Film and Culture"
+    },
+    {
+        "Short name": "ART 1A",
+        "Full name": "Drawing"
+    },
+    {
+        "Short name": "ART 1B",
+        "Full name": "Sculpture"
+    },
+    {
+        "Short name": "ART 11A",
+        "Full name": "Painting"
+    },
+    {
+        "Short name": "ART 11B",
+        "Full name": "Photography"
+    },
+    {
+        "Short name": "ART 11C",
+        "Full name": "Printmaking"
+    },
+    {
+        "Short name": "ART 11D",
+        "Full name": "New Genres"
+    },
+    {
+        "Short name": "ART 11E",
+        "Full name": "Ceramics"
+    },
+    {
+        "Short name": "ART 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ART 20",
+        "Full name": "Production"
+    },
+    {
+        "Short name": "ART 21A",
+        "Full name": "Production: Photographic Print"
+    },
+    {
+        "Short name": "ART 21B",
+        "Full name": "Production: Moving Image and Sound"
+    },
+    {
+        "Short name": "ART 31A",
+        "Full name": "Rise of Modernism in Global Context"
+    },
+    {
+        "Short name": "ART 31B",
+        "Full name": "Global Modernism"
+    },
+    {
+        "Short name": "ART 31C",
+        "Full name": "Modernism and Its Discontents"
+    },
+    {
+        "Short name": "ART 70",
+        "Full name": "Summer Art Institute: Special Topics in Studio"
+    },
+    {
+        "Short name": "ART 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ART 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ART 100",
+        "Full name": "Issues in Contemporary Art"
+    },
+    {
+        "Short name": "ART 130",
+        "Full name": "Advanced Drawing"
+    },
+    {
+        "Short name": "ART 132",
+        "Full name": "Survey of Critical Thought"
+    },
+    {
+        "Short name": "ART 133",
+        "Full name": "Advanced Painting"
+    },
+    {
+        "Short name": "ART 133A",
+        "Full name": "Advanced Painting: Topics in Anti-Racism, Equity, Diversity, and Inclusion"
+    },
+    {
+        "Short name": "ART 137",
+        "Full name": "Advanced New Genres"
+    },
+    {
+        "Short name": "ART 137A",
+        "Full name": "Advanced New Genre: Topics in Anti-Racism, Equity, Diversity, and Inclusion"
+    },
+    {
+        "Short name": "ART 140",
+        "Full name": "Advanced Printmaking"
+    },
+    {
+        "Short name": "ART 145",
+        "Full name": "Advanced Sculpture"
+    },
+    {
+        "Short name": "ART 145A",
+        "Full name": "Advanced Sculpture: Topics in Anti-Racism, Equity, Diversity, and Inclusion"
+    },
+    {
+        "Short name": "ART 147",
+        "Full name": "Advanced Photography"
+    },
+    {
+        "Short name": "ART 147A",
+        "Full name": "Advanced Photography: Topics in Anti-Racism, Equity, Diversity, and Inclusion"
+    },
+    {
+        "Short name": "ART 148",
+        "Full name": "Advanced Ceramics"
+    },
+    {
+        "Short name": "ART 148A",
+        "Full name": "Advanced Ceramics: Topics in Anti-Racism, Equity, Diversity, and Inclusion"
+    },
+    {
+        "Short name": "ART 149",
+        "Full name": "Advanced Interdisciplinary Studio"
+    },
+    {
+        "Short name": "ART 149A",
+        "Full name": "Advanced Interdisciplinary Studio: Topics in Anti-Racism, Equity, Diversity, and Inclusion"
+    },
+    {
+        "Short name": "ART 150",
+        "Full name": "Senior Studio"
+    },
+    {
+        "Short name": "ART 170",
+        "Full name": "Special Topics in Studio"
+    },
+    {
+        "Short name": "ART C180",
+        "Full name": "Seminar: Art"
+    },
+    {
+        "Short name": "ART C181",
+        "Full name": "Exhibition and System"
+    },
+    {
+        "Short name": "ART C182",
+        "Full name": "Exhibitions and Public Programs"
+    },
+    {
+        "Short name": "ART C183",
+        "Full name": "Special Topics in Art"
+    },
+    {
+        "Short name": "ART M184",
+        "Full name": "Chicana Art and Artists"
+    },
+    {
+        "Short name": "ART M185",
+        "Full name": "Whose Monument Where: Course on Public Art"
+    },
+    {
+        "Short name": "ART M186AL",
+        "Full name": "Beyond Mexican Mural: Beginning Muralism and Community Laboratory"
+    },
+    {
+        "Short name": "ART M186A",
+        "Full name": "Beyond Mexican Mural: Beginning Muralism and Community Development"
+    },
+    {
+        "Short name": "ART M186BL",
+        "Full name": "Beyond Mexican Mural: Intermediate Muralism and Community Laboratory"
+    },
+    {
+        "Short name": "ART M186B",
+        "Full name": "Beyond Mexican Mural: Intermediate Muralism and Community Development"
+    },
+    {
+        "Short name": "ART M186CL",
+        "Full name": "Beyond Mexican Mural: Advanced Muralism and Community Laboratory"
+    },
+    {
+        "Short name": "ART M186C",
+        "Full name": "Beyond Mexican Mural: Advanced Muralism and Community Development"
+    },
+    {
+        "Short name": "ART C187",
+        "Full name": "Contemporary Art Collections in Los Angeles"
+    },
+    {
+        "Short name": "ART 188SA",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ART 188SB",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ART 188SC",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ART 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ART 190",
+        "Full name": "Studio/Research Colloquia in Art"
+    },
+    {
+        "Short name": "ART 193",
+        "Full name": "Journal Club Seminars: Current Topics in Art"
+    },
+    {
+        "Short name": "ART 195",
+        "Full name": "Community Internships in Art"
+    },
+    {
+        "Short name": "ART 197",
+        "Full name": "Individual Studies in Art"
+    },
+    {
+        "Short name": "ART 198",
+        "Full name": "Honors Research in Art"
+    },
+    {
+        "Short name": "ART 271",
+        "Full name": "Graduate Painting"
+    },
+    {
+        "Short name": "ART 272",
+        "Full name": "Graduate Printmaking"
+    },
+    {
+        "Short name": "ART 273",
+        "Full name": "Graduate Sculpture"
+    },
+    {
+        "Short name": "ART 274",
+        "Full name": "Graduate Photography"
+    },
+    {
+        "Short name": "ART 275",
+        "Full name": "Graduate New Genres"
+    },
+    {
+        "Short name": "ART 276",
+        "Full name": "Graduate Group Critique"
+    },
+    {
+        "Short name": "ART 277",
+        "Full name": "Graduate Ceramics"
+    },
+    {
+        "Short name": "ART 278",
+        "Full name": "Interdisciplinary Studio"
+    },
+    {
+        "Short name": "ART 279",
+        "Full name": "Open Area Studio"
+    },
+    {
+        "Short name": "ART C280",
+        "Full name": "Seminar: Art"
+    },
+    {
+        "Short name": "ART C281",
+        "Full name": "Exhibition and System"
+    },
+    {
+        "Short name": "ART C282",
+        "Full name": "Exhibitions and Public Programs"
+    },
+    {
+        "Short name": "ART C283",
+        "Full name": "Special Topics in Art"
+    },
+    {
+        "Short name": "ART C287",
+        "Full name": "Contemporary Art Collections in Los Angeles"
+    },
+    {
+        "Short name": "ART 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "ART 400A",
+        "Full name": "Visiting Artists Studio"
+    },
+    {
+        "Short name": "ART 400B",
+        "Full name": "Visiting Artists Studio"
+    },
+    {
+        "Short name": "ART 400C",
+        "Full name": "Visiting Artists Studio"
+    },
+    {
+        "Short name": "ART 401",
+        "Full name": "MFA Working Groups"
+    },
+    {
+        "Short name": "ART 495",
+        "Full name": "Teaching Assistant Training Practicum"
+    },
+    {
+        "Short name": "ART 501",
+        "Full name": "Cooperative Program"
+    },
+    {
+        "Short name": "ART 596",
+        "Full name": "Directed Individual Study or Research"
+    },
+    {
+        "Short name": "ART 597",
+        "Full name": "Preparation for Master\u2019s Comprehensive Examination"
+    },
+    {
+        "Short name": "ART HIS 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ART HIS 20",
+        "Full name": "Ancient Art"
+    },
+    {
+        "Short name": "ART HIS 21",
+        "Full name": "Medieval Art"
+    },
+    {
+        "Short name": "ART HIS 22",
+        "Full name": "Renaissance and Baroque Art"
+    },
+    {
+        "Short name": "ART HIS 23",
+        "Full name": "Modern Art"
+    },
+    {
+        "Short name": "ART HIS 24",
+        "Full name": "Architecture in Modern World"
+    },
+    {
+        "Short name": "ART HIS 25",
+        "Full name": "Museum Studies"
+    },
+    {
+        "Short name": "ART HIS 27",
+        "Full name": "Art and Architecture of Ancient Americas"
+    },
+    {
+        "Short name": "ART HIS 28",
+        "Full name": "Arts of Africa"
+    },
+    {
+        "Short name": "ART HIS 29",
+        "Full name": "Chinese Art"
+    },
+    {
+        "Short name": "ART HIS 30",
+        "Full name": "Arts of Japan"
+    },
+    {
+        "Short name": "ART HIS 31",
+        "Full name": "Art of India and Southeast Asia"
+    },
+    {
+        "Short name": "ART HIS 88",
+        "Full name": "Lower-Division Seminars"
+    },
+    {
+        "Short name": "ART HIS 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ART HIS 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ART HIS 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ART HIS 100",
+        "Full name": "Art Historical Theories and Methodologies"
+    },
+    {
+        "Short name": "ART HIS M110A",
+        "Full name": "Art and Architecture of Ancient Egypt, Predynastic Period to New Kingdom"
+    },
+    {
+        "Short name": "ART HIS M110B",
+        "Full name": "Art and Architecture of Ancient Egypt, New Kingdom to Greco-Roman Period"
+    },
+    {
+        "Short name": "ART HIS M110C",
+        "Full name": "Ancient Egyptian Temple and City of Thebes"
+    },
+    {
+        "Short name": "ART HIS M110D",
+        "Full name": "Art and Death in Ancient Egypt"
+    },
+    {
+        "Short name": "ART HIS M111",
+        "Full name": "Minoan Art and Archaeology"
+    },
+    {
+        "Short name": "ART HIS M112A",
+        "Full name": "Mycenaean Art and Archaeology"
+    },
+    {
+        "Short name": "ART HIS M112B",
+        "Full name": "Archaic Greek Art and Archaeology"
+    },
+    {
+        "Short name": "ART HIS M112C",
+        "Full name": "Classical Greek Art and Archaeology"
+    },
+    {
+        "Short name": "ART HIS M112D",
+        "Full name": "Hellenistic Greek Art and Archaeology"
+    },
+    {
+        "Short name": "ART HIS M113A",
+        "Full name": "Etruscan Art and Archaeology"
+    },
+    {
+        "Short name": "ART HIS M113B",
+        "Full name": "Roman Art and Archaeology"
+    },
+    {
+        "Short name": "ART HIS M113C",
+        "Full name": "Late Roman Art"
+    },
+    {
+        "Short name": "ART HIS M114A",
+        "Full name": "Classical Archaeology: Greco-Roman Architecture"
+    },
+    {
+        "Short name": "ART HIS M114B",
+        "Full name": "Classical Archaeology: Greco-Roman Sculpture"
+    },
+    {
+        "Short name": "ART HIS M114C",
+        "Full name": "Classical Archaeology: Greco-Roman Painting"
+    },
+    {
+        "Short name": "ART HIS C114D",
+        "Full name": "Selected Topics in Ancient Art"
+    },
+    {
+        "Short name": "ART HIS CM115A",
+        "Full name": "Late Antique Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C115B",
+        "Full name": "Early Medieval Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS 115C",
+        "Full name": "Romanesque Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C115D",
+        "Full name": "Gothic Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS 115E",
+        "Full name": "Late Gothic Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C115F",
+        "Full name": "Medieval Paris"
+    },
+    {
+        "Short name": "ART HIS C116A",
+        "Full name": "Middle Byzantine Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C116B",
+        "Full name": "Late Byzantine Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C117A",
+        "Full name": "Medieval Archaeology"
+    },
+    {
+        "Short name": "ART HIS C117B",
+        "Full name": "Selected Topics in Medieval Art"
+    },
+    {
+        "Short name": "ART HIS M118A",
+        "Full name": "Medieval Armenian Art"
+    },
+    {
+        "Short name": "ART HIS M118B",
+        "Full name": "Armenian Painting, 17th to 20th Century"
+    },
+    {
+        "Short name": "ART HIS C118C",
+        "Full name": "Selected Topics in Armenian Art"
+    },
+    {
+        "Short name": "ART HIS 119A",
+        "Full name": "Western Islamic Art"
+    },
+    {
+        "Short name": "ART HIS 119B",
+        "Full name": "Eastern Islamic Art"
+    },
+    {
+        "Short name": "ART HIS M119C",
+        "Full name": "Introduction to Islamic Archaeology"
+    },
+    {
+        "Short name": "ART HIS M119D",
+        "Full name": "Archaeology and Art of Christian and Islamic Egypt"
+    },
+    {
+        "Short name": "ART HIS C120",
+        "Full name": "Selected Topics in Islamic Art"
+    },
+    {
+        "Short name": "ART HIS 121A",
+        "Full name": "Italian Renaissance Art of 14th Century"
+    },
+    {
+        "Short name": "ART HIS 121B",
+        "Full name": "Italian Renaissance Art of 15th Century"
+    },
+    {
+        "Short name": "ART HIS 121C",
+        "Full name": "Italian Renaissance Art of 16th Century"
+    },
+    {
+        "Short name": "ART HIS 121D",
+        "Full name": "Late Renaissance Art: Counter-Reformation"
+    },
+    {
+        "Short name": "ART HIS 124",
+        "Full name": "Northern Renaissance Art"
+    },
+    {
+        "Short name": "ART HIS C125A",
+        "Full name": "Southern Baroque Art"
+    },
+    {
+        "Short name": "ART HIS 125B",
+        "Full name": "Northern Baroque Art"
+    },
+    {
+        "Short name": "ART HIS C126",
+        "Full name": "Selected Topics in Early Modern Art"
+    },
+    {
+        "Short name": "ART HIS 127A",
+        "Full name": "European Art of 17th and 18th Centuries"
+    },
+    {
+        "Short name": "ART HIS 127B",
+        "Full name": "European Art of 19th Century"
+    },
+    {
+        "Short name": "ART HIS M127C",
+        "Full name": "Cultural and Intellectual History of Modern Europe, 19th Century"
+    },
+    {
+        "Short name": "ART HIS C128A",
+        "Full name": "History of Photography, 1839 to 1910"
+    },
+    {
+        "Short name": "ART HIS C128B",
+        "Full name": "History of Photography, 1910 to Present"
+    },
+    {
+        "Short name": "ART HIS C128C",
+        "Full name": "History of Photography: Selected Topics"
+    },
+    {
+        "Short name": "ART HIS C129A",
+        "Full name": "Modern Art, 1900 to 1950"
+    },
+    {
+        "Short name": "ART HIS C129B",
+        "Full name": "Dada, 1915 to 1923"
+    },
+    {
+        "Short name": "ART HIS C129C",
+        "Full name": "Surrealism, 1924 to 1939"
+    },
+    {
+        "Short name": "ART HIS 130",
+        "Full name": "Selected Topics in Modern Art"
+    },
+    {
+        "Short name": "ART HIS C131A",
+        "Full name": "Contemporary Art, 1940s to 1950s"
+    },
+    {
+        "Short name": "ART HIS C131B",
+        "Full name": "Contemporary Art, 1960s to 1970s"
+    },
+    {
+        "Short name": "ART HIS C131C",
+        "Full name": "Contemporary Art, 1980s to 1990s"
+    },
+    {
+        "Short name": "ART HIS 132",
+        "Full name": "Selected Topics in Contemporary Art"
+    },
+    {
+        "Short name": "ART HIS C133A",
+        "Full name": "American Art before Civil War"
+    },
+    {
+        "Short name": "ART HIS C133B",
+        "Full name": "American Art in Gilded Age, 1860 to 1900"
+    },
+    {
+        "Short name": "ART HIS C133C",
+        "Full name": "American Art, 1900 to 1945"
+    },
+    {
+        "Short name": "ART HIS 133D",
+        "Full name": "Architecture in U.S."
+    },
+    {
+        "Short name": "ART HIS 133E",
+        "Full name": "American Houses"
+    },
+    {
+        "Short name": "ART HIS CM135A",
+        "Full name": "African American Art before 1900"
+    },
+    {
+        "Short name": "ART HIS CM135B",
+        "Full name": "African American Art, 1900 to 1963"
+    },
+    {
+        "Short name": "ART HIS C136A",
+        "Full name": "Selected Topics in African American Art"
+    },
+    {
+        "Short name": "ART HIS 137",
+        "Full name": "Arts of Native North America"
+    },
+    {
+        "Short name": "ART HIS CM139A",
+        "Full name": "Maya Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C139B",
+        "Full name": "Aztec Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C139C",
+        "Full name": "Inca Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C140",
+        "Full name": "Selected Topics in Arts of Indigenous Americas"
+    },
+    {
+        "Short name": "ART HIS CM141",
+        "Full name": "Colonial Latin American Art"
+    },
+    {
+        "Short name": "ART HIS C142A",
+        "Full name": "Mexican Art in Modern Age"
+    },
+    {
+        "Short name": "ART HIS C142B",
+        "Full name": "Latin American Art of 20th Century"
+    },
+    {
+        "Short name": "ART HIS 143",
+        "Full name": "Selected Topics in Latin American Art"
+    },
+    {
+        "Short name": "ART HIS 144",
+        "Full name": "Caribbean Art"
+    },
+    {
+        "Short name": "ART HIS C145A",
+        "Full name": "Architecture and Urbanism in Africa"
+    },
+    {
+        "Short name": "ART HIS C145B",
+        "Full name": "Contemporary Arts of Africa"
+    },
+    {
+        "Short name": "ART HIS C146A",
+        "Full name": "Selected Topics in African Art"
+    },
+    {
+        "Short name": "ART HIS 147",
+        "Full name": "Arts of Oceania"
+    },
+    {
+        "Short name": "ART HIS C148A",
+        "Full name": "Art and Material Culture, Neolithic to 210 BC"
+    },
+    {
+        "Short name": "ART HIS C148B",
+        "Full name": "Art and Material Culture of Early Imperial China, 210 BC to AD 906"
+    },
+    {
+        "Short name": "ART HIS C148C",
+        "Full name": "Art and Material Culture of Late Imperial China, 906 to 1911"
+    },
+    {
+        "Short name": "ART HIS C148D",
+        "Full name": "Advanced Chinese Art"
+    },
+    {
+        "Short name": "ART HIS C148E",
+        "Full name": "Art in Modern China"
+    },
+    {
+        "Short name": "ART HIS C148F",
+        "Full name": "Advanced Chinese Painting"
+    },
+    {
+        "Short name": "ART HIS C148G",
+        "Full name": "Gardens in Chinese Art and Culture"
+    },
+    {
+        "Short name": "ART HIS C149",
+        "Full name": "Selected Topics in Chinese Art"
+    },
+    {
+        "Short name": "ART HIS 150A",
+        "Full name": "Japanese Art"
+    },
+    {
+        "Short name": "ART HIS C150B",
+        "Full name": "Advanced Japanese Art"
+    },
+    {
+        "Short name": "ART HIS C151",
+        "Full name": "Selected Topics in Japanese Art"
+    },
+    {
+        "Short name": "ART HIS 152A",
+        "Full name": "Arts of Korea"
+    },
+    {
+        "Short name": "ART HIS C152B",
+        "Full name": "History of Korean Painting"
+    },
+    {
+        "Short name": "ART HIS C152C",
+        "Full name": "History of Korean Ceramics"
+    },
+    {
+        "Short name": "ART HIS C152D",
+        "Full name": "History of Korean Buddhist Art"
+    },
+    {
+        "Short name": "ART HIS C153",
+        "Full name": "Selected Topics in Korean Art"
+    },
+    {
+        "Short name": "ART HIS 154A",
+        "Full name": "Early Art of India"
+    },
+    {
+        "Short name": "ART HIS 154B",
+        "Full name": "Later Art of India"
+    },
+    {
+        "Short name": "ART HIS C154C",
+        "Full name": "Advanced Indian Art"
+    },
+    {
+        "Short name": "ART HIS 154D",
+        "Full name": "Modern and Contemporary South Asian Art"
+    },
+    {
+        "Short name": "ART HIS C155",
+        "Full name": "Selected Topics in South and Southeast Asian Art"
+    },
+    {
+        "Short name": "ART HIS 156",
+        "Full name": "Arts of Southeast Asia"
+    },
+    {
+        "Short name": "ART HIS C158A",
+        "Full name": "Selected Topics in Asian Arts and Architecture"
+    },
+    {
+        "Short name": "ART HIS C160",
+        "Full name": "Art and Empire"
+    },
+    {
+        "Short name": "ART HIS 161",
+        "Full name": "Cities in History"
+    },
+    {
+        "Short name": "ART HIS C169",
+        "Full name": "Selected Topics in Architectural History"
+    },
+    {
+        "Short name": "ART HIS C170A",
+        "Full name": "Museum Studies"
+    },
+    {
+        "Short name": "ART HIS C170B",
+        "Full name": "Museum Studies Practicum"
+    },
+    {
+        "Short name": "ART HIS C171",
+        "Full name": "Selected Topics in Museum Studies"
+    },
+    {
+        "Short name": "ART HIS C172A",
+        "Full name": "Preservation of Art"
+    },
+    {
+        "Short name": "ART HIS C172B",
+        "Full name": "Art: Fakes, Forgeries, and Authenticity"
+    },
+    {
+        "Short name": "ART HIS M179",
+        "Full name": "Cultural Heritage and Identity Representation: Creating Fowler and Virtual Exhibit"
+    },
+    {
+        "Short name": "ART HIS 185",
+        "Full name": "Undergraduate Seminar"
+    },
+    {
+        "Short name": "ART HIS 188SA",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ART HIS 188SB",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ART HIS 188SC",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ART HIS 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ART HIS 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ART HIS 195",
+        "Full name": "Museum Studies Internship"
+    },
+    {
+        "Short name": "ART HIS 196",
+        "Full name": "Research Apprenticeship in Art History"
+    },
+    {
+        "Short name": "ART HIS 197A",
+        "Full name": "Individual Studies in Art History"
+    },
+    {
+        "Short name": "ART HIS 197B",
+        "Full name": "Individual Capstone Studies"
+    },
+    {
+        "Short name": "ART HIS 198A",
+        "Full name": "Honors Research in Art History"
+    },
+    {
+        "Short name": "ART HIS 198B",
+        "Full name": "Honors Research in Art History"
+    },
+    {
+        "Short name": "ART HIS 199",
+        "Full name": "Directed Research in Art History"
+    },
+    {
+        "Short name": "ART HIS 200",
+        "Full name": "Art Historical Theories and Methodologies"
+    },
+    {
+        "Short name": "ART HIS 201",
+        "Full name": "Topics in Historiography of Art History"
+    },
+    {
+        "Short name": "ART HIS 202",
+        "Full name": "Topics in Theory and Criticism in Art History"
+    },
+    {
+        "Short name": "ART HIS 203",
+        "Full name": "Topics in Architectural History and Theory"
+    },
+    {
+        "Short name": "ART HIS 207",
+        "Full name": "Consortium Scholar Seminar at Getty Research Institute"
+    },
+    {
+        "Short name": "ART HIS 210",
+        "Full name": "Egyptian Art"
+    },
+    {
+        "Short name": "ART HIS 212A",
+        "Full name": "Topics in Aegean Art"
+    },
+    {
+        "Short name": "ART HIS 212B",
+        "Full name": "Topics in Classical Art"
+    },
+    {
+        "Short name": "ART HIS 212C",
+        "Full name": "Classical Art"
+    },
+    {
+        "Short name": "ART HIS C214D",
+        "Full name": "Selected Topics in Ancient Art"
+    },
+    {
+        "Short name": "ART HIS C215A",
+        "Full name": "Late Antique Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C215B",
+        "Full name": "Early Medieval Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C215D",
+        "Full name": "Gothic Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C215F",
+        "Full name": "Medieval Paris"
+    },
+    {
+        "Short name": "ART HIS C216A",
+        "Full name": "Middle Byzantine Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C216B",
+        "Full name": "Late Byzantine Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C217A",
+        "Full name": "Medieval Archaeology"
+    },
+    {
+        "Short name": "ART HIS C217B",
+        "Full name": "Selected Topics in Medieval Art"
+    },
+    {
+        "Short name": "ART HIS 217C",
+        "Full name": "Medieval Art"
+    },
+    {
+        "Short name": "ART HIS 217D",
+        "Full name": "Byzantine Art, Architecture, and Archaeology"
+    },
+    {
+        "Short name": "ART HIS C218",
+        "Full name": "Selected Topics in Armenian Art"
+    },
+    {
+        "Short name": "ART HIS C220A",
+        "Full name": "Selected Topics in Islamic Art"
+    },
+    {
+        "Short name": "ART HIS 220B",
+        "Full name": "Advanced Studies in Islamic Art"
+    },
+    {
+        "Short name": "ART HIS 222A",
+        "Full name": "Italian Renaissance Art"
+    },
+    {
+        "Short name": "ART HIS 224A",
+        "Full name": "Northern Renaissance Art"
+    },
+    {
+        "Short name": "ART HIS 225B",
+        "Full name": "Early Modern Art"
+    },
+    {
+        "Short name": "ART HIS C225",
+        "Full name": "Southern Baroque Art"
+    },
+    {
+        "Short name": "ART HIS C226",
+        "Full name": "Selected Topics in Early Modern Art"
+    },
+    {
+        "Short name": "ART HIS C228A",
+        "Full name": "History of Photography, 1839 to 1910"
+    },
+    {
+        "Short name": "ART HIS C228B",
+        "Full name": "History of Photography, 1910 to Present"
+    },
+    {
+        "Short name": "ART HIS C228C",
+        "Full name": "History of Photography: Selected Topics"
+    },
+    {
+        "Short name": "ART HIS 228D",
+        "Full name": "History and Theory of Photography"
+    },
+    {
+        "Short name": "ART HIS C229A",
+        "Full name": "Modern Art, 1900 to 1950"
+    },
+    {
+        "Short name": "ART HIS C229B",
+        "Full name": "Dada, 1915 to 1923"
+    },
+    {
+        "Short name": "ART HIS C229C",
+        "Full name": "Surrealism, 1924 to 1939"
+    },
+    {
+        "Short name": "ART HIS 230A",
+        "Full name": "European Art, 1700 to 1900"
+    },
+    {
+        "Short name": "ART HIS M230B",
+        "Full name": "Seminar: Modern European History"
+    },
+    {
+        "Short name": "ART HIS M230C",
+        "Full name": "Seminar: Modern European History"
+    },
+    {
+        "Short name": "ART HIS 230D",
+        "Full name": "Modern Art"
+    },
+    {
+        "Short name": "ART HIS C231A",
+        "Full name": "Contemporary Art, 1940s to 1950s"
+    },
+    {
+        "Short name": "ART HIS C231B",
+        "Full name": "Contemporary Art, 1960s to 1970s"
+    },
+    {
+        "Short name": "ART HIS C231C",
+        "Full name": "Contemporary Art, 1980s to 1990s"
+    },
+    {
+        "Short name": "ART HIS 232",
+        "Full name": "Contemporary Art"
+    },
+    {
+        "Short name": "ART HIS C233A",
+        "Full name": "American Art before Civil War"
+    },
+    {
+        "Short name": "ART HIS C233B",
+        "Full name": "American Art in Gilded Age, 1860 to 1900"
+    },
+    {
+        "Short name": "ART HIS C233C",
+        "Full name": "American Art, 1900 to 1945"
+    },
+    {
+        "Short name": "ART HIS 234",
+        "Full name": "American Art"
+    },
+    {
+        "Short name": "ART HIS CM235A",
+        "Full name": "African American Art before 1900"
+    },
+    {
+        "Short name": "ART HIS CM235B",
+        "Full name": "African American Art, 1900 to 1963"
+    },
+    {
+        "Short name": "ART HIS C236A",
+        "Full name": "Selected Topics in African American Art"
+    },
+    {
+        "Short name": "ART HIS M236",
+        "Full name": "Topics in African American Art"
+    },
+    {
+        "Short name": "ART HIS 237",
+        "Full name": "Native North American Art"
+    },
+    {
+        "Short name": "ART HIS C239A",
+        "Full name": "Maya Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C239B",
+        "Full name": "Aztec Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C239C",
+        "Full name": "Inca Art and Architecture"
+    },
+    {
+        "Short name": "ART HIS C240A",
+        "Full name": "Selected Topics in Arts of Indigenous Americas"
+    },
+    {
+        "Short name": "ART HIS 240B",
+        "Full name": "Art and Architecture of Indigenous Americas"
+    },
+    {
+        "Short name": "ART HIS C241",
+        "Full name": "Colonial Latin American Art"
+    },
+    {
+        "Short name": "ART HIS C242A",
+        "Full name": "Mexican Art in Modern Age"
+    },
+    {
+        "Short name": "ART HIS C242B",
+        "Full name": "Latin American Art of 20th Century"
+    },
+    {
+        "Short name": "ART HIS M243",
+        "Full name": "Hemispheric and Transnational Approaches to Contemporary Art in Americas"
+    },
+    {
+        "Short name": "ART HIS C245A",
+        "Full name": "Architecture and Urbanism in Africa"
+    },
+    {
+        "Short name": "ART HIS C245B",
+        "Full name": "Contemporary Arts of Africa"
+    },
+    {
+        "Short name": "ART HIS 246",
+        "Full name": "African Art"
+    },
+    {
+        "Short name": "ART HIS C246A",
+        "Full name": "Selected Topics in African Art"
+    },
+    {
+        "Short name": "ART HIS 247",
+        "Full name": "Oceanic Art"
+    },
+    {
+        "Short name": "ART HIS C248A",
+        "Full name": "Art and Material Culture, Neolithic to 210 BC"
+    },
+    {
+        "Short name": "ART HIS C248B",
+        "Full name": "Art and Material Culture of Early Imperial China, 210 BC to AD 906"
+    },
+    {
+        "Short name": "ART HIS C248C",
+        "Full name": "Art and Material Culture of Late Imperial China, 906 to 1911"
+    },
+    {
+        "Short name": "ART HIS C248D",
+        "Full name": "Advanced Chinese Art"
+    },
+    {
+        "Short name": "ART HIS C248E",
+        "Full name": "Art in Modern China"
+    },
+    {
+        "Short name": "ART HIS C248F",
+        "Full name": "Advanced Chinese Painting"
+    },
+    {
+        "Short name": "ART HIS C248G",
+        "Full name": "Gardens in Chinese Art and Culture"
+    },
+    {
+        "Short name": "ART HIS C249A",
+        "Full name": "Selected Topics in Chinese Art"
+    },
+    {
+        "Short name": "ART HIS 249B",
+        "Full name": "Chinese Art"
+    },
+    {
+        "Short name": "ART HIS C250",
+        "Full name": "Advanced Japanese Art"
+    },
+    {
+        "Short name": "ART HIS C251A",
+        "Full name": "Selected Topics in Japanese Art"
+    },
+    {
+        "Short name": "ART HIS 251B",
+        "Full name": "Japanese Art"
+    },
+    {
+        "Short name": "ART HIS C252A",
+        "Full name": "History of Korean Painting"
+    },
+    {
+        "Short name": "ART HIS C252B",
+        "Full name": "History of Korean Ceramics"
+    },
+    {
+        "Short name": "ART HIS C252C",
+        "Full name": "History of Korean Buddhist Art"
+    },
+    {
+        "Short name": "ART HIS C253A",
+        "Full name": "Selected Topics in Korean Art"
+    },
+    {
+        "Short name": "ART HIS 253B",
+        "Full name": "Selected Topics in Korean Art"
+    },
+    {
+        "Short name": "ART HIS C254A",
+        "Full name": "Advanced Indian Art"
+    },
+    {
+        "Short name": "ART HIS 254B",
+        "Full name": "Modern and Contemporary South Asian Art"
+    },
+    {
+        "Short name": "ART HIS C255A",
+        "Full name": "Selected Topics in South and Southeast Asian Art"
+    },
+    {
+        "Short name": "ART HIS 255B",
+        "Full name": "Indian Art"
+    },
+    {
+        "Short name": "ART HIS C258A",
+        "Full name": "Selected Topics in Asian Arts and Architecture"
+    },
+    {
+        "Short name": "ART HIS M258B",
+        "Full name": "Topics in Asian Archaeology"
+    },
+    {
+        "Short name": "ART HIS 258C",
+        "Full name": "Fieldwork in Archaeology"
+    },
+    {
+        "Short name": "ART HIS C260A",
+        "Full name": "Art and Empire"
+    },
+    {
+        "Short name": "ART HIS 260B",
+        "Full name": "Problems in Postcolonial Criticism"
+    },
+    {
+        "Short name": "ART HIS C269",
+        "Full name": "Selected Topics in Architectural History"
+    },
+    {
+        "Short name": "ART HIS C270A",
+        "Full name": "Museum Studies"
+    },
+    {
+        "Short name": "ART HIS C270B",
+        "Full name": "Museum Studies Practicum"
+    },
+    {
+        "Short name": "ART HIS C271",
+        "Full name": "Selected Topics in Museum Studies"
+    },
+    {
+        "Short name": "ART HIS C272A",
+        "Full name": "Preservation of Art"
+    },
+    {
+        "Short name": "ART HIS 272B",
+        "Full name": "Restoration, Preservation, and Conservation"
+    },
+    {
+        "Short name": "ART HIS C272C",
+        "Full name": "Art: Fakes, Forgeries, and Authenticity"
+    },
+    {
+        "Short name": "ART HIS 273",
+        "Full name": "Studies in Materials and Production of Artworks"
+    },
+    {
+        "Short name": "ART HIS 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "ART HIS 495",
+        "Full name": "Teaching Art History"
+    },
+    {
+        "Short name": "ART HIS 496",
+        "Full name": "Teaching with Technology"
+    },
+    {
+        "Short name": "ART HIS 501",
+        "Full name": "Cooperative Program"
+    },
+    {
+        "Short name": "ART HIS 596",
+        "Full name": "Directed Individual Study or Research"
+    },
+    {
+        "Short name": "ART HIS 597",
+        "Full name": "Preparation for MA Comprehensive Examination or PhD Qualifying Examinations"
+    },
+    {
+        "Short name": "ART HIS 598",
+        "Full name": "Research for and Preparation of MA Thesis"
+    },
+    {
+        "Short name": "ART HIS 599",
+        "Full name": "Research for and Preparation of PhD Dissertation"
+    },
+    {
+        "Short name": "ARTS ED 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ARTS ED 20",
+        "Full name": "Introduction to Community Engagement through Arts"
+    },
+    {
+        "Short name": "ARTS ED 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ARTS ED 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ARTS ED 101",
+        "Full name": "Selected Topics in Arts Education"
+    },
+    {
+        "Short name": "ARTS ED M102",
+        "Full name": "Introduction to Arts Education for Multiple Publics: Theory and Practice"
+    },
+    {
+        "Short name": "ARTS ED 103",
+        "Full name": "Socially Engaged Pedagogy in Arts"
+    },
+    {
+        "Short name": "ARTS ED 105",
+        "Full name": "Arts Programs in Correctional Institutions: History, Theory, and Practice"
+    },
+    {
+        "Short name": "ARTS ED 107",
+        "Full name": "Visual Arts Methods for Teaching Artist"
+    },
+    {
+        "Short name": "ARTS ED 108",
+        "Full name": "Performing Arts Methods for Teaching Artist"
+    },
+    {
+        "Short name": "ARTS ED 109",
+        "Full name": "Design|Media Arts Methods for Teaching Artist"
+    },
+    {
+        "Short name": "ARTS ED 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ARTS ED M192",
+        "Full name": "Arts Education Undergraduate Practicum: Preparation, Observation, and Practice"
+    },
+    {
+        "Short name": "ARTS ED M192XP",
+        "Full name": "Arts Education Undergraduate Practicum and Capstone Project"
+    },
+    {
+        "Short name": "ARTS ED 195",
+        "Full name": "Community Internships in Arts Education"
+    },
+    {
+        "Short name": "ARTS ED 197",
+        "Full name": "Individual Studies in Arts Education"
+    },
+    {
+        "Short name": "ART&ARC 10",
+        "Full name": "Arts Encounters: Exploring Arts Literacy in 21st Century"
+    },
+    {
+        "Short name": "ART&ARC 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ART&ARC 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ART&ARC 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ART&ARC 100",
+        "Full name": "Selected Topics in Arts"
+    },
+    {
+        "Short name": "ART&ARC 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ASIAN 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ASIAN M20",
+        "Full name": "Visible Language: Study of Writing"
+    },
+    {
+        "Short name": "ASIAN 30",
+        "Full name": "Languages and Cultures of Asia"
+    },
+    {
+        "Short name": "ASIAN M60",
+        "Full name": "Introduction to Buddhism"
+    },
+    {
+        "Short name": "ASIAN M60W",
+        "Full name": "Introduction to Buddhism"
+    },
+    {
+        "Short name": "ASIAN M61",
+        "Full name": "Introduction to Zen Buddhism"
+    },
+    {
+        "Short name": "ASIAN 70A",
+        "Full name": "Popular Culture in East Asia: 17th through 19th Centuries"
+    },
+    {
+        "Short name": "ASIAN 70B",
+        "Full name": "Popular Culture in East Asia: 1895 to 1945"
+    },
+    {
+        "Short name": "ASIAN 70C",
+        "Full name": "Popular Culture in East Asia from 1945"
+    },
+    {
+        "Short name": "ASIAN 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ASIAN 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ASIAN 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ASIAN 100",
+        "Full name": "Methods in Asian Linguistics"
+    },
+    {
+        "Short name": "ASIAN 104",
+        "Full name": "Asian Language Pedagogy"
+    },
+    {
+        "Short name": "ASIAN 120FL",
+        "Full name": "Readings in East Asian Languages"
+    },
+    {
+        "Short name": "ASIAN 121",
+        "Full name": "Field Methods in Asian Languages and Cultures"
+    },
+    {
+        "Short name": "ASIAN CM124",
+        "Full name": "Teaching and Learning of Heritage Languages"
+    },
+    {
+        "Short name": "ASIAN 130",
+        "Full name": "Ideas of Culture in East Asian Studies"
+    },
+    {
+        "Short name": "ASIAN 135",
+        "Full name": "Asian Foodways across Borders"
+    },
+    {
+        "Short name": "ASIAN 151",
+        "Full name": "Buddhist Literature in Translation"
+    },
+    {
+        "Short name": "ASIAN 152",
+        "Full name": "Tibetan Buddhism"
+    },
+    {
+        "Short name": "ASIAN 155",
+        "Full name": "Buddhism, Film, and Media"
+    },
+    {
+        "Short name": "ASIAN 158",
+        "Full name": "Sinophone Literature: Theories and Texts"
+    },
+    {
+        "Short name": "ASIAN 161",
+        "Full name": "Topics in Asian Religions"
+    },
+    {
+        "Short name": "ASIAN 162",
+        "Full name": "Buddhist Meditation Traditions"
+    },
+    {
+        "Short name": "ASIAN 163",
+        "Full name": "Buddhism across Boundaries"
+    },
+    {
+        "Short name": "ASIAN 164",
+        "Full name": "Buddhism and Early Religious History of Pakistan, Afghanistan, and Central Asia: Introduction"
+    },
+    {
+        "Short name": "ASIAN C170",
+        "Full name": "Approaches to Study of Religion"
+    },
+    {
+        "Short name": "ASIAN 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ASIAN 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ASIAN 190",
+        "Full name": "Research Colloquia in Asian Languages and Cultures"
+    },
+    {
+        "Short name": "ASIAN 191A",
+        "Full name": "Variable Topics Research Seminars: Life Writing in East Asia"
+    },
+    {
+        "Short name": "ASIAN 191B",
+        "Full name": "Variable Topics Research Seminars: Buddhist Studies"
+    },
+    {
+        "Short name": "ASIAN 191H",
+        "Full name": "Honors Research Seminars: Asian Languages and Cultures"
+    },
+    {
+        "Short name": "ASIAN 193",
+        "Full name": "Speaker Series Seminars: Asian Languages and Cultures"
+    },
+    {
+        "Short name": "ASIAN 195",
+        "Full name": "Community Internships in Asian Languages and Cultures"
+    },
+    {
+        "Short name": "ASIAN 198A",
+        "Full name": "Honors Research in Asian Languages and Cultures"
+    },
+    {
+        "Short name": "ASIAN 198B",
+        "Full name": "Honors Research in Asian Languages and Cultures"
+    },
+    {
+        "Short name": "ASIAN 198C",
+        "Full name": "Honors Research in Asian Languages and Cultures"
+    },
+    {
+        "Short name": "ASIAN 199",
+        "Full name": "Directed Research in Asian Languages and Cultures"
+    },
+    {
+        "Short name": "ASIAN 200",
+        "Full name": "Research Methods in East Asian Linguistics"
+    },
+    {
+        "Short name": "ASIAN 201",
+        "Full name": "Proseminar: Approaches to Buddhist Studies"
+    },
+    {
+        "Short name": "ASIAN 202",
+        "Full name": "Proseminar: Functional Approaches to Japanese/Korean Linguistics"
+    },
+    {
+        "Short name": "ASIAN 203",
+        "Full name": "Variable Topics in East Asian Linguistics"
+    },
+    {
+        "Short name": "ASIAN 204A",
+        "Full name": "Issues and Practices in Teaching Asian Languages"
+    },
+    {
+        "Short name": "ASIAN 204B",
+        "Full name": "Issues and Practices in Teaching Asian Languages"
+    },
+    {
+        "Short name": "ASIAN 205",
+        "Full name": "Variable Topics in East Asian Culture and History"
+    },
+    {
+        "Short name": "ASIAN 210",
+        "Full name": "Proseminar: Cultural and Comparative Studies"
+    },
+    {
+        "Short name": "ASIAN 215",
+        "Full name": "Seminar: Cultural Studies Theory"
+    },
+    {
+        "Short name": "ASIAN 216",
+        "Full name": "Seminar: History and Asia"
+    },
+    {
+        "Short name": "ASIAN 220A",
+        "Full name": "Seminar: Topics in Cultural Studies"
+    },
+    {
+        "Short name": "ASIAN 220B",
+        "Full name": "Seminar: Topics in Cultural Studies"
+    },
+    {
+        "Short name": "ASIAN 222A",
+        "Full name": "Corpus Linguistics"
+    },
+    {
+        "Short name": "ASIAN 222B",
+        "Full name": "Corpus Linguistics"
+    },
+    {
+        "Short name": "ASIAN CM224",
+        "Full name": "Teaching and Learning of Heritage Languages"
+    },
+    {
+        "Short name": "ASIAN 230A",
+        "Full name": "Seminar: Theoretical Topics in East Asian Literature"
+    },
+    {
+        "Short name": "ASIAN 230B",
+        "Full name": "Seminar: Theoretical Topics in East Asian Literature"
+    },
+    {
+        "Short name": "ASIAN 240A",
+        "Full name": "Seminar: Topics in East Asian Literary History"
+    },
+    {
+        "Short name": "ASIAN 240B",
+        "Full name": "Seminar: Topics in East Asian Literary History"
+    },
+    {
+        "Short name": "ASIAN 243",
+        "Full name": "Translation Workshop: East Asian Texts"
+    },
+    {
+        "Short name": "ASIAN 245A",
+        "Full name": "Seminar: Position of Modernity in East Asian Literature"
+    },
+    {
+        "Short name": "ASIAN 245B",
+        "Full name": "Seminar: Position of Modernity in East Asian Literature"
+    },
+    {
+        "Short name": "ASIAN 255",
+        "Full name": "Topics in Southeast Asian Literature and/or Cinema"
+    },
+    {
+        "Short name": "ASIAN 261A",
+        "Full name": "Current Issues in Buddhist Studies"
+    },
+    {
+        "Short name": "ASIAN 261B",
+        "Full name": "Current Issues in Buddhist Studies"
+    },
+    {
+        "Short name": "ASIAN 261C",
+        "Full name": "Current Issues in Buddhist Studies"
+    },
+    {
+        "Short name": "ASIAN 265A",
+        "Full name": "Seminar: Selected Topics in Buddhist Studies"
+    },
+    {
+        "Short name": "ASIAN 265B",
+        "Full name": "Seminar: Selected Topics in Buddhist Studies"
+    },
+    {
+        "Short name": "ASIAN C270",
+        "Full name": "Approaches to Study of Religion"
+    },
+    {
+        "Short name": "ASIAN 281A",
+        "Full name": "Field Methods for Study of East Asian Oral Traditions"
+    },
+    {
+        "Short name": "ASIAN 281B",
+        "Full name": "Field Methods for Study of East Asian Oral Traditions"
+    },
+    {
+        "Short name": "ASIAN M292",
+        "Full name": "Japan in Age of Empire"
+    },
+    {
+        "Short name": "ASIAN 293",
+        "Full name": "Graduate Student Colloquium"
+    },
+    {
+        "Short name": "ASIAN 297",
+        "Full name": "Life Writing in East Asia"
+    },
+    {
+        "Short name": "ASIAN 299",
+        "Full name": "Independent Study"
+    },
+    {
+        "Short name": "ASIAN 301",
+        "Full name": "Teaching East Asian Language as Foreign Language"
+    },
+    {
+        "Short name": "ASIAN 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "ASIAN 495",
+        "Full name": "Teaching Asian Languages at College Level"
+    },
+    {
+        "Short name": "ASIAN 496C",
+        "Full name": "Computer Technologies for Teaching College-Level Chinese"
+    },
+    {
+        "Short name": "ASIAN 496E",
+        "Full name": "Computer Technologies for Teaching College-Level East Asian Languages"
+    },
+    {
+        "Short name": "ASIAN 496J",
+        "Full name": "Computer Technologies for Teaching College-Level Japanese"
+    },
+    {
+        "Short name": "ASIAN 496K",
+        "Full name": "Computer Technologies for Teaching College-Level Korean"
+    },
+    {
+        "Short name": "ASIAN 501",
+        "Full name": "Cooperative Program"
+    },
+    {
+        "Short name": "ASIAN 596",
+        "Full name": "Directed Individual Studies"
+    },
+    {
+        "Short name": "ASIAN 597",
+        "Full name": "Preparation for MA Comprehensive Examination or PhD Qualifying Examinations"
+    },
+    {
+        "Short name": "ASIAN 598",
+        "Full name": "Research for and Preparation of MA Thesis"
+    },
+    {
+        "Short name": "ASIAN 599",
+        "Full name": "Research for and Preparation of PhD Dissertation"
+    },
+    {
+        "Short name": "ASIA AM 10",
+        "Full name": "History of Asian Americans"
+    },
+    {
+        "Short name": "ASIA AM 10W",
+        "Full name": "History of Asian Americans"
+    },
+    {
+        "Short name": "ASIA AM M18",
+        "Full name": "Leadership and Student-Initiated Retention"
+    },
+    {
+        "Short name": "ASIA AM 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ASIA AM 20",
+        "Full name": "Contemporary Asian American Communities"
+    },
+    {
+        "Short name": "ASIA AM 20W",
+        "Full name": "Contemporary Asian American Communities"
+    },
+    {
+        "Short name": "ASIA AM 30",
+        "Full name": "Asian American Literature and Culture"
+    },
+    {
+        "Short name": "ASIA AM 30W",
+        "Full name": "Asian American Literature and Culture"
+    },
+    {
+        "Short name": "ASIA AM 40",
+        "Full name": "Asian American Movement"
+    },
+    {
+        "Short name": "ASIA AM 40W",
+        "Full name": "Asian American Movement"
+    },
+    {
+        "Short name": "ASIA AM 50",
+        "Full name": "Asian American Women"
+    },
+    {
+        "Short name": "ASIA AM 50W",
+        "Full name": "Asian American Women"
+    },
+    {
+        "Short name": "ASIA AM 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ASIA AM 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ASIA AM 97",
+        "Full name": "Variable Topics in Asian American Studies"
+    },
+    {
+        "Short name": "ASIA AM 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ASIA AM 103",
+        "Full name": "Social Science Research Methods"
+    },
+    {
+        "Short name": "ASIA AM 104A",
+        "Full name": "Field Studies Methods in Asian Pacific Communities"
+    },
+    {
+        "Short name": "ASIA AM 104B",
+        "Full name": "Special Internships in Asian Pacific Communities"
+    },
+    {
+        "Short name": "ASIA AM 105",
+        "Full name": "Historical Research Methods"
+    },
+    {
+        "Short name": "ASIA AM 107",
+        "Full name": "Scholarly and Creative Communication in Asian American Studies"
+    },
+    {
+        "Short name": "ASIA AM M108",
+        "Full name": "Policy, Planning, and Community"
+    },
+    {
+        "Short name": "ASIA AM 109",
+        "Full name": "Gender Violence, Policing, and Law"
+    },
+    {
+        "Short name": "ASIA AM 110",
+        "Full name": "American Immigration Policy"
+    },
+    {
+        "Short name": "ASIA AM 111",
+        "Full name": "Asian Americans and War"
+    },
+    {
+        "Short name": "ASIA AM M112A",
+        "Full name": "Historical Survey of Asian American Literature"
+    },
+    {
+        "Short name": "ASIA AM M112B",
+        "Full name": "Contemporary Asian American Literary Issues and Criticism"
+    },
+    {
+        "Short name": "ASIA AM 112C",
+        "Full name": "Asian American Creative Writing"
+    },
+    {
+        "Short name": "ASIA AM 113",
+        "Full name": "Asian Americans and Law"
+    },
+    {
+        "Short name": "ASIA AM M114",
+        "Full name": "Asian American Education and Schooling"
+    },
+    {
+        "Short name": "ASIA AM 115",
+        "Full name": "Women and Community in Asian American Studies"
+    },
+    {
+        "Short name": "ASIA AM M116",
+        "Full name": "Asian American Social Movements"
+    },
+    {
+        "Short name": "ASIA AM M117",
+        "Full name": "Asian American Personality and Mental Health"
+    },
+    {
+        "Short name": "ASIA AM 118",
+        "Full name": "Asian American Religious History"
+    },
+    {
+        "Short name": "ASIA AM M119",
+        "Full name": "Asian American and Pacific Islander Labor Issues"
+    },
+    {
+        "Short name": "ASIA AM 120",
+        "Full name": "Yellow Peril\u2019s Revenge: Asian American Independent Cinema"
+    },
+    {
+        "Short name": "ASIA AM 121",
+        "Full name": "Exploring Asian American Theater"
+    },
+    {
+        "Short name": "ASIA AM 122A",
+        "Full name": "Indigeneity, Empire, and Resistance in Pacific Islands"
+    },
+    {
+        "Short name": "ASIA AM 122B",
+        "Full name": "Gender and Film in Pacific"
+    },
+    {
+        "Short name": "ASIA AM 123",
+        "Full name": "Cultures of/against Empire"
+    },
+    {
+        "Short name": "ASIA AM M124",
+        "Full name": "Comparative Racialization and Indigeneity"
+    },
+    {
+        "Short name": "ASIA AM 125",
+        "Full name": "Transpacific Literature and Theory"
+    },
+    {
+        "Short name": "ASIA AM 126",
+        "Full name": "Comparative Race and Indigeneity"
+    },
+    {
+        "Short name": "ASIA AM M129",
+        "Full name": "Health Issues for Asian Americans and Pacific Islanders: Myth or Model?"
+    },
+    {
+        "Short name": "ASIA AM 130A",
+        "Full name": "Chinese American Experience"
+    },
+    {
+        "Short name": "ASIA AM M130B",
+        "Full name": "Chinese Immigrant Literature and Film"
+    },
+    {
+        "Short name": "ASIA AM M130C",
+        "Full name": "Chinese Immigration"
+    },
+    {
+        "Short name": "ASIA AM 131A",
+        "Full name": "Japanese American Experience"
+    },
+    {
+        "Short name": "ASIA AM 131B",
+        "Full name": "Japanese Americans and Incarceration"
+    },
+    {
+        "Short name": "ASIA AM 131C",
+        "Full name": "Japanese American Resettlement"
+    },
+    {
+        "Short name": "ASIA AM 132A",
+        "Full name": "Korean American Experience"
+    },
+    {
+        "Short name": "ASIA AM 133",
+        "Full name": "Pilipino American Experience"
+    },
+    {
+        "Short name": "ASIA AM 134",
+        "Full name": "Vietnamese American Experience"
+    },
+    {
+        "Short name": "ASIA AM 140XP",
+        "Full name": "Power to People: Asian American and Pacific Islander Community-Based Learning"
+    },
+    {
+        "Short name": "ASIA AM 141AX",
+        "Full name": "Asian American and Pacific Islander Leadership Development Project Part I: Leadership"
+    },
+    {
+        "Short name": "ASIA AM 141BX",
+        "Full name": "Asian American and Pacific Islander Leadership Development Project Part II: Field Studies"
+    },
+    {
+        "Short name": "ASIA AM C142A",
+        "Full name": "Ethnocommunications I: Introduction to Creating Community Media"
+    },
+    {
+        "Short name": "ASIA AM C142B",
+        "Full name": "Ethnocommunications II: Intermediate Creating Community Media"
+    },
+    {
+        "Short name": "ASIA AM C142C",
+        "Full name": "Ethnocommunications III: Advanced Creating Community Media"
+    },
+    {
+        "Short name": "ASIA AM M143A",
+        "Full name": "Fieldwork in Asian American and Pacific Islander Communities"
+    },
+    {
+        "Short name": "ASIA AM 143B",
+        "Full name": "Politics of Race, Ethnicity, Migration, and Multiculturalism in Hawai\u2019i"
+    },
+    {
+        "Short name": "ASIA AM M143C",
+        "Full name": "Ethnic Identity and Ethnic Relations in Hawai\u2019i"
+    },
+    {
+        "Short name": "ASIA AM M160",
+        "Full name": "Culture, Media, and Los Angeles"
+    },
+    {
+        "Short name": "ASIA AM M161",
+        "Full name": "Ethnic, Cultural, and Gender Issues in America\u2019s Healthcare Systems"
+    },
+    {
+        "Short name": "ASIA AM M163",
+        "Full name": "Worker Center Movement: Next Wave Organizing for Justice for Immigrant Workers"
+    },
+    {
+        "Short name": "ASIA AM M164",
+        "Full name": "Women, Violence, Globalization: India, Philippines, Singapore, Vietnam"
+    },
+    {
+        "Short name": "ASIA AM M165",
+        "Full name": "Race, Gender, Class"
+    },
+    {
+        "Short name": "ASIA AM M166A",
+        "Full name": "Immigrant Rights, Labor, and Higher Education"
+    },
+    {
+        "Short name": "ASIA AM M166B",
+        "Full name": "Research on Immigration Rights, Labor, and Higher Education"
+    },
+    {
+        "Short name": "ASIA AM M166C",
+        "Full name": "Research on Immigrant Students and Higher Education"
+    },
+    {
+        "Short name": "ASIA AM 167",
+        "Full name": "Immigration and New Second Generation"
+    },
+    {
+        "Short name": "ASIA AM M168",
+        "Full name": "Student-Initiated Retention and Outreach Issues in Higher Education"
+    },
+    {
+        "Short name": "ASIA AM M169",
+        "Full name": "Constructing Race"
+    },
+    {
+        "Short name": "ASIA AM 170",
+        "Full name": "Transnational Perspectives on Asian America"
+    },
+    {
+        "Short name": "ASIA AM 171A",
+        "Full name": "Critical Issues in U.S.-China Relations"
+    },
+    {
+        "Short name": "ASIA AM 171B",
+        "Full name": "Critical Issues in U.S.-Japan Relations"
+    },
+    {
+        "Short name": "ASIA AM 171C",
+        "Full name": "Critical Issues in U.S.-Korea Relations"
+    },
+    {
+        "Short name": "ASIA AM M171D",
+        "Full name": "Critical Issues in U.S.-Philippine Relations"
+    },
+    {
+        "Short name": "ASIA AM 171E",
+        "Full name": "Critical Issues in U.S.-Vietnam Relations"
+    },
+    {
+        "Short name": "ASIA AM M172A",
+        "Full name": "Indian Identity in U.S. and Diaspora"
+    },
+    {
+        "Short name": "ASIA AM 172B",
+        "Full name": "Gender in South Asian Communities at Home and Abroad"
+    },
+    {
+        "Short name": "ASIA AM 172C",
+        "Full name": "Transnational Bollywood"
+    },
+    {
+        "Short name": "ASIA AM M173",
+        "Full name": "Topics in Vietnamese Cinema and/or Literature"
+    },
+    {
+        "Short name": "ASIA AM 174A",
+        "Full name": "Special Courses in Comparative Race, Ethnicity, Gender, and Sexuality"
+    },
+    {
+        "Short name": "ASIA AM 174B",
+        "Full name": "Special Courses in Transnationalism and Diasporas"
+    },
+    {
+        "Short name": "ASIA AM 175A",
+        "Full name": "Topics in Comparative Race, Ethnicity, Gender, and Sexuality"
+    },
+    {
+        "Short name": "ASIA AM 175B",
+        "Full name": "Topics in Transnationalism and Diasporas"
+    },
+    {
+        "Short name": "ASIA AM 176",
+        "Full name": "Making Fiction Work: Imagining Philippines and its Elsewheres"
+    },
+    {
+        "Short name": "ASIA AM 177",
+        "Full name": "Social Movements in Guam and Pacific"
+    },
+    {
+        "Short name": "ASIA AM 178",
+        "Full name": "Critical Refugee Studies"
+    },
+    {
+        "Short name": "ASIA AM 185",
+        "Full name": "Capstone Community-Based Research"
+    },
+    {
+        "Short name": "ASIA AM 186",
+        "Full name": "Capstone Research Seminar"
+    },
+    {
+        "Short name": "ASIA AM 187A",
+        "Full name": "Special Courses in Research Methodologies"
+    },
+    {
+        "Short name": "ASIA AM 187B",
+        "Full name": "Special Courses in Asian American Themes"
+    },
+    {
+        "Short name": "ASIA AM 187C",
+        "Full name": "Special Courses in Asian American Populations and Communities"
+    },
+    {
+        "Short name": "ASIA AM 188",
+        "Full name": "Special Courses in Asian American Studies"
+    },
+    {
+        "Short name": "ASIA AM 188SA",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ASIA AM 188SB",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ASIA AM 188SC",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "ASIA AM 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ASIA AM 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ASIA AM 191A",
+        "Full name": "Topics in Research Methodologies"
+    },
+    {
+        "Short name": "ASIA AM 191B",
+        "Full name": "Topics in Asian American Themes"
+    },
+    {
+        "Short name": "ASIA AM 191C",
+        "Full name": "Topics in Asian American Populations and Communities"
+    },
+    {
+        "Short name": "ASIA AM M191F",
+        "Full name": "Topics in Asian American Literature"
+    },
+    {
+        "Short name": "ASIA AM 192",
+        "Full name": "Undergraduate Practicum in Asian American Studies"
+    },
+    {
+        "Short name": "ASIA AM 195",
+        "Full name": "Community or Corporate Internships in Asian American Studies"
+    },
+    {
+        "Short name": "ASIA AM M195CE",
+        "Full name": "Comparative Approaches to Community and Corporate Internships"
+    },
+    {
+        "Short name": "ASIA AM 196",
+        "Full name": "Research Apprenticeship in Asian American Studies"
+    },
+    {
+        "Short name": "ASIA AM 197",
+        "Full name": "Individual Studies in Asian American Studies"
+    },
+    {
+        "Short name": "ASIA AM 198A",
+        "Full name": "Honors Research in Asian American Studies"
+    },
+    {
+        "Short name": "ASIA AM 198B",
+        "Full name": "Honors Research in Asian American Studies"
+    },
+    {
+        "Short name": "ASIA AM 198C",
+        "Full name": "Honors Research in Asian American Studies"
+    },
+    {
+        "Short name": "ASIA AM 199",
+        "Full name": "Directed Research or Senior Project in Asian American Studies"
+    },
+    {
+        "Short name": "ASIA AM 200A",
+        "Full name": "Historical Perspectives on Asian and Pacific Islander American Communities"
+    },
+    {
+        "Short name": "ASIA AM 200B",
+        "Full name": "Critical Approaches to Emerging Issues in Asian and Pacific Islander American Studies"
+    },
+    {
+        "Short name": "ASIA AM 200C",
+        "Full name": "Critical Issues in Asian and Pacific Islander American Literature and Culture"
+    },
+    {
+        "Short name": "ASIA AM 200D",
+        "Full name": "Critical Issues in Asian and Pacific Islander American Studies Methods"
+    },
+    {
+        "Short name": "ASIA AM 203",
+        "Full name": "Asian American Research Methods"
+    },
+    {
+        "Short name": "ASIA AM M213",
+        "Full name": "Asian-Latinos"
+    },
+    {
+        "Short name": "ASIA AM 215A",
+        "Full name": "Asian American Jurisprudence"
+    },
+    {
+        "Short name": "ASIA AM 215B",
+        "Full name": "Asian American Jurisprudence"
+    },
+    {
+        "Short name": "ASIA AM 222",
+        "Full name": "Colonialism and Law in Pacific"
+    },
+    {
+        "Short name": "ASIA AM 231",
+        "Full name": "Japanese American Resettlement: Meaning and Methods"
+    },
+    {
+        "Short name": "ASIA AM M239",
+        "Full name": "Race, Ethnicity, and Culture as Concepts in Practice and Research"
+    },
+    {
+        "Short name": "ASIA AM C242A",
+        "Full name": "Ethnocommunications I: Introduction to Creating Community Media"
+    },
+    {
+        "Short name": "ASIA AM C242B",
+        "Full name": "Ethnocommunications II: Intermediate Creating Community Media"
+    },
+    {
+        "Short name": "ASIA AM C242C",
+        "Full name": "Ethnocommunications III: Advanced Creating Community Media"
+    },
+    {
+        "Short name": "ASIA AM M260",
+        "Full name": "Topics in Asian American Literature"
+    },
+    {
+        "Short name": "ASIA AM M261",
+        "Full name": "Theorizing Third World"
+    },
+    {
+        "Short name": "ASIA AM M290Q",
+        "Full name": "Social Welfare Policy in Asian American Communities"
+    },
+    {
+        "Short name": "ASIA AM 297A",
+        "Full name": "Topics in Asian American Studies"
+    },
+    {
+        "Short name": "ASIA AM 297B",
+        "Full name": "Topics in Asian American Studies: Asian Migration to U.S."
+    },
+    {
+        "Short name": "ASIA AM 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "ASIA AM 490",
+        "Full name": "Writing Workshop for Graduate Students"
+    },
+    {
+        "Short name": "ASIA AM 495",
+        "Full name": "Supervised Teaching of Asian American Studies"
+    },
+    {
+        "Short name": "ASIA AM 501",
+        "Full name": "Cooperative Program"
+    },
+    {
+        "Short name": "ASIA AM 596",
+        "Full name": "Directed Individual Study or Research"
+    },
+    {
+        "Short name": "ASIA AM 597",
+        "Full name": "Research for and Preparation of MA Capstone"
+    },
+    {
+        "Short name": "ASIA AM 598",
+        "Full name": "Research for and Preparation of MA Thesis"
+    },
+    {
+        "Short name": "ASTR 3",
+        "Full name": "Nature of Universe"
+    },
+    {
+        "Short name": "ASTR 4",
+        "Full name": "Black Holes and Cosmic Catastrophes"
+    },
+    {
+        "Short name": "ASTR 5",
+        "Full name": "Life in Universe"
+    },
+    {
+        "Short name": "ASTR 6",
+        "Full name": "Cosmology: Our Changing Concepts of Universe"
+    },
+    {
+        "Short name": "ASTR 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "ASTR 81",
+        "Full name": "Astrophysics I: Stars and Nebulae"
+    },
+    {
+        "Short name": "ASTR 82",
+        "Full name": "Astrophysics II: Stellar Evolution, Galaxies, and Cosmology"
+    },
+    {
+        "Short name": "ASTR 88A",
+        "Full name": "Lower-Division Seminar: Cosmic Evolution"
+    },
+    {
+        "Short name": "ASTR 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "ASTR 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ASTR 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "ASTR 115",
+        "Full name": "Statistical Mechanics and Its Application to Astrophysics"
+    },
+    {
+        "Short name": "ASTR 117",
+        "Full name": "Radiation and Fluids in Astrophysics"
+    },
+    {
+        "Short name": "ASTR 127",
+        "Full name": "Stellar Atmospheres, Interiors, and Evolution"
+    },
+    {
+        "Short name": "ASTR 140",
+        "Full name": "Stellar Systems and Cosmology"
+    },
+    {
+        "Short name": "ASTR 180",
+        "Full name": "Astrophysics Laboratory"
+    },
+    {
+        "Short name": "ASTR 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "ASTR 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "ASTR 190",
+        "Full name": "Research Colloquia in Astrophysics"
+    },
+    {
+        "Short name": "ASTR 194",
+        "Full name": "Research Group Seminars: Astrophysics"
+    },
+    {
+        "Short name": "ASTR 196",
+        "Full name": "Research Apprenticeship in Astrophysics"
+    },
+    {
+        "Short name": "ASTR 197",
+        "Full name": "Individual Studies in Astronomy"
+    },
+    {
+        "Short name": "ASTR 198",
+        "Full name": "Honors Research in Astrophysics"
+    },
+    {
+        "Short name": "ASTR 199",
+        "Full name": "Directed Research or Senior Project in Astronomy"
+    },
+    {
+        "Short name": "ASTR 270",
+        "Full name": "Astrophysical Dynamics"
+    },
+    {
+        "Short name": "ASTR 271",
+        "Full name": "Electromagnetic Radiation in Astrophysics"
+    },
+    {
+        "Short name": "ASTR 272",
+        "Full name": "Stellar Astrophysics"
+    },
+    {
+        "Short name": "ASTR 273",
+        "Full name": "Diffuse Matter in Space"
+    },
+    {
+        "Short name": "ASTR 274",
+        "Full name": "Extragalactic Astrophysics I"
+    },
+    {
+        "Short name": "ASTR 275",
+        "Full name": "Extragalactic Astrophysics II"
+    },
+    {
+        "Short name": "ASTR 276",
+        "Full name": "Instrumentation and Observational Techniques"
+    },
+    {
+        "Short name": "ASTR 277A",
+        "Full name": "Astronomy Research Project"
+    },
+    {
+        "Short name": "ASTR 277B",
+        "Full name": "Astronomy Research Project"
+    },
+    {
+        "Short name": "ASTR 278",
+        "Full name": "Special Topics in Astronomy"
+    },
+    {
+        "Short name": "ASTR 279",
+        "Full name": "Seminar: Current Astronomical Research"
+    },
+    {
+        "Short name": "ASTR 280",
+        "Full name": "Fluid Dynamics in Astrophysics"
+    },
+    {
+        "Short name": "ASTR 281",
+        "Full name": "Quantum Mechanics for Astrophysics"
+    },
+    {
+        "Short name": "ASTR 282",
+        "Full name": "High-Energy Astrophysics"
+    },
+    {
+        "Short name": "ASTR 283",
+        "Full name": "Numerical and Statistical Methods"
+    },
+    {
+        "Short name": "ASTR 284",
+        "Full name": "Order of Magnitude Astrophysics"
+    },
+    {
+        "Short name": "ASTR M285",
+        "Full name": "Origin and Evolution of Solar System"
+    },
+    {
+        "Short name": "ASTR 286",
+        "Full name": "Exoplanets: Properties, Origin, and Evolution"
+    },
+    {
+        "Short name": "ASTR 296",
+        "Full name": "Research Topics in Astronomy"
+    },
+    {
+        "Short name": "ASTR 297",
+        "Full name": "Practice of Scientific Presentations in Astronomy"
+    },
+    {
+        "Short name": "ASTR 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "ASTR 596A",
+        "Full name": "Directed Individual Studies"
+    },
+    {
+        "Short name": "ASTR 596L",
+        "Full name": "Advanced Study and Research at Lick Observatory"
+    },
+    {
+        "Short name": "ASTR 599",
+        "Full name": "PhD Research and Writing"
+    },
+    {
+        "Short name": "A&O SCI 1",
+        "Full name": "Climate Change: From Puzzles to Policy"
+    },
+    {
+        "Short name": "A&O SCI 1L",
+        "Full name": "Climate Change: From Puzzles to Policy\u2014Laboratory"
+    },
+    {
+        "Short name": "A&O SCI 2",
+        "Full name": "Air Pollution"
+    },
+    {
+        "Short name": "A&O SCI 2L",
+        "Full name": "Air Pollution Laboratory"
+    },
+    {
+        "Short name": "A&O SCI 3",
+        "Full name": "Introduction to Atmospheric Environment"
+    },
+    {
+        "Short name": "A&O SCI 3L",
+        "Full name": "Introduction to Atmospheric Environment Laboratory"
+    },
+    {
+        "Short name": "A&O SCI 5",
+        "Full name": "Climates of Other Worlds"
+    },
+    {
+        "Short name": "A&O SCI M7",
+        "Full name": "Perils of Space: Introduction to Space Weather"
+    },
+    {
+        "Short name": "A&O SCI 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "A&O SCI 51",
+        "Full name": "Fundamentals of Climate Science"
+    },
+    {
+        "Short name": "A&O SCI M71",
+        "Full name": "Introduction to Computing for Geoscientists"
+    },
+    {
+        "Short name": "A&O SCI 88",
+        "Full name": "Lower-Division Seminar"
+    },
+    {
+        "Short name": "A&O SCI 89",
+        "Full name": "Honors Seminars"
+    },
+    {
+        "Short name": "A&O SCI 89HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "A&O SCI 90",
+        "Full name": "Introduction to Undergraduate Research in Atmospheric and Oceanic Sciences"
+    },
+    {
+        "Short name": "A&O SCI 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "A&O SCI M100",
+        "Full name": "Earth and Its Environment"
+    },
+    {
+        "Short name": "A&O SCI 101",
+        "Full name": "Fundamentals of Atmospheric Dynamics and Thermodynamics"
+    },
+    {
+        "Short name": "A&O SCI 102",
+        "Full name": "Climate Change and Climate Modeling"
+    },
+    {
+        "Short name": "A&O SCI 103",
+        "Full name": "Physical Oceanography"
+    },
+    {
+        "Short name": "A&O SCI 104",
+        "Full name": "Fundamentals of Air and Water Pollution"
+    },
+    {
+        "Short name": "A&O SCI M105",
+        "Full name": "Introduction to Chemical Oceanography"
+    },
+    {
+        "Short name": "A&O SCI M106",
+        "Full name": "Applied Climatology: Principles of Climate Impact on Natural Environment"
+    },
+    {
+        "Short name": "A&O SCI 107",
+        "Full name": "Biological Oceanography"
+    },
+    {
+        "Short name": "A&O SCI C110",
+        "Full name": "Advanced Dynamic and Synoptic Meteorology"
+    },
+    {
+        "Short name": "A&O SCI C110L",
+        "Full name": "Advanced Dynamic and Synoptic Meteorology Laboratory"
+    },
+    {
+        "Short name": "A&O SCI C111",
+        "Full name": "Introduction to Machine Learning for Physical Sciences"
+    },
+    {
+        "Short name": "A&O SCI 112",
+        "Full name": "Climate Change Assessment"
+    },
+    {
+        "Short name": "A&O SCI CM114",
+        "Full name": "Aquatic Geomicrobiology"
+    },
+    {
+        "Short name": "A&O SCI C115",
+        "Full name": "Mesometeorology"
+    },
+    {
+        "Short name": "A&O SCI M120",
+        "Full name": "Introduction to Fluid Dynamics"
+    },
+    {
+        "Short name": "A&O SCI 121",
+        "Full name": "Climate Solutions"
+    },
+    {
+        "Short name": "A&O SCI 123",
+        "Full name": "Climate Change Adaptation Challenge"
+    },
+    {
+        "Short name": "A&O SCI 130",
+        "Full name": "California\u2019s Ocean"
+    },
+    {
+        "Short name": "A&O SCI 135",
+        "Full name": "Ocean Change in the Anthropocene"
+    },
+    {
+        "Short name": "A&O SCI 141",
+        "Full name": "Introduction to Atmospheric Chemistry and Air Pollution"
+    },
+    {
+        "Short name": "A&O SCI C144",
+        "Full name": "Atmospheric Boundary Layer"
+    },
+    {
+        "Short name": "A&O SCI 145",
+        "Full name": "Atmospheric Physics: Radiation, Clouds, and Aerosols"
+    },
+    {
+        "Short name": "A&O SCI 150",
+        "Full name": "Atmospheric and Oceanic Sciences Laboratory"
+    },
+    {
+        "Short name": "A&O SCI 155",
+        "Full name": "Introduction to Ecosystem-Atmosphere Interactions"
+    },
+    {
+        "Short name": "A&O SCI C160",
+        "Full name": "Remote Sensing of Atmosphere and Oceans"
+    },
+    {
+        "Short name": "A&O SCI C170",
+        "Full name": "Introduction to Solar System Plasmas"
+    },
+    {
+        "Short name": "A&O SCI 180",
+        "Full name": "Numerical Methods in Atmospheric Sciences"
+    },
+    {
+        "Short name": "A&O SCI 181",
+        "Full name": "Analysis and Prediction of Weather Systems"
+    },
+    {
+        "Short name": "A&O SCI C182",
+        "Full name": "Data Analysis in Atmospheric and Oceanic Sciences"
+    },
+    {
+        "Short name": "A&O SCI 186",
+        "Full name": "Operational Meteorology"
+    },
+    {
+        "Short name": "A&O SCI 188",
+        "Full name": "Special Topics in Atmospheric and Oceanic Sciences"
+    },
+    {
+        "Short name": "A&O SCI 189",
+        "Full name": "Advanced Honors Seminars"
+    },
+    {
+        "Short name": "A&O SCI 189HC",
+        "Full name": "Honors Contracts"
+    },
+    {
+        "Short name": "A&O SCI 190",
+        "Full name": "Research Colloquia in Atmospheric and Oceanic Sciences"
+    },
+    {
+        "Short name": "A&O SCI 197",
+        "Full name": "Individual Studies in Atmospheric and Oceanic Sciences"
+    },
+    {
+        "Short name": "A&O SCI 199",
+        "Full name": "Directed Research in Atmospheric and Oceanic Sciences"
+    },
+    {
+        "Short name": "A&O SCI 200A",
+        "Full name": "Introduction to Atmospheric and Oceanic Fluid"
+    },
+    {
+        "Short name": "A&O SCI 200B",
+        "Full name": "Introduction to Dynamics of Earth System"
+    },
+    {
+        "Short name": "A&O SCI 201A",
+        "Full name": "Geophysical Fluid Dynamics I"
+    },
+    {
+        "Short name": "A&O SCI 201B",
+        "Full name": "Geophysical Fluid Dynamics II"
+    },
+    {
+        "Short name": "A&O SCI 201C",
+        "Full name": "Atmospheric and Oceanic Turbulence"
+    },
+    {
+        "Short name": "A&O SCI 202",
+        "Full name": "Introduction to Ocean Science"
+    },
+    {
+        "Short name": "A&O SCI M203A",
+        "Full name": "Introduction to Atmospheric Chemistry"
+    },
+    {
+        "Short name": "A&O SCI 203B",
+        "Full name": "Introduction to Atmospheric Physics"
+    },
+    {
+        "Short name": "A&O SCI C204",
+        "Full name": "Introduction to Machine Learning for Physical Sciences"
+    },
+    {
+        "Short name": "A&O SCI C205A",
+        "Full name": "Introduction to Solar System Plasmas"
+    },
+    {
+        "Short name": "A&O SCI 205B",
+        "Full name": "Introduction to Solar-Terrestrial Physics"
+    },
+    {
+        "Short name": "A&O SCI 205C",
+        "Full name": "Planetary Upper Atmospheres"
+    },
+    {
+        "Short name": "A&O SCI M206",
+        "Full name": "Introduction to Biophysical Modeling of Land Surface Processes and Land/Atmosphere Interactions"
+    },
+    {
+        "Short name": "A&O SCI 209",
+        "Full name": "Climate Change Assessment"
+    },
+    {
+        "Short name": "A&O SCI M210",
+        "Full name": "Planetary Atmospheres and Climates"
+    },
+    {
+        "Short name": "A&O SCI 211",
+        "Full name": "Planetary Wave Dynamics and Teleconnections in Atmosphere/Ocean"
+    },
+    {
+        "Short name": "A&O SCI 212A",
+        "Full name": "Numerical Methods in Geophysical Fluid Dynamics"
+    },
+    {
+        "Short name": "A&O SCI 212B",
+        "Full name": "Numerical Modeling of Atmosphere I"
+    },
+    {
+        "Short name": "A&O SCI 212C",
+        "Full name": "Numerical Modeling of Atmosphere II"
+    },
+    {
+        "Short name": "A&O SCI 213",
+        "Full name": "Global Circulation of Atmosphere"
+    },
+    {
+        "Short name": "A&O SCI 214",
+        "Full name": "Theoretical Climatic Dynamics"
+    },
+    {
+        "Short name": "A&O SCI 215",
+        "Full name": "Ocean Circulation"
+    },
+    {
+        "Short name": "A&O SCI 216A",
+        "Full name": "Tropical Motions with Moist Processes"
+    },
+    {
+        "Short name": "A&O SCI 216B",
+        "Full name": "Wave Motions in Tropical Atmosphere"
+    },
+    {
+        "Short name": "A&O SCI 217",
+        "Full name": "Regional Climate Dynamics"
+    },
+    {
+        "Short name": "A&O SCI 218",
+        "Full name": "Dynamics of Atmosphere/Ocean System"
+    },
+    {
+        "Short name": "A&O SCI 219",
+        "Full name": "Statistical Analysis and Visual Explanation of Large Climate Data"
+    },
+    {
+        "Short name": "A&O SCI C222",
+        "Full name": "Atmospheric Boundary Layer"
+    },
+    {
+        "Short name": "A&O SCI 224A",
+        "Full name": "Atmospheric Turbulence"
+    },
+    {
+        "Short name": "A&O SCI M224B",
+        "Full name": "Atmospheric Diffusion and Air Pollution"
+    },
+    {
+        "Short name": "A&O SCI 225",
+        "Full name": "Advanced Topics in Aerosol Chemistry and Physics"
+    },
+    {
+        "Short name": "A&O SCI C227",
+        "Full name": "Advanced Dynamic and Synoptic Meteorology"
+    },
+    {
+        "Short name": "A&O SCI C227L",
+        "Full name": "Advanced Dynamic and Synoptic Meteorology Laboratory"
+    },
+    {
+        "Short name": "A&O SCI C228",
+        "Full name": "Mesometeorology"
+    },
+    {
+        "Short name": "A&O SCI 229",
+        "Full name": "Mesoscale Modeling"
+    },
+    {
+        "Short name": "A&O SCI 230A",
+        "Full name": "Atmospheric Chemistry I"
+    },
+    {
+        "Short name": "A&O SCI 230B",
+        "Full name": "Atmospheric Chemistry II"
+    },
+    {
+        "Short name": "A&O SCI 232",
+        "Full name": "Chemical Transport Modeling"
+    },
+    {
+        "Short name": "A&O SCI M235",
+        "Full name": "Ocean Biogeochemical Dynamics and Climate"
+    },
+    {
+        "Short name": "A&O SCI 236",
+        "Full name": "Terrestrial Biogeochemical Dynamics and Climate"
+    },
+    {
+        "Short name": "A&O SCI CM237",
+        "Full name": "Aquatic Geomicrobiology"
+    },
+    {
+        "Short name": "A&O SCI 238",
+        "Full name": "How to Write and Publish Scientific Paper"
+    },
+    {
+        "Short name": "A&O SCI 240A",
+        "Full name": "Radar Meteorology"
+    },
+    {
+        "Short name": "A&O SCI C240B",
+        "Full name": "Remote Sensing of Atmosphere and Oceans"
+    },
+    {
+        "Short name": "A&O SCI 244A",
+        "Full name": "Atmospheric Radiation"
+    },
+    {
+        "Short name": "A&O SCI 244B",
+        "Full name": "Radiation and Climate"
+    },
+    {
+        "Short name": "A&O SCI 245",
+        "Full name": "Aerosol-Climate Interactions"
+    },
+    {
+        "Short name": "A&O SCI M250A",
+        "Full name": "Solar System Magnetohydrodynamics"
+    },
+    {
+        "Short name": "A&O SCI 250B",
+        "Full name": "Solar System Microscopic Plasma Processes"
+    },
+    {
+        "Short name": "A&O SCI 256",
+        "Full name": "Ionospheric Electrodynamics"
+    },
+    {
+        "Short name": "A&O SCI 257",
+        "Full name": "Radiation Belt Plasma Physics"
+    },
+    {
+        "Short name": "A&O SCI 258",
+        "Full name": "Sources and Losses of Magnetospheric Plasma"
+    },
+    {
+        "Short name": "A&O SCI 259",
+        "Full name": "Space Weather"
+    },
+    {
+        "Short name": "A&O SCI C260",
+        "Full name": "Data Analysis in Atmospheric and Oceanic Sciences"
+    },
+    {
+        "Short name": "A&O SCI 270",
+        "Full name": "Seminar: Atmospheric Sciences"
+    },
+    {
+        "Short name": "A&O SCI 271",
+        "Full name": "Seminar: Atmospheric Dynamics"
+    },
+    {
+        "Short name": "A&O SCI M272A",
+        "Full name": "Seminar: Climate Dynamics"
+    },
+    {
+        "Short name": "A&O SCI M272B",
+        "Full name": "Seminar: Climate Dynamics"
+    },
+    {
+        "Short name": "A&O SCI M272C",
+        "Full name": "Seminar: Climate Dynamics"
+    },
+    {
+        "Short name": "A&O SCI 274",
+        "Full name": "Seminar: Atmospheric Composition and Processes"
+    },
+    {
+        "Short name": "A&O SCI M275A",
+        "Full name": "Seminar: Space Physics"
+    },
+    {
+        "Short name": "A&O SCI M275B",
+        "Full name": "Seminar: Space Physics"
+    },
+    {
+        "Short name": "A&O SCI M275C",
+        "Full name": "Seminar: Space Physics"
+    },
+    {
+        "Short name": "A&O SCI 276",
+        "Full name": "Seminar: Mesoscale Processes"
+    },
+    {
+        "Short name": "A&O SCI 277",
+        "Full name": "Seminar: Coastal Ocean"
+    },
+    {
+        "Short name": "A&O SCI 281",
+        "Full name": "Special Topics in Dynamic Meteorology"
+    },
+    {
+        "Short name": "A&O SCI 282",
+        "Full name": "Special Topics in Oceanography"
+    },
+    {
+        "Short name": "A&O SCI 283",
+        "Full name": "Special Topics in Atmospheric Physics"
+    },
+    {
+        "Short name": "A&O SCI 284",
+        "Full name": "Special Topics in Atmospheric Chemistry"
+    },
+    {
+        "Short name": "A&O SCI 285",
+        "Full name": "Special Topics in Solar Planetary Relations"
+    },
+    {
+        "Short name": "A&O SCI 286",
+        "Full name": "Statistical Prediction and Verification"
+    },
+    {
+        "Short name": "A&O SCI 287",
+        "Full name": "Statistical Methods for Determining Causality in Coupled Earth System Data"
+    },
+    {
+        "Short name": "A&O SCI 296A",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Ocean Dynamics of Atmosphere"
+    },
+    {
+        "Short name": "A&O SCI 296B",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Boundary Layers, Clouds, and Climate"
+    },
+    {
+        "Short name": "A&O SCI 296C",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Numerical Mesoscale Modeling"
+    },
+    {
+        "Short name": "A&O SCI 296D",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Climate Dynamics"
+    },
+    {
+        "Short name": "A&O SCI 296E",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Numerical Modeling of Atmosphere and Ocean"
+    },
+    {
+        "Short name": "A&O SCI 296F",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Hierarchical Modeling of Ocean/Atmosphere System"
+    },
+    {
+        "Short name": "A&O SCI 296G",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Upper Atmosphere and Space Physics"
+    },
+    {
+        "Short name": "A&O SCI 296H",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Recent Advances in Atmospheric Chemistry"
+    },
+    {
+        "Short name": "A&O SCI 296I",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Upper Atmospheric Dynamics"
+    },
+    {
+        "Short name": "A&O SCI 296J",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Experimental Mesoscale Meteorology"
+    },
+    {
+        "Short name": "A&O SCI 296K",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Tropical Meteorology"
+    },
+    {
+        "Short name": "A&O SCI 296L",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Geophysical Fluid Dynamics, Oceanography, and Climate"
+    },
+    {
+        "Short name": "A&O SCI 296M",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Radiation and Remote Sensing"
+    },
+    {
+        "Short name": "A&O SCI 296N",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Tropospheric Chemistry and Climate Modeling and Analysis"
+    },
+    {
+        "Short name": "A&O SCI 296O",
+        "Full name": "Regional to Local Modeling of Atmospheric Composition and Climate Interactions"
+    },
+    {
+        "Short name": "A&O SCI 296P",
+        "Full name": "Advanced Topics in Atmospheric Sciences: Atmospheric Chemistry of Air Pollution, Aerosols, and Climate"
+    },
+    {
+        "Short name": "A&O SCI 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "A&O SCI 495",
+        "Full name": "Teaching Atmospheric and Oceanic Sciences"
+    },
+    {
+        "Short name": "A&O SCI 596",
+        "Full name": "Directed Studies for Graduate Students"
+    },
+    {
+        "Short name": "A&O SCI 597",
+        "Full name": "Preparation for MS Comprehensive Examination"
+    },
+    {
+        "Short name": "A&O SCI 598",
+        "Full name": "Research for and Preparation of MS Thesis"
+    },
+    {
+        "Short name": "A&O SCI 599",
+        "Full name": "Research for PhD Dissertation"
+    },
+    {
+        "Short name": "BIOENGR 10",
+        "Full name": "Introduction to Bioengineering"
+    },
+    {
+        "Short name": "BIOENGR 19",
+        "Full name": "Fiat Lux Freshman Seminars"
+    },
+    {
+        "Short name": "BIOENGR 99",
+        "Full name": "Student Research Program"
+    },
+    {
+        "Short name": "BIOENGR 100",
+        "Full name": "Bioengineering Fundamentals"
+    },
+    {
+        "Short name": "BIOENGR C101",
+        "Full name": "Engineering Principles for Drug Delivery"
+    },
+    {
+        "Short name": "BIOENGR C102",
+        "Full name": "Human Physiological Systems for Bioengineering I"
+    },
+    {
+        "Short name": "BIOENGR C104",
+        "Full name": "Physical Chemistry of Biomacromolecules"
+    },
+    {
+        "Short name": "BIOENGR C105",
+        "Full name": "Engineering of Bioconjugates"
+    },
+    {
+        "Short name": "BIOENGR C106",
+        "Full name": "Topics in Bioelectricity for Bioengineers"
+    },
+    {
+        "Short name": "BIOENGR C107",
+        "Full name": "Polymer Chemistry for Bioengineers"
+    },
+    {
+        "Short name": "BIOENGR 110",
+        "Full name": "Biotransport and Bioreaction Processes"
+    },
+    {
+        "Short name": "BIOENGR 120",
+        "Full name": "Biomedical Transducers"
+    },
+    {
+        "Short name": "BIOENGR 121",
+        "Full name": "Introduction to Microcontrollers"
+    },
+    {
+        "Short name": "BIOENGR C131",
+        "Full name": "Nanopore Sensing"
+    },
+    {
+        "Short name": "BIOENGR C139A",
+        "Full name": "Biomolecular Materials Science I"
+    },
+    {
+        "Short name": "BIOENGR C139B",
+        "Full name": "Biomolecular Materials Science II"
+    },
+    {
+        "Short name": "BIOENGR CM140",
+        "Full name": "Introduction to Biomechanics"
+    },
+    {
+        "Short name": "BIOENGR CM145",
+        "Full name": "Molecular Biotechnology for Engineers"
+    },
+    {
+        "Short name": "BIOENGR C147",
+        "Full name": "Applied Tissue Engineering: Clinical and Industrial Perspective"
+    },
+    {
+        "Short name": "BIOENGR M153",
+        "Full name": "Introduction to Microscale and Nanoscale Manufacturing"
+    },
+    {
+        "Short name": "BIOENGR C155",
+        "Full name": "Fluid-Particle and Fluid-Structure Interactions in Microflows"
+    },
+    {
+        "Short name": "BIOENGR 165EW",
+        "Full name": "Bioengineering Ethics"
+    },
+    {
+        "Short name": "BIOENGR 167L",
+        "Full name": "Bioengineering Laboratory"
+    },
+    {
+        "Short name": "BIOENGR C175",
+        "Full name": "Machine Learning and Data-Driven Modeling in Bioengineering"
+    },
+    {
+        "Short name": "BIOENGR 176",
+        "Full name": "Principles of Biocompatibility"
+    },
+    {
+        "Short name": "BIOENGR 177A",
+        "Full name": "Bioengineering Capstone Design I"
+    },
+    {
+        "Short name": "BIOENGR 177B",
+        "Full name": "Bioengineering Capstone Design II"
+    },
+    {
+        "Short name": "BIOENGR CM178",
+        "Full name": "Introduction to Biomaterials"
+    },
+    {
+        "Short name": "BIOENGR C179",
+        "Full name": "Biomaterials-Tissue Interactions"
+    },
+    {
+        "Short name": "BIOENGR 180",
+        "Full name": "System Integration in Biology, Engineering, and Medicine I"
+    },
+    {
+        "Short name": "BIOENGR 180L",
+        "Full name": "System Integration in Biology, Engineering, and Medicine I Laboratory"
+    },
+    {
+        "Short name": "BIOENGR M182",
+        "Full name": "Dynamic Biosystem Modeling and Simulation Methodology"
+    },
+    {
+        "Short name": "BIOENGR C183",
+        "Full name": "Targeted Drug Delivery and Controlled Drug Release"
+    },
+    {
+        "Short name": "BIOENGR M184",
+        "Full name": "Introduction to Computational and Systems Biology"
+    },
+    {
+        "Short name": "BIOENGR C185",
+        "Full name": "Introduction to Tissue Engineering"
+    },
+    {
+        "Short name": "BIOENGR CM186",
+        "Full name": "Computational Systems Biology: Modeling and Simulation of Biological Systems"
+    },
+    {
+        "Short name": "BIOENGR CM187",
+        "Full name": "Research Communication in Computational and Systems Biology"
+    },
+    {
+        "Short name": "BIOENGR 188",
+        "Full name": "Special Courses in Bioengineering"
+    },
+    {
+        "Short name": "BIOENGR 188SA",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "BIOENGR 188SB",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "BIOENGR 188SC",
+        "Full name": "Individual Studies for USIE Facilitators"
+    },
+    {
+        "Short name": "BIOENGR 194",
+        "Full name": "Research Group Seminars: Bioengineering"
+    },
+    {
+        "Short name": "BIOENGR 199",
+        "Full name": "Directed Research in Bioengineering"
+    },
+    {
+        "Short name": "BIOENGR C201",
+        "Full name": "Engineering Principles for Drug Delivery"
+    },
+    {
+        "Short name": "BIOENGR C202",
+        "Full name": "Human Physiological Systems for Bioengineering I"
+    },
+    {
+        "Short name": "BIOENGR C204",
+        "Full name": "Physical Chemistry of Biomacromolecules"
+    },
+    {
+        "Short name": "BIOENGR C205",
+        "Full name": "Engineering of Bioconjugates"
+    },
+    {
+        "Short name": "BIOENGR C206",
+        "Full name": "Topics in Bioelectricity for Bioengineers"
+    },
+    {
+        "Short name": "BIOENGR C207",
+        "Full name": "Polymer Chemistry for Bioengineers"
+    },
+    {
+        "Short name": "BIOENGR M209",
+        "Full name": "Signal and Image Processing for Biomedicine"
+    },
+    {
+        "Short name": "BIOENGR M214A",
+        "Full name": "Digital Speech Processing"
+    },
+    {
+        "Short name": "BIOENGR M215",
+        "Full name": "Biochemical Reaction Engineering"
+    },
+    {
+        "Short name": "BIOENGR M217",
+        "Full name": "Biomedical Imaging"
+    },
+    {
+        "Short name": "BIOENGR M219",
+        "Full name": "Principles and Applications of Magnetic Resonance Imaging"
+    },
+    {
+        "Short name": "BIOENGR 220",
+        "Full name": "Introduction to Medical Informatics"
+    },
+    {
+        "Short name": "BIOENGR 221",
+        "Full name": "Human Anatomy and Physiology for Medical and Imaging Informatics"
+    },
+    {
+        "Short name": "BIOENGR 223A",
+        "Full name": "Programming Laboratory for Medical and Imaging Informatics I"
+    },
+    {
+        "Short name": "BIOENGR 223B",
+        "Full name": "Programming Laboratory for Medical and Imaging Informatics II"
+    },
+    {
+        "Short name": "BIOENGR 223C",
+        "Full name": "Programming Laboratory for Medical and Imaging Informatics III"
+    },
+    {
+        "Short name": "BIOENGR 224A",
+        "Full name": "Physics and Informatics of Medical Imaging"
+    },
+    {
+        "Short name": "BIOENGR 224B",
+        "Full name": "Advances in Imaging Informatics"
+    },
+    {
+        "Short name": "BIOENGR M225",
+        "Full name": "Bioseparations and Bioprocess Engineering"
+    },
+    {
+        "Short name": "BIOENGR M226",
+        "Full name": "Medical Knowledge Representation"
+    },
+    {
+        "Short name": "BIOENGR M227",
+        "Full name": "Medical Information Infrastructures and Internet Technologies"
+    },
+    {
+        "Short name": "BIOENGR M228",
+        "Full name": "Medical Decision Making"
+    },
+    {
+        "Short name": "BIOENGR M229",
+        "Full name": "Advanced Topics in Magnetic Resonance Imaging"
+    },
+    {
+        "Short name": "BIOENGR C231",
+        "Full name": "Nanopore Sensing"
+    },
+    {
+        "Short name": "BIOENGR M233A",
+        "Full name": "Medtech Innovation I: Entrepreneurial Opportunities in Medical Technology"
+    },
+    {
+        "Short name": "BIOENGR M233B",
+        "Full name": "Medtech Innovation II: Prototyping and New Venture Development"
+    },
+    {
+        "Short name": "BIOENGR C239A",
+        "Full name": "Biomolecular Materials Science I"
+    },
+    {
+        "Short name": "BIOENGR C239B",
+        "Full name": "Biomolecular Materials Science II"
+    },
+    {
+        "Short name": "BIOENGR CM240",
+        "Full name": "Introduction to Biomechanics"
+    },
+    {
+        "Short name": "BIOENGR CM245",
+        "Full name": "Molecular Biotechnology for Engineers"
+    },
+    {
+        "Short name": "BIOENGR C247",
+        "Full name": "Applied Tissue Engineering: Clinical and Industrial Perspective"
+    },
+    {
+        "Short name": "BIOENGR M248",
+        "Full name": "Introduction to Biological Imaging"
+    },
+    {
+        "Short name": "BIOENGR M250B",
+        "Full name": "Microelectromechanical Systems (MEMS) Fabrication"
+    },
+    {
+        "Short name": "BIOENGR M252",
+        "Full name": "Microelectromechanical Systems (MEMS) Device Physics and Design"
+    },
+    {
+        "Short name": "BIOENGR C255",
+        "Full name": "Fluid-Particle and Fluid-Structure Interactions in Microflows"
+    },
+    {
+        "Short name": "BIOENGR 256",
+        "Full name": "Drug Delivery Devices: Innovation and Translation"
+    },
+    {
+        "Short name": "BIOENGR M260",
+        "Full name": "Neuroengineering"
+    },
+    {
+        "Short name": "BIOENGR M261A",
+        "Full name": "Evaluation of Research Literature in Neuroengineering"
+    },
+    {
+        "Short name": "BIOENGR M261B",
+        "Full name": "Evaluation of Research Literature in Neuroengineering"
+    },
+    {
+        "Short name": "BIOENGR M261C",
+        "Full name": "Evaluation of Research Literature in Neuroengineering"
+    },
+    {
+        "Short name": "BIOENGR M263",
+        "Full name": "Anatomy of Central Nervous System"
+    },
+    {
+        "Short name": "BIOENGR M273",
+        "Full name": "Micro- and Nanoscale Biosensing for Molecular Diagnostics"
+    },
+    {
+        "Short name": "BIOENGR C275",
+        "Full name": "Machine Learning and Data-Driven Modeling in Bioengineering"
+    },
+    {
+        "Short name": "BIOENGR CM278",
+        "Full name": "Introduction to Biomaterials"
+    },
+    {
+        "Short name": "BIOENGR C279",
+        "Full name": "Biomaterials-Tissue Interactions"
+    },
+    {
+        "Short name": "BIOENGR 281",
+        "Full name": "Advanced Bioconjugate Design and Methods"
+    },
+    {
+        "Short name": "BIOENGR 282",
+        "Full name": "Biomaterial Interfaces"
+    },
+    {
+        "Short name": "BIOENGR C283",
+        "Full name": "Targeted Drug Delivery and Controlled Drug Release"
+    },
+    {
+        "Short name": "BIOENGR M284",
+        "Full name": "Functional Neuroimaging: Techniques and Applications"
+    },
+    {
+        "Short name": "BIOENGR C285",
+        "Full name": "Introduction to Tissue Engineering"
+    },
+    {
+        "Short name": "BIOENGR CM286",
+        "Full name": "Computational Systems Biology: Modeling and Simulation of Biological Systems"
+    },
+    {
+        "Short name": "BIOENGR CM287",
+        "Full name": "Research Communication in Computational and Systems Biology"
+    },
+    {
+        "Short name": "BIOENGR 295A",
+        "Full name": "Seminar: Research Topics in Bioengineering\u2014Biomaterial Research"
+    },
+    {
+        "Short name": "BIOENGR 295B",
+        "Full name": "Seminar: Research Topics in Bioengineering\u2014Biomaterials and Tissue Engineering Research"
+    },
+    {
+        "Short name": "BIOENGR 295C",
+        "Full name": "Seminar: Research Topics in Bioengineering\u2014Minimally Invasive and Laser Research"
+    },
+    {
+        "Short name": "BIOENGR 295D",
+        "Full name": "Seminar: Research Topics in Bioengineering\u2014Hybrid Device Research"
+    },
+    {
+        "Short name": "BIOENGR 295E",
+        "Full name": "Seminar: Research Topics in Bioengineering\u2014Molecular Cell Bioengineering Research"
+    },
+    {
+        "Short name": "BIOENGR 295F",
+        "Full name": "Seminar: Research Topics in Bioengineering\u2014Biopolymer Materials and Chemistry"
+    },
+    {
+        "Short name": "BIOENGR 295G",
+        "Full name": "Seminar: Research Topics in Bioengineering\u2014Biomicrofluidics and Bionanotechnology Research"
+    },
+    {
+        "Short name": "BIOENGR 295H",
+        "Full name": "Seminar: Research Topics in Bioengineering\u2014Biomimetic System Research"
+    },
+    {
+        "Short name": "BIOENGR 295J",
+        "Full name": "Seminar: Research Topics in Bioengineering\u2014Neural Tissue Engineering and Regenerative Medicine"
+    },
+    {
+        "Short name": "BIOENGR 295K",
+        "Full name": "Seminar: Research Topics in Bioengineering\u2014Research in Synthetic Immunology and Microbiology"
+    },
+    {
+        "Short name": "BIOENGR M296A",
+        "Full name": "Advanced Modeling Methodology for Dynamic Biomedical Systems"
+    },
+    {
+        "Short name": "BIOENGR M296B",
+        "Full name": "Optimal Parameter Estimation and Experiment Design for Biomedical Systems"
+    },
+    {
+        "Short name": "BIOENGR M296C",
+        "Full name": "Advanced Topics and Research in Biomedical Systems Modeling and Computing"
+    },
+    {
+        "Short name": "BIOENGR M296D",
+        "Full name": "Introduction to Computational Cardiology"
+    },
+    {
+        "Short name": "BIOENGR 298",
+        "Full name": "Special Studies in Bioengineering"
+    },
+    {
+        "Short name": "BIOENGR 299",
+        "Full name": "Seminar: Bioengineering Topics"
+    },
+    {
+        "Short name": "BIOENGR 375",
+        "Full name": "Teaching Apprentice Practicum"
+    },
+    {
+        "Short name": "BIOENGR 495",
+        "Full name": "Teaching Assistant Training Seminar"
+    },
+    {
+        "Short name": "BIOENGR 596",
+        "Full name": "Directed Individual or Tutorial Studies"
+    },
+    {
+        "Short name": "BIOENGR 597A",
+        "Full name": "Preparation for MS Comprehensive Examination"
+    },
+    {
+        "Short name": "BIOENGR 597B",
+        "Full name": "Preparation for PhD Preliminary Examination"
+    },
+    {
+        "Short name": "BIOENGR 597C",
+        "Full name": "Preparation for PhD Oral Qualifying Examination"
+    },
+    {
+        "Short name": "BIOENGR 598",
+        "Full name": "Research for and Preparation of MS Thesis"
+    },
+    {
+        "Short name": "BIOENGR 599",
+        "Full name": "Research for and Preparation of PhD Dissertation"
+    }
+]
