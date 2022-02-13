@@ -297,7 +297,7 @@ def getDescription(link):
     for preq in enforcedPrereqs:
         print(preq)
 
-    Class = {"Name": name, "Subject Area": fullName, "Subject Area Abbreviation": abbreviation, "Quarters Offered": currentQuarter, "Units": units, "Enforced Prerequisites": enforcedPrereqs, "Optional Prerequisites": optionalPrereqs, "Enforced Corequisites": enforcedCoreqs, "Description": description, "Professor": professor, "Restrictions": restrictions}
+    Class = {"name": name, "subjectArea": fullName, "subjectAreaAbbreviation": abbreviation, "quartersOffered": currentQuarter, "units": units, "enforcedPrerequisites": enforcedPrereqs, "optionalPrerequisites": optionalPrereqs, "enforcedCorequisites": enforcedCoreqs, "description": description, "professor": professor, "restrictions": restrictions}
     
     print(Class)
     driver.close()
@@ -420,7 +420,9 @@ with open('classdump9.json') as json_file:
 # print(uniqueNames)
 # print(len(thing))
 # print(len(allCourses))
-collection.insert_one({"courses": allCourses})
+# collection.insert_one({"courses": allCourses})
+for i in allCourses:
+    collection.insert_one(i)
 
 
 # print(updatedSOCGrabbing("https://catalog.registrar.ucla.edu/browse/Subject%20Areas/ARTARC"))
