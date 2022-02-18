@@ -390,25 +390,25 @@ badNameToGood = {'AEROST': 'AERO ST', 'AFAMER': 'AF AMER', 'AFRCST': 'AFRC ST', 
 #         with open("classdump9.json", 'w') as f:
 #             json.dump(stuff, f, indent = 4)
 
-client = MongoClient(os.environ.get("DB_URI"))
-db = client["onTrackDB"]
-collection = db["AllCourses"]
-allCourses = []
-with open('classdump5.json') as json_file:
-    data = json.load(json_file)
-    allCourses = data
-with open('classdump6.json') as json_file:
-    data = json.load(json_file)
-    allCourses = allCourses + data
-with open('classdump7.json') as json_file:
-    data = json.load(json_file)
-    allCourses = allCourses + data
-with open('classdump8.json') as json_file:
-    data = json.load(json_file)
-    allCourses = allCourses + data
-with open('classdump9.json') as json_file:
-    data = json.load(json_file)
-    allCourses = allCourses + data
+# client = MongoClient(os.environ.get("DB_URI"))
+# db = client["onTrackDB"]
+# collection = db["AllCourses"]
+# allCourses = []
+# with open('classdump5.json') as json_file:
+#     data = json.load(json_file)
+#     allCourses = data
+# with open('classdump6.json') as json_file:
+#     data = json.load(json_file)
+#     allCourses = allCourses + data
+# with open('classdump7.json') as json_file:
+#     data = json.load(json_file)
+#     allCourses = allCourses + data
+# with open('classdump8.json') as json_file:
+#     data = json.load(json_file)
+#     allCourses = allCourses + data
+# with open('classdump9.json') as json_file:
+#     data = json.load(json_file)
+#     allCourses = allCourses + data
 # print(allCourses)
 # uniqueNames = {}
 # thing = []
@@ -421,8 +421,8 @@ with open('classdump9.json') as json_file:
 # print(len(thing))
 # print(len(allCourses))
 # collection.insert_one({"courses": allCourses})
-for i in allCourses:
-    collection.insert_one(i)
+# for i in allCourses:
+#     collection.insert_one(i)
 
 
 # print(updatedSOCGrabbing("https://catalog.registrar.ucla.edu/browse/Subject%20Areas/ARTARC"))
