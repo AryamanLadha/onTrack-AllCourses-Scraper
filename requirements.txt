@@ -17,7 +17,7 @@ pymongo==3.12.1
 pyOpenSSL==21.0.0
 python-dotenv==0.19.2
 requests==2.26.0
-selenium==4.0.0
+selenium==4.1.0
 six==1.16.0
 sniffio==1.2.0
 sortedcontainers==2.4.0
