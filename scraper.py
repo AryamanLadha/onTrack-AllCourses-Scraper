@@ -98,12 +98,17 @@ def SOCgetAllClassData(url):
 
 # TODO: Comment this, so it makes sense and is not a mess
 def getClassData(link):
+
+    # Selenium config
     s = Service(ChromeDriverManager().install())
     options = Options()
     options.headless = True
     driver = webdriver.Chrome(service=s, options=options)
     driver.get(link)
+
+    # get innermost element that still contains all the data.
     html = driver.execute_script('''return document.querySelector("ucla-sa-soc-app").shadowRoot.getElementById("class_detail")''')
+    # grab all the important info
     subject = html.find_element(By.ID, "subject_class").get_attribute('innerHTML')
     description = html.find_element(By.ID, "section").text
     description = description[:description.find("Department")]
@@ -125,6 +130,7 @@ def getClassData(link):
     optionalPrereqs = []
     enforcedCoreqs = []
 
+    # don't think too much about it. It works, I think, and probably doesn't break. 
     for i, val in enumerate(requisites[1:]):
         requisite = val.find_element(By.CLASS_NAME, "popover-right").text.strip(" and")
         if "or" in requisite:
@@ -146,7 +152,7 @@ def getClassData(link):
         if (isOptionalPrereq):
             optionalPrereqs.append(requisite)
             continue
-
+    # add all the objects to our overall class object and return it to the calling function.
     Class = {"courseCode": courseCode, "name": fullName, "subjectArea": subjectArea, "subjectAreaAbbreviation": abbreviation, "quarterOffered": currentQuarter, "units": units, "enforcedPrerequisites": enforcedPrereqs, "optionalPrerequisites": optionalPrereqs, "enforcedCorequisites": enforcedCoreqs, "description": description, "restrictions": restrictions}
     driver.close()
     return Class
