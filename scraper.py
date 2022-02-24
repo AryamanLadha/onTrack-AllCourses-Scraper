@@ -45,7 +45,7 @@ def getPageData(courses):
                 time = discussion.find_element(By.CSS_SELECTOR, ".timeColumn > p").get_attribute("innerHTML")
                 location = discussion.find_element(By.CLASS_NAME, "locationColumn").find_element(By.TAG_NAME, "p").get_attribute("innerHTML")
                 instructor = discussion.find_element(By.CLASS_NAME, "instructorColumn").find_element(By.TAG_NAME, "p").get_attribute("innerHTML")
-                discussionsData.append({"section": cleanData(discussionName), "days": cleanData(days), "time": cleanData(time), "location": cleanData(location), "instructor": cleanData(instructor)})
+                discussionsData.append({"section": cleanData(discussionName), "days": cleanData(days), "time": cleanData(time), "location": cleanData(location).replace("\n", ""), "instructor": cleanData(instructor)})
             
             lectureData = {"section": cleanData(lectureName), "professor": cleanData(professor), "location": cleanData(location).replace("\n", ""), "time": cleanData(time), "days": cleanData(days), "discussions": discussionsData}
             allLectureData.append(lectureData)
