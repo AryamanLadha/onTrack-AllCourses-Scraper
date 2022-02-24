@@ -61,6 +61,7 @@ def SOCgetAllClassData(url):
     options.headless = True
     s = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(options=options, service=s)
+    driver.set_window_size(1080,800)
     driver.get(url)
     html = driver.execute_script('''return document.querySelector("ucla-sa-soc-app").shadowRoot.getElementById("divSearchResults")''')
     numPages = len(html.find_elements(By.CSS_SELECTOR, '#divPagination > div:nth-child(2) > ul > li > button'))
