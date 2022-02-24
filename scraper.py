@@ -41,7 +41,7 @@ def getPageData(courses):
             discussions = lecture.find_elements(By.CLASS_NAME, "secondary-row")
             for discussion in discussions:
                 discussionName = discussion.find_element(By.TAG_NAME, "a").get_attribute("innerHTML")
-                days = discussion.find_element(By.CLASS_NAME, "dayColumn").find_element(By.TAG_NAME, "button").get_attribute("data-content")
+                days = discussion.find_element(By.CSS_SELECTOR, ".dayColumn > p").get_attribute("innerHTML")
                 time = discussion.find_element(By.CSS_SELECTOR, ".timeColumn > p").get_attribute("innerHTML")
                 location = discussion.find_element(By.CLASS_NAME, "locationColumn").find_element(By.TAG_NAME, "p").get_attribute("innerHTML")
                 instructor = discussion.find_element(By.CLASS_NAME, "instructorColumn").find_element(By.TAG_NAME, "p").get_attribute("innerHTML")
@@ -160,11 +160,12 @@ SOCUrl = ['https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Aerospace+S
 
 
 # Jason's
-for url in SOCUrl[:96]:
-    SOCgetAllClassData(url)
+# for url in SOCUrl[:96]:
+#     SOCgetAllClassData(url)
 
 # # Henry's
 for url in SOCUrl[96:]:
+    print(url)
     SOCgetAllClassData(url)
 
 # choice = input("Choose type (1 or 2): ")
