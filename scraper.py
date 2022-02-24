@@ -21,6 +21,8 @@ load_dotenv(dotenv_path)
 client = MongoClient(os.environ.get("DB_URI"))
 
 def cleanData(data):
+    print("THE DATA: ", data)
+    if (data == None): return ""
     return (data.strip()).replace("<wbr>", "")
 
 def getPageData(courses):
@@ -32,16 +34,24 @@ def getPageData(courses):
         allLectureData = []
         for lecture in lectures:
             lectureName = lecture.find_element(By.TAG_NAME, "a").get_attribute("innerHTML")
-            days = lecture.find_element(By.CLASS_NAME, "dayColumn").find_element(By.TAG_NAME, "button").get_attribute("data-content")
+            days = lecture.find_elements(By.CSS_SELECTOR, ".dayColumn > div > p > *")
+            
+            if (len(days) == 0):
+                days = ""
+            else:
+                days = lecture.find_element(By.TAG_NAME, "button").get_attribute("data-content")
+
             time = lecture.find_element(By.CSS_SELECTOR, ".timeColumn > p").get_attribute("innerHTML")
             location = lecture.find_element(By.CLASS_NAME, "locationColumn").find_element(By.TAG_NAME, "p").get_attribute("innerHTML")
             professor = lecture.find_element(By.CLASS_NAME, "instructorColumn").find_element(By.TAG_NAME, "p").get_attribute("innerHTML")
             discussionsData = []
+            print("THE LECTURE NAME: ", lectureName)
             
             discussions = lecture.find_elements(By.CLASS_NAME, "secondary-row")
             for discussion in discussions:
                 discussionName = discussion.find_element(By.TAG_NAME, "a").get_attribute("innerHTML")
-                days = discussion.find_element(By.CSS_SELECTOR, ".dayColumn > p").get_attribute("innerHTML")
+                print("DISCUSSION NAME: ", discussionName)
+                days = discussion.find_element(By.CSS_SELECTOR, ".dayColumn > div > p > button").get_attribute("innerHTML")
                 time = discussion.find_element(By.CSS_SELECTOR, ".timeColumn > p").get_attribute("innerHTML")
                 location = discussion.find_element(By.CLASS_NAME, "locationColumn").find_element(By.TAG_NAME, "p").get_attribute("innerHTML")
                 instructor = discussion.find_element(By.CLASS_NAME, "instructorColumn").find_element(By.TAG_NAME, "p").get_attribute("innerHTML")
@@ -56,6 +66,7 @@ def getPageData(courses):
 
     
 def SOCgetAllClassData(url):
+    print(url)
      # Selenium config
     options = Options()
     options.headless = True
@@ -74,7 +85,10 @@ def SOCgetAllClassData(url):
     db = client["onTrackDB"]
     collection = db["CourseOfferedS22"]
 
+    time.sleep(2)
+
     courses = html.find_elements(By.CLASS_NAME, "primarySection")
+    print(courses)
     pageData = getPageData(courses)
     collection.insert_many(pageData)
     
@@ -160,13 +174,19 @@ SOCUrl = ['https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Aerospace+S
 
 
 # Jason's
-# for url in SOCUrl[:96]:
-#     SOCgetAllClassData(url)
+for url in SOCUrl[:96]:
+    try:
+        SOCgetAllClassData(url)
+    except:
+       f = open('error.txt', 'a')
+       f.write(url + '\n')
+       f.close()
+            
 
 # # Henry's
-for url in SOCUrl[96:]:
-    print(url)
-    SOCgetAllClassData(url)
+# for url in SOCUrl[96:]:
+#     print(url)
+#     SOCgetAllClassData(url)
 
 # choice = input("Choose type (1 or 2): ")
 # if choice == "1":
