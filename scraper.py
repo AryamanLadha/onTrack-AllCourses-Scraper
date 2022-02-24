@@ -21,7 +21,7 @@ load_dotenv(dotenv_path)
 client = MongoClient(os.environ.get("DB_URI"))
 
 def cleanData(data):
-    return data.replace("\n", "").replace("\t", "").replace("\r", "")
+    return (data.strip()).replace("<wbr>", "")
 
 def getPageData(courses):
      # Gets all courses on page
@@ -45,9 +45,9 @@ def getPageData(courses):
                 time = discussion.find_element(By.CSS_SELECTOR, ".timeColumn > p").get_attribute("innerHTML")
                 location = discussion.find_element(By.CLASS_NAME, "locationColumn").find_element(By.TAG_NAME, "p").get_attribute("innerHTML")
                 instructor = discussion.find_element(By.CLASS_NAME, "instructorColumn").find_element(By.TAG_NAME, "p").get_attribute("innerHTML")
-                discussionsData.append({"section": discussionName, "days": days, "time": time, "location": location, "instructor": instructor})
+                discussionsData.append({"section": cleanData(discussionName), "days": cleanData(days), "time": cleanData(time), "location": cleanData(location), "instructor": cleanData(instructor)})
             
-            lectureData = {"section": lectureName, "professor": professor, "location": location, "time": time, "days": days, "discussions": discussionsData}
+            lectureData = {"section": cleanData(lectureName), "professor": cleanData(professor), "location": cleanData(location).replace("\n", ""), "time": cleanData(time), "days": cleanData(days), "discussions": discussionsData}
             allLectureData.append(lectureData)
 
         courseObj["lectures"] = allLectureData
@@ -77,7 +77,8 @@ def SOCgetAllClassData(url):
     allDataForSubject = []
     courses = html.find_elements(By.CLASS_NAME, "primarySection")
     pageData = getPageData(courses)
-    collection.insert_many(pageData)
+    print(pageData)
+    # collection.insert_many(pageData)
     
     # while (numPages > 0):
     #     numPages -= 1
