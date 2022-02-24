@@ -42,7 +42,12 @@ def getPageData(courses):
                 days = lecture.find_element(By.TAG_NAME, "button").get_attribute("data-content")
 
             time = lecture.find_element(By.CSS_SELECTOR, ".timeColumn > p").get_attribute("innerHTML")
-            location = lecture.find_element(By.CLASS_NAME, "locationColumn").find_element(By.TAG_NAME, "p").get_attribute("innerHTML")
+
+            location = lecture.find_elements(By.CSS_SELECTOR, ".locationColumn > p > *")
+            if (len(location) == 0):
+                location = lecture.find_element(By.CLASS_NAME, "locationColumn").find_element(By.TAG_NAME, "p").get_attribute("innerHTML")
+            else:
+                location = lecture.find_element(By.CLASS_NAME, "locationColumn").find_element(By.TAG_NAME, "p").find_element(By.TAG_NAME, "button").get_attribute("innerHTML")
             professor = lecture.find_element(By.CLASS_NAME, "instructorColumn").find_element(By.TAG_NAME, "p").get_attribute("innerHTML")
             discussionsData = []
             print("THE LECTURE NAME: ", lectureName)
@@ -83,7 +88,7 @@ def SOCgetAllClassData(url):
     
     client = MongoClient(os.environ.get("DB_URI"))
     db = client["onTrackDB"]
-    collection = db["CourseOfferedS22"]
+    collection = db["CoursesOfferedS22"]
 
     time.sleep(2)
 
