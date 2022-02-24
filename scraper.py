@@ -65,16 +65,15 @@ def SOCgetAllClassData(url):
     html = driver.execute_script('''return document.querySelector("ucla-sa-soc-app").shadowRoot.getElementById("divSearchResults")''')
     numPages = len(html.find_elements(By.CSS_SELECTOR, '#divPagination > div:nth-child(2) > ul > li > button'))
     i = 1
-    classes = html.find_elements(By.CLASS_NAME, 'linkLikeButton')
+    
+    wait = WebDriverWait(html, 10)
+    showAllClasses = wait.until(EC.presence_of_element_located((By.ID, 'expandAll')))
+    showAllClasses.click()
+    
     client = MongoClient(os.environ.get("DB_URI"))
     db = client["onTrackDB"]
     collection = db["CourseOfferedS22"]
 
-    # Dynamically loads all class data
-    for course in classes:
-        course.click()
-
-    allDataForSubject = []
     courses = html.find_elements(By.CLASS_NAME, "primarySection")
     pageData = getPageData(courses)
     collection.insert_many(pageData)
@@ -83,10 +82,13 @@ def SOCgetAllClassData(url):
         numPages -= 1
         i += 1
         html.find_element(By.CSS_SELECTOR, '#divPagination > div:nth-child(2) > ul > li:nth-child({}) > button'.format(i)).click()
-        time.sleep(6)
-        classes = html.find_elements(By.CLASS_NAME, 'linkLikeButton')
-        for course in classes:
-            course.click()
+
+        wait = WebDriverWait(html, 10).until(EC.presence_of_element_located((By.CLASS_NAME, 'results')))
+        showAllClasses.click()
+        showAllClasses.click()
+
+        WebDriverWait(html, 100).until(EC.presence_of_element_located((By.CLASS_NAME, 'primarySection')))
+        time.sleep(2)
         courses = html.find_elements(By.CLASS_NAME, "primarySection")
         pageData = getPageData(courses)
         collection.insert_many(pageData)
@@ -96,7 +98,6 @@ def SOCgetAllClassData(url):
 
 # TODO: Comment this, so it makes sense and is not a mess
 def getClassData(link):
-
     # Selenium config
     s = Service(ChromeDriverManager().install())
     options = Options()
@@ -160,8 +161,14 @@ SOCUrl = ['https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Aerospace+S
 
 # Jason's
 for url in SOCUrl[:96]:
-    getClassData(url)
+    SOCgetAllClassData(url)
 
-# Henry's
+# # Henry's
 for url in SOCUrl[96:]:
-    getClassData(url)
+    SOCgetAllClassData(url)
+
+# choice = input("Choose type (1 or 2): ")
+# if choice == "1":
+#     SOCgetAllClassData("https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Aerospace+Studies+AERO+ST&t=22S&sBy=subject&subj=AERO+ST&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex")
+# elif choice == "2":
+#     SOCgetAllClassData("https://sa.ucla.edu/ro/public/soc/Results?SubjectAreaName=Mathematics+MATH&t=22S&sBy=subject&subj=MATH&catlg=&cls_no=&undefined=Go&btnIsInIndex=btn_inIndex")
